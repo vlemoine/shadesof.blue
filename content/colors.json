@@ -1,0 +1,26 @@
+[
+  {
+    "title": "RGB Blue",
+    "slug": "blue",
+    "value": "hsl(240 100% 100%)",
+    "body": "blue"
+  },
+  {
+    "title": "CMYK Blue",
+    "slug": "cmyk-blue",
+    "value": "hsl(240 67% 60%)",
+    "body": "cmyk blue"
+  },
+  {
+    "title": "Pantone Blue",
+    "slug": "pantone-blue",
+    "value": "hsl(231 100% 66%)",
+    "body": "pantone blue"
+  },
+  {
+    "title": "NCS Blue",
+    "slug": "ncs-blue",
+    "value": "hsl(197 100% 74%)",
+    "body": "ncs blue"
+  }
+]
