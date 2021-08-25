@@ -1,18 +1,21 @@
 <template>
-  <main>
-    <nuxt-content :document="hello" />
-    <pre>{{ colors }}</pre>
-  </main>
+  <section>
+    <template v-for="blue in colors">
+      <!-- <pre :key="blue.slug">{{ blue }}</pre> -->
+      <Swatch :key="blue.slug" :blue="blue" />
+    </template>
+    <!-- <pre>{{ colors }}</pre> -->
+  </section>
 </template>
 
 <script>
-// export default {}
+import Swatch from "~/components/Swatch.vue";
+
 export default {
+  components: { Swatch },
   async asyncData ({ $content, params }) {
-    const hello = await $content('hello').fetch()
     const colors = await $content('colors', params.slug).fetch()
     return {
-      hello,
       colors
     }
   }
