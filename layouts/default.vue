@@ -1,6 +1,9 @@
 <template>
-  <div>
-    <h1>hi</h1>
+  <main class="main">
+    <header>
+      <h1>Shades of Blue</h1>
+    </header>
+    
     <Nuxt/>
-  </div>
+  </main>
 </template>
