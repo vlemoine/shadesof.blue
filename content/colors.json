@@ -2,25 +2,121 @@
   {
     "title": "RGB Blue",
     "slug": "blue",
-    "value": "hsl(240 100% 100%)",
-    "body": "blue"
+    "value": "blue",
+    "source": "X11"
   },
   {
     "title": "CMYK Blue",
     "slug": "cmyk-blue",
-    "value": "hsl(240 67% 60%)",
-    "body": "cmyk blue"
+    "value": "#339",
+    "source": "Wikipedia"
   },
   {
-    "title": "Pantone Blue",
-    "slug": "pantone-blue",
-    "value": "hsl(231 100% 66%)",
-    "body": "pantone blue"
+    "title": "Pantone TPX Blue",
+    "slug": "pantone-tpx-blue",
+    "value": "#0018A8",
+    "source": "Wikipedia"
   },
   {
     "title": "NCS Blue",
     "slug": "ncs-blue",
-    "value": "hsl(197 100% 74%)",
-    "body": "ncs blue"
+    "value": "#0087BD",
+    "source": "Wikipedia"
+  },
+  {
+    "title": "Munsell Blue",
+    "slug": "munsell-blue",
+    "value": "#0093AF",
+    "source": "Wikipedia"
+  },
+  {
+    "title": "Crayola Blue",
+    "slug": "crayola-blue",
+    "value": "#1F75FE",
+    "source": "Wikipedia"
+  },
+  {
+    "title": "Periwinkle",
+    "slug": "periwinkle",
+    "value": "#ccf",
+    "source": "Wikipedia"
+  },
+  {
+    "title": "Medium Blue",
+    "slug": "medium-blue",
+    "value": "mediumblue",
+    "source": "X11"
+  },
+  {
+    "title": "Navy",
+    "slug": "navy",
+    "value": "navy",
+    "source": "X11"
+  },
+  {
+    "title": "Dark Blue",
+    "slug": "dark-blue",
+    "value": "darkblue",
+    "source": "X11"
+  },
+  {
+    "title": "Midnight Blue",
+    "slug": "midnight-blue",
+    "value": "midnightblue",
+    "source": "X11"
+  },
+  {
+    "title": "Royal Blue",
+    "slug": "royal-blue",
+    "value": "royalblue",
+    "source": "X11"
+  },
+  {
+    "title": "Steel Blue",
+    "slug": "steel-blue",
+    "value": "steelblue",
+    "source": "X11"
+  },
+  {
+    "title": "Cornflower Blue",
+    "slug": "cornflower-blue",
+    "value": "cornflowerblue",
+    "source": "X11"
+  },
+  {
+    "title": "Deep Sky Blue",
+    "slug": "deep-sky-blue",
+    "value": "deepskyblue",
+    "source": "X11"
+  },
+  {
+    "title": "Sky Blue",
+    "slug": "sky-blue",
+    "value": "skyblue",
+    "source": "X11"
+  },
+  {
+    "title": "Light Sky Blue",
+    "slug": "light-sky-blue",
+    "value": "lightskyblue",
+    "source": "X11"
+  },
+  {
+    "title": "Light Steel Blue",
+    "slug": "light-steel-blue",
+    "value": "lightsteelblue",
+    "source": "X11"
+  },
+  {
+    "title": "Light Blue",
+    "slug": "light-blue",
+    "value": "lightblue",
+    "source": "X11"
+  },
+  {
+    "title": "Powder Blue",
+    "slug": "powder-blue",
+    "value": "powderblue",
+    "source": "X11"
   }
 ]
