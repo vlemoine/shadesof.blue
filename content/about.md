@@ -15,4 +15,4 @@ In my personal opinion, what our culture has deemed "blue," such as blue jeans, 
 
 ## Hues tracked
 
-This site tracks the approximate hues 180 - 240
+This site tracks the hues 180 - 240
