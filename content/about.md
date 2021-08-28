@@ -7,8 +7,12 @@ The color blue is an elusive one - it has a wide range, and what one may interpe
 
 ## Blue vs Azure vs Cyan
 
-This site includes all hues of "blue," whether if it it falls more in to the cyan territory, from more green-leaning to almost violet.
+This site includes all hues of "blue," from the blue we know on the web, to cyan, and the teal and azures in between.
 
 ## What is Indigo anyway?
 
 In my personal opinion, what our culture has deemed "blue," such as blue jeans, is actually indigo!
+
+## Hues tracked
+
+This site tracks the approximate hues 180 - 240
