@@ -168,12 +168,6 @@
     "source": "X11"
   },
   {
-    "title": "Dark Turquoise",
-    "slug": "dark-turquoise",
-    "value": "darkturquoise",
-    "source": "X11"
-  },
-  {
     "title": "Cyan (Aqua)",
     "slug": "cyan",
     "alias": "aqua",
