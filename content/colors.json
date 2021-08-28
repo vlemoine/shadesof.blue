@@ -118,5 +118,96 @@
     "slug": "powder-blue",
     "value": "powderblue",
     "source": "X11"
+  },
+  {
+    "title": "Azure (Web)",
+    "slug": "azure",
+    "value": "azure",
+    "source": "X11"
+  },
+  {
+    "title": "True Azure",
+    "slug": "true-azure",
+    "value": "#0080ff",
+    "source": "color wheel"
+  },
+  {
+    "title": "Alice Blue",
+    "slug": "alice-blue",
+    "value": "aliceblue",
+    "source": "X11"
+  },
+  {
+    "title": "Dodger Blue",
+    "slug": "dodger-blue",
+    "value": "dodgerblue",
+    "source": "X11"
+  },
+  {
+    "title": "Teal",
+    "slug": "teal",
+    "value": "teal",
+    "source": "Web color"
+  },
+  {
+    "title": "Dark Cyan",
+    "slug": "dark-cyan",
+    "value": "darkcyan",
+    "source": "X11"
+  },
+  {
+    "title": "Cadet Blue",
+    "slug": "cadet-blue",
+    "value": "cadetblue",
+    "source": "X11"
+  },
+  {
+    "title": "Dark Turquoise",
+    "slug": "dark-turquoise",
+    "value": "darkturquoise",
+    "source": "X11"
+  },
+  {
+    "title": "Dark Turquoise",
+    "slug": "dark-turquoise",
+    "value": "darkturquoise",
+    "source": "X11"
+  },
+  {
+    "title": "Cyan (Aqua)",
+    "slug": "cyan",
+    "alias": "aqua",
+    "value": "cyan",
+    "source": "X11"
+  },
+  {
+    "title": "Light Cyan",
+    "slug": "light-cyan",
+    "value": "lightcyan",
+    "source": "X11"
+  },
+  {
+    "title": "Lavender",
+    "slug": "lavender",
+    "value": "lavender",
+    "source": "X11"
+  },
+  {
+    "title": "Dark Slate Gray",
+    "slug": "dark-slate-gray",
+    "value": "darkslategray",
+    "source": "X11"
+  },
+  {
+    "title": "Slate Gray",
+    "slug": "slate-gray",
+    "value": "slategray",
+    "source": "X11"
+  },
+  {
+    "title": "Light Slate Gray",
+    "slug": "light-slate-gray",
+    "value": "lightslategray",
+    "source": "X11"
   }
 ]
