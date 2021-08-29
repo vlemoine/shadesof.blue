@@ -14,13 +14,15 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
+  colorMode: {
+    classSuffix: ""
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    // '@/plugins/update.client.js'
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -31,6 +33,7 @@ export default {
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
+    "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss"
   ],
 
