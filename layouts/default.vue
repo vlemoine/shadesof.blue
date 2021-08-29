@@ -2,7 +2,7 @@
   <main class="main">
     <header class="flex p-4">
       <Logo />
-      <h1 class="ml-4">Shades of Blue</h1>
+      <h1 class="ml-4 text-2xl font-bold">Shades of Blue</h1>
     </header>
     
     <Nuxt/>
@@ -21,6 +21,7 @@ export default {
   html {
     background-color: #eee;
     color: #111;
+    font-family: 'Anonymous Pro', monospace;
     &.dark {
       background-color: #111;
       color: #fff;

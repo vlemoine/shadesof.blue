@@ -13,7 +13,7 @@
   <g style="isolation:isolate">
     <g clip-path="url(#a)">
       <rect x="100" y="100" width="100" height="100" fill="#80ffff"/>
-      <rect x="100" y="200" width="100" height="100" fill="aqua"/>
+      <rect x="100" y="200" width="100" height="100" fill="cyan"/>
       <rect x="200" y="300" width="100" height="100" fill="teal"/>
       <rect x="100" y="300" width="100" height="100" fill="#80c0ff"/>
       <rect x="200" y="200" width="100" height="100" fill="#0080ff"/>
