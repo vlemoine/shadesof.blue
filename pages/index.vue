@@ -1,5 +1,8 @@
 <template>
-  <section class="swatches grid p-8">
+  <section
+    class="swatches grid p-8"
+    :class="{ 'swatches--labeled': filters.showLabels }"
+  >
     <header class="swatches__header flex">
       <p>{{ c.length }} blues documented!</p>
       <div id="filters" class="filters ml-auto">
@@ -19,6 +22,10 @@
           >Show out of bounds
           <input v-model="filters.includeOobs" type="checkbox" />
         </label>
+        <label
+          >Show labels
+          <input v-model="filters.showLabels" type="checkbox" />
+        </label>
       </div>
     </header>
 
@@ -29,30 +36,26 @@
         :class="{
           hidden:
             (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
-            (!blue.gray && filters.onlyGrays)
+            (!blue.gray && filters.onlyGrays) ||
+            (blue.oob && !filters.includeOobs)
         }"
       >
-        <Swatch
-          :blue="blue"
-          class="relative"
-        >
+        <Swatch :blue="blue" class="relative">
           <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
             <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
-            <i v-if="blue.oob" class="fas fa-rainbow"></i>
+            <i v-if="blue.oob" class="far fa-rainbow"></i>
           </div>
-
-          <div v-if="labels" class="labels">
+          <div
+            v-if="labels"
+            class="labels"
+            :class="{ 'opacity-0': !filters.showLabels }"
+          >
             <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-            <span>{{ blue.hex }}</span
-            ><br />
-            <span>h {{ Math.round(blue.hsl.h) }}</span>
-            <!-- <span>{{ blue.hsl.s }}</span> -->
-            <template v-if="details">
-              <br />
-              <span>s {{ Math.round(blue.hsl.s) }}</span
+            <template v-if="blue.alias">
+              <span>{{ blue.alias }}</span
               ><br />
-              <span>l {{ Math.round(blue.hsl.l) }}</span>
             </template>
+            <span>{{ blue.hex }}</span>
           </div>
         </Swatch>
       </div>
@@ -81,6 +84,7 @@ export default {
       labels: true,
       details: true,
       filters: {
+        showLabels: false,
         includeGrays: true,
         onlyGrays: false,
         includeOobs: true
@@ -115,29 +119,38 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+:root {
+  --swatch-width: 5rem;
+  --swatch-aspect: 1;
+  --swatch-zoom: calc(var(--swatch-width) * 1.8);
+}
 .swatches__header {
   grid-column: 1/-1;
 }
 .swatches {
-  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
 }
 .swatch {
-  aspect-ratio: 1/1;
+  aspect-ratio: var(--swatch-aspect) / 1;
   overflow: hidden;
 }
-.swatch .labels {
-  opacity: 0;
+.swatches--labeled {
+  --swatch-width: 10rem;
+  --swatch-aspect: 2;
 }
-.swatch:hover,
-.swatch:focus {
+.swatches:not(.swatches--labeled) .swatch:hover,
+.swatches:not(.swatches--labeled) .swatch:focus {
+  --transform: -20%;
+
   position: absolute;
-  width: 9rem;
-  height: 9rem;
+  width: var(--swatch-zoom);
+  height: var(--swatch-zoom);
   overflow: initial;
   z-index: 2;
-  left: -1.5rem;
-  top: -1.5rem;
+  top: 0;
+  left: 0;
+  transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
 }
 .swatch:hover .labels,
