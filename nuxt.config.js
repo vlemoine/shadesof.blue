@@ -24,6 +24,12 @@ export default {
         href:
           "https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap"
       }
+    ],
+    script: [
+      {
+        src: 'https://kit.fontawesome.com/d58afaae54.js',
+        crossorigin: 'anonymous'
+      }
     ]
   },
 
