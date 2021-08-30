@@ -3784,19 +3784,6 @@
     "url": "https://www.pantone.com/color-finder/2975-C"
   },
   {
-    "title": "2982 C",
-    "slug": "pantone-2982-c",
-    "value": "#008AD8",
-    "cmyk": {
-      "c": 78,
-      "m": 33,
-      "y": 0,
-      "k": 0
-    },
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/2982-C"
-  },
-  {
     "title": "2985 C",
     "slug": "pantone-2985-c",
     "value": "#5BC2E7",
