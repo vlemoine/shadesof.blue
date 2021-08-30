@@ -15,4 +15,4 @@ In my personal opinion, what our culture has deemed "blue," such as blue jeans, 
 
 ## Hues tracked
 
-This site tracks the hues 180 - 240
+This site tracks the hues 180 - 240. There are some expections with some blues having a hue value of over 240, due to the fact they are closer to "blue" from a CMYK standpoint, and they subjectively look like a blue.
