@@ -1,16 +1,19 @@
 <template>
   <section class="swatches grid p-4">
-    <!-- <pre>{{c}}</pre> -->
-    <template v-for="blue in c">
-      <!-- <pre :key="blue.slug">{{ blue }}</pre> -->
-      <Swatch :key="blue.slug" :blue="blue">
-        <!-- <pre>{{ blue.hsl.l }}</pre> -->
-        <!-- <pre>{{ blue.hsl.h }}</pre> -->
-        <!-- <pre>{{ blue.hsl.s }}</pre> -->
-        <!-- <pre :key="blue.slug">{{blue.luminosity}}</pre> -->
+    <template v-for="(blue, i) in c">
+      <Swatch
+        :key="blue.hex"
+        :blue="blue"
+        :style="
+          blue.hsl.h > 240 || blue.hsl.h < 180 ? 'border:1px solid red' : ''
+        "
+        name
+      >
+        <span v-if="false">{{i}}</span>
+        <span>{{ blue.hex }}</span><br>
+        <!-- <span>{{ Math.round(blue.hsl.h) }}</span> -->
       </Swatch>
     </template>
-    <!-- <pre>{{ colors }}</pre> -->
   </section>
 </template>
 
@@ -21,17 +24,22 @@ import Swatch from "~/components/Swatch.vue";
 export default {
   components: { Swatch },
   async asyncData({ $content, params }) {
-    const colors = await $content("colors", params.slug).fetch();
+    const x11 = await $content("colors", params.slug).fetch();
+    const pantone = await $content("pantone", params.slug).fetch();
     return {
-      colors
+      x11,
+      pantone
     };
   },
   computed: {
     c() {
-      let sort = this.colors.slice(0);
+      // let x = this.x11.slice(0);
+      // let p = this.pantone.slice();
+      let sort = this.x11.concat(this.pantone);
       sort.forEach(s => {
         const b = Color(s.value);
         const hsl = b.hsl().object();
+        s.hex = b.hex();
         s.luminosity = b.luminosity();
         s.hsl = hsl;
       });
