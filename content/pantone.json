@@ -1,13 +1,26 @@
 [
   {
-    "title": "Pantone TPX Blue",
+    "title": "TPX Blue",
     "slug": "pantone-tpx-blue",
     "value": "#0018A8",
     "source": "Pantone",
     "url": ""
   },
   {
-    "title": "Pantone Dark Blue C",
+    "title": "Blue 072 C",
+    "slug": "pantone-blue-072-c",
+    "value": "#10069F",
+    "cmyk": {
+      "c": 100,
+      "m": 90,
+      "y": 0,
+      "k": 7
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/Blue-072-C"
+  },
+  {
+    "title": "Dark Blue C",
     "slug": "pantone-dark-blue-c",
     "value": "#00249C",
     "cmyk": {
@@ -18,6 +31,58 @@
     },
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/Dark-Blue-C"
+  },
+  {
+    "title": "Reflex Blue C",
+    "slug": "pantone-reflex-blue-c",
+    "value": "#001489",
+    "cmyk": {
+      "c": 100,
+      "m": 87,
+      "y": 0,
+      "k": 20
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/Reflex-Blue-C"
+  },
+  {
+    "title": "Pantone 270 C",
+    "slug": "pantone-270-c",
+    "value": "#B4B5DF",
+    "cmyk": {
+      "c": 29,
+      "m": 23,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/270-C"
+  },
+  {
+    "title": "Pantone 271 C",
+    "slug": "pantone-271-c",
+    "value": "#9595D2",
+    "cmyk": {
+      "c": 44,
+      "m": 38,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/271-C"
+  },
+  {
+    "title": "Pantone 272 C",
+    "slug": "pantone-272-c",
+    "value": "#7474C1",
+    "cmyk": {
+      "c": 61,
+      "m": 55,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/272-C"
   },
   {
     "title": "Pantone 277 C",
@@ -889,6 +954,19 @@
     },
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/552-C"
+  },
+  {
+    "title": "Pantone 662 C",
+    "slug": "pantone-662-c",
+    "value": "#001A70",
+    "cmyk": {
+      "c": 100,
+      "m": 87,
+      "y": 0,
+      "k": 36
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/662-C"
   },
   {
     "title": "Pantone 2106 C",
@@ -2607,6 +2685,32 @@
     "url": "https://www.pantone.com/color-finder/2238-C"
   },
   {
+    "title": "Pantone 2366 C",
+    "slug": "pantone-2366-c",
+    "value": "#6A6DCD",
+    "cmyk": {
+      "c": 67,
+      "m": 58,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/2366-C"
+  },
+  {
+    "title": "Pantone 2369 C",
+    "slug": "pantone-2369-c",
+    "value": "#3B3FB6",
+    "cmyk": {
+      "c": 94,
+      "m": 83,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/2369-C"
+  },
+  {
     "title": "Pantone 2975 C",
     "slug": "pantone-2975-c",
     "value": "#99D6EA",
@@ -2657,6 +2761,45 @@
     },
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3035-C"
+  },
+  {
+    "title": "Pantone 3558 C",
+    "slug": "pantone-3558-c",
+    "value": "#919CD4",
+    "cmyk": {
+      "c": 44,
+      "m": 31,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/3558-C"
+  },
+  {
+    "title": "Pantone 4135 C",
+    "slug": "pantone-4135-c",
+    "value": "#7B859B",
+    "cmyk": {
+      "c": 52,
+      "m": 38,
+      "y": 16,
+      "k": 8
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/4135-C"
+  },
+  {
+    "title": "Pantone 4142 C",
+    "slug": "pantone-4142-c",
+    "value": "#3D4E80",
+    "cmyk": {
+      "c": 84,
+      "m": 68,
+      "y": 5,
+      "k": 19
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/4142-C"
   },
   {
     "title": "Pantone 4155 C",
@@ -2737,6 +2880,19 @@
     "url": "https://www.pantone.com/color-finder/4160-C"
   },
   {
+    "title": "Pantone 7444 C",
+    "slug": "pantone-7444-c",
+    "value": "#B6B8DC",
+    "cmyk": {
+      "c": 27,
+      "m": 22,
+      "y": 0,
+      "k": 0
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/7444-C"
+  },
+  {
     "title": "Pantone 7541 C",
     "slug": "pantone-7541-c",
     "value": "#D9E1E2",
@@ -2761,6 +2917,45 @@
     },
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7542-C"
+  },
+  {
+    "title": "Pantone 7667 C",
+    "slug": "pantone-7667-c",
+    "value": "#6E7CA0",
+    "cmyk": {
+      "c": 58,
+      "m": 43,
+      "y": 8,
+      "k": 6
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/7667-C"
+  },
+  {
+    "title": "Pantone 7668 C",
+    "slug": "pantone-7668-c",
+    "value": "#676E9F",
+    "cmyk": {
+      "c": 64,
+      "m": 54,
+      "y": 2,
+      "k": 5
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/7668-C"
+  },
+  {
+    "title": "Pantone 7673 C",
+    "slug": "pantone-7673-c",
+    "value": "#535486",
+    "cmyk": {
+      "c": 73,
+      "m": 67,
+      "y": 4,
+      "k": 12
+    },
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/7673-C"
   },
   {
     "title": "Pantone 7696 C",
