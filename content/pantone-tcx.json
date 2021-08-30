@@ -1,0 +1,4474 @@
+[
+  {
+    "title": "Brilliant White",
+    "alias": "11-4001 TCX",
+    "slug": "brilliant-white",
+    "value": "#EDF1FF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-4001-TCX"
+  },
+  {
+    "title": "Bright White",
+    "alias": "11-0601 TCX",
+    "slug": "bright-white",
+    "value": "#F4F9FF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-0601-TCX"
+  },
+  {
+    "title": "Lucent White",
+    "alias": "11-0700 TCX",
+    "slug": "lucent-white",
+    "value": "#F4F7FF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-0700-TCX"
+  },
+  {
+    "title": "Griffin",
+    "alias": "17-5102 TCX",
+    "slug": "griffin",
+    "value": "#8D8F8F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5102-TCX"
+  },
+  {
+    "title": "Bit of Blue",
+    "alias": "11-4601 TCX",
+    "slug": "bit-of blue",
+    "value": "#E2EAEB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-4601-TCX"
+  },
+  {
+    "title": "Oyster Mushroom",
+    "alias": "13-4201 TCX",
+    "slug": "oyster-mushroom",
+    "value": "#C4C6C8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4201-TCX"
+  },
+  {
+    "title": "High-rise",
+    "alias": "15-4101 TCX",
+    "slug": "high-rise",
+    "value": "#AEB2B5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4101-TCX"
+  },
+  {
+    "title": "Quarry",
+    "alias": "15-4305 TCX",
+    "slug": "quarry",
+    "value": "#98A0A5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4305-TCX"
+  },
+  {
+    "title": "Monument",
+    "alias": "17-4405 TCX",
+    "slug": "monument",
+    "value": "#84898C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4405-TCX"
+  },
+  {
+    "title": "Sharkskin",
+    "alias": "17-3914 TCX",
+    "slug": "sharkskin",
+    "value": "#848587",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3914-TCX"
+  },
+  {
+    "title": "Lava Smoke",
+    "alias": "18-0202 TCX",
+    "slug": "lava-smoke",
+    "value": "#5E6064",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-0202-TCX"
+  },
+  {
+    "title": "Nimbus Cloud",
+    "alias": "13-4108 TCX",
+    "slug": "nimbus-cloud",
+    "value": "#D5D5D8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4108-TCX"
+  },
+  {
+    "title": "Northern Droplet",
+    "alias": "14-4104 TCX",
+    "slug": "northern-droplet",
+    "value": "#BABEBF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4104-TCX"
+  },
+  {
+    "title": "Ultimate Gray",
+    "alias": "17-5104 TCX",
+    "slug": "ultimate-gray",
+    "value": "#939597",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5104-TCX"
+  },
+  {
+    "title": "Chiseled Stone",
+    "alias": "16-3917 TCX",
+    "slug": "chiseled-stone",
+    "value": "#8D8E92",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3917-TCX"
+  },
+  {
+    "title": "Weathervane",
+    "alias": "15-4304 TCX",
+    "slug": "weathervane",
+    "value": "#8B9198",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4304-TCX"
+  },
+  {
+    "title": "Night Owl",
+    "alias": "18-4017 TCX",
+    "slug": "night-owl",
+    "value": "#79797F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4017-TCX"
+  },
+  {
+    "title": "Poppy Seed",
+    "alias": "18-4004 TCX",
+    "slug": "poppy-seed",
+    "value": "#626367",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4004-TCX"
+  },
+  {
+    "title": "Glacier Gray",
+    "alias": "14-4102 TCX",
+    "slug": "glacier-gray",
+    "value": "#C5C6C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4102-TCX"
+  },
+  {
+    "title": "Antarctica",
+    "alias": "13-4104 TCX",
+    "slug": "antarctica",
+    "value": "#C6C6C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4104-TCX"
+  },
+  {
+    "title": "Gray Violet",
+    "alias": "14-4103 TCX",
+    "slug": "gray-violet",
+    "value": "#BBBCBC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4103-TCX"
+  },
+  {
+    "title": "Quiet Gray",
+    "alias": "14-4107 TCX",
+    "slug": "quiet-gray",
+    "value": "#BABBBD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4107-TCX"
+  },
+  {
+    "title": "Micro Chip",
+    "alias": "14-4105 TCX",
+    "slug": "micro-chip",
+    "value": "#BABCC0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4105-TCX"
+  },
+  {
+    "title": "Harbor Mist",
+    "alias": "14-4202 TCX",
+    "slug": "harbor-mist",
+    "value": "#B0B2B5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4202-TCX"
+  },
+  {
+    "title": "Formal Gray",
+    "alias": "16-5102 TCX",
+    "slug": "formal-gray",
+    "value": "#979799",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5102-TCX"
+  },
+  {
+    "title": "Skyrocket",
+    "alias": "17-3913 TCX",
+    "slug": "skyrocket",
+    "value": "#86868C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3913-TCX"
+  },
+  {
+    "title": "Quiet Shade",
+    "alias": "18-4006 TCX",
+    "slug": "quiet-shade",
+    "value": "#66676D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4006-TCX"
+  },
+  {
+    "title": "Mockingbird",
+    "alias": "18-4015 TCX",
+    "slug": "mockingbird",
+    "value": "#77777A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4015-TCX"
+  },
+  {
+    "title": "Dark Shadow",
+    "alias": "19-3906 TCX",
+    "slug": "dark-shadow",
+    "value": "#4A4B4D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3906-TCX"
+  },
+  {
+    "title": "Forest River",
+    "alias": "19-4405 TCX",
+    "slug": "forest-river",
+    "value": "#33393B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4405-TCX"
+  },
+  {
+    "title": "Woodland Gray",
+    "alias": "19-5002 TCX",
+    "slug": "woodland-gray",
+    "value": "#383D3F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5002-TCX"
+  },
+  {
+    "title": "Black Sand",
+    "alias": "19-4406 TCX",
+    "slug": "black-sand",
+    "value": "#3C3E40",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4406-TCX"
+  },
+  {
+    "title": "Volcanic Ash",
+    "alias": "19-3912 TCX",
+    "slug": "volcanic-ash",
+    "value": "#484849",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3912-TCX"
+  },
+  {
+    "title": "Black Oyster",
+    "alias": "19-0205 TCX",
+    "slug": "black-oyster",
+    "value": "#414143",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-0205-TCX"
+  },
+  {
+    "title": "Iron Gate",
+    "alias": "19-3910 TCX",
+    "slug": "iron-gate",
+    "value": "#4E5055",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3910-TCX"
+  },
+  {
+    "title": "Asphalt",
+    "alias": "19-0201 TCX",
+    "slug": "asphalt",
+    "value": "#444447",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-0201-TCX"
+  },
+  {
+    "title": "Ebony",
+    "alias": "19-4104 TCX",
+    "slug": "ebony",
+    "value": "#41424A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4104-TCX"
+  },
+  {
+    "title": "Anthracite",
+    "alias": "19-4007 TCX",
+    "slug": "anthracite",
+    "value": "#28282D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4007-TCX"
+  },
+  {
+    "title": "Black Beauty",
+    "alias": "19-3911 TCX",
+    "slug": "black-beauty",
+    "value": "#27272A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3911-TCX"
+  },
+  {
+    "title": "Tap Shoe",
+    "alias": "19-4004 TCX",
+    "slug": "tap-shoe",
+    "value": "#2A2B2D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4004-TCX"
+  },
+  {
+    "title": "Stretch Limo",
+    "alias": "19-4005 TCX",
+    "slug": "stretch-limo",
+    "value": "#2B2C30",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4005-TCX"
+  },
+  {
+    "title": "Caviar",
+    "alias": "19-4006 TCX",
+    "slug": "caviar",
+    "value": "#2A2A2D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4006-TCX"
+  },
+  {
+    "title": "Pirate Black",
+    "alias": "19-4305 TCX",
+    "slug": "pirate-black",
+    "value": "#373838",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4305-TCX"
+  },
+  {
+    "title": "Lilac Hint",
+    "alias": "13-4105 TCX",
+    "slug": "lilac-hint",
+    "value": "#D0D0DA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4105-TCX"
+  },
+  {
+    "title": "Icelandic Blue",
+    "alias": "15-3908 TCX",
+    "slug": "icelandic-blue",
+    "value": "#AAADC2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3908-TCX"
+  },
+  {
+    "title": "Aleutian",
+    "alias": "15-3912 TCX",
+    "slug": "aleutian",
+    "value": "#9A9EB3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3912-TCX"
+  },
+  {
+    "title": "Silver Bullet",
+    "alias": "17-3933 TCX",
+    "slug": "silver-bullet",
+    "value": "#81839A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3933-TCX"
+  },
+  {
+    "title": "Blue Granite",
+    "alias": "18-3933 TCX",
+    "slug": "blue-granite",
+    "value": "#717388",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3933-TCX"
+  },
+  {
+    "title": "Cosmic Sky",
+    "alias": "15-3909 TCX",
+    "slug": "cosmic-sky",
+    "value": "#AAAAC4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3909-TCX"
+  },
+  {
+    "title": "Thistle Down",
+    "alias": "16-3930 TCX",
+    "slug": "thistle-down",
+    "value": "#9499BB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3930-TCX"
+  },
+  {
+    "title": "Persian Violet",
+    "alias": "17-3925 TCX",
+    "slug": "persian-violet",
+    "value": "#8C8EB2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3925-TCX"
+  },
+  {
+    "title": "Sweet Lavender",
+    "alias": "16-3931 TCX",
+    "slug": "sweet-lavender",
+    "value": "#9A9BC1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3931-TCX"
+  },
+  {
+    "title": "Lavender Violet",
+    "alias": "17-3924 TCX",
+    "slug": "lavender-violet",
+    "value": "#767BA5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3924-TCX"
+  },
+  {
+    "title": "Bleached Denim",
+    "alias": "18-3930 TCX",
+    "slug": "bleached-denim",
+    "value": "#646F9B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3930-TCX"
+  },
+  {
+    "title": "Dusted Peri",
+    "alias": "18-3833 TCX",
+    "slug": "dusted-peri",
+    "value": "#696BA0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3833-TCX"
+  },
+  {
+    "title": "Pale Iris",
+    "alias": "17-3929 TCX",
+    "slug": "pale-iris",
+    "value": "#8896C6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3929-TCX"
+  },
+  {
+    "title": "Deep Periwinkle",
+    "alias": "17-3932 TCX",
+    "slug": "deep-periwinkle",
+    "value": "#7C83BC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3932-TCX"
+  },
+  {
+    "title": "Iolite",
+    "alias": "17-3940 TCX",
+    "slug": "iolite",
+    "value": "#707BB4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3940-TCX"
+  },
+  {
+    "title": "Violet Storm",
+    "alias": "18-3944 TCX",
+    "slug": "violet-storm",
+    "value": "#5C619D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3944-TCX"
+  },
+  {
+    "title": "Iris Bloom",
+    "alias": "18-3950 TCX",
+    "slug": "iris-bloom",
+    "value": "#5C609F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3950-TCX"
+  },
+  {
+    "title": "Blue Iris",
+    "alias": "18-3943 TCX",
+    "slug": "blue-iris",
+    "value": "#5A5B9F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3943-TCX"
+  },
+  {
+    "title": "Easter Egg",
+    "alias": "16-3925 TCX",
+    "slug": "easter-egg",
+    "value": "#919BC9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3925-TCX"
+  },
+  {
+    "title": "Jacaranda",
+    "alias": "17-3930 TCX",
+    "slug": "jacaranda",
+    "value": "#848DC5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3930-TCX"
+  },
+  {
+    "title": "Persian Jewel",
+    "alias": "17-3934 TCX",
+    "slug": "persian-jewel",
+    "value": "#6E81BE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3934-TCX"
+  },
+  {
+    "title": "Wedgewood",
+    "alias": "18-3935 TCX",
+    "slug": "wedgewood",
+    "value": "#6479B3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3935-TCX"
+  },
+  {
+    "title": "Baja Blue",
+    "alias": "18-3946 TCX",
+    "slug": "baja-blue",
+    "value": "#5F6EAE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3946-TCX"
+  },
+  {
+    "title": "Royal Blue",
+    "alias": "19-3955 TCX",
+    "slug": "royal-blue",
+    "value": "#3E428B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3955-TCX"
+  },
+  {
+    "title": "Clematis Blue",
+    "alias": "19-3951 TCX",
+    "slug": "clematis-blue",
+    "value": "#373B7C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3951-TCX"
+  },
+  {
+    "title": "Ultramarine",
+    "alias": "17-4037 TCX",
+    "slug": "ultramarine",
+    "value": "#5B7EBD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4037-TCX"
+  },
+  {
+    "title": "Amparo Blue",
+    "alias": "18-3945 TCX",
+    "slug": "amparo-blue",
+    "value": "#4A5FA5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3945-TCX"
+  },
+  {
+    "title": "Dazzling Blue",
+    "alias": "18-3949 TCX",
+    "slug": "dazzling-blue",
+    "value": "#3950A0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3949-TCX"
+  },
+  {
+    "title": "Deep Ultramarine",
+    "alias": "19-3950 TCX",
+    "slug": "deep-ultramarine",
+    "value": "#384883",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3950-TCX"
+  },
+  {
+    "title": "Bluing",
+    "alias": "19-3954 TCX",
+    "slug": "bluing",
+    "value": "#333E83",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3954-TCX"
+  },
+  {
+    "title": "Surf the Web",
+    "alias": "19-3952 TCX",
+    "slug": "surf-the web",
+    "value": "#203C7F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3952-TCX"
+  },
+  {
+    "title": "Mazarine Blue",
+    "alias": "19-3864 TCX",
+    "slug": "mazarine-blue",
+    "value": "#273C76",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3864-TCX"
+  },
+  {
+    "title": "Blue Quartz",
+    "alias": "19-3964 TCX",
+    "slug": "blue-quartz",
+    "value": "#274374",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3964-TCX"
+  },
+  {
+    "title": "Galaxy Blue",
+    "alias": "19-4055 TCX",
+    "slug": "galaxy-blue",
+    "value": "#2A4C7D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4055-TCX"
+  },
+  {
+    "title": "Déja Vu Blue",
+    "alias": "19-4041 TCX",
+    "slug": "déja-vu blue",
+    "value": "#2E5283",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4041-TCX"
+  },
+  {
+    "title": "True Blue",
+    "alias": "19-4057 TCX",
+    "slug": "true-blue",
+    "value": "#1F4477",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4057-TCX"
+  },
+  {
+    "title": "Limoges",
+    "alias": "19-4044 TCX",
+    "slug": "limoges",
+    "value": "#243F6C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4044-TCX"
+  },
+  {
+    "title": "Navy Peony",
+    "alias": "19-4029 TCX",
+    "slug": "navy-peony",
+    "value": "#223A5E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4029-TCX"
+  },
+  {
+    "title": "Sodalite Blue",
+    "alias": "19-3953 TCX",
+    "slug": "sodalite-blue",
+    "value": "#253668",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3953-TCX"
+  },
+  {
+    "title": "Lapis Blue",
+    "alias": "19-4045 TCX",
+    "slug": "lapis-blue",
+    "value": "#004C8E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4045-TCX"
+  },
+  {
+    "title": "Princess Blue",
+    "alias": "19-4150 TCX",
+    "slug": "princess-blue",
+    "value": "#00539C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4150-TCX"
+  },
+  {
+    "title": "Victoria Blue",
+    "alias": "18-4148 TCX",
+    "slug": "victoria-blue",
+    "value": "#09589D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4148-TCX"
+  },
+  {
+    "title": "Snorkel Blue",
+    "alias": "19-4049 TCX",
+    "slug": "snorkel-blue",
+    "value": "#034F84",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4049-TCX"
+  },
+  {
+    "title": "Nautical Blue",
+    "alias": "19-4050 TCX",
+    "slug": "nautical-blue",
+    "value": "#1B5091",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4050-TCX"
+  },
+  {
+    "title": "Turkish Sea",
+    "alias": "19-4053 TCX",
+    "slug": "turkish-sea",
+    "value": "#1A5190",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4053-TCX"
+  },
+  {
+    "title": "Blue Lolite",
+    "alias": "19-4056 TCX",
+    "slug": "blue-lolite",
+    "value": "#1A4C8B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4056-TCX"
+  },
+  {
+    "title": "Regatta",
+    "alias": "18-4039 TCX",
+    "slug": "regatta",
+    "value": "#497AB7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4039-TCX"
+  },
+  {
+    "title": "Palace Blue",
+    "alias": "18-4043 TCX",
+    "slug": "palace-blue",
+    "value": "#356CB0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4043-TCX"
+  },
+  {
+    "title": "Super Sonic",
+    "alias": "18-4143 TCX",
+    "slug": "super-sonic",
+    "value": "#3073B7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4143-TCX"
+  },
+  {
+    "title": "Strong Blue",
+    "alias": "18-4051 TCX",
+    "slug": "strong-blue",
+    "value": "#1F5DA0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4051-TCX"
+  },
+  {
+    "title": "Nebulas Blue",
+    "alias": "18-4048 TCX",
+    "slug": "nebulas-blue",
+    "value": "#2E62A3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4048-TCX"
+  },
+  {
+    "title": "Beaucoup Blue",
+    "alias": "19-4058 TCX",
+    "slug": "beaucoup-blue",
+    "value": "#32508E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4058-TCX"
+  },
+  {
+    "title": "Nouvean Navy",
+    "alias": "19-4054 TCX",
+    "slug": "nouvean-navy",
+    "value": "#3A5589",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4054-TCX"
+  },
+  {
+    "title": "Campanula",
+    "alias": "18-4141 TCX",
+    "slug": "campanula",
+    "value": "#3272AF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4141-TCX"
+  },
+  {
+    "title": "Indigo Bunting",
+    "alias": "18-4250 TCX",
+    "slug": "indigo-bunting",
+    "value": "#006CA9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4250-TCX"
+  },
+  {
+    "title": "Directoire Blue",
+    "alias": "18-4244 TCX",
+    "slug": "directoire-blue",
+    "value": "#0061A3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4244-TCX"
+  },
+  {
+    "title": "Daphne",
+    "alias": "18-4045 TCX",
+    "slug": "daphne",
+    "value": "#0F5F9A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4045-TCX"
+  },
+  {
+    "title": "Skydiver",
+    "alias": "19-4151 TCX",
+    "slug": "skydiver",
+    "value": "#00589B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4151-TCX"
+  },
+  {
+    "title": "Baleine Blue",
+    "alias": "19-4048 TCX",
+    "slug": "baleine-blue",
+    "value": "#165288",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4048-TCX"
+  },
+  {
+    "title": "Classic Blue",
+    "alias": "19-4052 TCX",
+    "slug": "classic-blue",
+    "value": "#0F4C81",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4052-TCX"
+  },
+  {
+    "title": "Little Boy Blue",
+    "alias": "16-4132 TCX",
+    "slug": "little-boy blue",
+    "value": "#6EA1D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4132-TCX"
+  },
+  {
+    "title": "Azure Blue",
+    "alias": "17-4139 TCX",
+    "slug": "azure-blue",
+    "value": "#4D91C6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4139-TCX"
+  },
+  {
+    "title": "Ibiza Blue",
+    "alias": "17-4245 TCX",
+    "slug": "ibiza-blue",
+    "value": "#007CB8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4245-TCX"
+  },
+  {
+    "title": "Blue Aster",
+    "alias": "18-4252 TCX",
+    "slug": "blue-aster",
+    "value": "#0077B3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4252-TCX"
+  },
+  {
+    "title": "Brilliant Blue",
+    "alias": "18-4247 TCX",
+    "slug": "brilliant-blue",
+    "value": "#0075B3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4247-TCX"
+  },
+  {
+    "title": "French Blue",
+    "alias": "18-4140 TCX",
+    "slug": "french-blue",
+    "value": "#0072B5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4140-TCX"
+  },
+  {
+    "title": "Imperial Blue",
+    "alias": "19-4245 TCX",
+    "slug": "imperial-blue",
+    "value": "#005A92",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4245-TCX"
+  },
+  {
+    "title": "Baltic Sea",
+    "alias": "14-4320 TCX",
+    "slug": "baltic-sea",
+    "value": "#7AB6D9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4320-TCX"
+  },
+  {
+    "title": "Ethereal Blue",
+    "alias": "15-4323 TCX",
+    "slug": "ethereal-blue",
+    "value": "#5CA6CE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4323-TCX"
+  },
+  {
+    "title": "Bonnie Blue",
+    "alias": "16-4134 TCX",
+    "slug": "bonnie-blue",
+    "value": "#539CCC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4134-TCX"
+  },
+  {
+    "title": "Malibu Blue",
+    "alias": "17-4435 TCX",
+    "slug": "malibu-blue",
+    "value": "#008CC1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4435-TCX"
+  },
+  {
+    "title": "Wave Ride",
+    "alias": "17-4129 TCX",
+    "slug": "wave-ride",
+    "value": "#2D80A7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4129-TCX"
+  },
+  {
+    "title": "Deep Water",
+    "alias": "18-4032 TCX",
+    "slug": "deep-water",
+    "value": "#266691",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4032-TCX"
+  },
+  {
+    "title": "Sea of Belize",
+    "alias": "18-4037 TCX",
+    "slug": "sea-of belize",
+    "value": "#296C97",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4037-TCX"
+  },
+  {
+    "title": "Airy Blue",
+    "alias": "14-4122 TCX",
+    "slug": "airy-blue",
+    "value": "#93B7D5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4122-TCX"
+  },
+  {
+    "title": "Alaskan Blue",
+    "alias": "15-4225 TCX",
+    "slug": "alaskan-blue",
+    "value": "#6DA9D2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4225-TCX"
+  },
+  {
+    "title": "Lichen Blue",
+    "alias": "17-4032 TCX",
+    "slug": "lichen-blue",
+    "value": "#5D89B4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4032-TCX"
+  },
+  {
+    "title": "Parisian Blue",
+    "alias": "18-4036 TCX",
+    "slug": "parisian-blue",
+    "value": "#4F7CA4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4036-TCX"
+  },
+  {
+    "title": "Pacific Coast",
+    "alias": "17-4033 TCX",
+    "slug": "pacific-coast",
+    "value": "#5580AD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4033-TCX"
+  },
+  {
+    "title": "Quiet Harbor",
+    "alias": "17-4029 TCX",
+    "slug": "quiet-harbor",
+    "value": "#5B789A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4029-TCX"
+  },
+  {
+    "title": "Federal Blue",
+    "alias": "18-4029 TCX",
+    "slug": "federal-blue",
+    "value": "#43628B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4029-TCX"
+  },
+  {
+    "title": "Cerulean",
+    "alias": "15-4020 TCX",
+    "slug": "cerulean",
+    "value": "#9BB7D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4020-TCX"
+  },
+  {
+    "title": "Blissful Blue ",
+    "alias": "16-4121 TCX",
+    "slug": "blissful-blue ",
+    "value": "#7198BB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4121-TCX"
+  },
+  {
+    "title": "Allure",
+    "alias": "16-4021 TCX",
+    "slug": "allure",
+    "value": "#7291B4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4021-TCX"
+  },
+  {
+    "title": "Cyaneus",
+    "alias": "18-4035 TCX",
+    "slug": "cyaneus",
+    "value": "#557EA2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4035-TCX"
+  },
+  {
+    "title": "Moonlight Blue",
+    "alias": "18-4027 TCX",
+    "slug": "moonlight-blue",
+    "value": "#516886",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4027-TCX"
+  },
+  {
+    "title": "Blue Horizon",
+    "alias": "18-3929 TCX",
+    "slug": "blue-horizon",
+    "value": "#4E6582",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3929-TCX"
+  },
+  {
+    "title": "Ensign Blue",
+    "alias": "19-4026 TCX",
+    "slug": "ensign-blue",
+    "value": "#384C67",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4026-TCX"
+  },
+  {
+    "title": "Ashleigh Blue",
+    "alias": "16-4018 TCX",
+    "slug": "ashleigh-blue",
+    "value": "#6B86AA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4018-TCX"
+  },
+  {
+    "title": "Riviera",
+    "alias": "17-4027 TCX",
+    "slug": "riviera",
+    "value": "#5979A2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4027-TCX"
+  },
+  {
+    "title": "Riverside ",
+    "alias": "17-4028 TCX",
+    "slug": "riverside-",
+    "value": "#4C6A93",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4028-TCX"
+  },
+  {
+    "title": "Vallarta Blue",
+    "alias": "18-4034 TCX",
+    "slug": "vallarta-blue",
+    "value": "#30658E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4034-TCX"
+  },
+  {
+    "title": "Star Sapphire",
+    "alias": "18-4041 TCX",
+    "slug": "star-sapphire",
+    "value": "#386192",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4041-TCX"
+  },
+  {
+    "title": "Delft",
+    "alias": "19-4039 TCX",
+    "slug": "delft",
+    "value": "#3D5E8C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4039-TCX"
+  },
+  {
+    "title": "Bright Cobalt",
+    "alias": "19-4037 TCX",
+    "slug": "bright-cobalt",
+    "value": "#395D8D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4037-TCX"
+  },
+  {
+    "title": "Bel Air Blue",
+    "alias": "15-3932 TCX",
+    "slug": "bel-air blue",
+    "value": "#819AC1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3932-TCX"
+  },
+  {
+    "title": "Blue Jasper",
+    "alias": "18-4033 TCX",
+    "slug": "blue-jasper",
+    "value": "#527EA9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4033-TCX"
+  },
+  {
+    "title": "High Tide",
+    "alias": "18-4022 TCX",
+    "slug": "high-tide",
+    "value": "#345E8B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4022-TCX"
+  },
+  {
+    "title": "Set Sail",
+    "alias": "19-4042 TCX",
+    "slug": "set-sail",
+    "value": "#284972",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4042-TCX"
+  },
+  {
+    "title": "Dark Blue",
+    "alias": "19-4035 TCX",
+    "slug": "dark-blue",
+    "value": "#305679",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4035-TCX"
+  },
+  {
+    "title": "Poseidon",
+    "alias": "19-4033 TCX",
+    "slug": "poseidon",
+    "value": "#133955",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4033-TCX"
+  },
+  {
+    "title": "Big Dipper",
+    "alias": "19-4117 TCX",
+    "slug": "big-dipper",
+    "value": "#354253",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4117-TCX"
+  },
+  {
+    "title": "Cornflower Blue",
+    "alias": "16-4031 TCX",
+    "slug": "cornflower-blue",
+    "value": "#7391C8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4031-TCX"
+  },
+  {
+    "title": "Provence",
+    "alias": "16-4032 TCX",
+    "slug": "provence",
+    "value": "#658DC6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4032-TCX"
+  },
+  {
+    "title": "Marina",
+    "alias": "17-4041 TCX",
+    "slug": "marina",
+    "value": "#5085C3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4041-TCX"
+  },
+  {
+    "title": "Granada Sky",
+    "alias": "16-4033 TCX",
+    "slug": "granada-sky",
+    "value": "#5D81BC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4033-TCX"
+  },
+  {
+    "title": "Blue Bonnet",
+    "alias": "17-3936 TCX",
+    "slug": "blue-bonnet",
+    "value": "#6384B8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3936-TCX"
+  },
+  {
+    "title": "Blue Yonder",
+    "alias": "18-3937 TCX",
+    "slug": "blue-yonder",
+    "value": "#5A77A8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3937-TCX"
+  },
+  {
+    "title": "Dutch Blue",
+    "alias": "18-3928 TCX",
+    "slug": "dutch-blue",
+    "value": "#4A638D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3928-TCX"
+  },
+  {
+    "title": "Baby Lavender",
+    "alias": "16-3923 TCX",
+    "slug": "baby-lavender",
+    "value": "#A2A9D1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3923-TCX"
+  },
+  {
+    "title": "Blue Heron",
+    "alias": "16-3921 TCX",
+    "slug": "blue-heron",
+    "value": "#96A3C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3921-TCX"
+  },
+  {
+    "title": "Serenity",
+    "alias": "15-3919 TCX",
+    "slug": "serenity",
+    "value": "#93A9D1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3919-TCX"
+  },
+  {
+    "title": "Vista Blue",
+    "alias": "15-3930 TCX",
+    "slug": "vista-blue",
+    "value": "#80A0D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3930-TCX"
+  },
+  {
+    "title": "Lavender Lustre",
+    "alias": "16-3920 TCX",
+    "slug": "lavender-lustre",
+    "value": "#8C9CC0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3920-TCX"
+  },
+  {
+    "title": "Hydrangea",
+    "alias": "16-4030 TCX",
+    "slug": "hydrangea",
+    "value": "#849BCC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4030-TCX"
+  },
+  {
+    "title": "Grapemist",
+    "alias": "16-3929 TCX",
+    "slug": "grapemist",
+    "value": "#8398CA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3929-TCX"
+  },
+  {
+    "title": "Windsurfer",
+    "alias": "15-4031 TCX",
+    "slug": "windsurfer",
+    "value": "#A3BBE0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4031-TCX"
+  },
+  {
+    "title": "Frozen Fjord",
+    "alias": "15-3917 TCX",
+    "slug": "frozen-fjord",
+    "value": "#89A5CB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3917-TCX"
+  },
+  {
+    "title": "Placid Blue",
+    "alias": "15-3920 TCX",
+    "slug": "placid-blue",
+    "value": "#8CACD3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3920-TCX"
+  },
+  {
+    "title": "Open Air",
+    "alias": "15-3922 TCX",
+    "slug": "open-air",
+    "value": "#94B2DF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3922-TCX"
+  },
+  {
+    "title": "Della Robbia Blue",
+    "alias": "16-4020 TCX",
+    "slug": "della-robbia blue",
+    "value": "#7A9DCB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4020-TCX"
+  },
+  {
+    "title": "Azurine",
+    "alias": "16-4029 TCX",
+    "slug": "azurine",
+    "value": "#7291C1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4029-TCX"
+  },
+  {
+    "title": "Ebb and Flow",
+    "alias": "18-3936 TCX",
+    "slug": "ebb-and flow",
+    "value": "#5E79A8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3936-TCX"
+  },
+  {
+    "title": "Ice Water",
+    "alias": "13-4202 TCX",
+    "slug": "ice-water",
+    "value": "#BFD5EB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4202-TCX"
+  },
+  {
+    "title": "Nantucket Breeze",
+    "alias": "14-4005 TCX",
+    "slug": "nantucket-breeze",
+    "value": "#B7D1EA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4005-TCX"
+  },
+  {
+    "title": "Dutch Canal",
+    "alias": "14-4124 TCX",
+    "slug": "dutch-canal",
+    "value": "#96BAE0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4124-TCX"
+  },
+  {
+    "title": "Powder Blue",
+    "alias": "14-4214 TCX",
+    "slug": "powder-blue",
+    "value": "#96B3D2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4214-TCX"
+  },
+  {
+    "title": "Blue Bell",
+    "alias": "14-4121 TCX",
+    "slug": "blue-bell",
+    "value": "#93B4D7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4121-TCX"
+  },
+  {
+    "title": "All Aboard",
+    "alias": "17-4140 TCX",
+    "slug": "all-aboard",
+    "value": "#5C97CB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4140-TCX"
+  },
+  {
+    "title": "Silver Lake Blue",
+    "alias": "17-4030 TCX",
+    "slug": "silver-lake blue",
+    "value": "#618BB9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4030-TCX"
+  },
+  {
+    "title": "Ice Melt",
+    "alias": "13-4306 TCX",
+    "slug": "ice-melt",
+    "value": "#D3E4F1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4306-TCX"
+  },
+  {
+    "title": "Skywriting",
+    "alias": "13-4302 TCX",
+    "slug": "skywriting",
+    "value": "#C5D1DD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4302-TCX"
+  },
+  {
+    "title": "Skyway",
+    "alias": "14-4112 TCX",
+    "slug": "skyway",
+    "value": "#ADBED3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4112-TCX"
+  },
+  {
+    "title": "Cashmere Blue",
+    "alias": "14-4115 TCX",
+    "slug": "cashmere-blue",
+    "value": "#A5B8D0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4115-TCX"
+  },
+  {
+    "title": "Chambray Blue",
+    "alias": "15-4030 TCX",
+    "slug": "chambray-blue",
+    "value": "#9EB4D3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4030-TCX"
+  },
+  {
+    "title": "Brunnera Blue",
+    "alias": "16-3922 TCX",
+    "slug": "brunnera-blue",
+    "value": "#9BA9CA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3922-TCX"
+  },
+  {
+    "title": "Endless Sky",
+    "alias": "16-4022 TCX",
+    "slug": "endless-sky",
+    "value": "#7E95B5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4022-TCX"
+  },
+  {
+    "title": "Halogen Blue",
+    "alias": "13-3920 TCX",
+    "slug": "halogen-blue",
+    "value": "#BDC6DC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-3920-TCX"
+  },
+  {
+    "title": "Heather",
+    "alias": "14-4110 TCX",
+    "slug": "heather",
+    "value": "#B7C0D6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4110-TCX"
+  },
+  {
+    "title": "Xenon Blue",
+    "alias": "14-3949 TCX",
+    "slug": "xenon-blue",
+    "value": "#B7C0D7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-3949-TCX"
+  },
+  {
+    "title": "Kentucky Blue",
+    "alias": "15-3915 TCX",
+    "slug": "kentucky-blue",
+    "value": "#A5B3CC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-3915-TCX"
+  },
+  {
+    "title": "Zen Blue",
+    "alias": "14-3912 TCX",
+    "slug": "zen-blue",
+    "value": "#A0AABF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-3912-TCX"
+  },
+  {
+    "title": "Soft Chambray",
+    "alias": "16-4016 TCX",
+    "slug": "soft-chambray",
+    "value": "#91A5BE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4016-TCX"
+  },
+  {
+    "title": "Blue Blizzard",
+    "alias": "15-4009 TCX",
+    "slug": "blue-blizzard",
+    "value": "#939EB3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4009-TCX"
+  },
+  {
+    "title": "Ancient Water",
+    "alias": "12-4108 TCX",
+    "slug": "ancient-water",
+    "value": "#CCD6E6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4108-TCX"
+  },
+  {
+    "title": "Arctic Ice",
+    "alias": "13-4110 TCX",
+    "slug": "arctic-ice",
+    "value": "#BFC7D6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4110-TCX"
+  },
+  {
+    "title": "Niagara Mist",
+    "alias": "14-4211 TCX",
+    "slug": "niagara-mist",
+    "value": "#ABB9C9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4211-TCX"
+  },
+  {
+    "title": "Rain Washed",
+    "alias": "16-4023 TCX",
+    "slug": "rain-washed",
+    "value": "#8192AB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4023-TCX"
+  },
+  {
+    "title": "Wild Wind",
+    "alias": "17-3912 TCX",
+    "slug": "wild-wind",
+    "value": "#657088",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3912-TCX"
+  },
+  {
+    "title": "Troposphere",
+    "alias": "17-3926 TCX",
+    "slug": "troposphere",
+    "value": "#76849B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3926-TCX"
+  },
+  {
+    "title": "Bluefin",
+    "alias": "18-3919 TCX",
+    "slug": "bluefin",
+    "value": "#536679",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3919-TCX"
+  },
+  {
+    "title": "Eventide",
+    "alias": "16-3919 TCX",
+    "slug": "eventide",
+    "value": "#959FB7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3919-TCX"
+  },
+  {
+    "title": "Forever Blue",
+    "alias": "16-4019 TCX",
+    "slug": "forever-blue",
+    "value": "#899BB8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4019-TCX"
+  },
+  {
+    "title": "Infinity",
+    "alias": "17-4015 TCX",
+    "slug": "infinity",
+    "value": "#6E7E99",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4015-TCX"
+  },
+  {
+    "title": "Tempest",
+    "alias": "17-3915 TCX",
+    "slug": "tempest",
+    "value": "#79839B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3915-TCX"
+  },
+  {
+    "title": "Stonewash",
+    "alias": "17-3917 TCX",
+    "slug": "stonewash",
+    "value": "#74809A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3917-TCX"
+  },
+  {
+    "title": "Country Blue",
+    "alias": "17-3918 TCX",
+    "slug": "country-blue",
+    "value": "#717F9B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3918-TCX"
+  },
+  {
+    "title": "Vintage Indigo",
+    "alias": "19-3929 TCX",
+    "slug": "vintage-indigo",
+    "value": "#4A556B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3929-TCX"
+  },
+  {
+    "title": "Flint Stone",
+    "alias": "18-3916 TCX",
+    "slug": "flint-stone",
+    "value": "#677283",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3916-TCX"
+  },
+  {
+    "title": "Folkstone Gray",
+    "alias": "18-3910 TCX",
+    "slug": "folkstone-gray",
+    "value": "#626879",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3910-TCX"
+  },
+  {
+    "title": "Grisaille",
+    "alias": "18-3912 TCX",
+    "slug": "grisaille",
+    "value": "#585E6F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3912-TCX"
+  },
+  {
+    "title": "Blue Wing Teal",
+    "alias": "19-4121 TCX",
+    "slug": "blue-wing teal",
+    "value": "#2C4053",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4121-TCX"
+  },
+  {
+    "title": "Insignia Blue",
+    "alias": "19-4028 TCX",
+    "slug": "insignia-blue",
+    "value": "#303E55",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4028-TCX"
+  },
+  {
+    "title": "Dark Denim",
+    "alias": "19-4118 TCX",
+    "slug": "dark-denim",
+    "value": "#36465E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4118-TCX"
+  },
+  {
+    "title": "Moonlit Ocean",
+    "alias": "19-4122 TCX",
+    "slug": "moonlit-ocean",
+    "value": "#2A3B4E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4122-TCX"
+  },
+  {
+    "title": "Purple Impression",
+    "alias": "17-3919 TCX",
+    "slug": "purple-impression",
+    "value": "#858FB1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3919-TCX"
+  },
+  {
+    "title": "Colony Blue",
+    "alias": "17-3923 TCX",
+    "slug": "colony-blue",
+    "value": "#65769A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3923-TCX"
+  },
+  {
+    "title": "Bijou Blue",
+    "alias": "18-3921 TCX",
+    "slug": "bijou-blue",
+    "value": "#4E5E7F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3921-TCX"
+  },
+  {
+    "title": "True Navy",
+    "alias": "19-4030 TCX",
+    "slug": "true-navy",
+    "value": "#3F5277",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4030-TCX"
+  },
+  {
+    "title": "Crown Blue",
+    "alias": "19-3926 TCX",
+    "slug": "crown-blue",
+    "value": "#464B65",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3926-TCX"
+  },
+  {
+    "title": "Sargasso Sea",
+    "alias": "19-4031 TCX",
+    "slug": "sargasso-sea",
+    "value": "#36445A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4031-TCX"
+  },
+  {
+    "title": "Dress Blues",
+    "alias": "19-4024 TCX",
+    "slug": "dress-blues",
+    "value": "#2A3244",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4024-TCX"
+  },
+  {
+    "title": "English Manor",
+    "alias": "17-3920 TCX",
+    "slug": "english-manor",
+    "value": "#7181A4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3920-TCX"
+  },
+  {
+    "title": "Coastal Fjord",
+    "alias": "18-3920 TCX",
+    "slug": "coastal-fjord",
+    "value": "#505D7E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3920-TCX"
+  },
+  {
+    "title": "Gray Blue",
+    "alias": "18-3917 TCX",
+    "slug": "gray-blue",
+    "value": "#4E597B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3917-TCX"
+  },
+  {
+    "title": "Blue Indigo",
+    "alias": "19-3928 TCX",
+    "slug": "blue-indigo",
+    "value": "#49516D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3928-TCX"
+  },
+  {
+    "title": "Nightshadow Blue",
+    "alias": "19-3919 TCX",
+    "slug": "nightshadow-blue",
+    "value": "#4E5368",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3919-TCX"
+  },
+  {
+    "title": "Blue Ice",
+    "alias": "17-3922 TCX",
+    "slug": "blue-ice",
+    "value": "#70789B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-3922-TCX"
+  },
+  {
+    "title": "Velvet Morning",
+    "alias": "18-3927 TCX",
+    "slug": "velvet-morning",
+    "value": "#60688D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3927-TCX"
+  },
+  {
+    "title": "Marlin",
+    "alias": "18-3932 TCX",
+    "slug": "marlin",
+    "value": "#515B87",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3932-TCX"
+  },
+  {
+    "title": "Skipper Blue",
+    "alias": "19-3936 TCX",
+    "slug": "skipper-blue",
+    "value": "#484A72",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3936-TCX"
+  },
+  {
+    "title": "Oceana",
+    "alias": "19-3934 TCX",
+    "slug": "oceana",
+    "value": "#3C4862",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3934-TCX"
+  },
+  {
+    "title": "Naval Academy",
+    "alias": "19-3932 TCX",
+    "slug": "naval-academy",
+    "value": "#2E344A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3932-TCX"
+  },
+  {
+    "title": "Bellwether Blue",
+    "alias": "19-3943 TCX",
+    "slug": "bellwether-blue",
+    "value": "#23305B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3943-TCX"
+  },
+  {
+    "title": "Midnight Sail",
+    "alias": "19-3851 TCX",
+    "slug": "midnight-sail",
+    "value": "#323455",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3851-TCX"
+  },
+  {
+    "title": "Beacon Blue",
+    "alias": "19-3942 TCX",
+    "slug": "beacon-blue",
+    "value": "#252A50",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3942-TCX"
+  },
+  {
+    "title": "Ocean Cavern",
+    "alias": "19-3937 TCX",
+    "slug": "ocean-cavern",
+    "value": "#252A48",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3937-TCX"
+  },
+  {
+    "title": "Deep Cobalt",
+    "alias": "19-3935 TCX",
+    "slug": "deep-cobalt",
+    "value": "#404466",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3935-TCX"
+  },
+  {
+    "title": "Estate Blue",
+    "alias": "19-4027 TCX",
+    "slug": "estate-blue",
+    "value": "#233658",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4027-TCX"
+  },
+  {
+    "title": "Twilight Blue",
+    "alias": "19-3938 TCX",
+    "slug": "twilight-blue",
+    "value": "#313D64",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3938-TCX"
+  },
+  {
+    "title": "Blueprint",
+    "alias": "19-3939 TCX",
+    "slug": "blueprint",
+    "value": "#2D3359",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3939-TCX"
+  },
+  {
+    "title": "Blue Depths",
+    "alias": "19-3940 TCX",
+    "slug": "blue-depths",
+    "value": "#263056",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3940-TCX"
+  },
+  {
+    "title": "Medieval Blue",
+    "alias": "19-3933 TCX",
+    "slug": "medieval-blue",
+    "value": "#2A304E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3933-TCX"
+  },
+  {
+    "title": "Patriot Blue",
+    "alias": "19-3925 TCX",
+    "slug": "patriot-blue",
+    "value": "#363756",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3925-TCX"
+  },
+  {
+    "title": "Pageant Blue",
+    "alias": "19-4111 TCX",
+    "slug": "pageant-blue",
+    "value": "#1F2C43",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4111-TCX"
+  },
+  {
+    "title": "After Midnight",
+    "alias": "19-4109 TCX",
+    "slug": "after-midnight",
+    "value": "#30343F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4109-TCX"
+  },
+  {
+    "title": "Seaborne",
+    "alias": "19-4018 TCX",
+    "slug": "seaborne",
+    "value": "#2E2E3B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4018-TCX"
+  },
+  {
+    "title": "Baritone Blue",
+    "alias": "19-3812 TCX",
+    "slug": "baritone-blue",
+    "value": "#272836",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3812-TCX"
+  },
+  {
+    "title": "Spellbound",
+    "alias": "19-4017 TCX",
+    "slug": "spellbound",
+    "value": "#333B4C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4017-TCX"
+  },
+  {
+    "title": "Polar Night",
+    "alias": "19-4105 TCX",
+    "slug": "polar-night",
+    "value": "#343540",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4105-TCX"
+  },
+  {
+    "title": "Black Iris",
+    "alias": "19-3921 TCX",
+    "slug": "black-iris",
+    "value": "#2B3042",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3921-TCX"
+  },
+  {
+    "title": "Maritime Blue",
+    "alias": "19-3831 TCX",
+    "slug": "maritime-blue",
+    "value": "#27293D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3831-TCX"
+  },
+  {
+    "title": "Mood Indigo",
+    "alias": "19-4025 TCX",
+    "slug": "mood-indigo",
+    "value": "#353A4C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4025-TCX"
+  },
+  {
+    "title": "Peacoat",
+    "alias": "19-3920 TCX",
+    "slug": "peacoat",
+    "value": "#2B2E43",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3920-TCX"
+  },
+  {
+    "title": "Total Eclipse",
+    "alias": "19-4010 TCX",
+    "slug": "total-eclipse",
+    "value": "#2D313D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4010-TCX"
+  },
+  {
+    "title": "Parisian Night",
+    "alias": "19-4022 TCX",
+    "slug": "parisian-night",
+    "value": "#323441",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4022-TCX"
+  },
+  {
+    "title": "Dark Sapphire",
+    "alias": "19-4020 TCX",
+    "slug": "dark-sapphire",
+    "value": "#262B37",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4020-TCX"
+  },
+  {
+    "title": "Odyssey Gray",
+    "alias": "19-3930 TCX",
+    "slug": "odyssey-gray",
+    "value": "#444552",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3930-TCX"
+  },
+  {
+    "title": "Outer Space",
+    "alias": "19-4009 TCX",
+    "slug": "outer-space",
+    "value": "#2F3441",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4009-TCX"
+  },
+  {
+    "title": "Graphite",
+    "alias": "19-3927 TCX",
+    "slug": "graphite",
+    "value": "#3B3B48",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3927-TCX"
+  },
+  {
+    "title": "Blue Nights",
+    "alias": "19-4023 TCX",
+    "slug": "blue-nights",
+    "value": "#363B48",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4023-TCX"
+  },
+  {
+    "title": "Navy Blazer",
+    "alias": "19-3923 TCX",
+    "slug": "navy-blazer",
+    "value": "#282D3C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3923-TCX"
+  },
+  {
+    "title": "Sky Captain",
+    "alias": "19-3922 TCX",
+    "slug": "sky-captain",
+    "value": "#262934",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3922-TCX"
+  },
+  {
+    "title": "Ombre Blue",
+    "alias": "19-4014 TCX",
+    "slug": "ombre-blue",
+    "value": "#434854",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4014-TCX"
+  },
+  {
+    "title": "India Ink",
+    "alias": "19-4019 TCX",
+    "slug": "india-ink",
+    "value": "#3C3F4A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4019-TCX"
+  },
+  {
+    "title": "Dark Navy",
+    "alias": "19-4013 TCX",
+    "slug": "dark-navy",
+    "value": "#2E2F36",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4013-TCX"
+  },
+  {
+    "title": "Salute",
+    "alias": "19-4011 TCX",
+    "slug": "salute",
+    "value": "#282B34",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4011-TCX"
+  },
+  {
+    "title": "Vulcan",
+    "alias": "19-4218 TCX",
+    "slug": "vulcan",
+    "value": "#2E3036",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4218-TCX"
+  },
+  {
+    "title": "Night Sky",
+    "alias": "19-3924 TCX",
+    "slug": "night-sky",
+    "value": "#2A2A35",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3924-TCX"
+  },
+  {
+    "title": "Magical Forest",
+    "alias": "19-4908 TCX",
+    "slug": "magical-forest",
+    "value": "#2E3C41",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4908-TCX"
+  },
+  {
+    "title": "Stratified Sea",
+    "alias": "19-4112 TCX",
+    "slug": "stratified-sea",
+    "value": "#313F4A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4112-TCX"
+  },
+  {
+    "title": "Sea Storm",
+    "alias": "19-4108 TCX",
+    "slug": "sea-storm",
+    "value": "#323C46",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4108-TCX"
+  },
+  {
+    "title": "Overture",
+    "alias": "19-3944 TCX",
+    "slug": "overture",
+    "value": "#343646",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3944-TCX"
+  },
+  {
+    "title": "Inkwell",
+    "alias": "19-4016 TCX",
+    "slug": "inkwell",
+    "value": "#363945",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4016-TCX"
+  },
+  {
+    "title": "Collegiate Blue ",
+    "alias": "19-4051 TCX",
+    "slug": "collegiate-blue ",
+    "value": "#323841",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4051-TCX"
+  },
+  {
+    "title": "Sleet",
+    "alias": "16-3916 TCX",
+    "slug": "sleet",
+    "value": "#92949B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-3916-TCX"
+  },
+  {
+    "title": "Tradewinds",
+    "alias": "15-4307 TCX",
+    "slug": "tradewinds",
+    "value": "#7F8792",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4307-TCX"
+  },
+  {
+    "title": "Stormy Weather",
+    "alias": "18-4214 TCX",
+    "slug": "stormy-weather",
+    "value": "#58646D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4214-TCX"
+  },
+  {
+    "title": "Turbulence",
+    "alias": "19-4215 TCX",
+    "slug": "turbulence",
+    "value": "#4E545B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4215-TCX"
+  },
+  {
+    "title": "Midnight Navy",
+    "alias": "19-4110 TCX",
+    "slug": "midnight-navy",
+    "value": "#34414E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4110-TCX"
+  },
+  {
+    "title": "Blueberry",
+    "alias": "19-4021 TCX",
+    "slug": "blueberry",
+    "value": "#2C333E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4021-TCX"
+  },
+  {
+    "title": "Carbon",
+    "alias": "19-4012 TCX",
+    "slug": "carbon",
+    "value": "#272F38",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4012-TCX"
+  },
+  {
+    "title": "Blue Shadow",
+    "alias": "17-4020 TCX",
+    "slug": "blue-shadow",
+    "value": "#67829A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4020-TCX"
+  },
+  {
+    "title": "Indian Teal",
+    "alias": "19-4227 TCX",
+    "slug": "indian-teal",
+    "value": "#3C586B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4227-TCX"
+  },
+  {
+    "title": "Mallard Blue",
+    "alias": "19-4318 TCX",
+    "slug": "mallard-blue",
+    "value": "#3A5C6E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4318-TCX"
+  },
+  {
+    "title": "China Blue",
+    "alias": "18-3918 TCX",
+    "slug": "china-blue",
+    "value": "#546477",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3918-TCX"
+  },
+  {
+    "title": "Orion Blue",
+    "alias": "19-4229 TCX",
+    "slug": "orion-blue",
+    "value": "#3E4F5C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4229-TCX"
+  },
+  {
+    "title": "Dark Slate",
+    "alias": "19-4220 TCX",
+    "slug": "dark-slate",
+    "value": "#46515A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4220-TCX"
+  },
+  {
+    "title": "Stargazer",
+    "alias": "19-4316 TCX",
+    "slug": "stargazer",
+    "value": "#39505C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4316-TCX"
+  },
+  {
+    "title": "Mountain Spring",
+    "alias": "17-4019 TCX",
+    "slug": "mountain-spring",
+    "value": "#7A92A5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4019-TCX"
+  },
+  {
+    "title": "Windward Blue",
+    "alias": "17-4018 TCX",
+    "slug": "windward-blue",
+    "value": "#708497",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4018-TCX"
+  },
+  {
+    "title": "Spring Lake",
+    "alias": "18-4221 TCX",
+    "slug": "spring-lake",
+    "value": "#667E91",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4221-TCX"
+  },
+  {
+    "title": "Blue Fusion",
+    "alias": "18-4218 TCX",
+    "slug": "blue-fusion",
+    "value": "#496275",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4218-TCX"
+  },
+  {
+    "title": "Oceanview",
+    "alias": "18-3923 TCX",
+    "slug": "oceanview",
+    "value": "#4F677A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3923-TCX"
+  },
+  {
+    "title": "Key Largo",
+    "alias": "19-4129 TCX",
+    "slug": "key-largo",
+    "value": "#34465A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4129-TCX"
+  },
+  {
+    "title": "Titan",
+    "alias": "19-4128 TCX",
+    "slug": "titan",
+    "value": "#263B51",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4128-TCX"
+  },
+  {
+    "title": "Provincial Blue",
+    "alias": "18-4220 TCX",
+    "slug": "provincial-blue",
+    "value": "#5C798E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4220-TCX"
+  },
+  {
+    "title": "Bluestone",
+    "alias": "18-4217 TCX",
+    "slug": "bluestone",
+    "value": "#587284",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4217-TCX"
+  },
+  {
+    "title": "Aegean Blue",
+    "alias": "18-4320 TCX",
+    "slug": "aegean-blue",
+    "value": "#4E6E81",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4320-TCX"
+  },
+  {
+    "title": "Coronet Blue",
+    "alias": "18-3922 TCX",
+    "slug": "coronet-blue",
+    "value": "#59728E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3922-TCX"
+  },
+  {
+    "title": "Captain's Blue",
+    "alias": "18-4020 TCX",
+    "slug": "captain's-blue",
+    "value": "#557088",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4020-TCX"
+  },
+  {
+    "title": "Copen Blue",
+    "alias": "18-4025 TCX",
+    "slug": "copen-blue",
+    "value": "#516B84",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4025-TCX"
+  },
+  {
+    "title": "Stellar",
+    "alias": "18-4026 TCX",
+    "slug": "stellar",
+    "value": "#46647E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4026-TCX"
+  },
+  {
+    "title": "Blue Mirage",
+    "alias": "18-4215 TCX",
+    "slug": "blue-mirage",
+    "value": "#5C6D7C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4215-TCX"
+  },
+  {
+    "title": "Bering Sea",
+    "alias": "18-4028 TCX",
+    "slug": "bering-sea",
+    "value": "#4B5B6E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4028-TCX"
+  },
+  {
+    "title": "Deep Dive",
+    "alias": "19-4126 TCX",
+    "slug": "deep-dive",
+    "value": "#29495C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4126-TCX"
+  },
+  {
+    "title": "Gibraltar Sea",
+    "alias": "19-4038 TCX",
+    "slug": "gibraltar-sea",
+    "value": "#133951",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4038-TCX"
+  },
+  {
+    "title": "Blue Opal",
+    "alias": "19-4120 TCX",
+    "slug": "blue-opal",
+    "value": "#103B58",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4120-TCX"
+  },
+  {
+    "title": "Sailor Blue ",
+    "alias": "19-4034 TCX",
+    "slug": "sailor-blue ",
+    "value": "#0F3B53",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4034-TCX"
+  },
+  {
+    "title": "Majolica Blue",
+    "alias": "19-4125 TCX",
+    "slug": "majolica-blue",
+    "value": "#284357",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4125-TCX"
+  },
+  {
+    "title": "Blue Heaven",
+    "alias": "17-4023 TCX",
+    "slug": "blue-heaven",
+    "value": "#5B7E98",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4023-TCX"
+  },
+  {
+    "title": "Bluesteel",
+    "alias": "18-4222 TCX",
+    "slug": "bluesteel",
+    "value": "#36637C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4222-TCX"
+  },
+  {
+    "title": "Real Teal",
+    "alias": "18-4018 TCX",
+    "slug": "real-teal",
+    "value": "#405D73",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4018-TCX"
+  },
+  {
+    "title": "Midnight",
+    "alias": "19-4127 TCX",
+    "slug": "midnight",
+    "value": "#325B74",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4127-TCX"
+  },
+  {
+    "title": "Blue Ashes",
+    "alias": "18-4023 TCX",
+    "slug": "blue-ashes",
+    "value": "#3B5F78",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4023-TCX"
+  },
+  {
+    "title": "Ink Blue",
+    "alias": "19-4234 TCX",
+    "slug": "ink-blue",
+    "value": "#0B5369",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4234-TCX"
+  },
+  {
+    "title": "Moroccan Blue",
+    "alias": "19-4241 TCX",
+    "slug": "moroccan-blue",
+    "value": "#104E67",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4241-TCX"
+  },
+  {
+    "title": "Gray Dawn",
+    "alias": "14-4106 TCX",
+    "slug": "gray-dawn",
+    "value": "#BBC1CC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4106-TCX"
+  },
+  {
+    "title": "Pearl Blue",
+    "alias": "14-4206 TCX",
+    "slug": "pearl-blue",
+    "value": "#B0B7BE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4206-TCX"
+  },
+  {
+    "title": "Celestial Blue",
+    "alias": "14-4210 TCX",
+    "slug": "celestial-blue",
+    "value": "#A3B4C4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4210-TCX"
+  },
+  {
+    "title": "Blue Fog",
+    "alias": "15-4008 TCX",
+    "slug": "blue-fog",
+    "value": "#9BABBB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4008-TCX"
+  },
+  {
+    "title": "Dusty Blue",
+    "alias": "16-4010 TCX",
+    "slug": "dusty-blue",
+    "value": "#8C9DAD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4010-TCX"
+  },
+  {
+    "title": "Ashley Blue",
+    "alias": "16-4013 TCX",
+    "slug": "ashley-blue",
+    "value": "#8699AB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4013-TCX"
+  },
+  {
+    "title": "Faded Denim",
+    "alias": "17-4021 TCX",
+    "slug": "faded-denim",
+    "value": "#798EA4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4021-TCX"
+  },
+  {
+    "title": "Country Air",
+    "alias": "12-4303 TCX",
+    "slug": "country-air",
+    "value": "#CBD9E7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4303-TCX"
+  },
+  {
+    "title": "Delicate Blue",
+    "alias": "12-4202 TCX",
+    "slug": "delicate-blue",
+    "value": "#C2DAE8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4202-TCX"
+  },
+  {
+    "title": "Skyride",
+    "alias": "14-4215 TCX",
+    "slug": "skyride",
+    "value": "#AFC3D3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4215-TCX"
+  },
+  {
+    "title": "Summer Song",
+    "alias": "14-4316 TCX",
+    "slug": "summer-song",
+    "value": "#A1C3DA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4316-TCX"
+  },
+  {
+    "title": "Clear Sky",
+    "alias": "14-4123 TCX",
+    "slug": "clear-sky",
+    "value": "#9BBCD8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4123-TCX"
+  },
+  {
+    "title": "Subdued Blue",
+    "alias": "14-4209 TCX",
+    "slug": "subdued-blue",
+    "value": "#A4B4C6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4209-TCX"
+  },
+  {
+    "title": "Glacier Lake",
+    "alias": "16-4118 TCX",
+    "slug": "glacier-lake",
+    "value": "#81A0BA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4118-TCX"
+  },
+  {
+    "title": "Plein Air",
+    "alias": "13-4111 TCX",
+    "slug": "plein-air",
+    "value": "#BFCAD6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4111-TCX"
+  },
+  {
+    "title": "Omphalodes",
+    "alias": "13-4200 TCX",
+    "slug": "omphalodes",
+    "value": "#B5CEDF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4200-TCX"
+  },
+  {
+    "title": "Cool Blue",
+    "alias": "14-4317 TCX",
+    "slug": "cool-blue",
+    "value": "#A5C5D9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4317-TCX"
+  },
+  {
+    "title": "Aquamarine",
+    "alias": "14-4313 TCX",
+    "slug": "aquamarine",
+    "value": "#9DC3D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4313-TCX"
+  },
+  {
+    "title": "Dream Blue",
+    "alias": "15-4005 TCX",
+    "slug": "dream-blue",
+    "value": "#A0BCD0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4005-TCX"
+  },
+  {
+    "title": "Sky Blue",
+    "alias": "14-4318 TCX",
+    "slug": "sky-blue",
+    "value": "#8ABAD3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4318-TCX"
+  },
+  {
+    "title": "Air Blue",
+    "alias": "15-4319 TCX",
+    "slug": "air-blue",
+    "value": "#77ACC7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4319-TCX"
+  },
+  {
+    "title": "Angel Falls",
+    "alias": "15-4105 TCX",
+    "slug": "angel-falls",
+    "value": "#A3BDD3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4105-TCX"
+  },
+  {
+    "title": "Dusk Blue",
+    "alias": "16-4120 TCX",
+    "slug": "dusk-blue",
+    "value": "#7BA0C0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4120-TCX"
+  },
+  {
+    "title": "Heritage Blue",
+    "alias": "16-4127 TCX",
+    "slug": "heritage-blue",
+    "value": "#5D96BC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4127-TCX"
+  },
+  {
+    "title": "Niagara",
+    "alias": "17-4123 TCX",
+    "slug": "niagara",
+    "value": "#5587A4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4123-TCX"
+  },
+  {
+    "title": "Cendre Blue",
+    "alias": "17-4131 TCX",
+    "slug": "cendre-blue",
+    "value": "#3F7FA5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4131-TCX"
+  },
+  {
+    "title": "Faience",
+    "alias": "18-4232 TCX",
+    "slug": "faience",
+    "value": "#2A6A8B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4232-TCX"
+  },
+  {
+    "title": "Blue Sapphire",
+    "alias": "18-4231 TCX",
+    "slug": "blue-sapphire",
+    "value": "#0D597D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4231-TCX"
+  },
+  {
+    "title": "Blithe",
+    "alias": "17-4336 TCX",
+    "slug": "blithe",
+    "value": "#0084BD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4336-TCX"
+  },
+  {
+    "title": "Dresden Blue",
+    "alias": "17-4433 TCX",
+    "slug": "dresden-blue",
+    "value": "#0086BB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4433-TCX"
+  },
+  {
+    "title": "Mediterranian Blue",
+    "alias": "18-4334 TCX",
+    "slug": "mediterranian-blue",
+    "value": "#1578A7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4334-TCX"
+  },
+  {
+    "title": "Swedish Blue",
+    "alias": "18-4330 TCX",
+    "slug": "swedish-blue",
+    "value": "#007EB1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4330-TCX"
+  },
+  {
+    "title": "Cloisonné",
+    "alias": "18-4440 TCX",
+    "slug": "cloisonné",
+    "value": "#0075AF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4440-TCX"
+  },
+  {
+    "title": "Diva Blue",
+    "alias": "17-4247 TCX",
+    "slug": "diva-blue",
+    "value": "#007BB2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4247-TCX"
+  },
+  {
+    "title": "Mykonos Blue",
+    "alias": "18-4434 TCX",
+    "slug": "mykonos-blue",
+    "value": "#005780",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4434-TCX"
+  },
+  {
+    "title": "Norse Blue",
+    "alias": "15-4427 TCX",
+    "slug": "norse-blue",
+    "value": "#4CA5C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4427-TCX"
+  },
+  {
+    "title": "Hawaiian Ocean",
+    "alias": "17-4540 TCX",
+    "slug": "hawaiian-ocean",
+    "value": "#008DB9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4540-TCX"
+  },
+  {
+    "title": "Vivid Blue",
+    "alias": "17-4432 TCX",
+    "slug": "vivid-blue",
+    "value": "#0088B0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4432-TCX"
+  },
+  {
+    "title": "Blue Danube",
+    "alias": "17-4440 TCX",
+    "slug": "blue-danube",
+    "value": "#0087B6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4440-TCX"
+  },
+  {
+    "title": "Blue Jewel",
+    "alias": "18-4535 TCX",
+    "slug": "blue-jewel",
+    "value": "#0079A7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4535-TCX"
+  },
+  {
+    "title": "Hawaiian Surf",
+    "alias": "18-4538 TCX",
+    "slug": "hawaiian-surf",
+    "value": "#0079A8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4538-TCX"
+  },
+  {
+    "title": "Methyl Blue",
+    "alias": "18-4537 TCX",
+    "slug": "methyl-blue",
+    "value": "#0074A8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4537-TCX"
+  },
+  {
+    "title": "Atomizer",
+    "alias": "14-4514 TCX",
+    "slug": "atomizer",
+    "value": "#9AD4EA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4514-TCX"
+  },
+  {
+    "title": "Splish Splash",
+    "alias": "16-4520 TCX",
+    "slug": "splish-splash",
+    "value": "#69BBDD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4520-TCX"
+  },
+  {
+    "title": "Blue Grotto",
+    "alias": "15-4421 TCX",
+    "slug": "blue-grotto",
+    "value": "#5DACCE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4421-TCX"
+  },
+  {
+    "title": "Crystal Seas",
+    "alias": "15-4428 TCX",
+    "slug": "crystal-seas",
+    "value": "#5EB0CF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4428-TCX"
+  },
+  {
+    "title": "Swim Cap",
+    "alias": "16-4526 TCX",
+    "slug": "swim-cap",
+    "value": "#38A4D0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4526-TCX"
+  },
+  {
+    "title": "Aquarius",
+    "alias": "16-4530 TCX",
+    "slug": "aquarius",
+    "value": "#3CADD4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4530-TCX"
+  },
+  {
+    "title": "Cyan Blue",
+    "alias": "16-4529 TCX",
+    "slug": "cyan-blue",
+    "value": "#15A3C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4529-TCX"
+  },
+  {
+    "title": "Tropical Breeze",
+    "alias": "13-4307 TCX",
+    "slug": "tropical-breeze",
+    "value": "#88CDE7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4307-TCX"
+  },
+  {
+    "title": "Blue Topaz",
+    "alias": "14-4310 TCX",
+    "slug": "blue-topaz",
+    "value": "#78BDD4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4310-TCX"
+  },
+  {
+    "title": "Bachelor Button",
+    "alias": "14-4522 TCX",
+    "slug": "bachelor-button",
+    "value": "#4ABBD5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4522-TCX"
+  },
+  {
+    "title": "River Blue",
+    "alias": "15-4720 TCX",
+    "slug": "river-blue",
+    "value": "#38AECD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4720-TCX"
+  },
+  {
+    "title": "Blue Atoll",
+    "alias": "16-4535 TCX",
+    "slug": "blue-atoll",
+    "value": "#00B1D2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4535-TCX"
+  },
+  {
+    "title": "Horizon Blue",
+    "alias": "16-4427 TCX",
+    "slug": "horizon-blue",
+    "value": "#289DBE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4427-TCX"
+  },
+  {
+    "title": "Bluejay",
+    "alias": "17-4427 TCX",
+    "slug": "bluejay",
+    "value": "#167EA0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4427-TCX"
+  },
+  {
+    "title": "Cooling Spray",
+    "alias": "13-4410 TCX",
+    "slug": "cooling-spray",
+    "value": "#C3E1EE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4410-TCX"
+  },
+  {
+    "title": "Quiet Tide",
+    "alias": "13-4401 TCX",
+    "slug": "quiet-tide",
+    "value": "#C0E3F0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4401-TCX"
+  },
+  {
+    "title": "Spun Sugar",
+    "alias": "12-4401 TCX",
+    "slug": "spun-sugar",
+    "value": "#B4DCEA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4401-TCX"
+  },
+  {
+    "title": "Corydalis Blue",
+    "alias": "14-4311 TCX",
+    "slug": "corydalis-blue",
+    "value": "#A9CADA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4311-TCX"
+  },
+  {
+    "title": "Crystal Blue",
+    "alias": "13-4411 TCX",
+    "slug": "crystal-blue",
+    "value": "#A1C8DB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4411-TCX"
+  },
+  {
+    "title": "Petit four",
+    "alias": "14-4516 TCX",
+    "slug": "petit-four",
+    "value": "#87C2D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4516-TCX"
+  },
+  {
+    "title": "Blue Mist",
+    "alias": "16-4421 TCX",
+    "slug": "blue-mist",
+    "value": "#5BACC3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4421-TCX"
+  },
+  {
+    "title": "Fjord Blue",
+    "alias": "18-4430 TCX",
+    "slug": "fjord-blue",
+    "value": "#007291",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4430-TCX"
+  },
+  {
+    "title": "Mosaic Blue",
+    "alias": "18-4528 TCX",
+    "slug": "mosaic-blue",
+    "value": "#00758F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4528-TCX"
+  },
+  {
+    "title": "Turkish Tile",
+    "alias": "18-4432 TCX",
+    "slug": "turkish-tile",
+    "value": "#00698B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4432-TCX"
+  },
+  {
+    "title": "Celestial",
+    "alias": "18-4530 TCX",
+    "slug": "celestial",
+    "value": "#006380",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4530-TCX"
+  },
+  {
+    "title": "Saxony Blue",
+    "alias": "18-4225 TCX",
+    "slug": "saxony-blue",
+    "value": "#1F6680",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4225-TCX"
+  },
+  {
+    "title": "Seaport",
+    "alias": "19-4342 TCX",
+    "slug": "seaport",
+    "value": "#005E7D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4342-TCX"
+  },
+  {
+    "title": "Corsair",
+    "alias": "19-4329 TCX",
+    "slug": "corsair",
+    "value": "#19576C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4329-TCX"
+  },
+  {
+    "title": "Blue Moon",
+    "alias": "17-4328 TCX",
+    "slug": "blue-moon",
+    "value": "#3686A0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4328-TCX"
+  },
+  {
+    "title": "Navagio Bay",
+    "alias": "17-4429 TCX",
+    "slug": "navagio-bay",
+    "value": "#3284A1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4429-TCX"
+  },
+  {
+    "title": "Tahitian Tide",
+    "alias": "18-4630 TCX",
+    "slug": "tahitian-tide",
+    "value": "#006C7F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4630-TCX"
+  },
+  {
+    "title": "Crystal Teal",
+    "alias": "19-4536 TCX",
+    "slug": "crystal-teal",
+    "value": "#00637C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4536-TCX"
+  },
+  {
+    "title": "Deep Lagoon",
+    "alias": "19-4540 TCX",
+    "slug": "deep-lagoon",
+    "value": "#005366",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4540-TCX"
+  },
+  {
+    "title": "Ocean Depths",
+    "alias": "19-4535 TCX",
+    "slug": "ocean-depths",
+    "value": "#006175",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4535-TCX"
+  },
+  {
+    "title": "Lyons Blue",
+    "alias": "19-4340 TCX",
+    "slug": "lyons-blue",
+    "value": "#015871",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4340-TCX"
+  },
+  {
+    "title": "Maui Blue",
+    "alias": "16-4525 TCX",
+    "slug": "maui-blue",
+    "value": "#52A2B4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4525-TCX"
+  },
+  {
+    "title": "Algiers Blue",
+    "alias": "17-4728 TCX",
+    "slug": "algiers-blue",
+    "value": "#00859C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4728-TCX"
+  },
+  {
+    "title": "Barrier Reef",
+    "alias": "17-4530 TCX",
+    "slug": "barrier-reef",
+    "value": "#0084A1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4530-TCX"
+  },
+  {
+    "title": "Caneel Bay",
+    "alias": "17-4730 TCX",
+    "slug": "caneel-bay",
+    "value": "#00849F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4730-TCX"
+  },
+  {
+    "title": "Caribbean Sea",
+    "alias": "18-4525 TCX",
+    "slug": "caribbean-sea",
+    "value": "#00819D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4525-TCX"
+  },
+  {
+    "title": "Capri Breeze",
+    "alias": "17-4735 TCX",
+    "slug": "capri-breeze",
+    "value": "#008799",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4735-TCX"
+  },
+  {
+    "title": "Enamel Blue",
+    "alias": "18-4733 TCX",
+    "slug": "enamel-blue",
+    "value": "#007A8E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4733-TCX"
+  },
+  {
+    "title": "Clearwater",
+    "alias": "12-4608 TCX",
+    "slug": "clearwater",
+    "value": "#AAD5DB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4608-TCX"
+  },
+  {
+    "title": "Blue Radiance",
+    "alias": "14-4816 TCX",
+    "slug": "blue-radiance",
+    "value": "#58C9D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4816-TCX"
+  },
+  {
+    "title": "Capri",
+    "alias": "15-4722 TCX",
+    "slug": "capri",
+    "value": "#44BBCA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4722-TCX"
+  },
+  {
+    "title": "Blue Curacao",
+    "alias": "15-4825 TCX",
+    "slug": "blue-curacao",
+    "value": "#33BECC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4825-TCX"
+  },
+  {
+    "title": "Scuba Blue",
+    "alias": "16-4725 TCX",
+    "slug": "scuba-blue",
+    "value": "#00ABC0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4725-TCX"
+  },
+  {
+    "title": "Bluebird",
+    "alias": "16-4834 TCX",
+    "slug": "bluebird",
+    "value": "#009DAE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4834-TCX"
+  },
+  {
+    "title": "Peacock Blue",
+    "alias": "16-4728 TCX",
+    "slug": "peacock-blue",
+    "value": "#00A0B0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4728-TCX"
+  },
+  {
+    "title": "Blue Glow",
+    "alias": "13-4409 TCX",
+    "slug": "blue-glow",
+    "value": "#B2D4DD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4409-TCX"
+  },
+  {
+    "title": "Aquatic",
+    "alias": "14-4510 TCX",
+    "slug": "aquatic",
+    "value": "#9AC1CC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4510-TCX"
+  },
+  {
+    "title": "Sea Angel",
+    "alias": "14-4315 TCX",
+    "slug": "sea-angel",
+    "value": "#98BFCB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4315-TCX"
+  },
+  {
+    "title": "Iced Aqua",
+    "alias": "13-5410 TCX",
+    "slug": "iced-aqua",
+    "value": "#ACD3DC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-5410-TCX"
+  },
+  {
+    "title": "Stratosphere",
+    "alias": "14-4508 TCX",
+    "slug": "stratosphere",
+    "value": "#9EC1CC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4508-TCX"
+  },
+  {
+    "title": "Porcelain Blue",
+    "alias": "14-4512 TCX",
+    "slug": "porcelain-blue",
+    "value": "#95C0CB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4512-TCX"
+  },
+  {
+    "title": "Milky Blue",
+    "alias": "15-4415 TCX",
+    "slug": "milky-blue",
+    "value": "#72A8BA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4415-TCX"
+  },
+  {
+    "title": "Ballad Blue",
+    "alias": "13-4304 TCX",
+    "slug": "ballad-blue",
+    "value": "#C0CEDA",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4304-TCX"
+  },
+  {
+    "title": "Baby Blue",
+    "alias": "13-4308 TCX",
+    "slug": "baby-blue",
+    "value": "#B5C7D3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4308-TCX"
+  },
+  {
+    "title": "Forget-Me-Not",
+    "alias": "15-4312 TCX",
+    "slug": "forget-me-not",
+    "value": "#8FADBD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4312-TCX"
+  },
+  {
+    "title": "Delphinium Blue",
+    "alias": "16-4519 TCX",
+    "slug": "delphinium-blue",
+    "value": "#6198AE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4519-TCX"
+  },
+  {
+    "title": "Adriatic Blue",
+    "alias": "17-4320 TCX",
+    "slug": "adriatic-blue",
+    "value": "#5C899B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4320-TCX"
+  },
+  {
+    "title": "Larkspur",
+    "alias": "17-4421 TCX",
+    "slug": "larkspur",
+    "value": "#3C7D90",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4421-TCX"
+  },
+  {
+    "title": "Storm Blue",
+    "alias": "17-4716 TCX",
+    "slug": "storm-blue",
+    "value": "#47788A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4716-TCX"
+  },
+  {
+    "title": "Arona",
+    "alias": "16-4109 TCX",
+    "slug": "arona",
+    "value": "#879BA3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4109-TCX"
+  },
+  {
+    "title": "Smoke Blue",
+    "alias": "17-4412 TCX",
+    "slug": "smoke-blue",
+    "value": "#6D8994",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4412-TCX"
+  },
+  {
+    "title": "Citadel",
+    "alias": "17-4111 TCX",
+    "slug": "citadel",
+    "value": "#748995",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4111-TCX"
+  },
+  {
+    "title": "Tapestry",
+    "alias": "18-4417 TCX",
+    "slug": "tapestry",
+    "value": "#436573",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4417-TCX"
+  },
+  {
+    "title": "Blue Coral",
+    "alias": "19-4526 TCX",
+    "slug": "blue-coral",
+    "value": "#1C5366",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4526-TCX"
+  },
+  {
+    "title": "Legion Blue",
+    "alias": "19-4324 TCX",
+    "slug": "legion-blue",
+    "value": "#1F495B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4324-TCX"
+  },
+  {
+    "title": "Reflecting Pond",
+    "alias": "19-4326 TCX",
+    "slug": "reflecting-pond",
+    "value": "#203E4A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4326-TCX"
+  },
+  {
+    "title": "Ice Flow",
+    "alias": "13-4404 TCX",
+    "slug": "ice-flow",
+    "value": "#C6D2D2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4404-TCX"
+  },
+  {
+    "title": "Illusion Blue",
+    "alias": "13-4103 TCX",
+    "slug": "illusion-blue",
+    "value": "#C9D3DC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4103-TCX"
+  },
+  {
+    "title": "Cloud Blue",
+    "alias": "14-4306 TCX",
+    "slug": "cloud-blue",
+    "value": "#A2B6B9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4306-TCX"
+  },
+  {
+    "title": "Ether",
+    "alias": "14-4506 TCX",
+    "slug": "ether",
+    "value": "#9EB6B8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4506-TCX"
+  },
+  {
+    "title": "Tourmaline",
+    "alias": "16-4411 TCX",
+    "slug": "tourmaline",
+    "value": "#86A1A9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4411-TCX"
+  },
+  {
+    "title": "Stone Blue",
+    "alias": "16-4114 TCX",
+    "slug": "stone-blue",
+    "value": "#829CA5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4114-TCX"
+  },
+  {
+    "title": "Cameo Blue",
+    "alias": "16-4414 TCX",
+    "slug": "cameo-blue",
+    "value": "#769DA6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4414-TCX"
+  },
+  {
+    "title": "Winter Sky",
+    "alias": "14-4307 TCX",
+    "slug": "winter-sky",
+    "value": "#A9C0CB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4307-TCX"
+  },
+  {
+    "title": "Sterling Blue",
+    "alias": "15-4309 TCX",
+    "slug": "sterling-blue",
+    "value": "#A2B9C2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4309-TCX"
+  },
+  {
+    "title": "Reef Waters",
+    "alias": "16-4612 TCX",
+    "slug": "reef-waters",
+    "value": "#6F9FA9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4612-TCX"
+  },
+  {
+    "title": "Stillwater",
+    "alias": "16-4610 TCX",
+    "slug": "stillwater",
+    "value": "#70A4B0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4610-TCX"
+  },
+  {
+    "title": "Aqua",
+    "alias": "15-4717 TCX",
+    "slug": "aqua",
+    "value": "#65A1AD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4717-TCX"
+  },
+  {
+    "title": "Meadowbrook",
+    "alias": "16-5121 TCX",
+    "slug": "meadowbrook",
+    "value": "#60A0A3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5121-TCX"
+  },
+  {
+    "title": "Porcelain",
+    "alias": "16-4719 TCX",
+    "slug": "porcelain",
+    "value": "#5D9CA4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4719-TCX"
+  },
+  {
+    "title": "Starlight Blue",
+    "alias": "12-4609 TCX",
+    "slug": "starlight-blue",
+    "value": "#B5CED4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4609-TCX"
+  },
+  {
+    "title": "Plume",
+    "alias": "13-4809 TCX",
+    "slug": "plume",
+    "value": "#A5CFD5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4809-TCX"
+  },
+  {
+    "title": "Marine Blue",
+    "alias": "15-4712 TCX",
+    "slug": "marine-blue",
+    "value": "#76AFB6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4712-TCX"
+  },
+  {
+    "title": "Aquarelle",
+    "alias": "15-4714 TCX",
+    "slug": "aquarelle",
+    "value": "#61AAB1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4714-TCX"
+  },
+  {
+    "title": "Aqua Sea",
+    "alias": "15-4715 TCX",
+    "slug": "aqua-sea",
+    "value": "#6BAAAE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4715-TCX"
+  },
+  {
+    "title": "Aqua Haze",
+    "alias": "15-5209 TCX",
+    "slug": "aqua-haze",
+    "value": "#87B9BB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-5209-TCX"
+  },
+  {
+    "title": "Nile Blue",
+    "alias": "15-5210 TCX",
+    "slug": "nile-blue",
+    "value": "#76A7AB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-5210-TCX"
+  },
+  {
+    "title": "Saltwater Slide",
+    "alias": "12-4611 TCX",
+    "slug": "saltwater-slide",
+    "value": "#CBE9F2",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4611-TCX"
+  },
+  {
+    "title": "Aqua-esque",
+    "alias": "13-5411 TCX",
+    "slug": "aqua-esque",
+    "value": "#A3CCD6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-5411-TCX"
+  },
+  {
+    "title": "Blue Elixir",
+    "alias": "14-4515 TCX",
+    "slug": "blue-elixir",
+    "value": "#8DCCDD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4515-TCX"
+  },
+  {
+    "title": "Cabana Blue",
+    "alias": "14-4513 TCX",
+    "slug": "cabana-blue",
+    "value": "#76B5C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4513-TCX"
+  },
+  {
+    "title": "Gulf Stream",
+    "alias": "14-4511 TCX",
+    "slug": "gulf-stream",
+    "value": "#89C3D0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4511-TCX"
+  },
+  {
+    "title": "Barbados Beach",
+    "alias": "15-4710 TCX",
+    "slug": "barbados-beach",
+    "value": "#63B7C5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4710-TCX"
+  },
+  {
+    "title": "Ipanema",
+    "alias": "15-4716 TCX",
+    "slug": "ipanema",
+    "value": "#62BBC5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4716-TCX"
+  },
+  {
+    "title": "Island Paradise",
+    "alias": "14-4620 TCX",
+    "slug": "island-paradise",
+    "value": "#96DFE4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4620-TCX"
+  },
+  {
+    "title": "Tanager Turquoise",
+    "alias": "13-4720 TCX",
+    "slug": "tanager-turquoise",
+    "value": "#91DDE8",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4720-TCX"
+  },
+  {
+    "title": "Aqua Splash",
+    "alias": "14-4812 TCX",
+    "slug": "aqua-splash",
+    "value": "#85CED1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4812-TCX"
+  },
+  {
+    "title": "Limpet Shell",
+    "alias": "13-4810 TCX",
+    "slug": "limpet-shell",
+    "value": "#98DDDF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4810-TCX"
+  },
+  {
+    "title": "Tibetan Stone",
+    "alias": "14-4710 TCX",
+    "slug": "tibetan-stone",
+    "value": "#83C2C7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4710-TCX"
+  },
+  {
+    "title": "Angel Blue",
+    "alias": "14-4814 TCX",
+    "slug": "angel-blue",
+    "value": "#83C5CD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4814-TCX"
+  },
+  {
+    "title": "Antigua Sand",
+    "alias": "14-4615 TCX",
+    "slug": "antigua-sand",
+    "value": "#84C3CE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4615-TCX"
+  },
+  {
+    "title": "Waterspout",
+    "alias": "14-4618 TCX",
+    "slug": "waterspout",
+    "value": "#96D8DE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4618-TCX"
+  },
+  {
+    "title": "Amazonite",
+    "alias": "14-4818 TCX",
+    "slug": "amazonite",
+    "value": "#77BABE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4818-TCX"
+  },
+  {
+    "title": "Leisure Time",
+    "alias": "14-4815 TCX",
+    "slug": "leisure-time",
+    "value": "#7FBFC5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4815-TCX"
+  },
+  {
+    "title": "Coastal Shade",
+    "alias": "15-4711 TCX",
+    "slug": "coastal-shade",
+    "value": "#6AA8AF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4711-TCX"
+  },
+  {
+    "title": "Sea Jet",
+    "alias": "15-4713 TCX",
+    "slug": "sea-jet",
+    "value": "#54AFBC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4713-TCX"
+  },
+  {
+    "title": "Tahitian Teal",
+    "alias": "17-4725 TCX",
+    "slug": "tahitian-teal",
+    "value": "#00899B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4725-TCX"
+  },
+  {
+    "title": "Exotic Plume",
+    "alias": "18-4631 TCX",
+    "slug": "exotic-plume",
+    "value": "#006E7F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4631-TCX"
+  },
+  {
+    "title": "Lake Blue",
+    "alias": "17-4928 TCX",
+    "slug": "lake-blue",
+    "value": "#008C96",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4928-TCX"
+  },
+  {
+    "title": "Tile Blue",
+    "alias": "18-4735 TCX",
+    "slug": "tile-blue",
+    "value": "#008491",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4735-TCX"
+  },
+  {
+    "title": "Biscay Bay",
+    "alias": "18-4726 TCX",
+    "slug": "biscay-bay",
+    "value": "#097988",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4726-TCX"
+  },
+  {
+    "title": "Pagoda Blue",
+    "alias": "17-4724 TCX",
+    "slug": "pagoda-blue",
+    "value": "#1B7F8E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4724-TCX"
+  },
+  {
+    "title": "Harbor Blue",
+    "alias": "18-4728 TCX",
+    "slug": "harbor-blue",
+    "value": "#00656E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4728-TCX"
+  },
+  {
+    "title": "Shaded Spruce",
+    "alias": "19-4524 TCX",
+    "slug": "shaded-spruce",
+    "value": "#00585E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4524-TCX"
+  },
+  {
+    "title": "Deep Teal",
+    "alias": "19-4914 TCX",
+    "slug": "deep-teal",
+    "value": "#19454B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4914-TCX"
+  },
+  {
+    "title": "Brittany Blue",
+    "alias": "18-5610 TCX",
+    "slug": "brittany-blue",
+    "value": "#4D7E86",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-5610-TCX"
+  },
+  {
+    "title": "Hydro",
+    "alias": "18-4718 TCX",
+    "slug": "hydro",
+    "value": "#426972",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4718-TCX"
+  },
+  {
+    "title": "Dragonfly",
+    "alias": "19-4826 TCX",
+    "slug": "dragonfly",
+    "value": "#2A5C6A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4826-TCX"
+  },
+  {
+    "title": "Colonial Blue",
+    "alias": "18-4522 TCX",
+    "slug": "colonial-blue",
+    "value": "#2E6471",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4522-TCX"
+  },
+  {
+    "title": "Balsam",
+    "alias": "19-4820 TCX",
+    "slug": "balsam",
+    "value": "#33565E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4820-TCX"
+  },
+  {
+    "title": "Mediterranea",
+    "alias": "19-4517 TCX",
+    "slug": "mediterranea",
+    "value": "#32575D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4517-TCX"
+  },
+  {
+    "title": "Atlantic Deep",
+    "alias": "19-4726 TCX",
+    "slug": "atlantic-deep",
+    "value": "#274E55",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4726-TCX"
+  },
+  {
+    "title": "Skylight",
+    "alias": "12-4604 TCX",
+    "slug": "skylight",
+    "value": "#C8E0E0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4604-TCX"
+  },
+  {
+    "title": "Pastel Blue",
+    "alias": "12-4607 TCX",
+    "slug": "pastel-blue",
+    "value": "#BCD3D5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4607-TCX"
+  },
+  {
+    "title": "Canal Blue",
+    "alias": "14-4810 TCX",
+    "slug": "canal-blue",
+    "value": "#9CC2C5",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4810-TCX"
+  },
+  {
+    "title": "Dusty Turquoise",
+    "alias": "16-5114 TCX",
+    "slug": "dusty-turquoise",
+    "value": "#649B9E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5114-TCX"
+  },
+  {
+    "title": "Bristol Blue",
+    "alias": "17-4818 TCX",
+    "slug": "bristol-blue",
+    "value": "#568F91",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4818-TCX"
+  },
+  {
+    "title": "Green-Blue Slate",
+    "alias": "17-5117 TCX",
+    "slug": "green-blue-slate",
+    "value": "#358082",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5117-TCX"
+  },
+  {
+    "title": "Teal",
+    "alias": "17-4919 TCX",
+    "slug": "teal",
+    "value": "#478589",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4919-TCX"
+  },
+  {
+    "title": "Aqua Sky",
+    "alias": "14-4811 TCX",
+    "slug": "aqua-sky",
+    "value": "#7BC4C4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4811-TCX"
+  },
+  {
+    "title": "Baltic",
+    "alias": "16-5123 TCX",
+    "slug": "baltic",
+    "value": "#279D9F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5123-TCX"
+  },
+  {
+    "title": "Salt Air",
+    "alias": "12-5207 TCX",
+    "slug": "salt-air",
+    "value": "#C9EDED",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5207-TCX"
+  },
+  {
+    "title": "Spa Retreat",
+    "alias": "13-4908 TCX",
+    "slug": "spa-retreat",
+    "value": "#B4E8EC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4908-TCX"
+  },
+  {
+    "title": "Water Ballet",
+    "alias": "14-4715 TCX",
+    "slug": "water-ballet",
+    "value": "#9FDFE4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4715-TCX"
+  },
+  {
+    "title": "Cooling Oasis",
+    "alias": "12-5302 TCX",
+    "slug": "cooling-oasis",
+    "value": "#BAD7D9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5302-TCX"
+  },
+  {
+    "title": "Billowing Sail",
+    "alias": "11-4604 TCX",
+    "slug": "billowing-sail",
+    "value": "#D8E7E7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-4604-TCX"
+  },
+  {
+    "title": "Spa Blue",
+    "alias": "12-4305 TCX",
+    "slug": "spa-blue",
+    "value": "#D3DEDF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4305-TCX"
+  },
+  {
+    "title": "Wan Blue",
+    "alias": "12-4805 TCX",
+    "slug": "wan-blue",
+    "value": "#CBDCDF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4805-TCX"
+  },
+  {
+    "title": "Whispering Blue",
+    "alias": "12-4610 TCX",
+    "slug": "whispering-blue",
+    "value": "#C9DCDC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4610-TCX"
+  },
+  {
+    "title": "Gray Mist",
+    "alias": "15-4706 TCX",
+    "slug": "gray-mist",
+    "value": "#99AEAE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4706-TCX"
+  },
+  {
+    "title": "Aquifer",
+    "alias": "15-5207 TCX",
+    "slug": "aquifer",
+    "value": "#89ACAC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-5207-TCX"
+  },
+  {
+    "title": "Mineral Blue",
+    "alias": "16-4712 TCX",
+    "slug": "mineral-blue",
+    "value": "#6D9192",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4712-TCX"
+  },
+  {
+    "title": "Arctic",
+    "alias": "17-4911 TCX",
+    "slug": "arctic",
+    "value": "#648589",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4911-TCX"
+  },
+  {
+    "title": "Slate",
+    "alias": "16-4408 TCX",
+    "slug": "slate",
+    "value": "#8C9FA1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4408-TCX"
+  },
+  {
+    "title": "Silver Blue",
+    "alias": "16-4706 TCX",
+    "slug": "silver-blue",
+    "value": "#8A9A9A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-4706-TCX"
+  },
+  {
+    "title": "Lead",
+    "alias": "17-4408 TCX",
+    "slug": "lead",
+    "value": "#7A898F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-4408-TCX"
+  },
+  {
+    "title": "Stormy Sea",
+    "alias": "18-4711 TCX",
+    "slug": "stormy-sea",
+    "value": "#6E8082",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4711-TCX"
+  },
+  {
+    "title": "Trooper",
+    "alias": "18-4510 TCX",
+    "slug": "trooper",
+    "value": "#697A7E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4510-TCX"
+  },
+  {
+    "title": "Goblin Blue",
+    "alias": "18-4011 TCX",
+    "slug": "goblin-blue",
+    "value": "#5F7278",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4011-TCX"
+  },
+  {
+    "title": "North Atlantic",
+    "alias": "18-4612 TCX",
+    "slug": "north-atlantic",
+    "value": "#546D70",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4612-TCX"
+  },
+  {
+    "title": "Sea Pine",
+    "alias": "18-5112 TCX",
+    "slug": "sea-pine",
+    "value": "#4C6969",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-5112-TCX"
+  },
+  {
+    "title": "Sea Moss",
+    "alias": "19-5030 TCX",
+    "slug": "sea-moss",
+    "value": "#264445",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5030-TCX"
+  },
+  {
+    "title": "Ponderosa Pine",
+    "alias": "19-5320 TCX",
+    "slug": "ponderosa-pine",
+    "value": "#203B3D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5320-TCX"
+  },
+  {
+    "title": "Everglade",
+    "alias": "19-5226 TCX",
+    "slug": "everglade",
+    "value": "#005B5D",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5226-TCX"
+  },
+  {
+    "title": "Pacific",
+    "alias": "19-4916 TCX",
+    "slug": "pacific",
+    "value": "#1F595C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4916-TCX"
+  },
+  {
+    "title": "Jasper",
+    "alias": "19-5413 TCX",
+    "slug": "jasper",
+    "value": "#335959",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5413-TCX"
+  },
+  {
+    "title": "Alexandrite",
+    "alias": "18-4835 TCX",
+    "slug": "alexandrite",
+    "value": "#00666C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4835-TCX"
+  },
+  {
+    "title": "Kayaking",
+    "alias": "18-4833 TCX",
+    "slug": "kayaking",
+    "value": "#00656A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4833-TCX"
+  },
+  {
+    "title": "Spruced-up",
+    "alias": "19-4918 TCX",
+    "slug": "spruced-up",
+    "value": "#075055",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4918-TCX"
+  },
+  {
+    "title": "Chesapeake Bay",
+    "alias": "19-4534 TCX",
+    "slug": "chesapeake-bay",
+    "value": "#16525A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4534-TCX"
+  },
+  {
+    "title": "Green Heron",
+    "alias": "19-4727 TCX",
+    "slug": "green-heron",
+    "value": "#27535A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4727-TCX"
+  },
+  {
+    "title": "Gulf Coast",
+    "alias": "19-4523 TCX",
+    "slug": "gulf-coast",
+    "value": "#0A4F5C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4523-TCX"
+  },
+  {
+    "title": "Dark Sea",
+    "alias": "19-5025 TCX",
+    "slug": "dark-sea",
+    "value": "#1D3F43",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-5025-TCX"
+  },
+  {
+    "title": "Viridian Green",
+    "alias": "17-5126 TCX",
+    "slug": "viridian-green",
+    "value": "#009499",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5126-TCX"
+  },
+  {
+    "title": "Deep Lake",
+    "alias": "18-4834 TCX",
+    "slug": "deep-lake",
+    "value": "#00656B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4834-TCX"
+  },
+  {
+    "title": "Fanfare",
+    "alias": "18-4936 TCX",
+    "slug": "fanfare",
+    "value": "#006D70",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-4936-TCX"
+  },
+  {
+    "title": "Vapor Blue",
+    "alias": "14-4203 TCX",
+    "slug": "vapor-blue",
+    "value": "#BEBDBD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4203-TCX"
+  },
+  {
+    "title": "Barely Blue",
+    "alias": "12-4306 TCX",
+    "slug": "barely-blue",
+    "value": "#DDE0DF",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4306-TCX"
+  },
+  {
+    "title": "Dawn Blue",
+    "alias": "13-4303 TCX",
+    "slug": "dawn-blue",
+    "value": "#CACCCB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4303-TCX"
+  },
+  {
+    "title": "Blue Blush",
+    "alias": "12-4705 TCX",
+    "slug": "blue-blush",
+    "value": "#D6DBD9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4705-TCX"
+  },
+  {
+    "title": "Blue Fox",
+    "alias": "14-4804 TCX",
+    "slug": "blue-fox",
+    "value": "#B9BCB6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4804-TCX"
+  },
+  {
+    "title": "Deep Blue",
+    "alias": "19-3847 TCX",
+    "slug": "deep-blue",
+    "value": "#44377B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3847-TCX"
+  },
+  {
+    "title": "Lavender Blue",
+    "alias": "14-3905 TCX",
+    "slug": "lavender-blue",
+    "value": "#C5C0D0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-3905-TCX"
+  },
+  {
+    "title": "Corsican Blue",
+    "alias": "18-3828 TCX",
+    "slug": "corsican-blue",
+    "value": "#646093",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3828-TCX"
+  },
+  {
+    "title": "Orient Blue",
+    "alias": "19-3947 TCX",
+    "slug": "orient-blue",
+    "value": "#48457A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3947-TCX"
+  },
+  {
+    "title": "Spectrum Blue",
+    "alias": "18-3963 TCX",
+    "slug": "spectrum-blue",
+    "value": "#3D3C7C",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-3963-TCX"
+  },
+  {
+    "title": "Navy Blue",
+    "alias": "19-3832 TCX",
+    "slug": "navy-blue",
+    "value": "#403F6F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3832-TCX"
+  },
+  {
+    "title": "Evening Blue",
+    "alias": "19-3815 TCX",
+    "slug": "evening-blue",
+    "value": "#2A293E",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3815-TCX"
+  },
+  {
+    "title": "Blue Ribbon",
+    "alias": "19-3839 TCX",
+    "slug": "blue-ribbon",
+    "value": "#3A395F",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-3839-TCX"
+  },
+  {
+    "title": "Blue Graphite",
+    "alias": "19-4015 TCX",
+    "slug": "blue-graphite",
+    "value": "#323137",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/19-4015-TCX"
+  },
+  {
+    "title": "Blue Light",
+    "alias": "13-4909 TCX",
+    "slug": "blue-light",
+    "value": "#ACDFDD",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4909-TCX"
+  },
+  {
+    "title": "Blue Tint",
+    "alias": "13-4910 TCX",
+    "slug": "blue-tint",
+    "value": "#9FD9D7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4910-TCX"
+  },
+  {
+    "title": "Aruba Blue",
+    "alias": "13-5313 TCX",
+    "slug": "aruba-blue",
+    "value": "#81D7D3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-5313-TCX"
+  },
+  {
+    "title": "Blue Turquoise",
+    "alias": "15-5217 TCX",
+    "slug": "blue-turquoise",
+    "value": "#53B0AE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-5217-TCX"
+  },
+  {
+    "title": "Blue Glass",
+    "alias": "12-5206 TCX",
+    "slug": "blue-glass",
+    "value": "#C7E3E1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5206-TCX"
+  },
+  {
+    "title": "Eggshell Blue",
+    "alias": "14-4809 TCX",
+    "slug": "eggshell-blue",
+    "value": "#A3CCC9",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/14-4809-TCX"
+  },
+  {
+    "title": "Pale Blue",
+    "alias": "13-4804 TCX",
+    "slug": "pale-blue",
+    "value": "#C4D6D3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4804-TCX"
+  },
+  {
+    "title": "Misty Blue",
+    "alias": "13-4405 TCX",
+    "slug": "misty-blue",
+    "value": "#BFCDCC",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/13-4405-TCX"
+  },
+  {
+    "title": "Chalk Blue",
+    "alias": "12-4806 TCX",
+    "slug": "chalk-blue",
+    "value": "#CCDAD7",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4806-TCX"
+  },
+  {
+    "title": "Blue Haze",
+    "alias": "15-4707 TCX",
+    "slug": "blue-haze",
+    "value": "#A5BCBB",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-4707-TCX"
+  },
+  {
+    "title": "Blue Surf",
+    "alias": "16-5106 TCX",
+    "slug": "blue-surf",
+    "value": "#90A8A4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5106-TCX"
+  },
+  {
+    "title": "Blue Spruce",
+    "alias": "18-5308 TCX",
+    "slug": "blue-spruce",
+    "value": "#486B67",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-5308-TCX"
+  },
+  {
+    "title": "Sea Blue",
+    "alias": "16-5119 TCX",
+    "slug": "sea-blue",
+    "value": "#549F98",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/16-5119-TCX"
+  },
+  {
+    "title": "Deep Peacock Blue",
+    "alias": "17-5029 TCX",
+    "slug": "deep-peacock blue",
+    "value": "#008381",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5029-TCX"
+  },
+  {
+    "title": "Pool Blue",
+    "alias": "15-5218 TCX",
+    "slug": "pool-blue",
+    "value": "#67BCB3",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/15-5218-TCX"
+  },
+  {
+    "title": "Blue Grass",
+    "alias": "18-5128 TCX",
+    "slug": "blue-grass",
+    "value": "#007C7A",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/18-5128-TCX"
+  },
+  {
+    "title": "Teal Blue",
+    "alias": "17-5024 TCX",
+    "slug": "teal-blue",
+    "value": "#007F7B",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5024-TCX"
+  },
+  {
+    "title": "Opal Blue",
+    "alias": "12-5406 TCX",
+    "slug": "opal-blue",
+    "value": "#C3DDD6",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5406-TCX"
+  },
+  {
+    "title": "Oil Blue",
+    "alias": "17-5111 TCX",
+    "slug": "oil-blue",
+    "value": "#658C88",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/17-5111-TCX"
+  },
+  {
+    "title": "Mystic Blue",
+    "alias": "11-4303 TCX",
+    "slug": "mystic-blue",
+    "value": "#E1E3DE",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/11-4303-TCX"
+  },
+  {
+    "title": "Bluewash",
+    "alias": "12-4304 TCX",
+    "slug": "bluewash",
+    "value": "#E2E6E0",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-4304-TCX"
+  },
+  {
+    "title": "Zephyr Blue",
+    "alias": "12-5603 TCX",
+    "slug": "zephyr-blue",
+    "value": "#D3D9D1",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5603-TCX"
+  },
+  {
+    "title": "Blue Flower",
+    "alias": "12-5403 TCX",
+    "slug": "blue-flower",
+    "value": "#D0D9D4",
+    "source": "Pantone",
+    "url": "https://www.pantone.com/color-finder/12-5403-TCX"
+  }
+]
