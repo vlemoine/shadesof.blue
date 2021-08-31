@@ -1,6 +1,6 @@
 [
   {
-    "title": "RGB Blue",
+    "title": "Blue",
     "slug": "blue",
     "value": "blue",
     "source": "X11"
@@ -169,7 +169,7 @@
     "source": "X11"
   },
   {
-    "title": "Light Cyan",
+    "title": "Light Cyan (Baby Blue)",
     "slug": "light-cyan",
     "value": "lightcyan",
     "source": "X11"
