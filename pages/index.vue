@@ -1,82 +1,91 @@
 <template>
-  <section
-    class="swatches grid p-8"
-    :class="{ 'swatches--labeled': filters.showLabels }"
-  >
-    <header class="swatches__header flex">
-      <p>{{ c.length }} blues documented!</p>
-      <div id="filters" class="filters ml-auto">
-        <label
-          >Show grays
-          <input
-            v-model="filters.includeGrays"
-            :disabled="filters.onlyGrays"
-            type="checkbox"
-          />
-        </label>
-        <label
-          >Only grays
-          <input v-model="filters.onlyGrays" type="checkbox" />
-        </label>
-        <label
-          >Show out of bounds
-          <input v-model="filters.includeOobs" type="checkbox" />
-        </label>
-        <label
-          >Show labels
-          <input v-model="filters.showLabels" type="checkbox" />
-        </label>
-      </div>
-    </header>
+  <section>
+    <Header />
+    <section
+      class="swatches grid p-8"
+      :class="{ 'swatches--labeled': filters.showLabels }"
+    >
+      <p class="total">{{ c.length }} blues documented!</p>
+      <header class="swatches__header flex">
+        <div id="filters" class="filters ml-auto">
+          <label
+            >Show grays
+            <input
+              v-model="filters.includeGrays"
+              :disabled="filters.onlyGrays"
+              type="checkbox"
+            />
+          </label>
+          <label
+            >Only grays
+            <input v-model="filters.onlyGrays" type="checkbox" />
+          </label>
+          <label
+            >Show out of bounds
+            <input v-model="filters.includeOobs" type="checkbox" />
+          </label>
+          <label
+            >Show labels
+            <input v-model="filters.showLabels" type="checkbox" />
+          </label>
+        </div>
+      </header>
 
-    <template v-for="blue in c">
-      <div
-        :key="blue.hex"
-        class="relative"
-        :class="{
-          hidden:
-            (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
-            (!blue.gray && filters.onlyGrays) ||
-            (blue.oob && !filters.includeOobs)
-        }"
-      >
-        <Swatch :blue="blue" class="relative">
-          <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
-            <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
-            <i v-if="blue.oob" class="far fa-rainbow"></i>
-          </div>
-          <div
-            v-if="labels"
-            class="labels"
-            :class="{ 'opacity-0': !filters.showLabels }"
-          >
-            <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-            <template v-if="blue.alias">
-              <span>{{ blue.alias }}</span
-              ><br />
-            </template>
-            <span>{{ blue.hex }}</span>
-          </div>
-        </Swatch>
-      </div>
-    </template>
+      <template v-for="blue in c">
+        <NuxtLink
+          :key="blue.hex"
+          :to="blue.slug"
+          class="relative"
+          :class="{
+            hidden:
+              (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
+              (!blue.gray && filters.onlyGrays) ||
+              (blue.oob && !filters.includeOobs)
+          }"
+        >
+          <Swatch :blue="blue" class="relative">
+            <div
+              class="markers absolute top-1 right-1 opacity-50 flex flex-col"
+            >
+              <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
+              <i v-if="blue.oob" class="far fa-rainbow"></i>
+            </div>
+            <div
+              v-if="labels"
+              class="labels"
+              :class="{ 'opacity-0': !filters.showLabels }"
+            >
+              <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
+              <template v-if="blue.source === 'Pantone' && blue.alias">
+                <span>{{ blue.alias }}</span
+                ><br />
+              </template>
+              <span>{{ blue.hex }}</span>
+            </div>
+          </Swatch>
+        </NuxtLink>
+      </template>
+    </section>
   </section>
 </template>
 
 <script>
 import Color from "color";
+import Header from "~/components/Header.vue";
 import Swatch from "~/components/Swatch.vue";
 
 export default {
-  components: { Swatch },
-  async asyncData({ $content, params }) {
-    const x11 = await $content("colors", params.slug).fetch();
-    const pantone = await $content("pantone", params.slug).fetch();
-    const tcx = await $content("pantone-tcx", params.slug).fetch();
+  components: { Header, Swatch },
+  async asyncData({ $content }) {
+    const x11 = await $content("colors").fetch();
+    const pantone = await $content("pantone").fetch();
+    const tcx = await $content("pantone-tcx").fetch();
+    const ntc = await $content("ntc").fetch();
     return {
       x11,
       pantone,
-      tcx
+      tcx,
+      ntc
     };
   },
   data() {
@@ -95,6 +104,7 @@ export default {
     c() {
       let sort = this.x11.concat(this.pantone);
       sort = sort.concat(this.tcx);
+      sort = sort.concat(this.ntc);
       sort.forEach(s => {
         const b = Color(s.value);
         const hsl = b.hsl().object();
@@ -125,7 +135,8 @@ export default {
   --swatch-aspect: 1;
   --swatch-zoom: calc(var(--swatch-width) * 1.8);
 }
-.swatches__header {
+.swatches__header,
+.total {
   grid-column: 1/-1;
 }
 .swatches {
