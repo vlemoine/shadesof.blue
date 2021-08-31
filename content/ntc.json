@@ -1,0 +1,1460 @@
+[
+  {
+    "title": "Dark Blue",
+    "slug": "dark-blue",
+    "value": "#0000C8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Stratos",
+    "slug": "stratos",
+    "value": "#000741",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Swamp",
+    "slug": "swamp",
+    "value": "#001B1C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Resolution Blue",
+    "slug": "resolution-blue",
+    "value": "#002387",
+    "source": "Name that Color"
+  },
+  {
+    "title": "International Klein Blue",
+    "slug": "international-klein-blue",
+    "value": "#002FA7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Prussian Blue",
+    "slug": "prussian-blue",
+    "value": "#003153",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Midnight Blue",
+    "slug": "midnight-blue",
+    "value": "#003366",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Smalt",
+    "slug": "smalt",
+    "value": "#003399",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cyprus",
+    "slug": "cyprus",
+    "value": "#003E40",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cobalt",
+    "slug": "cobalt",
+    "value": "#0047AB",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Sherpa Blue",
+    "slug": "sherpa-blue",
+    "value": "#004950",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Endeavour",
+    "slug": "endeavour",
+    "value": "#0056A7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Science Blue",
+    "slug": "science-blue",
+    "value": "#0066CC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Ribbon",
+    "slug": "blue-ribbon",
+    "value": "#0066FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Allports",
+    "slug": "allports",
+    "value": "#0076A3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Deep Cerulean",
+    "slug": "deep-cerulean",
+    "value": "#007BA7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Lochmara",
+    "slug": "lochmara",
+    "value": "#007EC7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Azure Radiance",
+    "slug": "azure-radiance",
+    "value": "#007FFF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bondi Blue",
+    "slug": "bondi-blue",
+    "value": "#0095B6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pacific Blue",
+    "slug": "pacific-blue",
+    "value": "#009DC4",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Robin's Egg Blue",
+    "slug": "robin's-egg-blue",
+    "value": "#00CCCC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Charcoal",
+    "slug": "blue-charcoal",
+    "value": "#010D1A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Midnight",
+    "slug": "midnight",
+    "value": "#011635",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Daintree",
+    "slug": "daintree",
+    "value": "#012731",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Astronaut Blue",
+    "slug": "astronaut-blue",
+    "value": "#013E62",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Regal Blue",
+    "slug": "regal-blue",
+    "value": "#013F6A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Orient",
+    "slug": "orient",
+    "value": "#015E85",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Stone",
+    "slug": "blue-stone",
+    "value": "#016162",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Lagoon",
+    "slug": "blue-lagoon",
+    "value": "#017987",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Congress Blue",
+    "slug": "congress-blue",
+    "value": "#02478E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bahama Blue",
+    "slug": "bahama-blue",
+    "value": "#026395",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cerulean",
+    "slug": "cerulean",
+    "value": "#02A4D3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tangaroa",
+    "slug": "tangaroa",
+    "value": "#03163C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Green Vogue",
+    "slug": "green-vogue",
+    "value": "#032B52",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mosque",
+    "slug": "mosque",
+    "value": "#036A6E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Black Pearl",
+    "slug": "black-pearl",
+    "value": "#041322",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Whale",
+    "slug": "blue-whale",
+    "value": "#042E4C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Teal Blue",
+    "slug": "teal-blue",
+    "value": "#044259",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Deep Cove",
+    "slug": "deep-cove",
+    "value": "#051040",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gulf Blue",
+    "slug": "gulf-blue",
+    "value": "#051657",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Venice Blue",
+    "slug": "venice-blue",
+    "value": "#055989",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Catalina Blue",
+    "slug": "catalina-blue",
+    "value": "#062A78",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tiber",
+    "slug": "tiber",
+    "value": "#063537",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tarawera",
+    "slug": "tarawera",
+    "value": "#073A50",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Deep Sapphire",
+    "slug": "deep-sapphire",
+    "value": "#082567",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Downriver",
+    "slug": "downriver",
+    "value": "#092256",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Madison",
+    "slug": "madison",
+    "value": "#09255D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Deep Sea Green",
+    "slug": "deep-sea-green",
+    "value": "#095859",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Atoll",
+    "slug": "atoll",
+    "value": "#0A6F75",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Woodsmoke",
+    "slug": "woodsmoke",
+    "value": "#0C0D0F",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Chill",
+    "slug": "blue-chill",
+    "value": "#0C8990",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bunker",
+    "slug": "bunker",
+    "value": "#0D1117",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cinder",
+    "slug": "cinder",
+    "value": "#0E0E18",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Firefly",
+    "slug": "firefly",
+    "value": "#0E2A30",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Torea Bay",
+    "slug": "torea-bay",
+    "value": "#0F2D9E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Vulcan",
+    "slug": "vulcan",
+    "value": "#10121D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Elephant",
+    "slug": "elephant",
+    "value": "#123447",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Zodiac",
+    "slug": "blue-zodiac",
+    "value": "#13264D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tory Blue",
+    "slug": "tory-blue",
+    "value": "#1450AA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bunting",
+    "slug": "bunting",
+    "value": "#151F4C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Denim",
+    "slug": "denim",
+    "value": "#1560BD",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mirage",
+    "slug": "mirage",
+    "value": "#161928",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Big Stone",
+    "slug": "big-stone",
+    "value": "#162A40",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Chathams Blue",
+    "slug": "chathams-blue",
+    "value": "#175579",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blumine",
+    "slug": "blumine",
+    "value": "#18587A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Nile Blue",
+    "slug": "nile-blue",
+    "value": "#193751",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Fun Blue",
+    "slug": "fun-blue",
+    "value": "#1959A8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Lucky Point",
+    "slug": "lucky-point",
+    "value": "#1A1A68",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Biscay",
+    "slug": "biscay",
+    "value": "#1B3162",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Matisse",
+    "slug": "matisse",
+    "value": "#1B659D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Persian Blue",
+    "slug": "persian-blue",
+    "value": "#1C39BB",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Elm",
+    "slug": "elm",
+    "value": "#1C7C7D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cello",
+    "slug": "cello",
+    "value": "#1E385B",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Eastern Blue",
+    "slug": "eastern-blue",
+    "value": "#1E9AB0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Java",
+    "slug": "java",
+    "value": "#1FC2C2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Jacksons Purple",
+    "slug": "jacksons-purple",
+    "value": "#20208D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cloud Burst",
+    "slug": "cloud-burst",
+    "value": "#202E54",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Dianne",
+    "slug": "blue-dianne",
+    "value": "#204852",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Shark",
+    "slug": "shark",
+    "value": "#25272C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Curious Blue",
+    "slug": "curious-blue",
+    "value": "#2596D1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Ebony Clay",
+    "slug": "ebony-clay",
+    "value": "#26283B",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bay of Many",
+    "slug": "bay-of-many",
+    "value": "#273A81",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Astronaut",
+    "slug": "astronaut",
+    "value": "#283A77",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mariner",
+    "slug": "mariner",
+    "value": "#286ACD",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Charade",
+    "slug": "charade",
+    "value": "#292937",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Jelly Bean",
+    "slug": "jelly-bean",
+    "value": "#297B9A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cerulean Blue",
+    "slug": "cerulean-blue",
+    "value": "#2A52BE",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Outer Space",
+    "slug": "outer-space",
+    "value": "#2D383A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "St Tropaz",
+    "slug": "st-tropaz",
+    "value": "#2D569B",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Rhino",
+    "slug": "rhino",
+    "value": "#2E3F62",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Scooter",
+    "slug": "scooter",
+    "value": "#2EBFD4",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Governor Bay",
+    "slug": "governor-bay",
+    "value": "#2F3CB3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Sapphire",
+    "slug": "sapphire",
+    "value": "#2F519E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Casal",
+    "slug": "casal",
+    "value": "#2F6168",
+    "source": "Name that Color"
+  },
+  {
+    "title": "San Juan",
+    "slug": "san-juan",
+    "value": "#304B6A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pickled Bluewood",
+    "slug": "pickled-bluewood",
+    "value": "#314459",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Azure",
+    "slug": "azure",
+    "value": "#315BA1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Calypso",
+    "slug": "calypso",
+    "value": "#31728D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Paradiso",
+    "slug": "paradiso",
+    "value": "#317D82",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Astral",
+    "slug": "astral",
+    "value": "#327DA0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tuna",
+    "slug": "tuna",
+    "value": "#353542",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Chambray",
+    "slug": "chambray",
+    "value": "#354E8C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Ming",
+    "slug": "ming",
+    "value": "#36747D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Oracle",
+    "slug": "oracle",
+    "value": "#377475",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Oxford Blue",
+    "slug": "oxford-blue",
+    "value": "#384555",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Limed Spruce",
+    "slug": "limed-spruce",
+    "value": "#394851",
+    "source": "Name that Color"
+  },
+  {
+    "title": "William",
+    "slug": "william",
+    "value": "#3A686C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Boston Blue",
+    "slug": "boston-blue",
+    "value": "#3B91B4",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bright Gray",
+    "slug": "bright-gray",
+    "value": "#3C4151",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pelorous",
+    "slug": "pelorous",
+    "value": "#3EABBF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Fiord",
+    "slug": "fiord",
+    "value": "#405169",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gun Powder",
+    "slug": "gun-powder",
+    "value": "#414257",
+    "source": "Name that Color"
+  },
+  {
+    "title": "East Bay",
+    "slug": "east-bay",
+    "value": "#414C7D",
+    "source": "Name that Color"
+  },
+  {
+    "title": "River Bed",
+    "slug": "river-bed",
+    "value": "#434C59",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mako",
+    "slug": "mako",
+    "value": "#444954",
+    "source": "Name that Color"
+  },
+  {
+    "title": "San Marino",
+    "slug": "san-marino",
+    "value": "#456CAC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Picton Blue",
+    "slug": "picton-blue",
+    "value": "#45B1E8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Bayoux",
+    "slug": "blue-bayoux",
+    "value": "#496679",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bismark",
+    "slug": "bismark",
+    "value": "#497183",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Trout",
+    "slug": "trout",
+    "value": "#4A4E5A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Abbey",
+    "slug": "abbey",
+    "value": "#4C4F56",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Wedgewood",
+    "slug": "wedgewood",
+    "value": "#4E7F9E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Shakespeare",
+    "slug": "shakespeare",
+    "value": "#4EABD1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Indigo",
+    "slug": "indigo",
+    "value": "#4F69C6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Kashmir Blue",
+    "slug": "kashmir-blue",
+    "value": "#507096",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Smalt Blue",
+    "slug": "smalt-blue",
+    "value": "#51808F",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Havelock Blue",
+    "slug": "havelock-blue",
+    "value": "#5590D9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Fountain Blue",
+    "slug": "fountain-blue",
+    "value": "#56B4BE",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Hippie Blue",
+    "slug": "hippie-blue",
+    "value": "#589AAF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Waikawa Gray",
+    "slug": "waikawa-gray",
+    "value": "#5A6E9C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Horizon",
+    "slug": "horizon",
+    "value": "#5A87A0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Comet",
+    "slug": "comet",
+    "value": "#5C5D75",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mid Gray",
+    "slug": "mid-gray",
+    "value": "#5F5F6E",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Shuttle Gray",
+    "slug": "shuttle-gray",
+    "value": "#5F6672",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Danube",
+    "slug": "danube",
+    "value": "#6093D1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Nevada",
+    "slug": "nevada",
+    "value": "#646E75",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Viking",
+    "slug": "viking",
+    "value": "#64CCDB",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Hoki",
+    "slug": "hoki",
+    "value": "#65869F",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Lynch",
+    "slug": "lynch",
+    "value": "#697E9A",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bermuda Gray",
+    "slug": "bermuda-gray",
+    "value": "#6B8BA2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Turquoise Blue",
+    "slug": "turquoise-blue",
+    "value": "#6CDAE7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Juniper",
+    "slug": "juniper",
+    "value": "#6D9292",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gothic",
+    "slug": "gothic",
+    "value": "#6D92A1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pale Sky",
+    "slug": "pale-sky",
+    "value": "#6E7783",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Storm Gray",
+    "slug": "storm-gray",
+    "value": "#717486",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Sirocco",
+    "slug": "sirocco",
+    "value": "#718080",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Aquamarine Blue",
+    "slug": "aquamarine-blue",
+    "value": "#71D9E2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Raven",
+    "slug": "raven",
+    "value": "#727B89",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Rolling Stone",
+    "slug": "rolling-stone",
+    "value": "#747D83",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Sky Blue",
+    "slug": "sky-blue",
+    "value": "#76D7EA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Ship Cove",
+    "slug": "ship-cove",
+    "value": "#788BBA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Spray",
+    "slug": "spray",
+    "value": "#79DEEC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Wild Blue Yonder",
+    "slug": "wild-blue-yonder",
+    "value": "#7A89B8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Waterloo ",
+    "slug": "waterloo-",
+    "value": "#7B7C94",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gumbo",
+    "slug": "gumbo",
+    "value": "#7CA1A6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Neptune",
+    "slug": "neptune",
+    "value": "#7CB7BB",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Malibu",
+    "slug": "malibu",
+    "value": "#7DC8F7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Glacier",
+    "slug": "glacier",
+    "value": "#80B3C4",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Seagull",
+    "slug": "seagull",
+    "value": "#80CCEA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Granny Smith",
+    "slug": "granny-smith",
+    "value": "#84A0A0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bali Hai",
+    "slug": "bali-hai",
+    "value": "#859FAF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Half Baked",
+    "slug": "half-baked",
+    "value": "#85C4CC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Regent Gray",
+    "slug": "regent-gray",
+    "value": "#86949F",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Oslo Gray",
+    "slug": "oslo-gray",
+    "value": "#878D91",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Jordy Blue",
+    "slug": "jordy-blue",
+    "value": "#8AB9F1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Portage",
+    "slug": "portage",
+    "value": "#8B9FEE",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Manatee",
+    "slug": "manatee",
+    "value": "#8D90A1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Polo Blue",
+    "slug": "polo-blue",
+    "value": "#8DA8CC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Nepal",
+    "slug": "nepal",
+    "value": "#8EABC1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cornflower",
+    "slug": "cornflower",
+    "value": "#93CCEA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Bell",
+    "slug": "blue-bell",
+    "value": "#9999CC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gull Gray",
+    "slug": "gull-gray",
+    "value": "#9DACB7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Anakiwa",
+    "slug": "anakiwa",
+    "value": "#9DE5FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Rock Blue",
+    "slug": "rock-blue",
+    "value": "#9EB1CD",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Morning Glory",
+    "slug": "morning-glory",
+    "value": "#9EDEE0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Santas Gray",
+    "slug": "santas-gray",
+    "value": "#9FA0B1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Hit Gray",
+    "slug": "hit-gray",
+    "value": "#A1ADB5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Gray Chateau",
+    "slug": "gray-chateau",
+    "value": "#A2AAB3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blizzard Blue",
+    "slug": "blizzard-blue",
+    "value": "#A3E3ED",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Wistful",
+    "slug": "wistful",
+    "value": "#A4A6D3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Aluminium",
+    "slug": "aluminium",
+    "value": "#A9ACB6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Cadet Blue",
+    "slug": "cadet-blue",
+    "value": "#A9B2C3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tower Gray",
+    "slug": "tower-gray",
+    "value": "#A9BDBF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Perano",
+    "slug": "perano",
+    "value": "#A9BEF2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Spun Pearl",
+    "slug": "spun-pearl",
+    "value": "#AAABB7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Regent St Blue",
+    "slug": "regent-st-blue",
+    "value": "#AAD6E6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Casper",
+    "slug": "casper",
+    "value": "#ADBED1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bombay",
+    "slug": "bombay",
+    "value": "#AFB1B8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pigeon Post",
+    "slug": "pigeon-post",
+    "value": "#AFBDD9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Jungle Mist",
+    "slug": "jungle-mist",
+    "value": "#B4CFD3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Spindle",
+    "slug": "spindle",
+    "value": "#B6D1EA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Heather",
+    "slug": "heather",
+    "value": "#B7C3D0",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Sail",
+    "slug": "sail",
+    "value": "#B8E0F9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Submarine",
+    "slug": "submarine",
+    "value": "#BAC7C9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Charlotte",
+    "slug": "charlotte",
+    "value": "#BAEEF9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "French Gray",
+    "slug": "french-gray",
+    "value": "#BDBDC6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Loblolly",
+    "slug": "loblolly",
+    "value": "#BDC9CE",
+    "source": "Name that Color"
+  },
+  {
+    "title": "French Pass",
+    "slug": "french-pass",
+    "value": "#BDEDFD",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Silver Sand",
+    "slug": "silver-sand",
+    "value": "#BFC1C2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Ziggurat",
+    "slug": "ziggurat",
+    "value": "#BFDBE2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Periwinkle Gray",
+    "slug": "periwinkle-gray",
+    "value": "#C3CDE6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tiara",
+    "slug": "tiara",
+    "value": "#C3D1D1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tropical Blue",
+    "slug": "tropical-blue",
+    "value": "#C3DDF9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Ghost",
+    "slug": "ghost",
+    "value": "#C7C9D5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Botticelli",
+    "slug": "botticelli",
+    "value": "#C7DDE5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Onahau",
+    "slug": "onahau",
+    "value": "#CDF4FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mischka",
+    "slug": "mischka",
+    "value": "#D1D2DD",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Iron",
+    "slug": "iron",
+    "value": "#D4D7D9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Geyser",
+    "slug": "geyser",
+    "value": "#D4DFE2",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Hawkes Blue",
+    "slug": "hawkes-blue",
+    "value": "#D4E2FC",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Link Water",
+    "slug": "link-water",
+    "value": "#D9E4F5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mabel",
+    "slug": "mabel",
+    "value": "#D9F7FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Oyster Bay",
+    "slug": "oyster-bay",
+    "value": "#DAFAFF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Pattens Blue",
+    "slug": "pattens-blue",
+    "value": "#DEF5FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Mystic",
+    "slug": "mystic",
+    "value": "#E2EBED",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Tranquil",
+    "slug": "tranquil",
+    "value": "#E6FFFF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Lily White",
+    "slug": "lily-white",
+    "value": "#E7F8FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Bubbles",
+    "slug": "bubbles",
+    "value": "#E7FEFF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Solitude",
+    "slug": "solitude",
+    "value": "#EAF6FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Aqua Haze",
+    "slug": "aqua-haze",
+    "value": "#EDF5F5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Zumthor",
+    "slug": "zumthor",
+    "value": "#EDF6FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Athens Gray",
+    "slug": "athens-gray",
+    "value": "#EEF0F3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Catskill White",
+    "slug": "catskill-white",
+    "value": "#EEF6F7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Twilight Blue",
+    "slug": "twilight-blue",
+    "value": "#EEFDFF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Porcelain",
+    "slug": "porcelain",
+    "value": "#EFF2F3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Black Squeeze",
+    "slug": "black-squeeze",
+    "value": "#F2FAFA",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Zircon",
+    "slug": "zircon",
+    "value": "#F4F8FF",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Black Haze",
+    "slug": "black-haze",
+    "value": "#F6F7F7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Deep Blue",
+    "slug": "deep-blue",
+    "value": "#220878",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Gem",
+    "slug": "blue-gem",
+    "value": "#2C0E8C",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Diamond",
+    "slug": "blue-diamond",
+    "value": "#380474",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Violet",
+    "slug": "blue-violet",
+    "value": "#6456B7",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Smoke",
+    "slug": "blue-smoke",
+    "value": "#748881",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Marguerite",
+    "slug": "blue-marguerite",
+    "value": "#7666C6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Fuchsia Blue",
+    "slug": "fuchsia-blue",
+    "value": "#7A58C1",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Moody Blue",
+    "slug": "moody-blue",
+    "value": "#7F76D3",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Chetwode Blue",
+    "slug": "chetwode-blue",
+    "value": "#8581D9",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Vista Blue",
+    "slug": "vista-blue",
+    "value": "#8FD6B4",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Haze",
+    "slug": "blue-haze",
+    "value": "#BFBED8",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Aero Blue",
+    "slug": "aero-blue",
+    "value": "#C9FFE5",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Romance",
+    "slug": "blue-romance",
+    "value": "#D2F6DE",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Periglacial Blue",
+    "slug": "periglacial-blue",
+    "value": "#E1E6D6",
+    "source": "Name that Color"
+  },
+  {
+    "title": "Blue Chalk",
+    "slug": "blue-chalk",
+    "value": "#F1E9FF",
+    "source": "Name that Color"
+  }
+]
