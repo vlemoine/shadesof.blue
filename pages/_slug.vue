@@ -1,22 +1,48 @@
 <template>
-  <section class="section">
+  <section class="px-8">
+    <Header />
     <pre v-if="color">{{ color.slug }}</pre>
+    <p v-else-if="!about">That's not a shade of blue!</p>
     <nuxt-content :document="about" />
   </section>
 </template>
 
 <script>
+import Header from "~/components/Header.vue";
+
 export default {
+  components: { Header },
   async asyncData({ $content, params }) {
     let about;
     let color;
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
-      color = await $content("colors", params.slug)
+      const x11 = await $content("colors", params.slug)
         .fetch()
         .then(r => r)
-        .catch(e => e);
+        .catch(e => {
+          return false;
+        });
+      const pantone = await $content("pantone", params.slug)
+        .fetch()
+        .then(r => r)
+        .catch(e => {
+          return false;
+        });
+      const tcx = await $content("pantone-tcx", params.slug)
+        .fetch()
+        .then(r => r)
+        .catch(e => {
+          return false;
+        });
+      const ntc = await $content("ntc", params.slug)
+        .fetch()
+        .then(r => r)
+        .catch(e => {
+          return false;
+        });
+      color = x11 || pantone || tcx || ntc;
     }
     return {
       about,
