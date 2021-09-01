@@ -1,6 +1,5 @@
 <template>
   <section class="px-8">
-    <Header />
     <pre v-if="color">{{ color.slug }}</pre>
     <p v-else-if="!about">That's not a shade of blue!</p>
     <nuxt-content :document="about" />
@@ -8,10 +7,8 @@
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
 
 export default {
-  components: { Header },
   async asyncData({ $content, params }) {
     let about;
     let color;
