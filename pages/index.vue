@@ -29,9 +29,9 @@
       </div>
     </header>
 
-    <template v-for="blue in c">
+    <template v-for="(blue, i) in c">
       <NuxtLink
-        :key="blue.hex"
+        :key="i"
         :to="blue.slug"
         class="relative"
         :class="{
