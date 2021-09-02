@@ -7,7 +7,6 @@
 </template>
 
 <script>
-
 export default {
   async asyncData({ $content, params }) {
     let about;
@@ -15,7 +14,13 @@ export default {
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
-      const x11 = await $content("colors", params.slug)
+      const x11 = await $content("x11", params.slug)
+        .fetch()
+        .then(r => r)
+        .catch(e => {
+          return false;
+        });
+      const other = await $content("colors", params.slug)
         .fetch()
         .then(r => r)
         .catch(e => {
@@ -39,7 +44,7 @@ export default {
         .catch(e => {
           return false;
         });
-      color = x11 || pantone || tcx || ntc;
+      color = x11 || pantone || tcx || ntc || other;
     }
     return {
       about,

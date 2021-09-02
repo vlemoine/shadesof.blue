@@ -71,12 +71,14 @@ import Swatch from "~/components/Swatch.vue";
 export default {
   components: { Swatch },
   async asyncData({ $content }) {
-    const x11 = await $content("colors").fetch();
+    const x11 = await $content("x11").fetch();
+    const other = await $content("colors").fetch();
     const pantone = await $content("pantone").fetch();
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     return {
       x11,
+      other,
       pantone,
       tcx,
       ntc
@@ -96,7 +98,8 @@ export default {
   },
   computed: {
     c() {
-      let sort = this.x11.concat(this.pantone);
+      let sort = this.x11.concat(this.other);
+      sort = sort.concat(this.pantone);
       sort = sort.concat(this.tcx);
       sort = sort.concat(this.ntc);
       sort.forEach(s => {
