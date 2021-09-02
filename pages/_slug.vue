@@ -1,6 +1,10 @@
 <template>
   <section class="px-8">
-    <pre v-if="color">{{ color.slug }}</pre>
+    <template v-if="color">
+      <pre>{{ color.slug }}</pre>
+      <pre>{{ color }}</pre>
+    </template>
+
     <p v-else-if="!about">That's not a shade of blue!</p>
     <nuxt-content :document="about" />
   </section>
@@ -44,7 +48,13 @@ export default {
         .catch(e => {
           return false;
         });
-      color = x11 || pantone || tcx || ntc || other;
+      const crayola = await $content("crayola", params.slug)
+        .fetch()
+        .then(r => r)
+        .catch(e => {
+          return false;
+        });
+      color = x11 || pantone || tcx || ntc || other || crayola;
     }
     return {
       about,
