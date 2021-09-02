@@ -36,12 +36,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Midnight Blue",
-    "slug": "midnight-blue",
-    "value": "#003366",
-    "source": "Name that Color"
-  },
-  {
     "title": "Smalt",
     "slug": "smalt",
     "value": "#003399",
@@ -78,12 +72,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Blue Ribbon",
-    "slug": "blue-ribbon",
-    "value": "#0066FF",
-    "source": "Name that Color"
-  },
-  {
     "title": "Allports",
     "slug": "allports",
     "value": "#0076A3",
@@ -99,30 +87,6 @@
     "title": "Lochmara",
     "slug": "lochmara",
     "value": "#007EC7",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Azure Radiance",
-    "slug": "azure-radiance",
-    "value": "#007FFF",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Bondi Blue",
-    "slug": "bondi-blue",
-    "value": "#0095B6",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Pacific Blue",
-    "slug": "pacific-blue",
-    "value": "#009DC4",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Robin's Egg Blue",
-    "slug": "robin's-egg-blue",
-    "value": "#00CCCC",
     "source": "Name that Color"
   },
   {
@@ -168,12 +132,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Blue Lagoon",
-    "slug": "blue-lagoon",
-    "value": "#017987",
-    "source": "Name that Color"
-  },
-  {
     "title": "Congress Blue",
     "slug": "congress-blue",
     "value": "#02478E",
@@ -183,12 +141,6 @@
     "title": "Bahama Blue",
     "slug": "bahama-blue",
     "value": "#026395",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Cerulean",
-    "slug": "cerulean",
-    "value": "#02A4D3",
     "source": "Name that Color"
   },
   {
@@ -223,7 +175,7 @@
   },
   {
     "title": "Teal Blue",
-    "slug": "teal-blue",
+    "slug": "teal-blue-ntc",
     "value": "#044259",
     "source": "Name that Color"
   },
@@ -357,12 +309,6 @@
     "title": "Bunting",
     "slug": "bunting",
     "value": "#151F4C",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Denim",
-    "slug": "denim",
-    "value": "#1560BD",
     "source": "Name that Color"
   },
   {
@@ -576,8 +522,8 @@
     "source": "Name that Color"
   },
   {
-    "title": "Azure",
-    "slug": "azure",
+    "title": "Azure (NTC)",
+    "slug": "ntc-azure",
     "value": "#315BA1",
     "source": "Name that Color"
   },
@@ -738,12 +684,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Indigo",
-    "slug": "indigo",
-    "value": "#4F69C6",
-    "source": "Name that Color"
-  },
-  {
     "title": "Kashmir Blue",
     "slug": "kashmir-blue",
     "value": "#507096",
@@ -840,12 +780,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Turquoise Blue",
-    "slug": "turquoise-blue",
-    "value": "#6CDAE7",
-    "source": "Name that Color"
-  },
-  {
     "title": "Juniper",
     "slug": "juniper",
     "value": "#6D9292",
@@ -894,12 +828,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Sky Blue",
-    "slug": "sky-blue",
-    "value": "#76D7EA",
-    "source": "Name that Color"
-  },
-  {
     "title": "Ship Cove",
     "slug": "ship-cove",
     "value": "#788BBA",
@@ -909,12 +837,6 @@
     "title": "Spray",
     "slug": "spray",
     "value": "#79DEEC",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Wild Blue Yonder",
-    "slug": "wild-blue-yonder",
-    "value": "#7A89B8",
     "source": "Name that Color"
   },
   {
@@ -978,12 +900,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Oslo Gray",
-    "slug": "oslo-gray",
-    "value": "#878D91",
-    "source": "Name that Color"
-  },
-  {
     "title": "Jordy Blue",
     "slug": "jordy-blue",
     "value": "#8AB9F1",
@@ -996,12 +912,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Manatee",
-    "slug": "manatee",
-    "value": "#8D90A1",
-    "source": "Name that Color"
-  },
-  {
     "title": "Polo Blue",
     "slug": "polo-blue",
     "value": "#8DA8CC",
@@ -1011,24 +921,6 @@
     "title": "Nepal",
     "slug": "nepal",
     "value": "#8EABC1",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Cornflower",
-    "slug": "cornflower",
-    "value": "#93CCEA",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Blue Bell",
-    "slug": "blue-bell",
-    "value": "#9999CC",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Gull Gray",
-    "slug": "gull-gray",
-    "value": "#9DACB7",
     "source": "Name that Color"
   },
   {
@@ -1056,18 +948,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Hit Gray",
-    "slug": "hit-gray",
-    "value": "#A1ADB5",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Gray Chateau",
-    "slug": "gray-chateau",
-    "value": "#A2AAB3",
-    "source": "Name that Color"
-  },
-  {
     "title": "Blizzard Blue",
     "slug": "blizzard-blue",
     "value": "#A3E3ED",
@@ -1083,18 +963,6 @@
     "title": "Aluminium",
     "slug": "aluminium",
     "value": "#A9ACB6",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Cadet Blue",
-    "slug": "cadet-blue",
-    "value": "#A9B2C3",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Tower Gray",
-    "slug": "tower-gray",
-    "value": "#A9BDBF",
     "source": "Name that Color"
   },
   {
@@ -1296,18 +1164,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Lily White",
-    "slug": "lily-white",
-    "value": "#E7F8FF",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Bubbles",
-    "slug": "bubbles",
-    "value": "#E7FEFF",
-    "source": "Name that Color"
-  },
-  {
     "title": "Solitude",
     "slug": "solitude",
     "value": "#EAF6FF",
@@ -1323,18 +1179,6 @@
     "title": "Zumthor",
     "slug": "zumthor",
     "value": "#EDF6FF",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Athens Gray",
-    "slug": "athens-gray",
-    "value": "#EEF0F3",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Catskill White",
-    "slug": "catskill-white",
-    "value": "#EEF6F7",
     "source": "Name that Color"
   },
   {
@@ -1380,18 +1224,6 @@
     "source": "Name that Color"
   },
   {
-    "title": "Blue Diamond",
-    "slug": "blue-diamond",
-    "value": "#380474",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Blue Violet",
-    "slug": "blue-violet",
-    "value": "#6456B7",
-    "source": "Name that Color"
-  },
-  {
     "title": "Blue Smoke",
     "slug": "blue-smoke",
     "value": "#748881",
@@ -1401,12 +1233,6 @@
     "title": "Blue Marguerite",
     "slug": "blue-marguerite",
     "value": "#7666C6",
-    "source": "Name that Color"
-  },
-  {
-    "title": "Fuchsia Blue",
-    "slug": "fuchsia-blue",
-    "value": "#7A58C1",
     "source": "Name that Color"
   },
   {

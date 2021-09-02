@@ -18,15 +18,16 @@
     "source": "Wikipedia"
   },
   {
-    "title": "Crayola Blue",
-    "slug": "crayola-blue",
-    "value": "#1F75FE",
-    "source": "Wikipedia"
-  },
-  {
     "title": "Periwinkle",
     "slug": "periwinkle",
     "value": "#ccf",
     "source": "Wikipedia"
+  },
+  {
+    "title": "Tropical Indigo (Añil)",
+    "slug": "tropical-indigo",
+    "value": "#9683EC",
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Indigo#Tropical_indigo"
   }
 ]

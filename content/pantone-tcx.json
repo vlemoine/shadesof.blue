@@ -1,29 +1,5 @@
 [
   {
-    "title": "Brilliant White",
-    "alias": "11-4001 TCX",
-    "slug": "brilliant-white",
-    "value": "#EDF1FF",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/11-4001-TCX"
-  },
-  {
-    "title": "Bright White",
-    "alias": "11-0601 TCX",
-    "slug": "bright-white",
-    "value": "#F4F9FF",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/11-0601-TCX"
-  },
-  {
-    "title": "Lucent White",
-    "alias": "11-0700 TCX",
-    "slug": "lucent-white",
-    "value": "#F4F7FF",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/11-0700-TCX"
-  },
-  {
     "title": "Griffin",
     "alias": "17-5102 TCX",
     "slug": "griffin",
@@ -104,14 +80,6 @@
     "url": "https://www.pantone.com/color-finder/14-4104-TCX"
   },
   {
-    "title": "Ultimate Gray",
-    "alias": "17-5104 TCX",
-    "slug": "ultimate-gray",
-    "value": "#939597",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/17-5104-TCX"
-  },
-  {
     "title": "Chiseled Stone",
     "alias": "16-3917 TCX",
     "slug": "chiseled-stone",
@@ -144,14 +112,6 @@
     "url": "https://www.pantone.com/color-finder/18-4004-TCX"
   },
   {
-    "title": "Glacier Gray",
-    "alias": "14-4102 TCX",
-    "slug": "glacier-gray",
-    "value": "#C5C6C7",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-4102-TCX"
-  },
-  {
     "title": "Antarctica",
     "alias": "13-4104 TCX",
     "slug": "antarctica",
@@ -160,44 +120,12 @@
     "url": "https://www.pantone.com/color-finder/13-4104-TCX"
   },
   {
-    "title": "Gray Violet",
-    "alias": "14-4103 TCX",
-    "slug": "gray-violet",
-    "value": "#BBBCBC",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-4103-TCX"
-  },
-  {
-    "title": "Quiet Gray",
-    "alias": "14-4107 TCX",
-    "slug": "quiet-gray",
-    "value": "#BABBBD",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-4107-TCX"
-  },
-  {
-    "title": "Micro Chip",
-    "alias": "14-4105 TCX",
-    "slug": "micro-chip",
-    "value": "#BABCC0",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-4105-TCX"
-  },
-  {
     "title": "Harbor Mist",
     "alias": "14-4202 TCX",
     "slug": "harbor-mist",
     "value": "#B0B2B5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/14-4202-TCX"
-  },
-  {
-    "title": "Formal Gray",
-    "alias": "16-5102 TCX",
-    "slug": "formal-gray",
-    "value": "#979799",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/16-5102-TCX"
   },
   {
     "title": "Skyrocket",
@@ -216,14 +144,6 @@
     "url": "https://www.pantone.com/color-finder/18-4006-TCX"
   },
   {
-    "title": "Mockingbird",
-    "alias": "18-4015 TCX",
-    "slug": "mockingbird",
-    "value": "#77777A",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/18-4015-TCX"
-  },
-  {
     "title": "Dark Shadow",
     "alias": "19-3906 TCX",
     "slug": "dark-shadow",
@@ -240,36 +160,12 @@
     "url": "https://www.pantone.com/color-finder/19-4405-TCX"
   },
   {
-    "title": "Woodland Gray",
-    "alias": "19-5002 TCX",
-    "slug": "woodland-gray",
-    "value": "#383D3F",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-5002-TCX"
-  },
-  {
-    "title": "Black Sand",
-    "alias": "19-4406 TCX",
-    "slug": "black-sand",
-    "value": "#3C3E40",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-4406-TCX"
-  },
-  {
     "title": "Volcanic Ash",
     "alias": "19-3912 TCX",
     "slug": "volcanic-ash",
     "value": "#484849",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/19-3912-TCX"
-  },
-  {
-    "title": "Black Oyster",
-    "alias": "19-0205 TCX",
-    "slug": "black-oyster",
-    "value": "#414143",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-0205-TCX"
   },
   {
     "title": "Iron Gate",
@@ -288,28 +184,12 @@
     "url": "https://www.pantone.com/color-finder/19-0201-TCX"
   },
   {
-    "title": "Ebony",
-    "alias": "19-4104 TCX",
-    "slug": "ebony",
-    "value": "#41424A",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-4104-TCX"
-  },
-  {
     "title": "Anthracite",
     "alias": "19-4007 TCX",
     "slug": "anthracite",
     "value": "#28282D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/19-4007-TCX"
-  },
-  {
-    "title": "Black Beauty",
-    "alias": "19-3911 TCX",
-    "slug": "black-beauty",
-    "value": "#27272A",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-3911-TCX"
   },
   {
     "title": "Tap Shoe",
@@ -334,14 +214,6 @@
     "value": "#2A2A2D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/19-4006-TCX"
-  },
-  {
-    "title": "Pirate Black",
-    "alias": "19-4305 TCX",
-    "slug": "pirate-black",
-    "value": "#373838",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-4305-TCX"
   },
   {
     "title": "Lilac Hint",
@@ -2480,14 +2352,6 @@
     "url": "https://www.pantone.com/color-finder/19-4241-TCX"
   },
   {
-    "title": "Gray Dawn",
-    "alias": "14-4106 TCX",
-    "slug": "gray-dawn",
-    "value": "#BBC1CC",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-4106-TCX"
-  },
-  {
     "title": "Pearl Blue",
     "alias": "14-4206 TCX",
     "slug": "pearl-blue",
@@ -3874,7 +3738,7 @@
   {
     "title": "Teal",
     "alias": "17-4919 TCX",
-    "slug": "teal",
+    "slug": "teal-tcx",
     "value": "#478589",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/17-4919-TCX"
@@ -4224,14 +4088,6 @@
     "url": "https://www.pantone.com/color-finder/19-3847-TCX"
   },
   {
-    "title": "Lavender Blue",
-    "alias": "14-3905 TCX",
-    "slug": "lavender-blue",
-    "value": "#C5C0D0",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/14-3905-TCX"
-  },
-  {
     "title": "Corsican Blue",
     "alias": "18-3828 TCX",
     "slug": "corsican-blue",
@@ -4312,14 +4168,6 @@
     "url": "https://www.pantone.com/color-finder/13-5313-TCX"
   },
   {
-    "title": "Blue Turquoise",
-    "alias": "15-5217 TCX",
-    "slug": "blue-turquoise",
-    "value": "#53B0AE",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/15-5217-TCX"
-  },
-  {
     "title": "Blue Glass",
     "alias": "12-5206 TCX",
     "slug": "blue-glass",
@@ -4374,14 +4222,6 @@
     "value": "#90A8A4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/16-5106-TCX"
-  },
-  {
-    "title": "Blue Spruce",
-    "alias": "18-5308 TCX",
-    "slug": "blue-spruce",
-    "value": "#486B67",
-    "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/18-5308-TCX"
   },
   {
     "title": "Sea Blue",

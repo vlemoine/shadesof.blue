@@ -167,5 +167,35 @@
     "slug": "light-slate-gray",
     "value": "lightslategray",
     "source": "X11"
+  },
+  {
+    "title": "Pale Turquoise",
+    "slug": "pale-turquoise",
+    "value": "paleturquoise",
+    "source": "X11"
+  },
+  {
+    "title": "Dark Slate Blue",
+    "slug": "dark-slate-blue",
+    "value": "darkslateblue",
+    "source": "X11"
+  },
+  {
+    "title": "Medium Slate Blue",
+    "slug": "medium-slate-blue",
+    "value": "mediumslateblue",
+    "source": "X11"
+  },
+  {
+    "title": "Slate Blue",
+    "slug": "slate-blue",
+    "value": "slateblue",
+    "source": "X11"
+  },
+  {
+    "title": "Aquamarine",
+    "slug": "aquamarine",
+    "value": "aquamarine",
+    "source": "X11"
   }
 ]
