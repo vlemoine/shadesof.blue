@@ -19,12 +19,16 @@ export default {
     const pantone = await fetch(`${origin}/_content/pantone`).then(res =>
       res.json()
     );
+    const crayola = await fetch(`${origin}/_content/crayola`).then(res =>
+      res.json()
+    );
     const random = [
       randomArr(x11).slug,
       randomArr(other).slug,
       randomArr(ntc).slug,
       randomArr(tcx).slug,
-      randomArr(pantone).slug
+      randomArr(pantone).slug,
+      randomArr(crayola).slug
     ];
     window.location = randomArr(random);
   }
