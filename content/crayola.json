@@ -180,13 +180,13 @@
     "source": "Crayola"
   },
   {
-    "title": "dolphin gray",
+    "title": "Dolphin Gray",
     "slug": "dolphin-gray",
     "value": "rgb(111, 114, 133)",
     "source": "Crayola"
   },
   {
-    "title": "outer space",
+    "title": "Outer Space",
     "slug": "outer-space",
     "value": "rgb(45, 56, 58)",
     "source": "Crayola"
@@ -198,7 +198,7 @@
     "source": "Crayola"
   },
   {
-    "title": "waterfall",
+    "title": "Waterfall",
     "slug": "waterfall",
     "value": "rgb(147, 196, 207)",
     "source": "Crayola"
@@ -207,6 +207,12 @@
     "title": "White Shimmer",
     "slug": "white-shimmer",
     "value": "rgb(217, 224, 227)",
+    "source": "Crayola"
+  },
+  {
+    "title": "Steel Blue",
+    "slug": "steel-blue",
+    "value": "rgb(11, 150, 155)",
     "source": "Crayola"
   }
 ]
