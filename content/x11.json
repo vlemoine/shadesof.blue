@@ -191,11 +191,5 @@
     "slug": "slate-blue",
     "value": "slateblue",
     "source": "X11"
-  },
-  {
-    "title": "Aquamarine",
-    "slug": "aquamarine",
-    "value": "aquamarine",
-    "source": "X11"
   }
 ]
