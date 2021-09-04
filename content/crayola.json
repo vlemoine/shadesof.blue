@@ -1,7 +1,7 @@
 [
   {
-    "title": "Baby Blue (Crayola)",
-    "slug": "crayola-baby-blue",
+    "title": "Baby Blue",
+    "slug": "baby-blue-crayola",
     "value": "rgb(231, 254, 255)",
     "source": "Crayola"
   },
@@ -18,14 +18,14 @@
     "source": "Crayola"
   },
   {
-    "title": "Crayola Blue",
-    "slug": "crayola-blue",
+    "title": "Blue",
+    "slug": "blue-crayola",
     "value": "rgb(0, 102, 255)",
     "source": "Crayola"
   },
   {
-    "title": "Blue Bell (Crayola)",
-    "slug": "crayola-blue-bell",
+    "title": "Blue Bell",
+    "slug": "blue-bell-crayola",
     "value": "rgb(153, 153, 204)",
     "source": "Crayola"
   },
@@ -60,8 +60,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Cerulean (Crayola)",
-    "slug": "crayola-cerulean",
+    "title": "Cerulean",
+    "slug": "cerulean-crayola",
     "value": "rgb(2, 164, 211)",
     "source": "Crayola"
   },
@@ -78,8 +78,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Dark Blue (Crayola)",
-    "slug": "crayola-dark-blue",
+    "title": "Dark Blue",
+    "slug": "dark-blue-crayola",
     "value": "rgb(0, 48, 101)",
     "source": "Crayola"
   },
@@ -102,20 +102,20 @@
     "source": "Crayola"
   },
   {
-    "title": "Gray Blue (Crayola)",
-    "slug": "crayola-gray-blue",
+    "title": "Gray Blue",
+    "slug": "gray-blue-crayola",
     "value": "rgb(118, 128, 135)",
     "source": "Crayola"
   },
   {
-    "title": "Indigo (Crayola)",
-    "slug": "crayola-indigo",
+    "title": "Indigo",
+    "slug": "indigo-crayola",
     "value": "rgb(79, 105, 198)",
     "source": "Crayola"
   },
   {
-    "title": "Light Blue (Crayola)",
-    "slug": "crayola-light-blue",
+    "title": "Light Blue",
+    "slug": "light-blue-crayola",
     "value": "rgb(143, 216, 216)",
     "source": "Crayola"
   },
@@ -126,8 +126,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Midnight Blue (Crayola)",
-    "slug": "crayola-midnight-blue",
+    "title": "Midnight Blue",
+    "slug": "midnight-blue-crayola",
     "value": "rgb(0, 51, 102)",
     "source": "Crayola"
   },
@@ -138,8 +138,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Pale Blue (Crayola)",
-    "slug": "crayola-pale-blue",
+    "title": "Pale Blue",
+    "slug": "pale-blue-crayola",
     "value": "rgb(209, 237, 242)",
     "source": "Crayola"
   },
@@ -150,8 +150,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Pastel Blue (Crayola)",
-    "slug": "crayola-pastel-blue",
+    "title": "Pastel Blue",
+    "slug": "pastel-blue-crayola",
     "value": "rgb(128, 206, 225)",
     "source": "Crayola"
   },
@@ -162,8 +162,8 @@
     "source": "Crayola"
   },
   {
-    "title": "Sky Blue (Crayola)",
-    "slug": "crayola-sky-blue",
+    "title": "Sky Blue",
+    "slug": "sky-blue-crayola",
     "value": "rgb(118, 215, 234)",
     "source": "Crayola"
   },
@@ -192,7 +192,7 @@
     "source": "Crayola"
   },
   {
-    "title": "Slate (Crayola)",
+    "title": "Slate",
     "slug": "slate-crayola",
     "value": "rgb(64, 78, 90)",
     "source": "Crayola"
