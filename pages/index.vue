@@ -89,13 +89,9 @@ export default {
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     const crayola = await $content("crayola").fetch();
+    const blues = [...x11, ...other, ...pantone, ...tcx, ...ntc, ...crayola];
     return {
-      x11,
-      other,
-      pantone,
-      tcx,
-      ntc,
-      crayola
+      blues
     };
   },
   data() {
@@ -121,24 +117,15 @@ export default {
   },
   computed: {
     c() {
-      let sort = [
-        ...this.x11,
-        ...this.other,
-        ...this.pantone,
-        ...this.tcx,
-        ...this.ntc,
-        ...this.crayola
-      ];
+      let sort = [...this.blues];
       sort.forEach(s => {
         const b = Color(s.value);
-        const hsl = b.hsl().object();
         s.alias = s.alias || "";
         s.hex = b.hex();
-        s.luminosity = b.luminosity();
         s.hsl = {};
-        s.hsl.h = Math.round(hsl.h);
-        s.hsl.s = Math.round(hsl.s);
-        s.hsl.l = Math.round(hsl.l);
+        ['h', 's', 'l'].forEach(v => {
+          s.hsl[v] = Math.round(b.hsl().object()[v])
+        })
         s.gray =
           s.hsl.s <= 22 ||
           s.hsl.l <= 10 ||
@@ -157,7 +144,7 @@ export default {
       const filters = this.filters;
       return (
         (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
-        blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+          blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
           blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
         (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
         (!blue.gray && filters.onlyGrays) ||
