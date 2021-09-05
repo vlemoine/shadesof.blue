@@ -6,22 +6,13 @@
 const randomArr = arr => arr[Math.floor(Math.random() * arr.length)];
 
 export default {
-  async fetch() {
-    const origin = window.location.origin;
-    const x11 = await fetch(`${origin}/_content/x11`).then(res => res.json());
-    const other = await fetch(`${origin}/_content/colors`).then(res =>
-      res.json()
-    );
-    const ntc = await fetch(`${origin}/_content/ntc`).then(res => res.json());
-    const tcx = await fetch(`${origin}/_content/pantone-tcx`).then(res =>
-      res.json()
-    );
-    const pantone = await fetch(`${origin}/_content/pantone`).then(res =>
-      res.json()
-    );
-    const crayola = await fetch(`${origin}/_content/crayola`).then(res =>
-      res.json()
-    );
+  async fetch({ $content }) {
+    const x11 = await $content("x11").fetch();
+    const other = await $content("colors").fetch();
+    const pantone = await $content("pantone").fetch();
+    const tcx = await $content("pantone-tcx").fetch();
+    const ntc = await $content("ntc").fetch();
+    const crayola = await $content("crayola").fetch();
     const random = [
       randomArr(x11).slug,
       randomArr(other).slug,

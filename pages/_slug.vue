@@ -18,43 +18,15 @@ export default {
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
-      const x11 = await $content("x11", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      const other = await $content("colors", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      const pantone = await $content("pantone", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      const tcx = await $content("pantone-tcx", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      const ntc = await $content("ntc", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      const crayola = await $content("crayola", params.slug)
-        .fetch()
-        .then(r => r)
-        .catch(e => {
-          return false;
-        });
-      color = x11 || pantone || tcx || ntc || other || crayola;
+      const x11 = await $content("x11").fetch();
+      const other = await $content("colors").fetch();
+      const pantone = await $content("pantone").fetch();
+      const tcx = await $content("pantone-tcx").fetch();
+      const ntc = await $content("ntc").fetch();
+      const crayola = await $content("crayola").fetch();
+      let lib = [...x11, ...other, ...pantone, ...tcx, ...ntc, ...crayola];
+      lib = lib.filter(e => e.slug === params.slug);
+      color = lib[0];
     }
     return {
       about,
