@@ -418,7 +418,7 @@
   {
     "title": "Ultramarine",
     "alias": "17-4037 TCX",
-    "slug": "ultramarine",
+    "slug": "ultramarine-tcx",
     "value": "#5B7EBD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/17-4037-TCX"
@@ -1010,7 +1010,7 @@
   {
     "title": "Dark Blue",
     "alias": "19-4035 TCX",
-    "slug": "dark-blue",
+    "slug": "dark-blue-tcx",
     "value": "#305679",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/19-4035-TCX"

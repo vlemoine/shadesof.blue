@@ -29,5 +29,224 @@
     "value": "#9683EC",
     "source": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/Indigo#Tropical_indigo"
+  },
+  {
+    "title": "Ghost White",
+    "slug": "ghost-white",
+    "value": "#F8F8FF",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Lavender Blue",
+    "slug": "lavender-blue",
+    "value": "#CCCCFF",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Lavender Gray",
+    "alias": "Lavender Grey",
+    "slug": "lavender-gray",
+    "value": "#C4C3D0",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Ceil",
+    "slug": "ceil",
+    "value": "#92A1CF",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Cool Grey",
+    "alias": "Cool Gray",
+    "slug": "cool-grey",
+    "value": "#8C92AC",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Duke Blue",
+    "slug": "duke-blue",
+    "value": "#00009C",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Ultramarine",
+    "slug": "ultramarine",
+    "value": "#120A8F",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Sapphire",
+    "slug": "sapphire-wwc",
+    "value": "#082567",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Royal Blue",
+    "slug": "royal-blue-wwc",
+    "value": "#002366",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Baby Blue Eyes",
+    "slug": "baby-blue-eyes",
+    "value": "#A1CAF1",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Carolina Blue",
+    "slug": "carolina-blue",
+    "value": "#99BADD",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Iceberg",
+    "slug": "iceberg",
+    "value": "#99BADD",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Dark Pastel Blue",
+    "slug": "dark-pastel-blue",
+    "value": "#779ECB",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "United Nations Blue",
+    "slug": "united-nations-blue",
+    "value": "#5B92E5",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Bleu De France",
+    "slug": "bleu-de-france",
+    "value": "#318CE7",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Air Force Blue",
+    "slug": "air-force-blue",
+    "value": "#5D8AA8",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Glaucous",
+    "slug": "glaucous",
+    "value": "#6082B6",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Cadet",
+    "slug": "cadet",
+    "value": "#536878",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Yale Blue",
+    "slug": "yale-blue",
+    "value": "#0F4D92",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Dark Cerulean",
+    "slug": "dark-cerulean",
+    "value": "#08457E",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Charcoal",
+    "slug": "charcoal",
+    "value": "#36454F",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Arsenic",
+    "slug": "arsenic",
+    "value": "#3B444B",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Cool Black",
+    "slug": "cool-black",
+    "value": "#002E63",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Oxford Blue",
+    "slug": "oxford-blue",
+    "value": "#002147",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
+  },
+  {
+    "title": "Columbia Blue",
+    "slug": "columbia-blue",
+    "value": "#9BDDFF",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Bright Turquoise",
+    "slug": "bright-turquoise",
+    "value": "#08E8DE",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Baby Blue",
+    "slug": "baby-blue-wwc",
+    "value": "#89CFF0",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Pastel Blue",
+    "slug": "pastel-blue-wwc",
+    "value": "#AEC6CF",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Turquoise",
+    "slug": "turquoise",
+    "value": "#30D5C8",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Pine Green",
+    "slug": "pine-green",
+    "value": "#01796F",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
+  },
+  {
+    "title": "Cambridge Blue",
+    "slug": "cambridge-blue",
+    "value": "#A3C1AD",
+    "source": "Work with Color",
+    "url": "http://www.workwithcolor.com/green-cyan-color-hue-range-01.htm"
   }
 ]

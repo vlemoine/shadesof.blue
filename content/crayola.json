@@ -1,6 +1,7 @@
 [
   {
     "title": "Baby Blue",
+    "alias": "bubbles",
     "slug": "baby-blue-crayola",
     "value": "rgb(231, 254, 255)",
     "source": "Crayola"
@@ -55,7 +56,7 @@
   },
   {
     "title": "Cadet Blue",
-    "slug": "cadet-blue",
+    "slug": "cadet-blue-crayola",
     "value": "rgb(169, 178, 195)",
     "source": "Crayola"
   },
@@ -127,6 +128,7 @@
   },
   {
     "title": "Midnight Blue",
+    "alias": "Dark Midnight Blue",
     "slug": "midnight-blue-crayola",
     "value": "rgb(0, 51, 102)",
     "source": "Crayola"

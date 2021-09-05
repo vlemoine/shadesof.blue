@@ -1,7 +1,7 @@
 [
   {
     "title": "Dark Blue",
-    "slug": "dark-blue",
+    "slug": "dark-blue-ntc",
     "value": "#0000C8",
     "source": "Name that Color"
   },
@@ -37,6 +37,7 @@
   },
   {
     "title": "Smalt",
+    "alias": "Dark Powder Blue",
     "slug": "smalt",
     "value": "#003399",
     "source": "Name that Color"
