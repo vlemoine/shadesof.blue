@@ -1,10 +1,16 @@
 <template>
-  <section
-    class="swatches grid p-8"
-    :class="{ 'swatches--labeled': filters.showLabels }"
-  >
+  <div class="p-8">
     <p class="total">{{ c.length }} blues documented!</p>
     <header class="swatches__header flex">
+      <label for="name"
+        >Search
+        <input
+          id="name"
+          v-model="filters.name"
+          name="name"
+          type="text"
+          class="text-black"
+      /></label>
       <div id="filters" class="filters ml-auto">
         <label
           >Show grays
@@ -28,40 +34,46 @@
         </label>
       </div>
     </header>
-
-    <template v-for="(blue, i) in c">
-      <NuxtLink
-        :key="i"
-        :to="blue.slug"
-        class="relative"
-        :class="{
-          hidden:
-            (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
-            (!blue.gray && filters.onlyGrays) ||
-            (blue.oob && !filters.includeOobs)
-        }"
-      >
-        <Swatch :blue="blue" class="relative">
-          <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
-            <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
-            <i v-if="blue.oob" class="far fa-rainbow"></i>
-          </div>
-          <div
-            v-if="labels"
-            class="labels"
-            :class="{ 'opacity-0': !filters.showLabels }"
-          >
-            <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-            <template v-if="blue.source === 'Pantone' && blue.alias">
-              <span>{{ blue.alias }}</span
-              ><br />
-            </template>
-            <span>{{ blue.hex }}</span>
-          </div>
-        </Swatch>
-      </NuxtLink>
-    </template>
-  </section>
+    <section
+      class="swatches grid"
+      :class="{
+        'swatches--labeled': filters.showLabels
+      }"
+    >
+      <template v-for="(blue, i) in c">
+        <NuxtLink
+          :key="`${blue.slug}${blue.source}${i}`"
+          :to="blue.slug"
+          class="relative"
+          :class="{
+            hidden: filter(blue)
+          }"
+        >
+          <Swatch :blue="blue" class="relative">
+            <!-- <span v-if="blue.del">del</span> -->
+            <div
+              class="markers absolute top-1 right-1 opacity-50 flex flex-col"
+            >
+              <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
+              <i v-if="blue.oob" class="far fa-rainbow"></i>
+            </div>
+            <div
+              v-if="labels"
+              class="labels"
+              :class="{ 'opacity-0': !filters.showLabels }"
+            >
+              <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
+              <template v-if="blue.source === 'Pantone' && blue.alias">
+                <span>{{ blue.alias }}</span
+                ><br />
+              </template>
+              <span>{{ blue.hex }}</span>
+            </div>
+          </Swatch>
+        </NuxtLink>
+      </template>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -76,12 +88,14 @@ export default {
     const pantone = await $content("pantone").fetch();
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
+    const crayola = await $content("crayola").fetch();
     return {
       x11,
       other,
       pantone,
       tcx,
-      ntc
+      ntc,
+      crayola
     };
   },
   data() {
@@ -92,19 +106,33 @@ export default {
         showLabels: false,
         includeGrays: true,
         onlyGrays: false,
-        includeOobs: true
+        includeOobs: true,
+        palettes: {
+          x11: true,
+          other: true,
+          pantone: true,
+          tcx: true,
+          crayola: true,
+          ntc: true
+        },
+        name: ""
       }
     };
   },
   computed: {
     c() {
-      let sort = this.x11.concat(this.other);
-      sort = sort.concat(this.pantone);
-      sort = sort.concat(this.tcx);
-      sort = sort.concat(this.ntc);
+      let sort = [
+        ...this.x11,
+        ...this.other,
+        ...this.pantone,
+        ...this.tcx,
+        ...this.ntc,
+        ...this.crayola
+      ];
       sort.forEach(s => {
         const b = Color(s.value);
         const hsl = b.hsl().object();
+        s.alias = s.alias || "";
         s.hex = b.hex();
         s.luminosity = b.luminosity();
         s.hsl = {};
@@ -115,12 +143,26 @@ export default {
           s.hsl.s <= 22 ||
           s.hsl.l <= 10 ||
           (s.hsl.l > 10 && s.hsl.l <= 15 && s.hsl.s <= 50);
-        s.oob = s.hsl.h < 180 || s.hsl.h > 240;
+        s.oob = s.hsl.h < 170 || s.hsl.h > 240;
+        s.del = s.hsl.h < 150 || s.hsl.h > 260;
       });
       sort = sort.sort((a, b) => b.hsl.l - a.hsl.l);
       sort = sort.sort((a, b) => a.hsl.s - b.hsl.s);
       sort = sort.sort((a, b) => a.hsl.h - b.hsl.h);
       return sort;
+    }
+  },
+  methods: {
+    filter(blue) {
+      const filters = this.filters;
+      return (
+        (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+        blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+          blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
+        (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
+        (!blue.gray && filters.onlyGrays) ||
+        (blue.oob && !filters.includeOobs)
+      );
     }
   }
 };
@@ -131,10 +173,6 @@ export default {
   --swatch-width: 5rem;
   --swatch-aspect: 1;
   --swatch-zoom: calc(var(--swatch-width) * 1.8);
-}
-.swatches__header,
-.total {
-  grid-column: 1/-1;
 }
 .swatches {
   grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
