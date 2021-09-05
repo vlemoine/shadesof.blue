@@ -21,7 +21,7 @@ Colored pencils seem to agree with me on this one.
 
 ## Hues tracked
 
-This site mostly tracks the hues 180 - 240.
+This site mostly tracks the hues 170 - 240.
 
 The key word is "mostly", because there are expections with some named "blue" colors that lean green, or warmer blues (or indigo!) that still looks like blue, but has a hue value of over 240.
 
