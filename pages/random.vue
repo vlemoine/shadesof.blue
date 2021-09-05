@@ -21,7 +21,7 @@ export default {
       randomArr(pantone).slug,
       randomArr(crayola).slug
     ];
-    window.location = randomArr(random);
+    window.location = `/${randomArr(random)}`;
   }
 };
 </script>
