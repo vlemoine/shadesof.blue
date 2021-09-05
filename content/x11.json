@@ -132,15 +132,16 @@
     "source": "X11"
   },
   {
-    "title": "Aqua (Cyan)",
+    "title": "Aqua / Cyan",
     "slug": "aqua",
     "alias": "cyan",
     "value": "aqua",
     "source": "X11"
   },
   {
-    "title": "Light Cyan (Baby Blue)",
+    "title": "Light Cyan",
     "slug": "light-cyan",
+    "alias": "baby blue",
     "value": "lightcyan",
     "source": "X11"
   },
