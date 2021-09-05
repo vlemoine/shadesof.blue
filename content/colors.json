@@ -18,12 +18,6 @@
     "source": "Wikipedia"
   },
   {
-    "title": "Periwinkle",
-    "slug": "periwinkle",
-    "value": "#ccf",
-    "source": "Wikipedia"
-  },
-  {
     "title": "Tropical Indigo (Añil)",
     "slug": "tropical-indigo",
     "value": "#9683EC",
@@ -39,6 +33,7 @@
   },
   {
     "title": "Lavender Blue",
+    "alias": "periwinkle",
     "slug": "lavender-blue",
     "value": "#CCCCFF",
     "source": "Work with Color",
