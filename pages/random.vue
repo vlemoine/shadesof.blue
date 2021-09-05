@@ -6,7 +6,7 @@
 const randomArr = arr => arr[Math.floor(Math.random() * arr.length)];
 
 export default {
-  async fetch({ $content }) {
+  async asyncData({ $content }) {
     const x11 = await $content("x11").fetch();
     const other = await $content("colors").fetch();
     const pantone = await $content("pantone").fetch();
