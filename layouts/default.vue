@@ -5,21 +5,13 @@
   </main>
 </template>
 
-<script>
-import Header from "@/components/Header.vue";
-
-export default {
-  components: { Header }
-}
-</script>
-
 <style lang="scss">
 html {
-  background-color: #eee;
-  color: #111;
+  background-color: hsl(180, 20%, 95%);
+  color: hsl(0, 0%, 5%);
   font-family: "Anonymous Pro", monospace;
   &.dark {
-    background-color: #111;
+    background-color: hsl(220, 20%, 10%);
     color: #fff;
   }
 }
