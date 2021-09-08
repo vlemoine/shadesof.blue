@@ -198,19 +198,19 @@ export default {
 <style>
 :root {
   --swatch-width: 5rem;
-  --swatch-aspect: 1;
+  --swatch-aspect: 1 / 1;
   --swatch-zoom: calc(var(--swatch-width) * 1.8);
 }
 .swatches {
   grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
 }
 .swatch {
-  aspect-ratio: var(--swatch-aspect) / 1;
+  aspect-ratio: var(--swatch-aspect);
   overflow: hidden;
 }
 .swatches--labeled {
   --swatch-width: 10rem;
-  --swatch-aspect: 2;
+  --swatch-aspect: 2 / 1.5;
 }
 .swatches:not(.swatches--labeled) .swatch:hover,
 .swatches:not(.swatches--labeled) .swatch:focus {
