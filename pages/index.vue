@@ -41,38 +41,39 @@
       }"
     >
       <template v-for="(blue, i) in c">
-        <NuxtLink
+        <LazySwatch
           :key="`${blue.slug}${blue.source}${i}`"
-          :to="blue.slug"
-          class="relative"
+          :blue="blue"
           :class="{
             hidden: filter(blue),
           }"
         >
-          <Swatch :blue="blue" class="relative">
-            <!-- {{blue.dupe}} -->
-            <!-- {{blue.hsl.h}} -->
-            <!-- <span v-if="blue.del">del</span> -->
-            <div
-              class="markers absolute top-1 right-1 opacity-50 flex flex-col"
+          <!-- {{blue.dupe}} -->
+          <!-- {{blue.hsl.h}} -->
+          <!-- <span v-if="blue.del">del</span> -->
+          <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
+            <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
+            <i v-if="blue.oob" class="far fa-rainbow"></i>
+          </div>
+          <div
+            v-if="labels"
+            class="labels"
+            :class="{ 'opacity-0': !filters.showLabels }"
+          >
+            <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
+            <template
+              v-if="
+                (blue.source === 'Pantone' ||
+                  blue.source === 'Sherwin-Williams') &&
+                blue.alias
+              "
             >
-              <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
-              <i v-if="blue.oob" class="far fa-rainbow"></i>
-            </div>
-            <div
-              v-if="labels"
-              class="labels"
-              :class="{ 'opacity-0': !filters.showLabels }"
-            >
-              <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-              <template v-if="(blue.source === 'Pantone' || blue.source === 'Sherwin-Williams') && blue.alias">
-                <span>{{ blue.alias }}</span
-                ><br />
-              </template>
-              <span>{{ blue.hex }}</span>
-            </div>
-          </Swatch>
-        </NuxtLink>
+              <span>{{ blue.alias }}</span
+              ><br />
+            </template>
+            <span>{{ blue.hex }}</span>
+          </div>
+        </LazySwatch>
       </template>
     </section>
   </div>
@@ -80,10 +81,10 @@
 
 <script>
 import Color from "color";
-import Swatch from "~/components/Swatch.vue";
+// import Swatch from "~/components/Swatch.vue";
 
 export default {
-  components: { Swatch },
+  // components: { Swatch },
   async asyncData({ $content }) {
     const x11 = await $content("x11").fetch();
     const other = await $content("colors").fetch();
@@ -168,7 +169,7 @@ export default {
         s.del = s.hsl.h < 150 || s.hsl.h > 260;
         s.nameDupe = sort.filter((e) => e.slug === s.slug).length > 1;
       });
-      // sort.forEach((s) => {  
+      // sort.forEach((s) => {
       //   s.colorDupe = [];
       //   sort.forEach(e => {if (e.hex === s.hex && e.slug !== s.slug) s.colorDupe.push(e.slug)})
       // });
