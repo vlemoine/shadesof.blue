@@ -37,7 +37,7 @@
     <section
       class="swatches grid"
       :class="{
-        'swatches--labeled': filters.showLabels
+        'swatches--labeled': filters.showLabels,
       }"
     >
       <template v-for="(blue, i) in c">
@@ -46,10 +46,12 @@
           :to="blue.slug"
           class="relative"
           :class="{
-            hidden: filter(blue)
+            hidden: filter(blue),
           }"
         >
           <Swatch :blue="blue" class="relative">
+            <!-- {{blue.dupe}} -->
+            <!-- {{blue.hsl.h}} -->
             <!-- <span v-if="blue.del">del</span> -->
             <div
               class="markers absolute top-1 right-1 opacity-50 flex flex-col"
@@ -89,43 +91,76 @@ export default {
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     const crayola = await $content("crayola").fetch();
-    const blues = [...x11, ...other, ...pantone, ...tcx, ...ntc, ...crayola];
+    const swBlue = await $content("sw/blue").fetch();
+    const swPurple = await $content("sw/purple").fetch();
+    const swPastel = await $content("sw/pastel").fetch();
+    const swHistoric = await $content("sw/historic").fetch();
+    const swTimeless = await $content("sw/timeless").fetch();
+    const swNeutral = await $content("sw/neutral").fetch();
+    const sw = [
+      ...swBlue,
+      ...swPurple,
+      ...swPastel,
+      ...swHistoric,
+      ...swTimeless,
+      ...swNeutral,
+    ];
+    const blues = [
+      ...x11,
+      ...other,
+      ...pantone,
+      ...tcx,
+      ...ntc,
+      ...crayola,
+      ...sw,
+    ];
     return {
-      blues
+      blues,
     };
   },
   data() {
     return {
-      labels: true,
       details: true,
       filters: {
         showLabels: false,
         includeGrays: true,
         onlyGrays: false,
         includeOobs: true,
-        palettes: {
+        libraries: {
           x11: true,
           other: true,
           pantone: true,
           tcx: true,
           crayola: true,
-          ntc: true
+          ntc: true,
+          sw: true,
         },
-        name: ""
-      }
+        name: "",
+      },
+      labels: true,
+      libraries: [
+        "Crayola",
+        "Name that Color",
+        "Other",
+        "Pantone Coated",
+        "Pantone TCX",
+        "Sherwin-Williams",
+        "HTML/Web/X11",
+      ],
     };
   },
   computed: {
     c() {
       let sort = [...this.blues];
-      sort.forEach(s => {
+      sort.forEach((s) => {
+        s.dupe = sort.filter((e) => e.slug === s.slug).length > 1;
         const b = Color(s.value);
         s.alias = s.alias || "";
         s.hex = b.hex();
         s.hsl = {};
-        ['h', 's', 'l'].forEach(v => {
-          s.hsl[v] = Math.round(b.hsl().object()[v])
-        })
+        ["h", "s", "l"].forEach((v) => {
+          s.hsl[v] = Math.round(b.hsl().object()[v]);
+        });
         s.gray =
           s.hsl.s <= 22 ||
           s.hsl.l <= 10 ||
@@ -136,8 +171,9 @@ export default {
       sort = sort.sort((a, b) => b.hsl.l - a.hsl.l);
       sort = sort.sort((a, b) => a.hsl.s - b.hsl.s);
       sort = sort.sort((a, b) => a.hsl.h - b.hsl.h);
+      // sort = sort.sort((a, b) => a.slug > b.slug ? 1 : b.slug > a.slug ? -1 : 0);
       return sort;
-    }
+    },
   },
   methods: {
     filter(blue) {
@@ -150,8 +186,8 @@ export default {
         (!blue.gray && filters.onlyGrays) ||
         (blue.oob && !filters.includeOobs)
       );
-    }
-  }
+    },
+  },
 };
 </script>
 
