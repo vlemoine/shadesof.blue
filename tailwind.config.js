@@ -4,14 +4,16 @@ module.exports = {
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
-    "./nuxt.config.{js,ts}"
+    "./nuxt.config.{js,ts}",
   ],
   darkMode: "class", // or 'media' or 'class'
-  theme: {
-    extend: {}
-  },
   variants: {
-    extend: {}
+    extend: {
+      backgroundColor: ["checked"],
+      borderColor: ["checked"],
+      borderWidth: ["checked"],
+      opacity: ["disabled"],
+    },
   },
-  plugins: []
+  plugins: [],
 };
