@@ -78,14 +78,14 @@
   },
   {
     "title": "Sapphire",
-    "slug": "sapphire-wwc",
+    "slug": "sapphire",
     "value": "#082567",
     "source": "Work with Color",
     "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
   },
   {
     "title": "Royal Blue",
-    "slug": "royal-blue-wwc",
+    "slug": "royal-blue",
     "value": "#002366",
     "source": "Work with Color",
     "url": "http://www.workwithcolor.com/blue-color-hue-range-01.htm"
@@ -107,7 +107,7 @@
   {
     "title": "Iceberg",
     "slug": "iceberg",
-    "value": "#99BADD",
+    "value": "#71A6D2",
     "source": "Work with Color",
     "url": "http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm"
   },
@@ -211,14 +211,14 @@
   },
   {
     "title": "Baby Blue",
-    "slug": "baby-blue-wwc",
+    "slug": "baby-blue",
     "value": "#89CFF0",
     "source": "Work with Color",
     "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"
   },
   {
     "title": "Pastel Blue",
-    "slug": "pastel-blue-wwc",
+    "slug": "pastel-blue",
     "value": "#AEC6CF",
     "source": "Work with Color",
     "url": "http://www.workwithcolor.com/cyan-color-hue-range-01.htm"

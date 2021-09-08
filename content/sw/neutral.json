@@ -1,13 +1,5 @@
 [
   {
-    "title": "Reflection",
-    "alias": "SW 7661",
-    "slug": "reflection",
-    "value": "rgb(211, 213, 211)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7661"
-  },
-  {
     "title": "Olympus White",
     "alias": "SW 6253",
     "slug": "olympus-white",
@@ -22,38 +14,6 @@
     "value": "rgb(198, 202, 202)",
     "source": "Sherwin-Williams",
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7071"
-  },
-  {
-    "title": "Passive",
-    "alias": "SW 7064",
-    "slug": "passive",
-    "value": "rgb(203, 204, 201)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7064"
-  },
-  {
-    "title": "Silver Strand",
-    "alias": "SW 7057",
-    "slug": "silver-strand",
-    "value": "rgb(200, 203, 196)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7057"
-  },
-  {
-    "title": "Gossamer Veil",
-    "alias": "SW 9165",
-    "slug": "gossamer-veil",
-    "value": "rgb(211, 206, 196)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9165"
-  },
-  {
-    "title": "Silverpointe",
-    "alias": "SW 7653",
-    "slug": "silverpointe",
-    "value": "rgb(209, 210, 203)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7653"
   },
   {
     "title": "Evening Shadow",
@@ -80,38 +40,6 @@
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7072"
   },
   {
-    "title": "Argos",
-    "alias": "SW 7065",
-    "slug": "argos",
-    "value": "rgb(189, 189, 183)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7065"
-  },
-  {
-    "title": "Magnetic Gray",
-    "alias": "SW 7058",
-    "slug": "magnetic-gray",
-    "value": "rgb(178, 181, 175)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7058"
-  },
-  {
-    "title": "Drift of Mist",
-    "alias": "SW 9166",
-    "slug": "drift-of-mist",
-    "value": "rgb(220, 216, 208)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9166"
-  },
-  {
-    "title": "Lattice",
-    "alias": "SW 7654",
-    "slug": "lattice",
-    "value": "rgb(206, 206, 198)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7654"
-  },
-  {
     "title": "Monorail Silver",
     "alias": "SW 7663",
     "slug": "monorail-silver",
@@ -134,38 +62,6 @@
     "value": "rgb(160, 165, 167)",
     "source": "Sherwin-Williams",
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7073"
-  },
-  {
-    "title": "Gray Matters",
-    "alias": "SW 7066",
-    "slug": "gray-matters",
-    "value": "rgb(167, 168, 162)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7066"
-  },
-  {
-    "title": "Unusual Gray",
-    "alias": "SW 7059",
-    "slug": "unusual-gray",
-    "value": "rgb(163, 167, 160)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7059"
-  },
-  {
-    "title": "Gray Clouds",
-    "alias": "SW 7658",
-    "slug": "gray-clouds",
-    "value": "rgb(183, 183, 178)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7658"
-  },
-  {
-    "title": "Front Porch",
-    "alias": "SW 7651",
-    "slug": "front-porch",
-    "value": "rgb(204, 204, 197)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7651"
   },
   {
     "title": "Steely Gray",
@@ -192,38 +88,6 @@
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9162"
   },
   {
-    "title": "Tin Lizzie",
-    "alias": "SW 9163",
-    "slug": "tin-lizzie",
-    "value": "rgb(147, 149, 145)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9163"
-  },
-  {
-    "title": "Illusive Green",
-    "alias": "SW 9164",
-    "slug": "illusive-green",
-    "value": "rgb(146, 148, 141)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW9164"
-  },
-  {
-    "title": "Mineral Deposit",
-    "alias": "SW 7652",
-    "slug": "mineral-deposit",
-    "value": "rgb(171, 176, 172)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7652"
-  },
-  {
-    "title": "Tinsmith",
-    "alias": "SW 7657",
-    "slug": "tinsmith",
-    "value": "rgb(197, 200, 196)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7657"
-  },
-  {
     "title": "Wall Street",
     "alias": "SW 7665",
     "slug": "wall-street",
@@ -248,36 +112,12 @@
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7074"
   },
   {
-    "title": "Cityscape",
-    "alias": "SW 7067",
-    "slug": "cityscape",
-    "value": "rgb(127, 129, 126)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7067"
-  },
-  {
-    "title": "Attitude Gray",
-    "alias": "SW 7060",
-    "slug": "attitude-gray",
-    "value": "rgb(124, 125, 117)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7060"
-  },
-  {
     "title": "Gris",
     "alias": "SW 7659",
     "slug": "gris",
     "value": "rgb(165, 169, 168)",
     "source": "Sherwin-Williams",
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7659"
-  },
-  {
-    "title": "Silverplate",
-    "alias": "SW 7649",
-    "slug": "silverplate",
-    "value": "rgb(194, 192, 186)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7649"
   },
   {
     "title": "Slate Tile",
@@ -304,38 +144,6 @@
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7075"
   },
   {
-    "title": "Grizzle Gray",
-    "alias": "SW 7068",
-    "slug": "grizzle-gray",
-    "value": "rgb(99, 101, 98)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7068"
-  },
-  {
-    "title": "Night Owl",
-    "alias": "SW 7061",
-    "slug": "night-owl",
-    "value": "rgb(99, 101, 95)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7061"
-  },
-  {
-    "title": "Earl Grey",
-    "alias": "SW 7660",
-    "slug": "earl-grey",
-    "value": "rgb(150, 154, 150)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7660"
-  },
-  {
-    "title": "Ellie Gray",
-    "alias": "SW 7650",
-    "slug": "ellie-gray",
-    "value": "rgb(170, 169, 164)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7650"
-  },
-  {
     "title": "Smoky Blue",
     "alias": "SW 7604",
     "slug": "smoky-blue",
@@ -358,38 +166,6 @@
     "value": "rgb(68, 72, 77)",
     "source": "Sherwin-Williams",
     "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7076"
-  },
-  {
-    "title": "Peppercorn",
-    "alias": "SW 7674",
-    "slug": "peppercorn",
-    "value": "rgb(88, 88, 88)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7674"
-  },
-  {
-    "title": "Laurel Woods",
-    "alias": "SW 7749",
-    "slug": "laurel-woods",
-    "value": "rgb(68, 73, 61)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7749"
-  },
-  {
-    "title": "Homburg Gray",
-    "alias": "SW 7622",
-    "slug": "homburg-gray",
-    "value": "rgb(102, 109, 105)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7622"
-  },
-  {
-    "title": "Stamped Concrete",
-    "alias": "SW 7655",
-    "slug": "stamped-concrete",
-    "value": "rgb(160, 160, 154)",
-    "source": "Sherwin-Williams",
-    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW7655"
   },
   {
     "title": "Dress Blues",
