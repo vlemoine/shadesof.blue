@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Studio Blue Green",
+    "alias": "SW 0047",
+    "slug": "studio-blue-green",
+    "value": "rgb(109, 129, 123)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0047"
+  },
+  {
+    "title": "Blue Sky",
+    "alias": "SW 0063",
+    "slug": "blue-sky",
+    "value": "rgb(171, 209, 201)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0063"
+  },
+  {
+    "title": "Copen Blue",
+    "alias": "SW 0068",
+    "slug": "copen-blue",
+    "value": "rgb(194, 204, 196)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0068"
+  },
+  {
+    "title": "Rookwood Blue Green",
+    "alias": "SW 2811",
+    "slug": "rookwood-blue-green",
+    "value": "rgb(115, 132, 120)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW2811"
+  },
+  {
+    "title": "Holiday Turquoise",
+    "alias": "SW 0075",
+    "slug": "holiday-turquoise",
+    "value": "rgb(138, 198, 189)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0075"
+  },
+  {
+    "title": "Teal Stencil",
+    "alias": "SW 0018",
+    "slug": "teal-stencil",
+    "value": "rgb(98, 127, 123)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0018"
+  },
+  {
+    "title": "Rookwood Sash Green",
+    "alias": "SW 2810",
+    "slug": "rookwood-sash-green",
+    "value": "rgb(80, 106, 103)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW2810"
+  },
+  {
+    "title": "Festoon Aqua",
+    "alias": "SW 0019",
+    "slug": "festoon-aqua",
+    "value": "rgb(160, 187, 184)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0019"
+  },
+  {
+    "title": "Peacock Plume",
+    "alias": "SW 0020",
+    "slug": "peacock-plume",
+    "value": "rgb(115, 150, 148)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0020"
+  },
+  {
+    "title": "Blue Peacock",
+    "alias": "SW 0064",
+    "slug": "blue-peacock",
+    "value": "rgb(1, 78, 76)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0064"
+  },
+  {
+    "title": "Dutch Tile Blue",
+    "alias": "SW 0031",
+    "slug": "dutch-tile-blue",
+    "value": "rgb(154, 171, 171)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0031"
+  },
+  {
+    "title": "Powder Blue",
+    "alias": "SW 2863",
+    "slug": "powder-blue",
+    "value": "rgb(137, 164, 173)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW2863"
+  },
+  {
+    "title": "Bunglehouse Blue",
+    "alias": "SW 0048",
+    "slug": "bunglehouse-blue",
+    "value": "rgb(71, 98, 111)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0048"
+  },
+
+  {
+    "title": "Needlepoint Navy",
+    "alias": "SW 0032",
+    "slug": "needlepoint-navy",
+    "value": "rgb(84, 102, 112)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW0032"
+  },
+  {
+    "title": "Downing Slate",
+    "alias": "SW 2819",
+    "slug": "downing-slate",
+    "value": "rgb(119, 127, 134)",
+    "source": "Sherwin-Williams",
+    "url": "https://www.sherwin-williams.com/homeowners/color/find-and-explore-colors/paint-colors-by-family/SW2819"
+  }
+]
