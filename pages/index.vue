@@ -65,7 +65,7 @@
               :class="{ 'opacity-0': !filters.showLabels }"
             >
               <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-              <template v-if="blue.source === 'Pantone' && blue.alias">
+              <template v-if="(blue.source === 'Pantone' || blue.source === 'Sherwin-Williams') && blue.alias">
                 <span>{{ blue.alias }}</span
                 ><br />
               </template>
@@ -122,20 +122,20 @@ export default {
     return {
       details: true,
       filters: {
-        showLabels: false,
         includeGrays: true,
-        onlyGrays: false,
         includeOobs: true,
         libraries: {
-          x11: true,
-          other: true,
-          pantone: true,
-          tcx: true,
           crayola: true,
           ntc: true,
+          other: true,
+          pantone: true,
           sw: true,
+          tcx: true,
+          x11: true,
         },
         name: "",
+        onlyGrays: false,
+        showLabels: false,
       },
       labels: true,
       libraries: [
@@ -153,7 +153,6 @@ export default {
     c() {
       let sort = [...this.blues];
       sort.forEach((s) => {
-        s.dupe = sort.filter((e) => e.slug === s.slug).length > 1;
         const b = Color(s.value);
         s.alias = s.alias || "";
         s.hex = b.hex();
@@ -167,7 +166,12 @@ export default {
           (s.hsl.l > 10 && s.hsl.l <= 15 && s.hsl.s <= 50);
         s.oob = s.hsl.h < 170 || s.hsl.h > 240;
         s.del = s.hsl.h < 150 || s.hsl.h > 260;
+        s.nameDupe = sort.filter((e) => e.slug === s.slug).length > 1;
       });
+      // sort.forEach((s) => {  
+      //   s.colorDupe = [];
+      //   sort.forEach(e => {if (e.hex === s.hex && e.slug !== s.slug) s.colorDupe.push(e.slug)})
+      // });
       sort = sort.sort((a, b) => b.hsl.l - a.hsl.l);
       sort = sort.sort((a, b) => a.hsl.s - b.hsl.s);
       sort = sort.sort((a, b) => a.hsl.h - b.hsl.h);
