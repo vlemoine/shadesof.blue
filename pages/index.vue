@@ -11,37 +11,35 @@
           type="text"
           class="text-black"
       /></label>
-      <div id="filters" class="filters ml-auto">
-        <label
-          >Show grays
-          <input
-            v-model="filters.includeGrays"
-            :disabled="filters.onlyGrays"
-            type="checkbox"
-          />
-        </label>
-        <label
-          >Only grays
-          <input v-model="filters.onlyGrays" type="checkbox" />
-        </label>
-        <label
-          >Show out of bounds
-          <input v-model="filters.includeOobs" type="checkbox" />
-        </label>
-        <label
-          >Show labels
-          <input v-model="filters.showLabels" type="checkbox" />
-        </label>
-      </div>
+      <Filters class="ml-auto">
+        <template v-for="(f, k, i) in filters.check">
+          <div
+            :key="i"
+            class="p-4 border-b border-opacity-20 flex items-center"
+          >
+            <label :for="k">{{ f.label }}</label>
+            <Checkbox
+              :id="k"
+              v-model="f.value"
+              :checked="f.value"
+              :name="k"
+              :disabled="
+                k === 'includeGrays' ? filters.check.onlyGrays.value : false
+              "
+            />
+          </div>
+        </template>
+      </Filters>
     </header>
+
     <section
       class="swatches grid"
       :class="{
-        'swatches--labeled': filters.showLabels,
+        'swatches--labeled': filters.check.showLabels.value,
       }"
     >
       <template v-for="(blue, i) in c">
-        <LazySwatch
+        <Swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
           :class="{
@@ -58,7 +56,7 @@
           <div
             v-if="labels"
             class="labels"
-            :class="{ 'opacity-0': !filters.showLabels }"
+            :class="{ 'opacity-0': !filters.check.showLabels.value }"
           >
             <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
             <template
@@ -73,7 +71,7 @@
             </template>
             <span>{{ blue.hex }}</span>
           </div>
-        </LazySwatch>
+        </Swatch>
       </template>
     </section>
   </div>
@@ -81,10 +79,16 @@
 
 <script>
 import Color from "color";
-// import Swatch from "~/components/Swatch.vue";
+
+// eslint-disable-next-line prefer-const
+const Panel = {
+  includeGrays: { label: "Show grays", value: true },
+  onlyGrays: { label: "Show only grays", value: false },
+  includeOobs: { label: "Show out of bounds", value: true },
+  showLabels: { label: "Show labels", value: false },
+};
 
 export default {
-  // components: { Swatch },
   async asyncData({ $content }) {
     const x11 = await $content("x11").fetch();
     const other = await $content("colors").fetch();
@@ -123,8 +127,8 @@ export default {
     return {
       details: true,
       filters: {
-        includeGrays: true,
-        includeOobs: true,
+        open: false,
+        check: Panel,
         libraries: {
           crayola: true,
           ntc: true,
@@ -135,8 +139,6 @@ export default {
           x11: true,
         },
         name: "",
-        onlyGrays: false,
-        showLabels: false,
       },
       labels: true,
       libraries: [
@@ -187,9 +189,11 @@ export default {
         (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
           blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
           blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
-        (blue.gray && !filters.includeGrays && !filters.onlyGrays) ||
-        (!blue.gray && filters.onlyGrays) ||
-        (blue.oob && !filters.includeOobs)
+        (blue.gray &&
+          !filters.check.includeGrays.value &&
+          !filters.check.onlyGrays.value) ||
+        (!blue.gray && filters.check.onlyGrays.value) ||
+        (blue.oob && !filters.check.includeOobs.value)
       );
     },
   },
