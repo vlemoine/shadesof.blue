@@ -418,7 +418,7 @@
   {
     "title": "Ultramarine",
     "alias": "17-4037 TCX",
-    "slug": "ultramarine-tcx",
+    "slug": "ultramarine",
     "value": "#5B7EBD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/17-4037-TCX"
@@ -1010,7 +1010,7 @@
   {
     "title": "Dark Blue",
     "alias": "19-4035 TCX",
-    "slug": "dark-blue-tcx",
+    "slug": "dark-blue",
     "value": "#305679",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/19-4035-TCX"
@@ -3738,7 +3738,7 @@
   {
     "title": "Teal",
     "alias": "17-4919 TCX",
-    "slug": "teal-tcx",
+    "slug": "teal",
     "value": "#478589",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/17-4919-TCX"
