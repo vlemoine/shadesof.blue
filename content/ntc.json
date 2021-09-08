@@ -1,7 +1,7 @@
 [
   {
     "title": "Dark Blue",
-    "slug": "dark-blue-ntc",
+    "slug": "dark-blue",
     "value": "#0000C8",
     "source": "Name that Color"
   },
@@ -176,7 +176,7 @@
   },
   {
     "title": "Teal Blue",
-    "slug": "teal-blue-ntc",
+    "slug": "teal-blue",
     "value": "#044259",
     "source": "Name that Color"
   },
@@ -524,7 +524,7 @@
   },
   {
     "title": "Azure",
-    "slug": "azure-ntc",
+    "slug": "azure",
     "value": "#315BA1",
     "source": "Name that Color"
   },
@@ -1250,7 +1250,7 @@
   },
   {
     "title": "Vista Blue",
-    "slug": "vista-blue-ntc",
+    "slug": "vista-blue",
     "value": "#8FD6B4",
     "source": "Name that Color"
   },
