@@ -3,7 +3,7 @@
 </template>
 
 <script>
-const randomArr = arr => arr[Math.floor(Math.random() * arr.length)];
+const randomArr = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 export default {
   async asyncData({ $content }) {
@@ -13,15 +13,30 @@ export default {
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     const crayola = await $content("crayola").fetch();
+    const swBlue = await $content("sw/blue").fetch();
+    const swPurple = await $content("sw/purple").fetch();
+    const swPastel = await $content("sw/pastel").fetch();
+    const swHistoric = await $content("sw/historic").fetch();
+    const swTimeless = await $content("sw/timeless").fetch();
+    const swNeutral = await $content("sw/neutral").fetch();
+    const sw = [
+      ...swBlue,
+      ...swPurple,
+      ...swPastel,
+      ...swHistoric,
+      ...swTimeless,
+      ...swNeutral,
+    ];
     const random = [
       randomArr(x11).slug,
       randomArr(other).slug,
       randomArr(ntc).slug,
       randomArr(tcx).slug,
       randomArr(pantone).slug,
-      randomArr(crayola).slug
+      randomArr(crayola).slug,
+      randomArr(sw).slug,
     ];
     window.location = `/${randomArr(random)}`;
-  }
+  },
 };
 </script>
