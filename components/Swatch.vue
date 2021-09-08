@@ -14,7 +14,6 @@
 import Color from "color";
 
 export default {
-  // name: "Swatch",
   props: {
     blue: {
       type: Object,
