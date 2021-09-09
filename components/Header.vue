@@ -7,6 +7,7 @@
       <nav class="flex ml-auto items-center gap-4">
         <NuxtLink to="/random" class="font-bold text-lg">Random</NuxtLink>
         <NuxtLink to="/about" class="font-bold text-lg">About</NuxtLink>
+        <ColorModeToggle />
       </nav>
     </header>
 </template>
