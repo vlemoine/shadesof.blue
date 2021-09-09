@@ -36,7 +36,13 @@ export default {
       randomArr(crayola).slug,
       randomArr(sw).slug,
     ];
-    window.location = `/${randomArr(random)}`;
+    const r = `/${randomArr(random)}`;
+    return { r };
+  },
+  mounted() {
+    this.$router.push({
+      path: this.r,
+    });
   },
 };
 </script>
