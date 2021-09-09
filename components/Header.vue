@@ -7,19 +7,10 @@
       <nav class="flex ml-auto items-center gap-4">
         <NuxtLink to="/random" class="font-bold text-lg">Random</NuxtLink>
         <NuxtLink to="/about" class="font-bold text-lg">About</NuxtLink>
-        <ColorModeToggle />
+        <ThemeToggle />
       </nav>
     </header>
 </template>
-
-<script>
-import Logo from "@/components/Logo.vue";
-
-export default {
-  name: "Header",
-  components: { Logo }
-};
-</script>
 
 <style>
 header {
