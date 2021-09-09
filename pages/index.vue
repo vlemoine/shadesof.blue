@@ -1,21 +1,26 @@
 <template>
-  <div class="p-8">
-    <p class="total">{{ c.length }} blues documented!</p>
-    <header class="swatches__header flex">
+  <div class="px-8">
+    <header class="swatches__header flex -mx-8 pt-4 px-8 pb-8">
       <label for="name"
         >Search
         <input
           id="name"
           v-model="filters.name"
           name="name"
-          type="text"
+          type="search"
           class="text-black"
       /></label>
-      <Filters class="ml-auto">
+      <Filters>
         <template v-for="(f, k, i) in filters.check">
           <div
             :key="i"
-            class="p-4 border-b border-opacity-20 flex items-center"
+            class="
+              p-4
+              border-b border-opacity-80
+              dark:border-opacity-20
+              flex
+              items-center
+            "
           >
             <label :for="k">{{ f.label }}</label>
             <Checkbox
@@ -30,8 +35,11 @@
           </div>
         </template>
       </Filters>
+      <p class="col-span-3 ml-auto total">
+        Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
+        documented!
+      </p>
     </header>
-
     <section
       class="swatches grid"
       :class="{
@@ -181,6 +189,23 @@ export default {
       // sort = sort.sort((a, b) => a.slug > b.slug ? 1 : b.slug > a.slug ? -1 : 0);
       return sort;
     },
+    count() {
+      const filters = this.filters;
+      const c = [...this.c].filter(
+        (blue) =>
+          (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+            blue.alias.toLowerCase().search(filters.name.toLowerCase()) ===
+              -1 &&
+            blue.title.toLowerCase().search(filters.name.toLowerCase()) ===
+              -1) ||
+          (blue.gray &&
+            !filters.check.includeGrays.value &&
+            !filters.check.onlyGrays.value) ||
+          (!blue.gray && filters.check.onlyGrays.value) ||
+          (blue.oob && !filters.check.includeOobs.value)
+      );
+      return this.c.length - c.length;
+    },
   },
   methods: {
     filter(blue) {
@@ -204,6 +229,7 @@ export default {
 :root {
   --swatch-width: 5rem;
   --swatch-aspect: 1 / 1;
+  --swatch-aspect-pc: calc(var(--swatch-aspect) * 100%);
   --swatch-zoom: calc(var(--swatch-width) * 1.8);
 }
 .swatches {
@@ -213,9 +239,25 @@ export default {
   aspect-ratio: var(--swatch-aspect);
   overflow: hidden;
 }
+.swatch .labels {
+  height: 0;
+}
+@supports not (aspect-ratio: 1 / 1) {
+.swatch::before {
+  float: left;
+  padding-top: var(--swatch-aspect-pc);
+  content: '';
+}
+.swatch::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+}
 .swatches--labeled {
   --swatch-width: 10rem;
   --swatch-aspect: 2 / 1.5;
+  --swatch-aspect-pc: calc(1.5 / 2 * 100%);
 }
 .swatches:not(.swatches--labeled) .swatch:hover,
 .swatches:not(.swatches--labeled) .swatch:focus {
@@ -234,5 +276,6 @@ export default {
 .swatch:hover .labels,
 .swatch:focus .labels {
   opacity: 1;
+  height: auto;
 }
 </style>
