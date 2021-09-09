@@ -8,10 +8,11 @@ import ThemeToggle from "@/components/ThemeToggle.vue";
 describe("ThemeToggle", () => {
   const wrapper = mount(ThemeToggle, {
     propsData: {
-      dark: false
-    }
+      dark: false,
+    },
   });
-  it("returns dark prop", () => {
-    expect(wrapper.vm.dark).toBe(false);
+  it("toggles dark theme", () => {
+    wrapper.vm.toggle();
+    expect(wrapper.vm.dark).toBe(true);
   });
 });
