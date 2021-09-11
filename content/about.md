@@ -5,7 +5,7 @@ description: 'More about the color blue, and out perceptions of it'
 
 The color blue is an elusive one - it has a wide range, and interperatations of "blue" differs from person to person!
 
-## Blue vs Azure vs Cyan
+## Blue vs Cyan
 
 This site includes all hues of "blue": the classic RGB blue, as well as cyan, teal, azure, and some indigo.
 
@@ -21,8 +21,16 @@ Colored pencils seem to agree with me on this one.
 
 ## Hues tracked
 
-This site mostly tracks the hues 170 - 240.
+The "blue" boundary this site tracks are hues 170 - 250.
 
 The key word is "mostly", because there are expections with some named "blue" colors that lean green, or warmer blues (or indigo!) that still looks like blue, but has a hue value of over 240.
 
-Blues that are deemed outside the bounds are marked with a rainbow icon.
+Blues that are outside the boundary are marked with a rainbow icon.
+
+### Hue breakdown
+
+Cyan is hue 180. The cyan range is <= 195
+
+Azure is hue 210. The azure range is 196-225
+
+Blue is hue 240 The blue range is >= 226
