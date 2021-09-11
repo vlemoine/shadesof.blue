@@ -4,10 +4,14 @@
     class="w-full bg-opacity-90 transition-all bg-white dark:bg-black"
     :class="{
       'h-0 overflow-hidden': !open,
-      'p-4': open,
+      'mt-4 px-4 py-2': open,
     }"
+    :aria-hidden="!open"
   >
-    <slot></slot>
+    <template v-if="open">
+      <slot></slot>
+    </template>
+    
   </div>
 </template>
 
