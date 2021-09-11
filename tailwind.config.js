@@ -13,6 +13,7 @@ module.exports = {
       borderColor: ["checked"],
       borderWidth: ["checked"],
       opacity: ["disabled"],
+      zIndex: ["hover", "focus"]
     },
   },
   plugins: [],
