@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="blue.slug" class="relative">
+  <NuxtLink :to="blue.slug" class="relative hover:z-20 focus:z-20">
     <div
       class="swatch p-2 relative"
       :style="`background-color: ${blue.value};color: ${color}`"
@@ -69,8 +69,8 @@ export default {
     clear: both;
   }
 }
-.swatch:hover .labels,
-.swatch:focus .labels {
+a:hover .swatch .labels,
+a:focus .swatch .labels {
   opacity: 1;
   height: auto;
 }
