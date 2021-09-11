@@ -31,13 +31,13 @@
             border-b border-opacity-80
             dark:border-opacity-20
             py-2
+            flex-wrap
           "
         >
           <strong>View options</strong>
           <div class="mx-2"></div>
           <template v-for="(f, k, i) in filters.check">
             <label :key="i" :for="k" class="px-4 flex items-center">
-              
               <Checkbox
                 :id="k"
                 v-model="f.value"
@@ -56,12 +56,18 @@
           <strong>Color family</strong>
           <div class="mx-2"></div>
           <template v-for="(f, i) in filters.families.options">
-            <label :key="i" class="px-4 flex items-center" :for="f">
+            <label
+              :key="i"
+              class="px-4 flex items-center cursor-pointer"
+              :for="`family_${f}`"
+            >
               <input
                 :id="`family_${f}`"
                 v-model="filters.families.selected"
                 type="checkbox"
                 :value="f"
+                class="appearance-none rounded-full w-6 h-6 mr-2"
+                :class="`filter_${f}`"
               />
               {{ f }}
             </label>
@@ -279,5 +285,15 @@ export default {
   left: 0;
   transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
+}
+
+.filter_Cyan {
+  background-color: #0ff;
+}
+.filter_Azure {
+  background-color: #0080ff;
+}
+.filter_Blue {
+  background-color: #00f;
 }
 </style>
