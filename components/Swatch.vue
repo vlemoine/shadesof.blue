@@ -1,5 +1,9 @@
 <template>
-  <NuxtLink :to="blue.slug" class="relative hover:z-20 focus:z-20">
+  <NuxtLink
+    :to="blue.slug"
+    class="relative"
+    :class="{ 'hover:z-20 focus:z-20': !showLabels }"
+  >
     <div
       class="swatch p-2 relative"
       :style="`background-color: ${blue.value};color: ${color}`"
