@@ -5,11 +5,7 @@ on: [push]
 jobs:
   deploy-now:
     runs-on: ubuntu-latest
-    if:
-      contains('
-        refs/heads/main
-        refs/heads/filters
-      ', github.ref)
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/filters'
     steps:
       - name: Fetch project data
         uses: ionos-deploy-now/retrieve-project-info-action@v1
