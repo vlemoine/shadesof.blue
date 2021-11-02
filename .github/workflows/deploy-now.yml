@@ -19,11 +19,16 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: 'recursive'
-      - name: Setup Node.js 12.16.x
+#       - name: Setup Node.js 12.16.x
+#         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
+#         uses: actions/setup-node@v2.4.1
+#         with:
+#           node-version: 12.16.x
+      - name: Setup project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@v1
         with:
-          node-version: 12.16.x
+          node-version: v14.x
       - name: Prepare project environment
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         run: |
