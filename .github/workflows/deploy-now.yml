@@ -26,9 +26,9 @@ jobs:
 #           node-version: 12.16.x
       - name: Setup project
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.4.1
         with:
-          node-version: v14.x
+          node-version: 14.x
       - name: Prepare project environment
         if: ${{ steps.project.outputs.deployment-enabled == 'true' }}
         run: |
