@@ -10,7 +10,7 @@
           type="search"
           class="text-black"
       /></label>
-      <Filters>
+      <b-filters>
         <template v-for="(f, k, i) in filters.check">
           <div
             :key="i"
@@ -23,7 +23,7 @@
             "
           >
             <label :for="k">{{ f.label }}</label>
-            <Checkbox
+            <b-checkbox
               :id="k"
               v-model="f.value"
               :checked="f.value"
@@ -34,7 +34,7 @@
             />
           </div>
         </template>
-      </Filters>
+      </b-filters>
       <p class="col-span-3 ml-auto total">
         Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
         documented!
@@ -47,7 +47,7 @@
       }"
     >
       <template v-for="(blue, i) in c">
-        <Swatch
+        <b-swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
           :class="{
@@ -79,7 +79,7 @@
             </template>
             <span>{{ blue.hex }}</span>
           </div>
-        </Swatch>
+        </b-swatch>
       </template>
     </section>
   </div>

@@ -3,7 +3,7 @@
  */
 
 import { mount } from "@vue/test-utils";
-import Swatch from "@/components/Swatch.vue";
+import Swatch from "~/components/BSwatch.vue";
 
 describe("Swatch", () => {
   const wrapper = mount(Swatch, {

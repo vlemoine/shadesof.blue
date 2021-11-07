@@ -1,7 +1,7 @@
 <template>
   <header class="flex py-4 px-8">
       <NuxtLink to="/" class="flex items-center"
-        ><Logo />
+        ><b-logo></b-logo>
         <h1 class="ml-4 text-2xl font-bold">Shades of Blue</h1></NuxtLink
       >
       <nav class="flex ml-auto items-center gap-4">

@@ -3,7 +3,7 @@
  */
 
 import { mount } from "@vue/test-utils";
-import Filters from "@/components/Filters.vue";
+import Filters from "~/components/BFilters.vue";
 
 describe("Filters", () => {
   const wrapper = mount(Filters, {
