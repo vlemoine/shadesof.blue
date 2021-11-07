@@ -3,10 +3,10 @@
  */
 
 import { mount } from "@vue/test-utils";
-import Swatch from "~/components/BSwatch.vue";
+import BSwatch from "~/components/BSwatch.vue";
 
-describe("Swatch", () => {
-  const wrapper = mount(Swatch, {
+describe("BSwatch", () => {
+  const wrapper = mount(BSwatch, {
     stubs: {
       NuxtLink: true
     },

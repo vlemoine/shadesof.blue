@@ -3,10 +3,10 @@
  */
 
 import { mount } from "@vue/test-utils";
-import Filters from "~/components/BFilters.vue";
+import BFilters from "~/components/BFilters.vue";
 
-describe("Filters", () => {
-  const wrapper = mount(Filters, {
+describe("BFilters", () => {
+  const wrapper = mount(BFilters, {
     propsData: {
       open: false,
     },
