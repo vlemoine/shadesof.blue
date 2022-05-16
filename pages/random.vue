@@ -36,12 +36,12 @@ export default {
       randomArr(crayola).slug,
       randomArr(sw).slug,
     ];
-    const r = `/${randomArr(random)}`;
-    return { r };
+    // const r = `/${randomArr(random)}`;
+    return { random };
   },
   mounted() {
     this.$router.push({
-      path: this.r,
+      path: `/${randomArr(this.random)}`,
     });
   },
 };
