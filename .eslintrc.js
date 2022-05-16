@@ -16,7 +16,6 @@ module.exports = {
   plugins: [
   ],
   // add your custom rules here
-  rules: {
-    "vue/no-v-for-template-key-on-child": "off"
-  }
+  rules: 
+    { "vue/no-v-for-template-key-on-child": "off"}
 }
