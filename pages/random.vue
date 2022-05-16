@@ -27,21 +27,20 @@ export default {
       ...swTimeless,
       ...swNeutral,
     ];
-    const random = [
-      randomArr(x11).slug,
-      randomArr(other).slug,
-      randomArr(ntc).slug,
-      randomArr(tcx).slug,
-      randomArr(pantone).slug,
-      randomArr(crayola).slug,
-      randomArr(sw).slug,
-    ];
-    // const r = `/${randomArr(random)}`;
-    return { random };
+    const lib = [
+        ...x11,
+        ...other,
+        ...pantone,
+        ...tcx,
+        ...ntc,
+        ...crayola,
+        ...sw,
+      ];
+    return { lib };
   },
   mounted() {
     this.$router.push({
-      path: `/${randomArr(this.random)}`,
+      path: `/${randomArr(this.lib).slug}`,
     });
   },
 };
