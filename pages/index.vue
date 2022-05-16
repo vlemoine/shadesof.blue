@@ -1,8 +1,10 @@
 <template>
   <div class="px-8">
-    <header class="swatches__header flex -mx-8 pt-4 px-8 pb-8">
+    <header
+      class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8"
+    >
       <label for="name"
-        >Search
+        >Filter
         <input
           id="name"
           v-model="filters.name"
@@ -10,35 +12,70 @@
           type="search"
           class="text-black"
       /></label>
-      <Filters>
-        <template v-for="(f, k, i) in filters.check">
-          <div
-            :key="i"
-            class="
-              p-4
-              border-b border-opacity-80
-              dark:border-opacity-20
-              flex
-              items-center
-            "
-          >
-            <label :for="k">{{ f.label }}</label>
-            <Checkbox
-              :id="k"
-              v-model="f.value"
-              :checked="f.value"
-              :name="k"
-              :disabled="
-                k === 'includeGrays' ? filters.check.onlyGrays.value : false
-              "
-            />
-          </div>
-        </template>
-      </Filters>
+      <button
+        class="appearance-none mx-4 border"
+        @click="filters.open = !filters.open"
+      >
+        Options
+        <i class="fas fa-filter"></i>
+      </button>
       <p class="col-span-3 ml-auto total">
         Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
         documented!
       </p>
+      <Filters :open="filters.open">
+        <div class="flex items-center py-1 gap-3">
+          <strong>Color family</strong>
+          <div class="mx-2"></div>
+          <template v-for="(f, i) in filters.families.options">
+            <label
+              :key="i"
+              class="px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-700"
+              :class="{
+                'bg-gray-700 font-bold': filters.families.selected.includes(f),
+              }"
+              :for="`family_${f}`"
+            >
+              <input
+                :id="`family_${f}`"
+                v-model="filters.families.selected"
+                type="checkbox"
+                :value="f"
+                class="appearance-none rounded-full w-6 h-6 mr-2 filter"
+                :class="`filter--${f}`"
+              />
+              {{ f }}
+            </label>
+          </template>
+          <div class="border-right"></div>
+          <button
+            class="px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-700"
+            :class="{ 'bg-gray-700 font-bold': filters.gray !== 0 }"
+            @click="toggleGray()"
+          >
+            <span class="rounded-full w-6 h-6 mr-2 bg-gray-500 inline-flex items-center justify-center"><i class="fas fa-adjust"></i></span> Show
+            {{ filters.gray === 2 ? "only" : "" }} grays
+          </button>
+        </div>
+        <div
+          class="flex items-center border-b border-opacity-80 dark:border-opacity-20 py-2 flex-wrap"
+        >
+          <strong>View options</strong>
+          <div class="mx-2"></div>
+          <template v-for="(f, k, i) in filters.check">
+            <label :key="i" :for="k" class="px-4 flex items-center">
+              <Checkbox
+                :id="k"
+                v-model="f.value"
+                :checked="f.value"
+                :name="k"
+                class="mr-2"
+              />
+              {{ f.label }}
+            </label>
+          </template>
+        </div>
+      </Filters>
     </header>
     <section
       class="swatches grid"
@@ -53,32 +90,12 @@
           :class="{
             hidden: filter(blue),
           }"
+          :show-labels="filters.check.showLabels.value"
         >
+          <!-- {{blue.family}} -->
           <!-- {{blue.dupe}} -->
           <!-- {{blue.hsl.h}} -->
           <!-- <span v-if="blue.del">del</span> -->
-          <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
-            <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
-            <i v-if="blue.oob" class="far fa-rainbow"></i>
-          </div>
-          <div
-            v-if="labels"
-            class="labels"
-            :class="{ 'opacity-0': !filters.check.showLabels.value }"
-          >
-            <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
-            <template
-              v-if="
-                (blue.source === 'Pantone' ||
-                  blue.source === 'Sherwin-Williams') &&
-                blue.alias
-              "
-            >
-              <span>{{ blue.alias }}</span
-              ><br />
-            </template>
-            <span>{{ blue.hex }}</span>
-          </div>
         </Swatch>
       </template>
     </section>
@@ -88,12 +105,29 @@
 <script>
 import Color from "color";
 
-// eslint-disable-next-line prefer-const
 const Panel = {
-  includeGrays: { label: "Show grays", value: true },
-  onlyGrays: { label: "Show only grays", value: false },
-  includeOobs: { label: "Show out of bounds", value: true },
+  includeOobs: { label: "Show out of bounds", value: false },
   showLabels: { label: "Show labels", value: false },
+};
+
+const filterLogic = (blue, filters) => {
+  // If returns true, it will hide the swatch from the view!
+  return (
+    (filters.families.selected.length !== 0 &&
+      ((blue.family === "Blue" &&
+        !filters.families.selected.includes("Blue")) ||
+        (blue.family === "Azure" &&
+          !filters.families.selected.includes("Azure")) ||
+        (blue.family === "Cyan" &&
+          !filters.families.selected.includes("Cyan")))) ||
+    (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+      blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
+      blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
+
+    (blue.gray && !filters.gray) ||
+    (!blue.gray && filters.gray === 2) ||
+    (blue.oob && !filters.check.includeOobs.value)
+  );
 };
 
 export default {
@@ -137,6 +171,11 @@ export default {
       filters: {
         open: false,
         check: Panel,
+        families: {
+          options: ["Cyan", "Azure", "Blue"],
+          selected: [],
+        },
+        gray: 0, // 0 hide 1 show 2 only
         libraries: {
           crayola: true,
           ntc: true,
@@ -148,7 +187,6 @@ export default {
         },
         name: "",
       },
-      labels: true,
       libraries: [
         "Crayola",
         "Name that Color",
@@ -175,51 +213,31 @@ export default {
           s.hsl.s <= 22 ||
           s.hsl.l <= 10 ||
           (s.hsl.l > 10 && s.hsl.l <= 15 && s.hsl.s <= 50);
-        s.oob = s.hsl.h < 170 || s.hsl.h > 240;
-        s.del = s.hsl.h < 150 || s.hsl.h > 260;
+        s.oob = s.hsl.h < 170 || s.hsl.h > 250;
+        s.del = s.hsl.h < 160 || s.hsl.h > 260;
         s.nameDupe = sort.filter((e) => e.slug === s.slug).length > 1;
+        const h = s.hsl.h;
+        s.family = h <= 195 ? "Cyan" : h > 195 && h <= 225 ? "Azure" : "Blue";
       });
-      // sort.forEach((s) => {
-      //   s.colorDupe = [];
-      //   sort.forEach(e => {if (e.hex === s.hex && e.slug !== s.slug) s.colorDupe.push(e.slug)})
-      // });
       sort = sort.sort((a, b) => b.hsl.l - a.hsl.l);
       sort = sort.sort((a, b) => a.hsl.s - b.hsl.s);
       sort = sort.sort((a, b) => a.hsl.h - b.hsl.h);
-      // sort = sort.sort((a, b) => a.slug > b.slug ? 1 : b.slug > a.slug ? -1 : 0);
       return sort;
     },
     count() {
       const filters = this.filters;
-      const c = [...this.c].filter(
-        (blue) =>
-          (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
-            blue.alias.toLowerCase().search(filters.name.toLowerCase()) ===
-              -1 &&
-            blue.title.toLowerCase().search(filters.name.toLowerCase()) ===
-              -1) ||
-          (blue.gray &&
-            !filters.check.includeGrays.value &&
-            !filters.check.onlyGrays.value) ||
-          (!blue.gray && filters.check.onlyGrays.value) ||
-          (blue.oob && !filters.check.includeOobs.value)
-      );
+      const c = [...this.c].filter((blue) => filterLogic(blue, filters));
       return this.c.length - c.length;
     },
   },
   methods: {
     filter(blue) {
       const filters = this.filters;
-      return (
-        (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
-          blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
-          blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
-        (blue.gray &&
-          !filters.check.includeGrays.value &&
-          !filters.check.onlyGrays.value) ||
-        (!blue.gray && filters.check.onlyGrays.value) ||
-        (blue.oob && !filters.check.includeOobs.value)
-      );
+      return filterLogic(blue, filters);
+    },
+    toggleGray() {
+      const filters = this.filters;
+      filters.gray === 2 ? (filters.gray = 0) : filters.gray++;
     },
   },
 };
@@ -235,47 +253,39 @@ export default {
 .swatches {
   grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
 }
-.swatch {
-  aspect-ratio: var(--swatch-aspect);
-  overflow: hidden;
+
+.swatches__header {
+  background-color: var(--bg);
 }
-.swatch .labels {
-  height: 0;
-}
-@supports not (aspect-ratio: 1 / 1) {
-.swatch::before {
-  float: left;
-  padding-top: var(--swatch-aspect-pc);
-  content: '';
-}
-.swatch::after {
-  display: block;
-  content: '';
-  clear: both;
-}
-}
+
 .swatches--labeled {
   --swatch-width: 10rem;
   --swatch-aspect: 2 / 1.5;
   --swatch-aspect-pc: calc(1.5 / 2 * 100%);
 }
-.swatches:not(.swatches--labeled) .swatch:hover,
-.swatches:not(.swatches--labeled) .swatch:focus {
+.swatches:not(.swatches--labeled) a:hover .swatch,
+.swatches:not(.swatches--labeled) a:focus .swatch {
   --transform: -20%;
 
   position: absolute;
   width: var(--swatch-zoom);
   height: var(--swatch-zoom);
   overflow: initial;
-  z-index: 2;
   top: 0;
   left: 0;
   transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
 }
-.swatch:hover .labels,
-.swatch:focus .labels {
-  opacity: 1;
-  height: auto;
+.filter--selected {
+  background-color: #fff3;
+}
+.filter--Cyan {
+  background-color: #0ff;
+}
+.filter--Azure {
+  background-color: #0080ff;
+}
+.filter--Blue {
+  background-color: #00f;
 }
 </style>

@@ -1,11 +1,31 @@
 <template>
-  <NuxtLink :to="blue.slug" class="relative">
+  <NuxtLink
+    :to="blue.slug"
+    class="relative"
+    :class="{ 'hover:z-20 focus:z-20': !showLabels }"
+  >
     <div
       class="swatch p-2 relative"
       :style="`background-color: ${blue.value};color: ${color}`"
     >
-      <strong v-if="name">{{ blue.title }}</strong>
-      <div><slot /></div>
+      <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
+        <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
+        <i v-if="blue.oob" class="far fa-rainbow"></i>
+      </div>
+      <slot />
+      <div class="labels" :class="{ 'opacity-0': !showLabels }">
+        <h2 class="pr-3 font-bold">{{ blue.title }}</h2>
+        <template
+          v-if="
+            (blue.source === 'Pantone' || blue.source === 'Sherwin-Williams') &&
+            blue.alias
+          "
+        >
+          <span>{{ blue.alias }}</span
+          ><br />
+        </template>
+        <span>{{ blue.hex }}</span>
+      </div>
     </div>
   </NuxtLink>
 </template>
@@ -19,7 +39,7 @@ export default {
       type: Object,
       required: true,
     },
-    name: {
+    showLabels: {
       type: Boolean,
       default: false,
     },
@@ -32,3 +52,30 @@ export default {
   },
 };
 </script>
+
+<style>
+.swatch {
+  aspect-ratio: var(--swatch-aspect);
+  overflow: hidden;
+}
+.swatch .labels {
+  height: 0;
+}
+@supports not (aspect-ratio: 1 / 1) {
+  .swatch::before {
+    float: left;
+    padding-top: var(--swatch-aspect-pc);
+    content: "";
+  }
+  .swatch::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+a:hover .swatch .labels,
+a:focus .swatch .labels {
+  opacity: 1;
+  height: auto;
+}
+</style>

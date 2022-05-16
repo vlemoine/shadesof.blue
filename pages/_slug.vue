@@ -1,5 +1,5 @@
 <template>
-  <section class="px-8">
+  <section class="px-9">
     <template v-if="color">
       <template v-if="!Array.isArray(color)">
         <pre>{{ color.slug }}</pre>
