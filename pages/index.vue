@@ -30,10 +30,12 @@
           <template v-for="(f, i) in filters.families.options">
             <label
               :key="i"
-              class="px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-700"
-              :class="{
-                'bg-gray-700 font-bold': filters.families.selected.includes(f),
-              }"
+              :class="[
+                classes.pill,
+                filters.families.selected.includes(f)
+                  ? classes.pillSelected
+                  : '',
+              ]"
               :for="`family_${f}`"
             >
               <input
@@ -47,19 +49,41 @@
               {{ f }}
             </label>
           </template>
-          <div class="border-right"></div>
+          <div
+            class="border-r h-6 border-opacity-80 dark:border-opacity-20"
+          ></div>
           <button
-            class="px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-700"
-            :class="{ 'bg-gray-700 font-bold': filters.gray !== 0 }"
+            :class="[
+              classes.pill,
+              filters.gray !== 0 ? classes.pillSelected : '',
+            ]"
             @click="toggleGray()"
           >
-            <span class="rounded-full w-6 h-6 mr-2 bg-gray-500 inline-flex items-center justify-center"><i class="fas fa-adjust"></i></span> Show
-            {{ filters.gray === 2 ? "only" : "" }} grays
+            <span
+              class="rounded-full w-6 h-6 mr-2 bg-gray-300 dark:bg-gray-500 inline-flex items-center justify-center"
+              ><i class="fas fa-adjust"></i
+            ></span>
+            {{ filters.gray === 2 ? "Only grays" : "Grays" }}
           </button>
+          <label
+            for="oob"
+            class="px-4 flex items-center"
+            :class="[classes.pill, filters.oob ? classes.pillSelected : '']"
+          >
+            <input
+              id="oob"
+              v-model="filters.oob"
+              type="checkbox"
+              class="appearance-none"
+            />
+            <span
+              class="rounded-full w-6 h-6 mr-2 inline-flex items-center justify-center filter--oob"
+              ><i class="fas fa-rainbow"></i
+            ></span>
+            Out of bounds
+          </label>
         </div>
-        <div
-          class="flex items-center border-b border-opacity-80 dark:border-opacity-20 py-2 flex-wrap"
-        >
+        <div class="flex items-center py-2 flex-wrap">
           <strong>View options</strong>
           <div class="mx-2"></div>
           <template v-for="(f, k, i) in filters.check">
@@ -106,7 +130,6 @@
 import Color from "color";
 
 const Panel = {
-  includeOobs: { label: "Show out of bounds", value: false },
   showLabels: { label: "Show labels", value: false },
 };
 
@@ -123,10 +146,9 @@ const filterLogic = (blue, filters) => {
     (blue.hex.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
       blue.alias.toLowerCase().search(filters.name.toLowerCase()) === -1 &&
       blue.title.toLowerCase().search(filters.name.toLowerCase()) === -1) ||
-
     (blue.gray && !filters.gray) ||
     (!blue.gray && filters.gray === 2) ||
-    (blue.oob && !filters.check.includeOobs.value)
+    (blue.oob && !filters.oob)
   );
 };
 
@@ -176,6 +198,7 @@ export default {
           selected: [],
         },
         gray: 0, // 0 hide 1 show 2 only
+        oob: false,
         libraries: {
           crayola: true,
           ntc: true,
@@ -196,6 +219,10 @@ export default {
         "Sherwin-Williams",
         "HTML/Web/X11",
       ],
+      classes: {
+        pill: "px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-300 dark:border-gray-700",
+        pillSelected: "bg-gray-300 dark:bg-gray-700 font-bold",
+      },
     };
   },
   computed: {
@@ -276,16 +303,22 @@ export default {
   transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
 }
-.filter--selected {
-  background-color: #fff3;
-}
 .filter--Cyan {
-  background-color: #0ff;
+  background-color: hsl(180, 100%, 50%);
+  background-image: linear-gradient(to right, hsl(170, 100%, 50%), hsl(180, 100%, 50%), hsl(195, 100%, 50%));
 }
 .filter--Azure {
-  background-color: #0080ff;
+  background-color: hsl(210, 100%, 50%);
+  background-image: linear-gradient(to right, hsl(196, 100%, 50%), hsl(210, 100%, 50%), hsl(225, 100%, 50%));
 }
 .filter--Blue {
-  background-color: #00f;
+  background-color: hsl(240, 100%, 50%);
+  background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(240, 100%, 50%), hsl(250, 100%, 50%));
+}
+.filter--oob {
+  background-image: linear-gradient(to right, hsl(165, 100%, 75%), hsl(255, 100%, 75%))
+}
+.dark .filter--oob {
+  background-image: linear-gradient(to right, hsl(165, 100%, 50%), hsl(255, 100%, 50%))
 }
 </style>
