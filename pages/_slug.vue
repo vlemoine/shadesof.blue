@@ -6,7 +6,7 @@
       </template>
       <template v-else>
         <p>
-          There are {{ color.length }} colors with the name <strong class="capitalize">{{query
+          There are {{ color.length }} colors with the name <strong>{{query
           }}</strong>.
         </p>
       </template>
@@ -22,7 +22,7 @@ export default {
   async asyncData({ $content, params }) {
     let about;
     let color;
-    const query = params.slug;
+    let query;
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
@@ -57,12 +57,18 @@ export default {
       ];
       lib = lib.filter((e) => (e.slug === params.slug || e.alias === params.slug));
       color = lib.length === 1 ? lib[0] : lib;
+      query = color?.title?.search('/') === -1 ? color.title : lib[lib.length - 1].title
     }
     return {
       about,
       color,
       query
     };
+  },
+  head() {
+      return {
+        title: this.about ? 'About shadesof.blue' : `${this.query} - shadesof.blue`,
+      }
   },
 };
 </script>
