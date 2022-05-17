@@ -4,6 +4,12 @@
       <template v-if="!Array.isArray(color)">
         <pre>{{ color.slug }}</pre>
       </template>
+      <template v-else>
+        <p>
+          There are {{ color.length }} colors with the name <strong class="capitalize">{{query
+          }}</strong>.
+        </p>
+      </template>
       <pre>{{ color }}</pre>
     </template>
     <p v-else-if="!about">That's not a shade of blue!</p>
@@ -16,6 +22,7 @@ export default {
   async asyncData({ $content, params }) {
     let about;
     let color;
+    const query = params.slug;
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
@@ -48,12 +55,13 @@ export default {
         ...crayola,
         ...sw,
       ];
-      lib = lib.filter((e) => e.slug === params.slug);
+      lib = lib.filter((e) => (e.slug === params.slug || e.alias === params.slug));
       color = lib.length === 1 ? lib[0] : lib;
     }
     return {
       about,
       color,
+      query
     };
   },
 };
