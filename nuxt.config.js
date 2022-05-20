@@ -9,7 +9,7 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
-      { name: "format-detection", content: "telephone=no" }
+      { name: "format-detection", content: "telephone=no" },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
@@ -17,24 +17,23 @@ export default {
       {
         rel: "preconnect",
         href: "https://fonts.gstatic.com",
-        crossorigin: "crossorigin"
+        crossorigin: "crossorigin",
       },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap"
-      }
+        href: "https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap",
+      },
     ],
     script: [
       {
-        src: 'https://kit.fontawesome.com/d58afaae54.js',
-        crossorigin: 'anonymous'
-      }
-    ]
+        src: "https://kit.fontawesome.com/d58afaae54.js",
+        crossorigin: "anonymous",
+      },
+    ],
   },
 
   colorMode: {
-    classSuffix: ""
+    classSuffix: "",
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -53,7 +52,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
     "@nuxtjs/color-mode",
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,19 +60,19 @@ export default {
     // https://go.nuxtjs.dev/pwa
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    "@nuxt/content",
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: "en"
-    }
+      lang: "en",
+    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {},
 };
