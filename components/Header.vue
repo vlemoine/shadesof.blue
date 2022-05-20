@@ -1,5 +1,5 @@
 <template>
-  <header class="flex py-4 px-8">
+  <header class="flex py-4 px-8 h-20">
       <NuxtLink to="/" class="flex items-center"
         ><Logo />
         <h1 class="ml-4 text-2xl font-bold">Shades of Blue</h1></NuxtLink
