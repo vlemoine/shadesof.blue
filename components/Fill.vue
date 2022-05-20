@@ -2,11 +2,12 @@
   <div
     class="text-center text-2xl w-full h-full p-12"
     :class="text"
-    :style="`background-color:${color.value}`"
+    :style="`background-color:${blue.value}`"
   >
+    <slot></slot>
     <p>{{ hex }}</p>
-    <p v-if="color.alias">AKA {{ color.alias }}</p>
-    <p>From {{ color.source }}</p>
+    <p v-if="blue.alias">AKA {{ blue.alias }}</p>
+    <p>From {{ blue.source }}</p>
   </div>
 </template>
 
@@ -14,18 +15,18 @@
 import Color from "color";
 export default {
   props: {
-    color: {
+    blue: {
       type: String,
       required: true,
     },
   },
   computed: {
     text() {
-      const c = Color(this.color.value);
+      const c = Color(this.blue.value);
       return `text-${c.isLight() ? "black" : "white"}`;
     },
     hex() {
-      const b = Color(this.color.value);
+      const b = Color(this.blue.value);
       return b.hex();
     }
   }
