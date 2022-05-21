@@ -4,7 +4,7 @@
     <template v-if="blues">
       <div class="h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
-          <p>
+          <p class="text-xl">
             There are {{ blues.length }} colors with the name
             <strong>{{ query }}</strong
             >.
@@ -12,7 +12,7 @@
         </div>
         <div class="flex h-full">
           <Fill v-for="(blue, i) in blues" :key="i" :blue="blue"
-            ><p v-if="!disam" class="text-3xl font-bold">{{ query }}</p></Fill
+            ><p v-if="!disam" class="text-5xl font-bold">{{ query }}</p></Fill
           >
         </div>
       </div>
