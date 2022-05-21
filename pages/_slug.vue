@@ -4,9 +4,9 @@
     <template v-if="blues">
       <div class="h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
-          <p class="text-xl">
+          <p class="px-4 md:text-xl text-center">
             There are {{ blues.length }} colors with the name
-            <strong>{{ query }}</strong
+            <strong class="whitespace-nowrap">{{ query }}</strong
             >.
           </p>
         </div>

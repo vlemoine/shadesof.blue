@@ -4,7 +4,7 @@
     :class="text"
     :style="`background-color:${blue.value}`"
   >
-    <div class="md:flex justify-between">
+    <div class="md:flex justify-between gap-4">
       <div>
         <slot></slot>
         <p class="text-2xl">{{ hex }}</p>
