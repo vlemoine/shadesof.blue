@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1 class="hidden">{{ query }}</h1>
-    <template v-if="blues">
+    <template v-if="blues.length > 0">
       <div class="h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
           <p class="px-4 md:text-xl text-center">
@@ -29,6 +29,8 @@
 
 <script>
 import Color from "color";
+
+const toHex = blue => Color(blue).hex();
 export default {
   async asyncData({ $content, params }) {
     let about;
@@ -68,9 +70,9 @@ export default {
         ...sw,
       ];
       blues = lib.filter(
-        (e) => e.slug === params.slug || e.alias === params.slug
+        (e) => e.slug === params.slug || e.alias === params.slug || toHex(e.value).replace('#', '').toLowerCase() === params.slug.toLowerCase()
       );
-      query = blues[blues.length - 1].title;
+      query = blues.length > 0 ? blues[blues.length - 1]?.title : '???';
       slug = params.slug;
     }
     return {
@@ -98,8 +100,7 @@ export default {
   },
   methods: {
     toHex(blue) {
-      const b = Color(blue);
-      return b.hex();
+      return toHex(blue);
     },
   },
 };
