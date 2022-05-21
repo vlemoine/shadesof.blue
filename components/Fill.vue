@@ -27,7 +27,7 @@
       /></template>
       <span class="text-sm"
         ><template v-if="!html"
-          >from <a v-if="blue.url" :href="blue.url">{{ blue.source }}</a
+          >from <a v-if="url" :href="blue.url">{{ blue.source }}</a
           ><template v-else>{{ blue.source }}</template></template
         ><template v-else>HTML color</template></span
       >
@@ -93,6 +93,9 @@ export default {
     oob() {
       return this.hue < 170 || this.hue > 250;
     },
+    url() {
+      return this.blue.source !== 'Pantone'
+    }
   },
 };
 </script>
