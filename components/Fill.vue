@@ -8,6 +8,10 @@
       <div>
         <slot></slot>
         <p class="text-2xl">{{ hex }}</p>
+        <p v-if="html">
+          {{ blue.value
+          }}<template v-if="blue.value_alt"><br/>{{ blue.value_alt }}</template>
+        </p>
       </div>
       <div class="mt-4 md:mt-0 md:text-right">
         <p>Hue {{ hue }}</p>
@@ -18,10 +22,14 @@
       </div>
     </div>
     <p class="mt-auto text-right">
-      <template v-if="blue.alias">AKA {{ blue.alias }}<br /></template>
+      <template v-if="blue.alias"
+        >AKA {{ blue.alias === slug ? blue.slug : blue.alias }}<br
+      /></template>
       <span class="text-sm"
-        >from <a v-if="blue.url" :href="blue.url">{{ blue.source }}</a
-        ><template v-else>{{ blue.source }}</template></span
+        ><template v-if="!html"
+          >from <a v-if="blue.url" :href="blue.url">{{ blue.source }}</a
+          ><template v-else>{{ blue.source }}</template></template
+        ><template v-else>HTML color</template></span
       >
     </p>
   </div>
@@ -35,6 +43,22 @@ export default {
       type: Object,
       required: true,
     },
+    disam: {
+      type: Boolean,
+      default: false,
+    },
+    slug: {
+      type: String,
+      default: "",
+    },
+  },
+  head() {
+    return {
+      bodyAttrs: {
+        style: !this.disam && `background-color:${this.blue.value}`,
+        class: !this.disam && this.text,
+      },
+    };
   },
   computed: {
     b() {
@@ -46,6 +70,9 @@ export default {
     },
     hex() {
       return this.b.hex();
+    },
+    html() {
+      return this.blue.source === "X11";
     },
     hue() {
       return Math.round(this.b.hsl().object().h);

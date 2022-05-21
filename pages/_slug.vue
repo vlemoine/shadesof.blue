@@ -11,7 +11,12 @@
           </p>
         </div>
         <div class="flex h-full">
-          <Fill v-for="(blue, i) in blues" :key="i" :blue="blue"
+          <Fill
+            v-for="(blue, i) in blues"
+            :key="i"
+            :blue="blue"
+            :disam="disam"
+            :slug="slug"
             ><p v-if="!disam" class="text-5xl font-bold">{{ query }}</p></Fill
           >
         </div>
@@ -29,6 +34,7 @@ export default {
     let about;
     let blues;
     let query;
+    let slug;
     if (params.slug === "about") {
       about = await $content("about").fetch();
     } else {
@@ -65,11 +71,13 @@ export default {
         (e) => e.slug === params.slug || e.alias === params.slug
       );
       query = blues[blues.length - 1].title;
+      slug = params.slug;
     }
     return {
       about,
       blues,
       query,
+      slug,
     };
   },
   head() {
