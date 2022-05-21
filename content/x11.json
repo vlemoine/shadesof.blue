@@ -136,6 +136,7 @@
     "slug": "aqua",
     "alias": "cyan",
     "value": "aqua",
+    "value_alt": "cyan",
     "source": "X11"
   },
   {
