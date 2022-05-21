@@ -29,15 +29,16 @@
 
 <script>
 import Color from "color";
+// import colorString from "color-string";
 
 const toHex = blue => Color(blue).hex();
 export default {
   async asyncData({ $content, params }) {
+    const slug = params.slug;
     let about;
     let blues;
     let query;
-    let slug;
-    if (params.slug === "about") {
+    if (slug === "about") {
       about = await $content("about").fetch();
     } else {
       const x11 = await $content("x11").fetch();
@@ -70,10 +71,11 @@ export default {
         ...sw,
       ];
       blues = lib.filter(
-        (e) => e.slug === params.slug || e.alias === params.slug || toHex(e.value).replace('#', '').toLowerCase() === params.slug.toLowerCase()
+        (e) => e.slug === slug || e.alias === slug || toHex(e.value).replace('#', '').toLowerCase() === slug.toLowerCase()
       );
       query = blues.length > 0 ? blues[blues.length - 1]?.title : '???';
-      slug = params.slug;
+      
+      // console.log(slug.length === 6 ? colorString.get('#' + slug) : '');
     }
     return {
       about,
