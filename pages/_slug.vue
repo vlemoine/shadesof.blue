@@ -24,6 +24,9 @@
         </div>
       </div>
     </template>
+    <template v-else-if="isBlue">
+      <Fill :blue="mysteryBlue"><p>Unknown shade of blue!</p></Fill>
+    </template>
     <p v-else-if="!about">That's not a shade of blue!</p>
     <nuxt-content :document="about" />
   </section>
@@ -31,15 +34,18 @@
 
 <script>
 import Color from "color";
+import colorString from "color-string";
 
 const toHex = (blue) => Color(blue).hex();
 export default {
   async asyncData({ $content, params }) {
+    const slug = params.slug;
     let about;
     let blues;
     let query;
-    let slug;
-    if (params.slug === "about") {
+    let isBlue = false;
+    let mysteryBlue = {};
+    if (slug === "about") {
       about = await $content("about").fetch();
     } else {
       const x11 = await $content("x11").fetch();
@@ -73,19 +79,31 @@ export default {
       ];
       blues = lib.filter(
         (e) =>
-          e.slug === params.slug ||
-          e.alias === params.slug ||
-          toHex(e.value).replace("#", "").toLowerCase() ===
-            params.slug.toLowerCase()
+          e.slug === slug ||
+          e.alias === slug ||
+          toHex(e.value).replace("#", "").toLowerCase() === slug.toLowerCase()
       );
       query = blues.length > 0 ? blues[blues.length - 1]?.title : "???";
-      slug = params.slug;
+
+      const hex = slug.length === 6 ? colorString.get("#" + slug) : null;
+      if (hex) {
+        const m = Math.round(Color(colorString.to.hex(hex.value)).hsl().object().h);
+        isBlue = m > 169 && m < 251;
+        if (isBlue) {
+          mysteryBlue = {
+            value: colorString.to.hex(hex.value),
+            source: null
+          }
+        }
+      }
     }
     return {
       about,
       blues,
       query,
       slug,
+      isBlue,
+      mysteryBlue,
     };
   },
   head() {
