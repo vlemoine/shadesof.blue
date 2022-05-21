@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    :to="blue.slug"
+    :to="hex"
     class="relative"
     :class="{ 'hover:z-20 focus:z-20': !showLabels }"
   >
@@ -49,6 +49,10 @@ export default {
       const c = Color(this.blue.value);
       return c.isLight() ? "#111" : "#fff";
     },
+    hex() {
+      const c = Color(this.blue.value);
+      return c.hex().replace('#', '')
+    }
   },
 };
 </script>
