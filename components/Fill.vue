@@ -10,7 +10,9 @@
         <p class="text-2xl">{{ hex }}</p>
         <p v-if="html">
           {{ blue.value
-          }}<template v-if="blue.value_alt"><br/>{{ blue.value_alt }}</template>
+          }}<template v-if="blue.value_alt"
+            ><br />{{ blue.value_alt }}</template
+          >
         </p>
       </div>
       <div class="mt-4 md:mt-0 md:text-right">
@@ -25,7 +27,7 @@
       <template v-if="blue.alias"
         >AKA {{ blue.alias === slug ? blue.slug : blue.alias }}<br
       /></template>
-      <span class="text-sm"
+      <span v-if="blue.source" class="text-sm"
         ><template v-if="!html"
           >from <a v-if="url" :href="blue.url">{{ blue.source }}</a
           ><template v-else>{{ blue.source }}</template></template
@@ -94,8 +96,8 @@ export default {
       return this.hue < 170 || this.hue > 250;
     },
     url() {
-      return this.blue.source !== 'Pantone'
-    }
+      return this.blue.source !== "Pantone";
+    },
   },
 };
 </script>
