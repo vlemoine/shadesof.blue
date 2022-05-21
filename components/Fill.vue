@@ -1,15 +1,15 @@
 <template>
   <div
-    class="flex flex-col w-full h-full p-12"
+    class="flex flex-col w-full h-full p-8 md:p-12"
     :class="text"
     :style="`background-color:${blue.value}`"
   >
-    <div class="flex justify-between">
+    <div class="md:flex justify-between">
       <div>
         <slot></slot>
         <p class="text-2xl">{{ hex }}</p>
       </div>
-      <div class="text-right">
+      <div class="mt-4 md:mt-0 md:text-right">
         <p>Hue {{ hue }}</p>
         <p>
           This shade is <template v-if="oob">beyond</template>
