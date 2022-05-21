@@ -11,13 +11,18 @@
       </div>
       <div class="text-right">
         <p>Hue {{ hue }}</p>
-        <p>This blue is <template v-if="oob">beyond </template>{{ shade }}</p>
-        <p v-if="isGray">This blue is gray</p>
+        <p>
+          This shade is <template v-if="oob">beyond</template>
+          <template v-if="isGray">grayish</template> {{ shade }}
+        </p>
       </div>
     </div>
     <p class="mt-auto text-right">
       <template v-if="blue.alias">AKA {{ blue.alias }}<br /></template>
-      <span class="text-sm">from {{ blue.source }}</span>
+      <span class="text-sm"
+        >from <a v-if="blue.url" :href="blue.url">{{ blue.source }}</a
+        ><template v-else>{{ blue.source }}</template></span
+      >
     </p>
   </div>
 </template>
@@ -60,7 +65,7 @@ export default {
     },
     oob() {
       return this.hue < 170 || this.hue > 250;
-    }
+    },
   },
 };
 </script>
