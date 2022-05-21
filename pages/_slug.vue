@@ -1,6 +1,5 @@
 <template>
-  <section
-  >
+  <section>
     <h1 class="hidden">{{ query }}</h1>
     <template v-if="blues">
       <div class="h-full flex flex-col">
@@ -12,8 +11,9 @@
           </p>
         </div>
         <div class="flex h-full">
-          <Fill v-for="(blue, i) in blues"
-            :key="i" :blue="blue"><p v-if="!disam">{{query}}</p></Fill>
+          <Fill v-for="(blue, i) in blues" :key="i" :blue="blue"
+            ><p v-if="!disam" class="text-3xl font-bold">{{ query }}</p></Fill
+          >
         </div>
       </div>
     </template>

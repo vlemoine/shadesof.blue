@@ -1,13 +1,16 @@
 <template>
   <div
-    class="text-center text-2xl w-full h-full p-12"
+    class="flex flex-col text-center w-full h-full p-12"
     :class="text"
     :style="`background-color:${blue.value}`"
   >
     <slot></slot>
-    <p>{{ hex }}</p>
-    <p v-if="blue.alias">AKA {{ blue.alias }}</p>
-    <p>From {{ blue.source }}</p>
+    <p class="text-2xl">{{ hex }}</p>
+    <p class="mt-auto">
+      <template v-if="blue.alias"
+      >AKA {{ blue.alias }}<br/></template>
+      <span class="text-sm">from {{ blue.source }}</span>
+    </p>
   </div>
 </template>
 
