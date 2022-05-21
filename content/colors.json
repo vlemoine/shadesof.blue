@@ -257,5 +257,19 @@
     "value": "#0048BA",
     "source": "Color Hex",
     "url": "https://www.color-hex.com/color/0048ba"
+  },
+  {
+    "title": "Blue Green",
+    "slug": "blue-green",
+    "value": "#0d98ba",
+    "source": "Color Hex",
+    "url": "https://www.color-hex.com/color/0d98ba"
+  },
+  {
+    "title": "Brandeis Blue",
+    "slug": "brandeis-blue",
+    "value": "#0070ff",
+    "source": "Color Hex",
+    "url": "https://www.color-hex.com/color/0070ff"
   }
 ]
