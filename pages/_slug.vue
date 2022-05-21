@@ -17,7 +17,9 @@
             :blue="blue"
             :disam="disam"
             :slug="slug"
-            ><p v-if="!disam" class="text-5xl font-bold">{{ query }}</p></Fill
+            ><NuxtLink v-if="!disam" class="text-5xl font-bold" :to="link">{{
+              query
+            }}</NuxtLink></Fill
           >
         </div>
       </div>
@@ -30,7 +32,7 @@
 <script>
 import Color from "color";
 
-const toHex = blue => Color(blue).hex();
+const toHex = (blue) => Color(blue).hex();
 export default {
   async asyncData({ $content, params }) {
     let about;
@@ -70,9 +72,13 @@ export default {
         ...sw,
       ];
       blues = lib.filter(
-        (e) => e.slug === params.slug || e.alias === params.slug || toHex(e.value).replace('#', '').toLowerCase() === params.slug.toLowerCase()
+        (e) =>
+          e.slug === params.slug ||
+          e.alias === params.slug ||
+          toHex(e.value).replace("#", "").toLowerCase() ===
+            params.slug.toLowerCase()
       );
-      query = blues.length > 0 ? blues[blues.length - 1]?.title : '???';
+      query = blues.length > 0 ? blues[blues.length - 1]?.title : "???";
       slug = params.slug;
     }
     return {
@@ -96,6 +102,9 @@ export default {
     text() {
       const c = Color(this.blues.value);
       return `text-${c.isLight() ? "black" : "white"}`;
+    },
+    link() {
+      return this.query.toLowerCase().replace(" ", "-");
     },
   },
   methods: {

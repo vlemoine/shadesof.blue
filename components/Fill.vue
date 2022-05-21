@@ -7,7 +7,7 @@
     <div class="md:flex justify-between gap-4">
       <div>
         <slot></slot>
-        <p class="text-2xl">{{ hex }}</p>
+        <NuxtLink class="text-2xl block" :to="link">{{ hex }}</NuxtLink>
         <p v-if="html">
           {{ blue.value
           }}<template v-if="blue.value_alt"><br/>{{ blue.value_alt }}</template>
@@ -27,7 +27,7 @@
       /></template>
       <span class="text-sm"
         ><template v-if="!html"
-          >from <a v-if="url" :href="blue.url">{{ blue.source }}</a
+          >from <a v-if="url" :href="blue.url" target="_blank">{{ blue.source }}</a
           ><template v-else>{{ blue.source }}</template></template
         ><template v-else>HTML color</template></span
       >
@@ -76,6 +76,9 @@ export default {
     },
     hue() {
       return Math.round(this.b.hsl().object().h);
+    },
+    link() {
+      return this.hex.replace('#', '')
     },
     shade() {
       return this.hue <= 195
