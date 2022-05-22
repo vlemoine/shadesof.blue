@@ -6,22 +6,36 @@
     :style="`background-color:${blue.value}`"
   >
     <div class="md:flex justify-between gap-4">
-      <div>
+      <div class="flex flex-col gap-3">
         <slot></slot>
-        <NuxtLink class="text-2xl block" :to="link">{{ hex }}</NuxtLink>
+        <div class="items-center flex gap-3">
+          <span class="text-3xl">{{ hex }}</span>
+          <NuxtLink
+            :class="button"
+            :to="link"
+            :title="`Permalink to ${blue.title} ${hex}`"
+          >
+            <i class="fa-solid fa-link"></i
+          ></NuxtLink>
+          <button
+            :class="button"
+            :title="`Copy ${blue.title} value ${hex}`"
+            @click="copy()"
+          >
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
         <p v-if="html">
           {{ blue.value
           }}<template v-if="blue.value_alt"
             ><br />{{ blue.value_alt }}</template
           >
         </p>
-        <p class="my-4">{{blue.description}}</p>
+        <p class="my-4">{{ blue.description }}</p>
       </div>
       <div class="mt-4 md:mt-0 md:text-right">
         <p>Hue {{ hue }}</p>
-        <p>
-          This shade is {{ beyond }}{{ brightness }}{{ gray }}{{ shade }}
-        </p>
+        <p>This shade is {{ beyond }}{{ brightness }}{{ gray }}{{ shade }}</p>
       </div>
     </div>
     <p class="mt-auto text-right">
@@ -31,12 +45,13 @@
       <span v-if="blue.source" class="text-sm"
         ><template v-if="!html"
           >from
-          <a v-if="url" :href="blue.url" target="_blank">{{ blue.source }}</a
+          <a v-if="url" :href="blue.url" target="_blank"
+            ><span class="underline">{{ blue.source }}</span
+            ><i class="ml-1 fa fa-arrow-up-right-from-square"></i></a
           ><template v-else>{{ blue.source }}</template></template
         ><template v-else>HTML color</template></span
       >
     </p>
-    <span class="hidden text-black text-white"></span>
   </div>
 </template>
 
@@ -90,15 +105,35 @@ export default {
     },
     gray() {
       const hsl = this.b.hsl().object();
-      return (
-        hsl.s <= 22 || hsl.l <= 10 || (hsl.l > 10 && hsl.l <= 15 && hsl.s <= 50)
-      ) ? 'gray ' : '';
+      return hsl.s <= 22 ||
+        hsl.l <= 10 ||
+        (hsl.l > 10 && hsl.l <= 15 && hsl.s <= 50)
+        ? "gray "
+        : "";
     },
     beyond() {
-      return this.hue < 170 || this.hue > 250 ? 'beyond ' : '';
+      return this.hue < 170 || this.hue > 250 ? "beyond " : "";
     },
     url() {
-      return this.blue.source !== "Pantone";
+      return this.blue.source !== "Pantone" && this.blue.url;
+    },
+    button() {
+      const c = Color(this.blue.value).isLight();
+      let cls = "square grid place-content-center text-base p-2 rounded-full h-9 ";
+      cls += c ? "bg-gray-900 text-white" : "bg-gray-100 text-black";
+      return cls;
+    },
+  },
+  methods: {
+    copy() {
+      navigator.clipboard.writeText(this.hex).then(
+        function () {
+          // console.log("clipboard successfully set");
+        },
+        function () {
+          // console.log("clipboard write failed");
+        }
+      );
     },
   },
 };
