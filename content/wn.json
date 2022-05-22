@@ -139,5 +139,19 @@
     "value": "#224C46",
     "source": "Winsor-Newton",
     "description": "Watercolor color"
+  },
+  {
+    "title": "Mauve Blue Shade",
+    "slug": "mauve-blue-shade",
+    "value": "#352F73",
+    "source": "Winsor-Newton",
+    "description": "Oil color"
+  },
+  {
+    "title": "Indanthrene Blue",
+    "slug": "indanthrene-blue",
+    "value": "#201F50",
+    "source": "Winsor-Newton",
+    "description": "Oil color"
   }
 ]
