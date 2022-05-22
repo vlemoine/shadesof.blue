@@ -1,0 +1,157 @@
+[
+  {
+    "title": "Cobalt Blue Deep",
+    "slug": "cobalt-blue-deep",
+    "value": "#2A3A79",
+    "source": "Winsor-Newton",
+    "description": "Oil color"
+  },
+  {
+    "title": "French Ultramarine",
+    "slug": "french-ultramarine",
+    "value": "#293A8E",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Smalt (Dumont’s Blue)",
+    "slug": "smalt",
+    "alias": "dumonts-blue",
+    "value": "#293079",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Ultramarine",
+    "slug": "ultramarine",
+    "value": "#264295",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cobalt Blue",
+    "slug": "cobalt-blue",
+    "value": "#235AA1",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Winsor Blue (Red Shade)",
+    "slug": "winsor-blue-red",
+    "value": "#184379",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Antwerp Blue",
+    "slug": "antwerp-blue",
+    "value": "#12355D",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Prussian Blue",
+    "slug": "prussian-blue",
+    "value": "#0E2D5A",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Winsor Blue (Green Shade)",
+    "slug": "winsor-blue-green",
+    "value": "#439AD6",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cerulean Blue (Red Shade)",
+    "slug": "cerulean-blue-red",
+    "value": "#3072B6",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cerulean Blue",
+    "slug": "cerulean-blue",
+    "value": "#5BBEEC",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Manganese Blue Hue",
+    "slug": "manganese-blue-hue",
+    "value": "#4FB1D8",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Indigo",
+    "slug": "indigo",
+    "value": "#051737",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Payne’s Gray",
+    "slug": "paynes-gray",
+    "value": "#1F2B39",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Neutral Tint",
+    "slug": "neutral-tint",
+    "value": "#00000D",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Phthalo Turquoise",
+    "slug": "phthalo-turquoise",
+    "value": "#0A2332",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Aqua Green",
+    "slug": "aqua-green",
+    "value": "#2D6072",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cobalt Turquoise Light",
+    "slug": "cobalt-turquoise-light",
+    "value": "#50B2AE",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cobalt Turquoise",
+    "slug": "cobalt-turquoise",
+    "value": "#296372",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Cobalt Green Deep",
+    "slug": "cobalt-green-deep",
+    "value": "#224C46",
+    "source": "Winsor-Newton",
+    "description": "Watercolor color"
+  },
+  {
+    "title": "Mauve Blue Shade",
+    "slug": "mauve-blue-shade",
+    "value": "#352F73",
+    "source": "Winsor-Newton",
+    "description": "Oil color"
+  },
+  {
+    "title": "Indanthrene Blue",
+    "slug": "indanthrene-blue",
+    "value": "#201F50",
+    "source": "Winsor-Newton",
+    "description": "Oil color"
+  }
+]
