@@ -5,7 +5,7 @@
       <div class="h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
           <p class="px-4 md:text-xl text-center">
-            There are {{ blues.length }} colors with the name
+            There are {{ blues.length }} colors with the {{ disamValue }}
             <strong class="whitespace-nowrap">{{ query }}</strong
             >.
           </p>
@@ -82,11 +82,16 @@ export default {
       blues = lib.filter(
         (e) =>
           e.slug === slug ||
-          e.alias === slug ||
+          e.alias?.toLowerCase() === slug ||
           toHex(e.value).replace("#", "").toLowerCase() === slug
       );
-      query = blues.length > 0 ? blues[blues.length - 1]?.title : "???";
-
+      // What is the query?
+      let name = []
+      blues.forEach(b => {name.push(b.slug)});
+      name = [...new Set(name)]
+      const q = name.length === 1;
+      query = blues.length > 0 ? q ? blues[blues.length - 1]?.title : `#${slug.toUpperCase()}` : "???";
+      // Handle unidentified blue hex colors
       const hex = slug.length === 6 ? colorString.get("#" + slug) : null;
       if (hex) {
         const m = Math.round(Color(colorString.to.hex(hex.value)).hsl().object().h);
@@ -118,6 +123,12 @@ export default {
   computed: {
     disam() {
       return this.blues.length > 1;
+    },
+    disamValue() {
+      let name = []
+      this.blues.forEach(b => {name.push(b.slug)});
+      name = [...new Set(name)]
+      return name.length === 1 ? 'name' : 'value'
     },
     text() {
       const c = Color(this.blues.value);
