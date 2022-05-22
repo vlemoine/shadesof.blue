@@ -39,7 +39,7 @@ import colorString from "color-string";
 const toHex = (blue) => Color(blue).hex();
 export default {
   async asyncData({ $content, params }) {
-    const slug = params.slug;
+    const slug = params.slug.toLowerCase();
     let about;
     let blues;
     let query;
@@ -54,6 +54,7 @@ export default {
       const tcx = await $content("pantone-tcx").fetch();
       const ntc = await $content("ntc").fetch();
       const crayola = await $content("crayola").fetch();
+      const wn = await $content("wn").fetch();
       const swBlue = await $content("sw/blue").fetch();
       const swPurple = await $content("sw/purple").fetch();
       const swPastel = await $content("sw/pastel").fetch();
@@ -75,13 +76,14 @@ export default {
         ...tcx,
         ...ntc,
         ...crayola,
+        ...wn,
         ...sw,
       ];
       blues = lib.filter(
         (e) =>
           e.slug === slug ||
           e.alias === slug ||
-          toHex(e.value).replace("#", "").toLowerCase() === slug.toLowerCase()
+          toHex(e.value).replace("#", "").toLowerCase() === slug
       );
       query = blues.length > 0 ? blues[blues.length - 1]?.title : "???";
 

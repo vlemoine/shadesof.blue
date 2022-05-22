@@ -1,6 +1,6 @@
 <template>
   <div class="px-8">
-    <header
+    <div
       class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8"
     >
       <label for="name"
@@ -100,7 +100,7 @@
           </template>
         </div>
       </Filters>
-    </header>
+    </div>
     <section
       class="swatches grid"
       :class="{
@@ -160,6 +160,7 @@ export default {
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     const crayola = await $content("crayola").fetch();
+    const wn = await $content("wn").fetch();
     const swBlue = await $content("sw/blue").fetch();
     const swPurple = await $content("sw/purple").fetch();
     const swPastel = await $content("sw/pastel").fetch();
@@ -181,6 +182,7 @@ export default {
       ...tcx,
       ...ntc,
       ...crayola,
+      ...wn,
       ...sw,
     ];
     return {
