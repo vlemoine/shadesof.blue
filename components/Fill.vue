@@ -18,8 +18,7 @@
       <div class="mt-4 md:mt-0 md:text-right">
         <p>Hue {{ hue }}</p>
         <p>
-          This shade is <template v-if="oob">beyond</template>
-          <template v-if="isGray">grayish</template> {{ shade }}
+          This shade is {{ beyond }}{{ brightness }}{{ gray }}{{ shade }}
         </p>
       </div>
     </div>
@@ -29,7 +28,8 @@
       /></template>
       <span v-if="blue.source" class="text-sm"
         ><template v-if="!html"
-          >from <a v-if="url" :href="blue.url" target="_blank">{{ blue.source }}</a
+          >from
+          <a v-if="url" :href="blue.url" target="_blank">{{ blue.source }}</a
           ><template v-else>{{ blue.source }}</template></template
         ><template v-else>HTML color</template></span
       >
@@ -80,7 +80,7 @@ export default {
       return Math.round(this.b.hsl().object().h);
     },
     link() {
-      return this.hex.replace('#', '')
+      return this.hex.replace("#", "");
     },
     shade() {
       return this.hue <= 195
@@ -89,14 +89,18 @@ export default {
         ? "azure"
         : "blue";
     },
-    isGray() {
+    brightness() {
+      const l = Math.round(this.b.hsl().object().l);
+      return l < 40 ? "dark " : l > 66 ? "light " : "";
+    },
+    gray() {
       const hsl = this.b.hsl().object();
       return (
         hsl.s <= 22 || hsl.l <= 10 || (hsl.l > 10 && hsl.l <= 15 && hsl.s <= 50)
-      );
+      ) ? 'gray ' : '';
     },
-    oob() {
-      return this.hue < 170 || this.hue > 250;
+    beyond() {
+      return this.hue < 170 || this.hue > 250 ? 'beyond ' : '';
     },
     url() {
       return this.blue.source !== "Pantone";
