@@ -5,10 +5,10 @@
     :class="text"
     :style="`background-color:${blue.value}`"
   >
-    <div class="md:flex justify-between gap-4">
+    <div class="md:flex flex-wrap justify-between gap-4">
       <div class="flex flex-col gap-3">
         <slot></slot>
-        <div class="items-center flex gap-3">
+        <div class="items-center flex flex-wrap gap-3">
           <span class="text-3xl">{{ hex }}</span>
           <NuxtLink
             :class="button"
@@ -33,7 +33,7 @@
         </p>
         <p class="my-4">{{ blue.description }}</p>
       </div>
-      <div class="mt-4 md:mt-0 md:text-right">
+      <div class="mt-4 md:mt-0 md:text-right ml-auto">
         <p>Hue {{ hue }}</p>
         <p>This shade is {{ beyond }}{{ brightness }}{{ gray }}{{ shade }}</p>
       </div>
