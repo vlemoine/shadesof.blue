@@ -325,4 +325,7 @@ export default {
 .dark .filter--oob {
   background-image: linear-gradient(to right, hsl(165, 100%, 50%), hsl(255, 100%, 50%))
 }
+.square {
+  aspect-ratio: 1 / 1;
+}
 </style>
