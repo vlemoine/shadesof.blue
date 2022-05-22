@@ -14,6 +14,7 @@
             ><br />{{ blue.value_alt }}</template
           >
         </p>
+        <p class="my-4">{{blue.description}}</p>
       </div>
       <div class="mt-4 md:mt-0 md:text-right">
         <p>Hue {{ hue }}</p>
