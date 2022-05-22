@@ -1,5 +1,6 @@
 <template>
   <div
+    data-component="Fill"
     class="flex flex-col w-full h-full p-8 md:p-12"
     :class="text"
     :style="`background-color:${blue.value}`"
@@ -35,6 +36,7 @@
         ><template v-else>HTML color</template></span
       >
     </p>
+    <span class="hidden text-black text-white"></span>
   </div>
 </template>
 
@@ -54,14 +56,6 @@ export default {
       type: String,
       default: "",
     },
-  },
-  head() {
-    return {
-      bodyAttrs: {
-        style: !this.disam && `background-color:${this.blue.value}`,
-        class: !this.disam && this.text,
-      },
-    };
   },
   computed: {
     b() {
