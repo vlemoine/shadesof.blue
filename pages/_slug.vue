@@ -10,7 +10,14 @@
             >.
           </p>
         </div>
-        <div class="flex h-full">
+        <div
+          class="h-full"
+          :class="{
+            flex: blues.length < 4,
+            grid: blues.length > 3,
+            'grid-cols-2': blues.length % 2 === 0,
+          }"
+        >
           <Fill
             v-for="(blue, i) in blues"
             :key="i"
