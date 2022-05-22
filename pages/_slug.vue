@@ -1,7 +1,7 @@
 <template>
   <section>
-    <h1 class="hidden">{{ query }}</h1>
-    <template v-if="blues.length > 0">
+    <h1 v-if="!about" class="hidden">{{ query }}</h1>
+    <template v-if="!about && blues.length > 0">
       <div class="h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
           <p class="px-4 md:text-xl text-center">
@@ -28,7 +28,15 @@
       <Fill :blue="mysteryBlue"><p>Unknown shade of blue!</p></Fill>
     </template>
     <p v-else-if="!about">That's not a shade of blue!</p>
-    <nuxt-content :document="about" />
+    <template v-else-if="about">
+      <h1 class="max-w-xl mx-auto text-3xl font-bold mb-4">
+        {{ about.title }}
+      </h1>
+      <nuxt-content
+        class="max-w-xl mx-auto flex flex-col gap-4 pb-8"
+        :document="about"
+      />
+    </template>
   </section>
 </template>
 
@@ -47,6 +55,7 @@ export default {
     let mysteryBlue = {};
     if (slug === "about") {
       about = await $content("about").fetch();
+      query = "About";
     } else {
       const x11 = await $content("x11").fetch();
       const other = await $content("colors").fetch();
@@ -88,21 +97,30 @@ export default {
           toHex(e.value).replace("#", "").toLowerCase() === slug
       );
       // What is the query?
-      let name = []
-      blues.forEach(b => {name.push(b.slug)});
-      name = [...new Set(name)]
+      let name = [];
+      blues.forEach((b) => {
+        name.push(b.slug);
+      });
+      name = [...new Set(name)];
       const q = name.length === 1;
-      query = blues.length > 0 ? q ? blues[blues.length - 1]?.title : `#${slug.toUpperCase()}` : "???";
+      query =
+        blues.length > 0
+          ? q
+            ? blues[blues.length - 1]?.title
+            : `#${slug.toUpperCase()}`
+          : "???";
       // Handle unidentified blue hex colors
       const hex = slug.length === 6 ? colorString.get("#" + slug) : null;
       if (hex) {
-        const m = Math.round(Color(colorString.to.hex(hex.value)).hsl().object().h);
+        const m = Math.round(
+          Color(colorString.to.hex(hex.value)).hsl().object().h
+        );
         isBlue = m > 169 && m < 251;
         if (isBlue) {
           mysteryBlue = {
             value: colorString.to.hex(hex.value),
-            source: null
-          }
+            source: null,
+          };
         }
       }
     }
@@ -127,10 +145,12 @@ export default {
       return this.blues.length > 1;
     },
     disamValue() {
-      let name = []
-      this.blues.forEach(b => {name.push(b.slug)});
-      name = [...new Set(name)]
-      return name.length === 1 ? 'name' : 'value'
+      let name = [];
+      this.blues.forEach((b) => {
+        name.push(b.slug);
+      });
+      name = [...new Set(name)];
+      return name.length === 1 ? "name" : "value";
     },
     text() {
       const c = Color(this.blues.value);
