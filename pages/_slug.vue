@@ -137,7 +137,7 @@ export default {
       return `text-${c.isLight() ? "black" : "white"}`;
     },
     link() {
-      return this.query.toLowerCase().replace(" ", "-");
+      return this.query.toLowerCase().replaceAll(" ", "-");
     },
   },
   methods: {

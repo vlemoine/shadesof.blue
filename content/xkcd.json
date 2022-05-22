@@ -835,7 +835,7 @@
   {
     "title": "robin's egg blue",
     "value": "#98eff9",
-    "slug": "robin's-egg-blue",
+    "slug": "robins-egg-blue",
     "source": "XKCD",
     "url": "https://xkcd.com/color/rgb/"
   },
@@ -948,6 +948,440 @@
     "title": "blue",
     "value": "#0343df",
     "slug": "blue",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "sky",
+    "value": "#82cafc",
+    "slug": "sky",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "teal",
+    "value": "#029386",
+    "slug": "teal",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "turquoise",
+    "value": "#06c2ac",
+    "slug": "turquoise",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "aqua",
+    "value": "#13eac9",
+    "slug": "aqua",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "periwinkle",
+    "value": "#8e82fe",
+    "slug": "periwinkle",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "navy",
+    "value": "#01153e",
+    "slug": "navy",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark teal",
+    "value": "#014d4e",
+    "slug": "dark-teal",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark grey",
+    "value": "#363737",
+    "slug": "dark-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "slate",
+    "value": "#516572",
+    "slug": "slate",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "cerulean",
+    "value": "#0485d1",
+    "slug": "cerulean",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "azure",
+    "value": "#069af3",
+    "slug": "azure",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark turquoise",
+    "value": "#045c5a",
+    "slug": "dark-turquoise",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "cobalt",
+    "value": "#1e488f",
+    "slug": "cobalt",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark cyan",
+    "value": "#0a888a",
+    "slug": "dark-cyan",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "cornflower",
+    "value": "#6a79f7",
+    "slug": "cornflower",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "light cyan",
+    "value": "#acfffc",
+    "slug": "light-cyan",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark aqua",
+    "value": "#05696b",
+    "slug": "dark-aqua",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "denim",
+    "value": "#3b638c",
+    "slug": "denim",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "slate grey",
+    "value": "#59656d",
+    "slug": "slate-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark periwinkle",
+    "value": "#665fd1",
+    "slug": "dark-periwinkle",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bluish grey",
+    "value": "#748b97",
+    "slug": "bluish-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "ultramarine",
+    "value": "#2000b1",
+    "slug": "ultramarine",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "steel",
+    "value": "#738595",
+    "slug": "steel",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "ocean",
+    "value": "#017b92",
+    "slug": "ocean",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "light indigo",
+    "value": "#6d5acf",
+    "slug": "light-indigo",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bluish",
+    "value": "#2976bb",
+    "slug": "bluish",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "steel grey",
+    "value": "#6f828a",
+    "slug": "steel-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bright turquoise",
+    "value": "#0ffef9",
+    "slug": "bright-turquoise",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "marine",
+    "value": "#042e60",
+    "slug": "marine",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "light navy",
+    "value": "#155084",
+    "slug": "light-navy",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bright aqua",
+    "value": "#0bf9ea",
+    "slug": "bright-aqua",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "robin's egg",
+    "value": "#6dedfd",
+    "slug": "robins-egg",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark navy",
+    "value": "#000435",
+    "slug": "dark-navy",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark navy blue",
+    "value": "#00022e",
+    "slug": "dark-navy-blue",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "midnight",
+    "value": "#03012d",
+    "slug": "midnight",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark indigo",
+    "value": "#1f0954",
+    "slug": "dark-indigo",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "gunmetal",
+    "value": "#536267",
+    "slug": "gunmetal",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "sea",
+    "value": "#3c9992",
+    "slug": "sea",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "perrywinkle",
+    "value": "#8f8ce7",
+    "slug": "perrywinkle",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "tealish",
+    "value": "#24bca8",
+    "slug": "tealish",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "iris",
+    "value": "#6258c4",
+    "slug": "iris",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dusk",
+    "value": "#4e5481",
+    "slug": "dusk",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "almost black",
+    "value": "#070d0d",
+    "slug": "almost black",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "pale cyan",
+    "value": "#b7fffa",
+    "slug": "pale-cyan",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "deep teal",
+    "value": "#00555a",
+    "slug": "deep-teal",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "light periwinkle",
+    "value": "#c1c6fc",
+    "slug": "light-periwinkle",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dark aquamarine",
+    "value": "#017371",
+    "slug": "dark-aquamarine",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "royal",
+    "value": "#0c1793",
+    "slug": "royal",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "petrol",
+    "value": "#005f6a",
+    "slug": "petrol",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "twilight",
+    "value": "#4e518b",
+    "slug": "twilight",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bright cyan",
+    "value": "#41fdfe",
+    "slug": "bright-cyan",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "ice",
+    "value": "#d6fffa",
+    "slug": "ice",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "cool grey",
+    "value": "#95a3a6",
+    "slug": "cool grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "topaz",
+    "value": "#13bbaf",
+    "slug": "topaz",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "sapphire",
+    "value": "#2138ab",
+    "slug": "sapphire",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "charcoal grey",
+    "value": "#3c4142",
+    "slug": "charcoal-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "burple",
+    "value": "#6832e3",
+    "slug": "burple",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "azul",
+    "value": "#1d5dec",
+    "slug": "azul",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "battleship grey",
+    "value": "#6b7c85",
+    "slug": "battleship-grey",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "deep aqua",
+    "value": "#08787f",
+    "slug": "deep-aqua",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "deep turquoise",
+    "value": "#017374",
+    "slug": "deep-turquoise",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "dusty teal",
+    "value": "#4c9085",
+    "slug": "dusty-teal",
     "source": "XKCD",
     "url": "https://xkcd.com/color/rgb/"
   }
