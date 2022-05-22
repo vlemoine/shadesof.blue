@@ -1,0 +1,117 @@
+[
+  {
+    "title": "Cobalt Blue Deep",
+    "slug": "cobalt-blue-deep",
+    "value": "#293A8E",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "French Ultramarine",
+    "slug": "french-ultramarine",
+    "value": "#293A8E",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Smalt (Dumont’s Blue)",
+    "slug": "smalt",
+    "alias": "dumonts-blue",
+    "value": "#293079",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Ultramarine",
+    "slug": "ultramarine",
+    "value": "#264295",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Cobalt Blue",
+    "slug": "cobalt-blue",
+    "value": "#235AA1",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Winsor Blue (Red Shade)",
+    "slug": "winsor-blue-red",
+    "value": "#184379",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Antwerp Blue",
+    "slug": "antwerp-blue",
+    "value": "#12355D",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Prussian Blue",
+    "slug": "prussian-blue",
+    "value": "#0E2D5A",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Winsor Blue (Green Shade)",
+    "slug": "winsor-blue-green",
+    "value": "#439AD6",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Cerulean Blue (Red Shade)",
+    "slug": "cerulean-blue-red",
+    "value": "#3072B6",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Cerulean Blue",
+    "slug": "cerulean-blue",
+    "value": "#5BBEEC",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Manganese Blue Hue",
+    "slug": "manganese-blue-hue",
+    "value": "#4FB1D8",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Indigo",
+    "slug": "indigo",
+    "value": "#051737",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Payne’s Gray",
+    "slug": "paynes-gray",
+    "value": "#1F2B39",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Neutral Tint",
+    "slug": "neutral-tint",
+    "value": "#00000D",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Phthalo Turquoise",
+    "slug": "phthalo-turquoise",
+    "value": "#0A2332",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Aqua Green",
+    "slug": "aqua-green",
+    "value": "#2D6072",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Cobalt Turquoise Light",
+    "slug": "cobalt-turquoise-light",
+    "value": "#50B2AE",
+    "source": "Winsor-Newton"
+  },
+  {
+    "title": "Cobalt Turquoise",
+    "slug": "cobalt-turquoise",
+    "value": "#296372",
+    "source": "Winsor-Newton"
+  }
+]
