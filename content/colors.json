@@ -295,5 +295,11 @@
     "slug": "port-gore",
     "value":"#251f4f",
     "source": "Resense 2001"
+  },
+  {
+    "title": "Lapis Lazuli",
+    "slug": "lapis-lazuli",
+    "value": "#26619c",
+    "source": "???"
   }
 ]
