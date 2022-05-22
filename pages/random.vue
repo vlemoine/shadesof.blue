@@ -12,6 +12,8 @@ export default {
     const pantone = await $content("pantone").fetch();
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
+    const wn = await $content("wn").fetch();
+    const xkcd = await $content("xkcd").fetch();
     const crayola = await $content("crayola").fetch();
     const swBlue = await $content("sw/blue").fetch();
     const swPurple = await $content("sw/purple").fetch();
@@ -34,6 +36,8 @@ export default {
         ...tcx,
         ...ntc,
         ...crayola,
+        ...wn,
+        ...xkcd,
         ...sw,
       ];
     return { lib };

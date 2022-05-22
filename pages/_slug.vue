@@ -55,6 +55,7 @@ export default {
       const ntc = await $content("ntc").fetch();
       const crayola = await $content("crayola").fetch();
       const wn = await $content("wn").fetch();
+      const xkcd = await $content("xkcd").fetch();
       const swBlue = await $content("sw/blue").fetch();
       const swPurple = await $content("sw/purple").fetch();
       const swPastel = await $content("sw/pastel").fetch();
@@ -77,6 +78,7 @@ export default {
         ...ntc,
         ...crayola,
         ...wn,
+        ...xkcd,
         ...sw,
       ];
       blues = lib.filter(
