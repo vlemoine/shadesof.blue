@@ -46,7 +46,8 @@
     "value": "#1f6357",
     "slug": "dark-green-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#005249"
   },
   {
     "title": "stormy blue",
@@ -123,7 +124,8 @@
     "value": "#01c08d",
     "slug": "green-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#0F9B8E"
   },
   {
     "title": "dark royal blue",
@@ -158,7 +160,8 @@
     "value": "#23c48b",
     "slug": "greenblue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "bluegreen"
   },
   {
     "title": "warm blue",
@@ -193,7 +196,8 @@
     "value": "#56fca2",
     "slug": "light-green-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#7EFBB3"
   },
   {
     "title": "dodger blue",
@@ -256,7 +260,8 @@
     "value": "#5d21d0",
     "slug": "purple-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#5A06EF"
   },
   {
     "title": "bluegrey",
@@ -403,7 +408,8 @@
     "value": "#0f9b8e",
     "slug": "blue-green",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#01C08D"
   },
   {
     "title": "light grey blue",
@@ -445,14 +451,16 @@
     "value": "#5a06ef",
     "slug": "blue-purple",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#5D21D0"
   },
   {
     "title": "bluey green",
     "value": "#2bb179",
     "slug": "bluey-green",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#42B395"
   },
   {
     "title": "dark navy blue",
@@ -466,7 +474,8 @@
     "value": "#42b395",
     "slug": "greeny-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#2BB179"
   },
   {
     "title": "primary blue",
@@ -529,21 +538,26 @@
     "value": "#6241c7",
     "slug": "bluey-purple",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#661AEE"
   },
   {
     "title": "purply blue",
     "value": "#661aee",
     "slug": "purply-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#6241C7",
+    "alt": "#5F34E7"
   },
   {
     "title": "purpleish blue",
     "value": "#6140ef",
     "slug": "purpleish-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "alt": "#601EF9",
+    "opposite": "#703be7"
   },
   {
     "title": "mid blue",
@@ -578,7 +592,8 @@
     "value": "#005249",
     "slug": "dark-blue-green",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#1F6357"
   },
   {
     "title": "darkish blue",
@@ -627,14 +642,16 @@
     "value": "#7efbb3",
     "slug": "light-blue-green",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#56FCA2"
   },
   {
     "title": "violet blue",
     "value": "#510ac9",
     "slug": "violet-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#5D06E9"
   },
   {
     "title": "true blue",
@@ -662,7 +679,8 @@
     "value": "#017a79",
     "slug": "bluegreen",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "greenblue"
   },
   {
     "title": "marine blue",
@@ -732,7 +750,8 @@
     "value": "#5d06e9",
     "slug": "blue-violet",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#510AC9"
   },
   {
     "title": "aqua blue",
@@ -753,21 +772,24 @@
     "value": "#06b48b",
     "slug": "green-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#137E6D"
   },
   {
     "title": "greenish blue",
     "value": "#0b8b87",
     "slug": "greenish-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#10a674"
   },
   {
     "title": "purple blue",
     "value": "#632de9",
     "slug": "purple-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#5729CE"
   },
   {
     "title": "powder blue",
@@ -788,7 +810,8 @@
     "value": "#5729ce",
     "slug": "blue-purple",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#632DE9"
   },
   {
     "title": "cornflower blue",
@@ -809,7 +832,9 @@
     "value": "#601ef9",
     "slug": "purplish-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "alt": "#6140EF",
+    "opposite": "#703be7"
   },
   {
     "title": "medium blue",
@@ -886,7 +911,8 @@
     "value": "#137e6d",
     "slug": "blue-green",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#06B48B"
   },
   {
     "title": "baby blue",
@@ -1384,5 +1410,21 @@
     "slug": "dusty-teal",
     "source": "XKCD",
     "url": "https://xkcd.com/color/rgb/"
+  },
+  {
+    "title": "bluish green",
+    "value": "#10a674",
+    "slug": "bluish-green",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#0B8B87"
+  },
+  {
+    "title": "bluish purple",
+    "value": "#703be7",
+    "slug": "bluish-purple",
+    "source": "XKCD",
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#601EF9"
   }
 ]
