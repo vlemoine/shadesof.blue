@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex py-4 px-8 h-20 border-b border-black dark:border-white items-center"
+    class="flex py-4 px-8 h-20 border-b border-black dark:border-white items-center sticky top-0"
   >
     <NuxtLink
       to="/"
