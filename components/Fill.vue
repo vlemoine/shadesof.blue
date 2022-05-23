@@ -15,14 +15,13 @@
             :to="link"
             :title="`Permalink to ${blue.title} ${hex}`"
           >
-            <i class="fa-solid fa-link"></i
-          ></NuxtLink>
+            <span class="hidden">{{blue.title}}</span><i class="fa-solid fa-link"></i></NuxtLink>
           <button
             :class="button"
             :title="`Copy ${blue.title} value ${hex}`"
             @click="copy()"
           >
-            <i class="fa-regular fa-copy"></i>
+            <i class="fa-solid fa-clipboard"></i>
           </button>
         </div>
         <p v-if="html">
