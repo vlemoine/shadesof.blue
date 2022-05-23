@@ -10,16 +10,26 @@
             >.
           </p>
         </div>
-        <div class="flex h-full">
+        <div
+          class="h-full"
+          :class="{
+            flex: blues.length < 4,
+            grid: blues.length > 3,
+            'grid-cols-2': blues.length % 2 === 0,
+          }"
+        >
           <Fill
             v-for="(blue, i) in blues"
             :key="i"
             :blue="blue"
             :disam="disam"
             :slug="slug"
-            ><NuxtLink v-if="!disam" class="text-5xl font-bold" :to="link">{{
-              query
-            }}</NuxtLink></Fill
+            ><NuxtLink
+              v-if="!disam"
+              class="query text-5xl font-bold underline focus-within:shadow-focus focus:outline-none"
+              :to="link"
+              >{{ query }}</NuxtLink
+            ></Fill
           >
         </div>
       </div>
@@ -45,6 +55,18 @@ import Color from "color";
 import colorString from "color-string";
 
 const toHex = (blue) => Color(blue).hex();
+const name = (slug, blues) => {
+  const name = [];
+  blues.forEach((b) => {
+    // cyan debacle
+    if (slug === "cyan" && b.alias === "cyan") {
+      name.push("cyan");
+    } else {
+      name.push(b.slug);
+    }
+  });
+  return [...new Set(name)];
+};
 export default {
   async asyncData({ $content, params }) {
     const slug = params.slug.toLowerCase();
@@ -97,12 +119,7 @@ export default {
           toHex(e.value).replace("#", "").toLowerCase() === slug
       );
       // What is the query?
-      let name = [];
-      blues.forEach((b) => {
-        name.push(b.slug);
-      });
-      name = [...new Set(name)];
-      const q = name.length === 1;
+      const q = name(slug, blues).length === 1;
       query =
         blues.length > 0
           ? q
@@ -145,19 +162,13 @@ export default {
       return this.blues.length > 1;
     },
     disamValue() {
-      let name = [];
-      this.blues.forEach((b) => {
-        name.push(b.slug);
-      });
-      name = [...new Set(name)];
-      return name.length === 1 ? "name" : "value";
+      return name(this.slug, this.blues).length === 1 ? "name" : "value";
     },
     text() {
-      const c = Color(this.blues.value);
-      return `text-${c.isLight() ? "black" : "white"}`;
+      return `text-${Color(this.blues.value).isLight() ? "black" : "white"}`;
     },
     link() {
-      return this.query.toLowerCase().replaceAll(" ", "-");
+      return this.query.toLowerCase().replaceAll(" ", "-").replaceAll("/", "-");
     },
   },
   methods: {
