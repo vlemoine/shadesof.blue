@@ -825,7 +825,8 @@
     "value": "#5e819d",
     "slug": "greyish-blue",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#748B97"
   },
   {
     "title": "purplish blue",
@@ -1122,7 +1123,8 @@
     "value": "#748b97",
     "slug": "bluish-grey",
     "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
+    "url": "https://xkcd.com/color/rgb/",
+    "opposite": "#5E819D"
   },
   {
     "title": "ultramarine",
