@@ -10,10 +10,11 @@
           v-model="filters.name"
           name="name"
           type="search"
-          class="text-black px-4 py-1 rounded-full focus-within:shadow-focus focus:outline-none"
+          class="text-black px-4 py-1 rounded-full focus-within:shadow-focus focus:outline-none dark:bg-gray-800 dark:text-white border border-gray-900 dark:border-gray-600"
       /></label>
       <button
-        :class="[classes.pill, filters.open ? classes.pillSelected : '']"
+        class="pl-3 pr-3"
+        :class="[classes.pill, filters.open ? classes.pillSelected : 'bg-white dark:bg-black']"
         @click="filters.open = !filters.open"
       >
         Options
@@ -29,7 +30,7 @@
           <template v-for="(f, i) in filters.families.options">
             <label
               :key="i"
-              class="color-checkbox "
+              class="color-checkbox"
               :class="[
                 classes.pill,
                 filters.families.selected.includes(f)
@@ -224,7 +225,7 @@ export default {
         "HTML/Web/X11",
       ],
       classes: {
-        pill: "px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-400 dark:border-gray-600 focus-within:shadow-focus focus:outline-none",
+        pill: "px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-900 dark:border-gray-600 focus-within:shadow-focus focus:outline-none",
         pillSelected: "bg-gray-300 dark:bg-gray-700 font-bold",
       },
     };
@@ -313,21 +314,44 @@ export default {
 }
 .filter--Cyan {
   background-color: hsl(180, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(170, 100%, 50%), hsl(180, 100%, 50%), hsl(195, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(170, 100%, 50%),
+    hsl(180, 100%, 50%),
+    hsl(195, 100%, 50%)
+  );
 }
 .filter--Azure {
   background-color: hsl(210, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(196, 100%, 50%), hsl(210, 100%, 50%), hsl(225, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(196, 100%, 50%),
+    hsl(210, 100%, 50%),
+    hsl(225, 100%, 50%)
+  );
 }
 .filter--Blue {
   background-color: hsl(240, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(240, 100%, 50%), hsl(250, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(226, 100%, 50%),
+    hsl(240, 100%, 50%),
+    hsl(250, 100%, 50%)
+  );
 }
 .filter--oob {
-  background-image: linear-gradient(to right, hsl(165, 100%, 75%), hsl(255, 100%, 75%))
+  background-image: linear-gradient(
+    to right,
+    hsl(165, 100%, 75%),
+    hsl(255, 100%, 75%)
+  );
 }
 .dark .filter--oob {
-  background-image: linear-gradient(to right, hsl(165, 100%, 50%), hsl(255, 100%, 50%))
+  background-image: linear-gradient(
+    to right,
+    hsl(165, 100%, 50%),
+    hsl(255, 100%, 50%)
+  );
 }
 .square {
   aspect-ratio: 1 / 1;
