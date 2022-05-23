@@ -3,7 +3,6 @@
     :to="hex"
     class="relative hover:z-20 focus:z-20"
     :class="{
-
       'focus-within:shadow-focus focus:outline-none': showLabels,
     }"
   >

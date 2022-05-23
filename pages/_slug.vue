@@ -26,7 +26,7 @@
             :slug="slug"
             ><NuxtLink
               v-if="!disam"
-              class="query text-5xl font-bold underline"
+              class="query text-5xl font-bold underline focus-within:shadow-focus focus:outline-none"
               :to="link"
               >{{ query }}</NuxtLink
             ></Fill

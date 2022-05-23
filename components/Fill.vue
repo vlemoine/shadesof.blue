@@ -44,7 +44,7 @@
       <span v-if="blue.source" class="text-sm"
         ><template v-if="!html"
           >from
-          <a v-if="url" :href="blue.url" target="_blank"
+          <a v-if="url" :href="blue.url" target="_blank" class="focus-within:shadow-focus focus:outline-none"
             ><span class="underline">{{ blue.source }}</span
             ><i class="ml-1 fa fa-arrow-up-right-from-square"></i></a
           ><template v-else>{{ blue.source }}</template></template
@@ -118,7 +118,7 @@ export default {
     },
     button() {
       const c = Color(this.blue.value).isLight();
-      let cls = "square grid place-content-center text-base p-2 rounded-full h-9 ";
+      let cls = "square grid place-content-center text-base p-2 rounded-full h-9 focus-within:shadow-focus focus:outline-none ";
       cls += c ? "bg-gray-900 text-white" : "bg-gray-100 text-black";
       return cls;
     },
