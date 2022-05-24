@@ -14,8 +14,7 @@
           class="h-full"
           :class="{
             flex: blues.length < 4,
-            grid: blues.length > 3,
-            'grid-cols-2': blues.length % 2 === 0,
+            'grid grid-cols-2': blues.length > 3,
           }"
         >
           <Fill
@@ -24,6 +23,9 @@
             :blue="blue"
             :disam="disam"
             :slug="slug"
+            :class="{
+              'col-span-2': blues.length % 2 === 1 && i == blues.length - 1,
+            }"
             ><NuxtLink
               v-if="!disam"
               class="query text-5xl font-bold underline focus-within:shadow-focus focus:outline-none"
