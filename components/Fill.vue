@@ -89,7 +89,7 @@ export default {
       return Math.round(this.b.hsl().object().h);
     },
     link() {
-      return this.hex.replace("#", "");
+      return this.hex.replace("#", "/");
     },
     shade() {
       return this.hue <= 195
