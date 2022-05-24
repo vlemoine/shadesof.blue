@@ -1,6 +1,6 @@
 <template>
   <header
-    class="flex py-4 px-8 h-20 border-b border-black dark:border-white items-center sticky top-0"
+    class="flex py-4 px-8 h-20 border-b border-black dark:border-white items-center sticky top-0 z-10"
   >
     <NuxtLink
       to="/"
@@ -26,3 +26,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+header {
+  background-color: var(--bg);
+}
+</style>
