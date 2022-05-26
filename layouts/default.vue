@@ -1,5 +1,5 @@
 <template>
-  <main class="main">
+  <main class="main h-full">
     <Header />
     <Nuxt />
   </main>

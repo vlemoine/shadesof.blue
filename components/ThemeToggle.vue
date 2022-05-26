@@ -1,11 +1,11 @@
 <template>
   <button
     :title="`${dark ? 'Dis' : 'En'}able dark mode`"
-    class="appearance-none text-2xl"
+    class="text-2xl focus-within:shadow-focus focus:outline-none p-1 rounded-full"
     @click="toggle"
   >
-    <span :class="{ hidden: !dark }"><i class="fas fa-sun"></i></span>
-    <span :class="{ hidden: dark }"><i class="fas fa-moon-stars"></i></span>
+    <span class="square grid place-center" :class="{ hidden: !dark }"><i class="fa-duotone fa-sun"></i></span>
+    <span class="square grid place-center" :class="{ hidden: dark }"><i class="fa-duotone fa-moon-stars"></i></span>
   </button>
 </template>
 
@@ -13,6 +13,7 @@
 export default {
   data() {
     return {
+      // icons have to be in a span so fontawesome can render properly
       dark: false,
     };
   },

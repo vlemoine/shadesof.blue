@@ -1,7 +1,7 @@
 [
   {
     "title": "270 C",
-    "slug": "pantone-270-c",
+    "slug": "270-c",
     "value": "#B4B5DF",
     "cmyk": {
       "c": 29,
@@ -14,7 +14,7 @@
   },
   {
     "title": "271 C",
-    "slug": "pantone-271-c",
+    "slug": "271-c",
     "value": "#9595D2",
     "cmyk": {
       "c": 44,
@@ -27,7 +27,7 @@
   },
   {
     "title": "272 C",
-    "slug": "pantone-272-c",
+    "slug": "272-c",
     "value": "#7474C1",
     "cmyk": {
       "c": 61,
@@ -40,7 +40,7 @@
   },
   {
     "title": "277 C",
-    "slug": "pantone-277-c",
+    "slug": "277-c",
     "value": "#ABCAE9",
     "cmyk": {
       "c": 32,
@@ -53,7 +53,7 @@
   },
   {
     "title": "278 C",
-    "slug": "pantone-278-c",
+    "slug": "278-c",
     "value": "#8BB8E8",
     "cmyk": {
       "c": 43,
@@ -66,7 +66,7 @@
   },
   {
     "title": "279 C",
-    "slug": "pantone-279-c",
+    "slug": "279-c",
     "value": "#418FDE",
     "cmyk": {
       "c": 69,
@@ -79,7 +79,7 @@
   },
   {
     "title": "280 C",
-    "slug": "pantone-280-c",
+    "slug": "280-c",
     "value": "#012169",
     "cmyk": {
       "c": 100,
@@ -92,7 +92,7 @@
   },
   {
     "title": "281 C",
-    "slug": "pantone-281-c",
+    "slug": "281-c",
     "value": "#00205B",
     "cmyk": {
       "c": 100,
@@ -105,7 +105,7 @@
   },
   {
     "title": "282 C",
-    "slug": "pantone-282-c",
+    "slug": "282-c",
     "value": "#041E42",
     "cmyk": {
       "c": 100,
@@ -118,7 +118,7 @@
   },
   {
     "title": "283 C",
-    "slug": "pantone-283-c",
+    "slug": "283-c",
     "value": "#92C1E9",
     "cmyk": {
       "c": 41,
@@ -131,7 +131,7 @@
   },
   {
     "title": "284 C",
-    "slug": "pantone-284-c",
+    "slug": "284-c",
     "value": "#6CACE4",
     "cmyk": {
       "c": 54,
@@ -144,7 +144,7 @@
   },
   {
     "title": "285 C",
-    "slug": "pantone-285-c",
+    "slug": "285-c",
     "value": "#0072CE",
     "cmyk": {
       "c": 90,
@@ -157,7 +157,7 @@
   },
   {
     "title": "286 C",
-    "slug": "pantone-286-c",
+    "slug": "286-c",
     "value": "#0032A0",
     "cmyk": {
       "c": 100,
@@ -170,7 +170,7 @@
   },
   {
     "title": "287 C",
-    "slug": "pantone-287-c",
+    "slug": "287-c",
     "value": "#003087",
     "cmyk": {
       "c": 100,
@@ -183,7 +183,7 @@
   },
   {
     "title": "288 C",
-    "slug": "pantone-288-c",
+    "slug": "288-c",
     "value": "#002D72",
     "cmyk": {
       "c": 100,
@@ -196,7 +196,7 @@
   },
   {
     "title": "289 C",
-    "slug": "pantone-289-c",
+    "slug": "289-c",
     "value": "#0C2340",
     "cmyk": {
       "c": 100,
@@ -209,7 +209,7 @@
   },
   {
     "title": "290 C",
-    "slug": "pantone-290-c",
+    "slug": "290-c",
     "value": "#B9D9EB",
     "cmyk": {
       "c": 25,
@@ -222,7 +222,7 @@
   },
   {
     "title": "291 C",
-    "slug": "pantone-291-c",
+    "slug": "291-c",
     "value": "#9BCBEB",
     "cmyk": {
       "c": 38,
@@ -235,7 +235,7 @@
   },
   {
     "title": "292 C",
-    "slug": "pantone-292-c",
+    "slug": "292-c",
     "value": "#69B3E7",
     "cmyk": {
       "c": 55,
@@ -248,7 +248,7 @@
   },
   {
     "title": "293 C",
-    "slug": "pantone-293-c",
+    "slug": "293-c",
     "value": "#003DA5",
     "cmyk": {
       "c": 100,
@@ -261,7 +261,7 @@
   },
   {
     "title": "294 C",
-    "slug": "pantone-294-c",
+    "slug": "294-c",
     "value": "#002F6C",
     "cmyk": {
       "c": 100,
@@ -274,7 +274,7 @@
   },
   {
     "title": "295 C",
-    "slug": "pantone-295-c",
+    "slug": "295-c",
     "value": "#002855",
     "cmyk": {
       "c": 100,
@@ -287,7 +287,7 @@
   },
   {
     "title": "296 C",
-    "slug": "pantone-296-c",
+    "slug": "296-c",
     "value": "#051C2C",
     "cmyk": {
       "c": 100,
@@ -300,7 +300,7 @@
   },
   {
     "title": "297 C",
-    "slug": "pantone-297-c",
+    "slug": "297-c",
     "value": "#71C5E8",
     "cmyk": {
       "c": 52,
@@ -313,7 +313,7 @@
   },
   {
     "title": "298 C",
-    "slug": "pantone-298-c",
+    "slug": "298-c",
     "value": "#41B6E6",
     "cmyk": {
       "c": 65,
@@ -326,7 +326,7 @@
   },
   {
     "title": "299 C",
-    "slug": "pantone-299-c",
+    "slug": "299-c",
     "value": "#00A3E0",
     "cmyk": {
       "c": 79,
@@ -339,7 +339,7 @@
   },
   {
     "title": "300 C",
-    "slug": "pantone-300-c",
+    "slug": "300-c",
     "value": "#005EB8",
     "cmyk": {
       "c": 100,
@@ -352,7 +352,7 @@
   },
   {
     "title": "301 C",
-    "slug": "pantone-301-c",
+    "slug": "301-c",
     "value": "#004B87",
     "cmyk": {
       "c": 100,
@@ -365,7 +365,7 @@
   },
   {
     "title": "302 C",
-    "slug": "pantone-302-c",
+    "slug": "302-c",
     "value": "#003B5C",
     "cmyk": {
       "c": 100,
@@ -378,7 +378,7 @@
   },
   {
     "title": "303 C",
-    "slug": "pantone-303-c",
+    "slug": "303-c",
     "value": "#002A3A",
     "cmyk": {
       "c": 100,
@@ -391,7 +391,7 @@
   },
   {
     "title": "304 C",
-    "slug": "pantone-304-c",
+    "slug": "304-c",
     "value": "#9ADBE8",
     "cmyk": {
       "c": 35,
@@ -404,7 +404,7 @@
   },
   {
     "title": "305 C",
-    "slug": "pantone-305-c",
+    "slug": "305-c",
     "value": "#59CBE8",
     "cmyk": {
       "c": 55,
@@ -417,7 +417,7 @@
   },
   {
     "title": "306 C",
-    "slug": "pantone-306-c",
+    "slug": "306-c",
     "value": "#00B5E2",
     "cmyk": {
       "c": 76,
@@ -430,7 +430,7 @@
   },
   {
     "title": "307 C",
-    "slug": "pantone-307-c",
+    "slug": "307-c",
     "value": "#006BA6",
     "cmyk": {
       "c": 100,
@@ -443,7 +443,7 @@
   },
   {
     "title": "308 C",
-    "slug": "pantone-308-c",
+    "slug": "308-c",
     "value": "#00587C",
     "cmyk": {
       "c": 100,
@@ -456,7 +456,7 @@
   },
   {
     "title": "309 C",
-    "slug": "pantone-309-c",
+    "slug": "309-c",
     "value": "#003B49",
     "cmyk": {
       "c": 100,
@@ -469,7 +469,7 @@
   },
   {
     "title": "310 C",
-    "slug": "pantone-310-c",
+    "slug": "310-c",
     "value": "#6AD1E3",
     "cmyk": {
       "c": 50,
@@ -482,7 +482,7 @@
   },
   {
     "title": "311 C",
-    "slug": "pantone-311-c",
+    "slug": "311-c",
     "value": "#05C3DD",
     "cmyk": {
       "c": 65,
@@ -495,7 +495,7 @@
   },
   {
     "title": "312 C",
-    "slug": "pantone-312-c",
+    "slug": "312-c",
     "value": "#00A9CE",
     "cmyk": {
       "c": 92,
@@ -508,7 +508,7 @@
   },
   {
     "title": "313 C",
-    "slug": "pantone-313-c",
+    "slug": "313-c",
     "value": "#0092BC",
     "cmyk": {
       "c": 100,
@@ -521,7 +521,7 @@
   },
   {
     "title": "314 C",
-    "slug": "pantone-314-c",
+    "slug": "314-c",
     "value": "#007FA3",
     "cmyk": {
       "c": 100,
@@ -534,7 +534,7 @@
   },
   {
     "title": "315 C",
-    "slug": "pantone-315-c",
+    "slug": "315-c",
     "value": "#00677F",
     "cmyk": {
       "c": 100,
@@ -547,7 +547,7 @@
   },
   {
     "title": "316 C",
-    "slug": "pantone-316-c",
+    "slug": "316-c",
     "value": "#004851",
     "cmyk": {
       "c": 100,
@@ -560,7 +560,7 @@
   },
   {
     "title": "318 C",
-    "slug": "pantone-318-c",
+    "slug": "318-c",
     "value": "#88DBDF",
     "cmyk": {
       "c": 39,
@@ -573,7 +573,7 @@
   },
   {
     "title": "319 C",
-    "slug": "pantone-319-c",
+    "slug": "319-c",
     "value": "#2CCCD3",
     "cmyk": {
       "c": 60,
@@ -586,7 +586,7 @@
   },
   {
     "title": "320 C",
-    "slug": "pantone-320-c",
+    "slug": "320-c",
     "value": "#009CA6",
     "cmyk": {
       "c": 100,
@@ -599,7 +599,7 @@
   },
   {
     "title": "321 C",
-    "slug": "pantone-321-c",
+    "slug": "321-c",
     "value": "#008C95",
     "cmyk": {
       "c": 100,
@@ -612,7 +612,7 @@
   },
   {
     "title": "322 C",
-    "slug": "pantone-322-c",
+    "slug": "322-c",
     "value": "#007377",
     "cmyk": {
       "c": 100,
@@ -625,7 +625,7 @@
   },
   {
     "title": "323 C",
-    "slug": "pantone-323-c",
+    "slug": "323-c",
     "value": "#005F61",
     "cmyk": {
       "c": 100,
@@ -638,105 +638,105 @@
   },
   {
     "title": "422 C",
-    "slug": "pantone-422-c",
+    "slug": "422-c",
     "value": "#9EA2A2",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/422-C"
   },
   {
     "title": "423 C",
-    "slug": "pantone-423-c",
+    "slug": "423-c",
     "value": "#898D8D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/423-C"
   },
   {
     "title": "425 C",
-    "slug": "pantone-425-c",
+    "slug": "425-c",
     "value": "#545859",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/425-C"
   },
   {
     "title": "426 C",
-    "slug": "pantone-426-c",
+    "slug": "426-c",
     "value": "#25282A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/426-C"
   },
   {
     "title": "427 C",
-    "slug": "pantone-427-c",
+    "slug": "427-c",
     "value": "#D0D3D4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/427-C"
   },
   {
     "title": "428 C",
-    "slug": "pantone-428-c",
+    "slug": "428-c",
     "value": "#C1C6C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/428-C"
   },
   {
     "title": "429 C",
-    "slug": "pantone-429-c",
+    "slug": "429-c",
     "value": "#A2AAAD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/429-C"
   },
   {
     "title": "430 C",
-    "slug": "pantone-430-c",
+    "slug": "430-c",
     "value": "#7C878E",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/430-C"
   },
   {
     "title": "431 C",
-    "slug": "pantone-431-c",
+    "slug": "431-c",
     "value": "#5B6770",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/431-C"
   },
   {
     "title": "432 C",
-    "slug": "pantone-432-c",
+    "slug": "432-c",
     "value": "#333F48",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/432-C"
   },
   {
     "title": "433 C",
-    "slug": "pantone-433-c",
+    "slug": "433-c",
     "value": "#1D252D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/433-C"
   },
   {
     "title": "443 C",
-    "slug": "pantone-443-c",
+    "slug": "443-c",
     "value": "#919D9D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/443-C"
   },
   {
     "title": "444 C",
-    "slug": "pantone-444-c",
+    "slug": "444-c",
     "value": "#717C7D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/444-C"
   },
   {
     "title": "445 C",
-    "slug": "pantone-445-c",
+    "slug": "445-c",
     "value": "#505759",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/445-C"
   },
   {
     "title": "532 C",
-    "slug": "pantone-532-c",
+    "slug": "532-c",
     "value": "#1D1F2A",
     "cmyk": {
       "c": 92,
@@ -749,7 +749,7 @@
   },
   {
     "title": "533 C",
-    "slug": "pantone-533-c",
+    "slug": "533-c",
     "value": "#202A44",
     "cmyk": {
       "c": 94,
@@ -762,7 +762,7 @@
   },
   {
     "title": "534 C",
-    "slug": "pantone-534-c",
+    "slug": "534-c",
     "value": "#1B365D",
     "cmyk": {
       "c": 100,
@@ -775,7 +775,7 @@
   },
   {
     "title": "535 C",
-    "slug": "pantone-535-c",
+    "slug": "535-c",
     "value": "#8E9FBC",
     "cmyk": {
       "c": 44,
@@ -788,7 +788,7 @@
   },
   {
     "title": "536 C",
-    "slug": "pantone-536-c",
+    "slug": "536-c",
     "value": "#A2B2C8",
     "cmyk": {
       "c": 36,
@@ -801,7 +801,7 @@
   },
   {
     "title": "537 C",
-    "slug": "pantone-537-c",
+    "slug": "537-c",
     "value": "#BBC7D6",
     "cmyk": {
       "c": 24,
@@ -814,7 +814,7 @@
   },
   {
     "title": "538 C",
-    "slug": "pantone-538-c",
+    "slug": "538-c",
     "value": "#C5CFDA",
     "cmyk": {
       "c": 19,
@@ -827,7 +827,7 @@
   },
   {
     "title": "539 C",
-    "slug": "pantone-539-c",
+    "slug": "539-c",
     "value": "#00263A",
     "cmyk": {
       "c": 100,
@@ -840,7 +840,7 @@
   },
   {
     "title": "540 C",
-    "slug": "pantone-540-c",
+    "slug": "540-c",
     "value": "#003057",
     "cmyk": {
       "c": 100,
@@ -853,7 +853,7 @@
   },
   {
     "title": "541 C",
-    "slug": "pantone-541-c",
+    "slug": "541-c",
     "value": "#003C71",
     "cmyk": {
       "c": 100,
@@ -866,7 +866,7 @@
   },
   {
     "title": "542 C",
-    "slug": "pantone-542-c",
+    "slug": "542-c",
     "value": "#7BAFD4",
     "cmyk": {
       "c": 51,
@@ -879,7 +879,7 @@
   },
   {
     "title": "543 C",
-    "slug": "pantone-543-c",
+    "slug": "543-c",
     "value": "#A4C8E1",
     "cmyk": {
       "c": 35,
@@ -892,7 +892,7 @@
   },
   {
     "title": "544 C",
-    "slug": "pantone-544-c",
+    "slug": "544-c",
     "value": "#BDD6E6",
     "cmyk": {
       "c": 24,
@@ -905,7 +905,7 @@
   },
   {
     "title": "545 C",
-    "slug": "pantone-545-c",
+    "slug": "545-c",
     "value": "#C6DAE7",
     "cmyk": {
       "c": 20,
@@ -918,7 +918,7 @@
   },
   {
     "title": "546 C",
-    "slug": "pantone-546-c",
+    "slug": "546-c",
     "value": "#072B31",
     "cmyk": {
       "c": 100,
@@ -931,7 +931,7 @@
   },
   {
     "title": "547 C",
-    "slug": "pantone-547-c",
+    "slug": "547-c",
     "value": "#00313C",
     "cmyk": {
       "c": 100,
@@ -944,7 +944,7 @@
   },
   {
     "title": "548 C",
-    "slug": "pantone-548-c",
+    "slug": "548-c",
     "value": "#003D4C",
     "cmyk": {
       "c": 100,
@@ -957,7 +957,7 @@
   },
   {
     "title": "549 C",
-    "slug": "pantone-549-c",
+    "slug": "549-c",
     "value": "#6BA4B8",
     "cmyk": {
       "c": 57,
@@ -970,7 +970,7 @@
   },
   {
     "title": "550 C",
-    "slug": "pantone-550-c",
+    "slug": "550-c",
     "value": "#8DB9CA",
     "cmyk": {
       "c": 44,
@@ -983,7 +983,7 @@
   },
   {
     "title": "551 C",
-    "slug": "pantone-551-c",
+    "slug": "551-c",
     "value": "#A3C7D2",
     "cmyk": {
       "c": 35,
@@ -996,7 +996,7 @@
   },
   {
     "title": "552 C",
-    "slug": "pantone-552-c",
+    "slug": "552-c",
     "value": "#B9D3DC",
     "cmyk": {
       "c": 25,
@@ -1009,105 +1009,105 @@
   },
   {
     "title": "628 C",
-    "slug": "pantone-628-c",
+    "slug": "628-c",
     "value": "#B7DDE1",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/628-C"
   },
   {
     "title": "629 C",
-    "slug": "pantone-629-c",
+    "slug": "629-c",
     "value": "#9BD3DD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/629-C"
   },
   {
     "title": "630 C",
-    "slug": "pantone-630-c",
+    "slug": "630-c",
     "value": "#77C5D5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/630-C"
   },
   {
     "title": "631 C",
-    "slug": "pantone-631-c",
+    "slug": "631-c",
     "value": "#3EB1C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/631-C"
   },
   {
     "title": "632 C",
-    "slug": "pantone-632-c",
+    "slug": "632-c",
     "value": "#0093B2",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/632-C"
   },
   {
     "title": "633 C",
-    "slug": "pantone-633-c",
+    "slug": "633-c",
     "value": "#007396",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/633-C"
   },
   {
     "title": "634 C",
-    "slug": "pantone-634-c",
+    "slug": "634-c",
     "value": "#005F83",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/634-C"
   },
   {
     "title": "635 C",
-    "slug": "pantone-635-c",
+    "slug": "635-c",
     "value": "#A4DBE8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/635-C"
   },
   {
     "title": "636 C",
-    "slug": "pantone-636-c",
+    "slug": "636-c",
     "value": "#8BD3E6",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/636-C"
   },
   {
     "title": "637 C",
-    "slug": "pantone-637-c",
+    "slug": "637-c",
     "value": "#4EC3E0",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/637-C"
   },
   {
     "title": "638 C",
-    "slug": "pantone-638-c",
+    "slug": "638-c",
     "value": "#00AFD7",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/638-C"
   },
   {
     "title": "639 C",
-    "slug": "pantone-639-c",
+    "slug": "639-c",
     "value": "#0095C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/639-C"
   },
   {
     "title": "640 C",
-    "slug": "pantone-640-c",
+    "slug": "640-c",
     "value": "#0082BA",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/640-C"
   },
   {
     "title": "641 C",
-    "slug": "pantone-641-c",
+    "slug": "641-c",
     "value": "#0067A0",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/641-C"
   },
   {
     "title": "642 C",
-    "slug": "pantone-642-c",
+    "slug": "642-c",
     "value": "#D1DDE6",
     "cmyk": {
       "c": 15,
@@ -1120,7 +1120,7 @@
   },
   {
     "title": "643 C",
-    "slug": "pantone-643-c",
+    "slug": "643-c",
     "value": "#C6D6E3",
     "cmyk": {
       "c": 20,
@@ -1133,7 +1133,7 @@
   },
   {
     "title": "644 C",
-    "slug": "pantone-644-c",
+    "slug": "644-c",
     "value": "#9BB8D3",
     "cmyk": {
       "c": 38,
@@ -1146,7 +1146,7 @@
   },
   {
     "title": "645 C",
-    "slug": "pantone-645-c",
+    "slug": "645-c",
     "value": "#7DA1C4",
     "cmyk": {
       "c": 51,
@@ -1159,7 +1159,7 @@
   },
   {
     "title": "646 C",
-    "slug": "pantone-646-c",
+    "slug": "646-c",
     "value": "#5E8AB4",
     "cmyk": {
       "c": 65,
@@ -1172,7 +1172,7 @@
   },
   {
     "title": "647 C",
-    "slug": "pantone-647-c",
+    "slug": "647-c",
     "value": "#236192",
     "cmyk": {
       "c": 88,
@@ -1185,7 +1185,7 @@
   },
   {
     "title": "648 C",
-    "slug": "pantone-648-c",
+    "slug": "648-c",
     "value": "#002E5D",
     "cmyk": {
       "c": 100,
@@ -1198,7 +1198,7 @@
   },
   {
     "title": "649 C",
-    "slug": "pantone-649-c",
+    "slug": "649-c",
     "value": "#DBE2E9",
     "cmyk": {
       "c": 11,
@@ -1211,7 +1211,7 @@
   },
   {
     "title": "650 C",
-    "slug": "pantone-650-c",
+    "slug": "650-c",
     "value": "#CED9E5",
     "cmyk": {
       "c": 16,
@@ -1224,7 +1224,7 @@
   },
   {
     "title": "651 C",
-    "slug": "pantone-651-c",
+    "slug": "651-c",
     "value": "#A7BCD6",
     "cmyk": {
       "c": 33,
@@ -1237,7 +1237,7 @@
   },
   {
     "title": "652 C",
-    "slug": "pantone-652-c",
+    "slug": "652-c",
     "value": "#7D9CC0",
     "cmyk": {
       "c": 52,
@@ -1250,7 +1250,7 @@
   },
   {
     "title": "653 C",
-    "slug": "pantone-653-c",
+    "slug": "653-c",
     "value": "#326295",
     "cmyk": {
       "c": 84,
@@ -1263,7 +1263,7 @@
   },
   {
     "title": "654 C",
-    "slug": "pantone-654-c",
+    "slug": "654-c",
     "value": "#003A70",
     "cmyk": {
       "c": 100,
@@ -1276,7 +1276,7 @@
   },
   {
     "title": "655 C",
-    "slug": "pantone-655-c",
+    "slug": "655-c",
     "value": "#002554",
     "cmyk": {
       "c": 100,
@@ -1289,7 +1289,7 @@
   },
   {
     "title": "656 C",
-    "slug": "pantone-656-c",
+    "slug": "656-c",
     "value": "#DDE5ED",
     "cmyk": {
       "c": 10,
@@ -1302,7 +1302,7 @@
   },
   {
     "title": "657 C",
-    "slug": "pantone-657-c",
+    "slug": "657-c",
     "value": "#C8D8EB",
     "cmyk": {
       "c": 19,
@@ -1315,7 +1315,7 @@
   },
   {
     "title": "658 C",
-    "slug": "pantone-658-c",
+    "slug": "658-c",
     "value": "#B1C9E8",
     "cmyk": {
       "c": 29,
@@ -1328,7 +1328,7 @@
   },
   {
     "title": "659 C",
-    "slug": "pantone-659-c",
+    "slug": "659-c",
     "value": "#7BA4DB",
     "cmyk": {
       "c": 51,
@@ -1341,7 +1341,7 @@
   },
   {
     "title": "660 C",
-    "slug": "pantone-660-c",
+    "slug": "660-c",
     "value": "#407EC9",
     "cmyk": {
       "c": 74,
@@ -1354,7 +1354,7 @@
   },
   {
     "title": "661 C",
-    "slug": "pantone-661-c",
+    "slug": "661-c",
     "value": "#003594",
     "cmyk": {
       "c": 100,
@@ -1367,7 +1367,7 @@
   },
   {
     "title": "662 C",
-    "slug": "pantone-662-c",
+    "slug": "662-c",
     "value": "#001A70",
     "cmyk": {
       "c": 100,
@@ -1380,7 +1380,7 @@
   },
   {
     "title": "2106 C",
-    "slug": "pantone-2106-c",
+    "slug": "2106-c",
     "value": "#B1B5CE",
     "cmyk": {
       "c": 29,
@@ -1393,7 +1393,7 @@
   },
   {
     "title": "2107 C",
-    "slug": "pantone-2107-c",
+    "slug": "2107-c",
     "value": "#9099BA",
     "cmyk": {
       "c": 43,
@@ -1406,7 +1406,7 @@
   },
   {
     "title": "2108 C",
-    "slug": "pantone-2108-c",
+    "slug": "2108-c",
     "value": "#777FA8",
     "cmyk": {
       "c": 55,
@@ -1419,7 +1419,7 @@
   },
   {
     "title": "2109 C",
-    "slug": "pantone-2109-c",
+    "slug": "2109-c",
     "value": "#676D99",
     "cmyk": {
       "c": 63,
@@ -1432,7 +1432,7 @@
   },
   {
     "title": "2110 C",
-    "slug": "pantone-2110-c",
+    "slug": "2110-c",
     "value": "#5B618F",
     "cmyk": {
       "c": 69,
@@ -1445,7 +1445,7 @@
   },
   {
     "title": "2111 C",
-    "slug": "pantone-2111-c",
+    "slug": "2111-c",
     "value": "#464E7E",
     "cmyk": {
       "c": 78,
@@ -1458,7 +1458,7 @@
   },
   {
     "title": "2113 C",
-    "slug": "pantone-2113-c",
+    "slug": "2113-c",
     "value": "#A5B0E3",
     "cmyk": {
       "c": 35,
@@ -1471,7 +1471,7 @@
   },
   {
     "title": "2114 C",
-    "slug": "pantone-2114-c",
+    "slug": "2114-c",
     "value": "#838DC8",
     "cmyk": {
       "c": 51,
@@ -1484,7 +1484,7 @@
   },
   {
     "title": "2115 C",
-    "slug": "pantone-2115-c",
+    "slug": "2115-c",
     "value": "#6F79BD",
     "cmyk": {
       "c": 61,
@@ -1497,7 +1497,7 @@
   },
   {
     "title": "2116 C",
-    "slug": "pantone-2116-c",
+    "slug": "2116-c",
     "value": "#6068B2",
     "cmyk": {
       "c": 71,
@@ -1510,7 +1510,7 @@
   },
   {
     "title": "2117 C",
-    "slug": "pantone-2117-c",
+    "slug": "2117-c",
     "value": "#44499C",
     "cmyk": {
       "c": 86,
@@ -1523,7 +1523,7 @@
   },
   {
     "title": "2118 C",
-    "slug": "pantone-2118-c",
+    "slug": "2118-c",
     "value": "#343579",
     "cmyk": {
       "c": 97,
@@ -1536,7 +1536,7 @@
   },
   {
     "title": "2119 C",
-    "slug": "pantone-2119-c",
+    "slug": "2119-c",
     "value": "#2C2E65",
     "cmyk": {
       "c": 100,
@@ -1549,7 +1549,7 @@
   },
   {
     "title": "2120 C",
-    "slug": "pantone-2120-c",
+    "slug": "2120-c",
     "value": "#BECAE9",
     "cmyk": {
       "c": 23,
@@ -1562,7 +1562,7 @@
   },
   {
     "title": "2121 C",
-    "slug": "pantone-2121-c",
+    "slug": "2121-c",
     "value": "#8FACD8",
     "cmyk": {
       "c": 44,
@@ -1575,7 +1575,7 @@
   },
   {
     "title": "2122 C",
-    "slug": "pantone-2122-c",
+    "slug": "2122-c",
     "value": "#9BAEE4",
     "cmyk": {
       "c": 39,
@@ -1588,7 +1588,7 @@
   },
   {
     "title": "2123 C",
-    "slug": "pantone-2123-c",
+    "slug": "2123-c",
     "value": "#7A93DC",
     "cmyk": {
       "c": 54,
@@ -1601,7 +1601,7 @@
   },
   {
     "title": "2124 C",
-    "slug": "pantone-2124-c",
+    "slug": "2124-c",
     "value": "#6F7BD4",
     "cmyk": {
       "c": 63,
@@ -1614,7 +1614,7 @@
   },
   {
     "title": "2125 C",
-    "slug": "pantone-2125-c",
+    "slug": "2125-c",
     "value": "#5461C8",
     "cmyk": {
       "c": 77,
@@ -1627,7 +1627,7 @@
   },
   {
     "title": "2126 C",
-    "slug": "pantone-2126-c",
+    "slug": "2126-c",
     "value": "#303AB2",
     "cmyk": {
       "c": 97,
@@ -1640,7 +1640,7 @@
   },
   {
     "title": "2127 C",
-    "slug": "pantone-2127-c",
+    "slug": "2127-c",
     "value": "#B8C9E1",
     "cmyk": {
       "c": 26,
@@ -1653,7 +1653,7 @@
   },
   {
     "title": "2128 C",
-    "slug": "pantone-2128-c",
+    "slug": "2128-c",
     "value": "#98B6E4",
     "cmyk": {
       "c": 39,
@@ -1666,7 +1666,7 @@
   },
   {
     "title": "2129 C",
-    "slug": "pantone-2129-c",
+    "slug": "2129-c",
     "value": "#5F8DDA",
     "cmyk": {
       "c": 63,
@@ -1679,7 +1679,7 @@
   },
   {
     "title": "2130 C",
-    "slug": "pantone-2130-c",
+    "slug": "2130-c",
     "value": "#5576D1",
     "cmyk": {
       "c": 71,
@@ -1692,7 +1692,7 @@
   },
   {
     "title": "2131 C",
-    "slug": "pantone-2131-c",
+    "slug": "2131-c",
     "value": "#365ABD",
     "cmyk": {
       "c": 87,
@@ -1705,7 +1705,7 @@
   },
   {
     "title": "2132 C",
-    "slug": "pantone-2132-c",
+    "slug": "2132-c",
     "value": "#0857C3",
     "cmyk": {
       "c": 93,
@@ -1718,7 +1718,7 @@
   },
   {
     "title": "2133 C",
-    "slug": "pantone-2133-c",
+    "slug": "2133-c",
     "value": "#1D57A5",
     "cmyk": {
       "c": 94,
@@ -1731,7 +1731,7 @@
   },
   {
     "title": "2134 C",
-    "slug": "pantone-2134-c",
+    "slug": "2134-c",
     "value": "#93A5CF",
     "cmyk": {
       "c": 43,
@@ -1744,7 +1744,7 @@
   },
   {
     "title": "2135 C",
-    "slug": "pantone-2135-c",
+    "slug": "2135-c",
     "value": "#758CC0",
     "cmyk": {
       "c": 58,
@@ -1757,7 +1757,7 @@
   },
   {
     "title": "2136 C",
-    "slug": "pantone-2136-c",
+    "slug": "2136-c",
     "value": "#8394B8",
     "cmyk": {
       "c": 49,
@@ -1770,7 +1770,7 @@
   },
   {
     "title": "2137 C",
-    "slug": "pantone-2137-c",
+    "slug": "2137-c",
     "value": "#6E80A9",
     "cmyk": {
       "c": 60,
@@ -1783,7 +1783,7 @@
   },
   {
     "title": "2138 C",
-    "slug": "pantone-2138-c",
+    "slug": "2138-c",
     "value": "#647692",
     "cmyk": {
       "c": 62,
@@ -1796,7 +1796,7 @@
   },
   {
     "title": "2139 C",
-    "slug": "pantone-2139-c",
+    "slug": "2139-c",
     "value": "#4D6995",
     "cmyk": {
       "c": 73,
@@ -1809,7 +1809,7 @@
   },
   {
     "title": "2140 C",
-    "slug": "pantone-2140-c",
+    "slug": "2140-c",
     "value": "#395382",
     "cmyk": {
       "c": 84,
@@ -1822,7 +1822,7 @@
   },
   {
     "title": "2141 C",
-    "slug": "pantone-2141-c",
+    "slug": "2141-c",
     "value": "#8BBEE8",
     "cmyk": {
       "c": 44,
@@ -1835,7 +1835,7 @@
   },
   {
     "title": "2142 C",
-    "slug": "pantone-2142-c",
+    "slug": "2142-c",
     "value": "#7FADE3",
     "cmyk": {
       "c": 49,
@@ -1848,7 +1848,7 @@
   },
   {
     "title": "2143 C",
-    "slug": "pantone-2143-c",
+    "slug": "2143-c",
     "value": "#3D87CB",
     "cmyk": {
       "c": 73,
@@ -1861,7 +1861,7 @@
   },
   {
     "title": "2144 C",
-    "slug": "pantone-2144-c",
+    "slug": "2144-c",
     "value": "#0067B9",
     "cmyk": {
       "c": 93,
@@ -1874,7 +1874,7 @@
   },
   {
     "title": "2145 C",
-    "slug": "pantone-2145-c",
+    "slug": "2145-c",
     "value": "#004EA8",
     "cmyk": {
       "c": 100,
@@ -1887,7 +1887,7 @@
   },
   {
     "title": "2146 C",
-    "slug": "pantone-2146-c",
+    "slug": "2146-c",
     "value": "#00358E",
     "cmyk": {
       "c": 100,
@@ -1900,7 +1900,7 @@
   },
   {
     "title": "2147 C",
-    "slug": "pantone-2147-c",
+    "slug": "2147-c",
     "value": "#002677",
     "cmyk": {
       "c": 100,
@@ -1913,7 +1913,7 @@
   },
   {
     "title": "2148 C",
-    "slug": "pantone-2148-c",
+    "slug": "2148-c",
     "value": "#6191B4",
     "cmyk": {
       "c": 62,
@@ -1926,7 +1926,7 @@
   },
   {
     "title": "2149 C",
-    "slug": "pantone-2149-c",
+    "slug": "2149-c",
     "value": "#4C82A8",
     "cmyk": {
       "c": 70,
@@ -1939,7 +1939,7 @@
   },
   {
     "title": "2150 C",
-    "slug": "pantone-2150-c",
+    "slug": "2150-c",
     "value": "#36749D",
     "cmyk": {
       "c": 78,
@@ -1952,7 +1952,7 @@
   },
   {
     "title": "2151 C",
-    "slug": "pantone-2151-c",
+    "slug": "2151-c",
     "value": "#256BA2",
     "cmyk": {
       "c": 85,
@@ -1965,7 +1965,7 @@
   },
   {
     "title": "2152 C",
-    "slug": "pantone-2152-c",
+    "slug": "2152-c",
     "value": "#1A658F",
     "cmyk": {
       "c": 87,
@@ -1978,7 +1978,7 @@
   },
   {
     "title": "2153 C",
-    "slug": "pantone-2153-c",
+    "slug": "2153-c",
     "value": "#00567E",
     "cmyk": {
       "c": 94,
@@ -1991,7 +1991,7 @@
   },
   {
     "title": "2154 C",
-    "slug": "pantone-2154-c",
+    "slug": "2154-c",
     "value": "#004680",
     "cmyk": {
       "c": 100,
@@ -2004,7 +2004,7 @@
   },
   {
     "title": "2155 C",
-    "slug": "pantone-2155-c",
+    "slug": "2155-c",
     "value": "#9EB5CB",
     "cmyk": {
       "c": 37,
@@ -2017,7 +2017,7 @@
   },
   {
     "title": "2156 C",
-    "slug": "pantone-2156-c",
+    "slug": "2156-c",
     "value": "#8BA6C1",
     "cmyk": {
       "c": 45,
@@ -2030,7 +2030,7 @@
   },
   {
     "title": "2157 C",
-    "slug": "pantone-2157-c",
+    "slug": "2157-c",
     "value": "#7594B3",
     "cmyk": {
       "c": 56,
@@ -2043,7 +2043,7 @@
   },
   {
     "title": "2158 C",
-    "slug": "pantone-2158-c",
+    "slug": "2158-c",
     "value": "#5C82A5",
     "cmyk": {
       "c": 65,
@@ -2056,7 +2056,7 @@
   },
   {
     "title": "2159 C",
-    "slug": "pantone-2159-c",
+    "slug": "2159-c",
     "value": "#4E769B",
     "cmyk": {
       "c": 71,
@@ -2069,7 +2069,7 @@
   },
   {
     "title": "2160 C",
-    "slug": "pantone-2160-c",
+    "slug": "2160-c",
     "value": "#3E6991",
     "cmyk": {
       "c": 78,
@@ -2082,7 +2082,7 @@
   },
   {
     "title": "2161 C",
-    "slug": "pantone-2161-c",
+    "slug": "2161-c",
     "value": "#285780",
     "cmyk": {
       "c": 87,
@@ -2095,7 +2095,7 @@
   },
   {
     "title": "2162 C",
-    "slug": "pantone-2162-c",
+    "slug": "2162-c",
     "value": "#9EA6B4",
     "cmyk": {
       "c": 37,
@@ -2108,7 +2108,7 @@
   },
   {
     "title": "2163 C",
-    "slug": "pantone-2163-c",
+    "slug": "2163-c",
     "value": "#869CAE",
     "cmyk": {
       "c": 48,
@@ -2121,7 +2121,7 @@
   },
   {
     "title": "2164 C",
-    "slug": "pantone-2164-c",
+    "slug": "2164-c",
     "value": "#7E93A7",
     "cmyk": {
       "c": 51,
@@ -2134,7 +2134,7 @@
   },
   {
     "title": "2165 C",
-    "slug": "pantone-2165-c",
+    "slug": "2165-c",
     "value": "#688197",
     "cmyk": {
       "c": 59,
@@ -2147,7 +2147,7 @@
   },
   {
     "title": "2166 C",
-    "slug": "pantone-2166-c",
+    "slug": "2166-c",
     "value": "#57728B",
     "cmyk": {
       "c": 67,
@@ -2160,7 +2160,7 @@
   },
   {
     "title": "2167 C",
-    "slug": "pantone-2167-c",
+    "slug": "2167-c",
     "value": "#506D85",
     "cmyk": {
       "c": 70,
@@ -2173,7 +2173,7 @@
   },
   {
     "title": "2168 C",
-    "slug": "pantone-2168-c",
+    "slug": "2168-c",
     "value": "#254A5D",
     "cmyk": {
       "c": 85,
@@ -2186,7 +2186,7 @@
   },
   {
     "title": "2169 C",
-    "slug": "pantone-2169-c",
+    "slug": "2169-c",
     "value": "#81B0D2",
     "cmyk": {
       "c": 49,
@@ -2199,7 +2199,7 @@
   },
   {
     "title": "2170 C",
-    "slug": "pantone-2170-c",
+    "slug": "2170-c",
     "value": "#5F9BC6",
     "cmyk": {
       "c": 62,
@@ -2212,7 +2212,7 @@
   },
   {
     "title": "2171 C",
-    "slug": "pantone-2171-c",
+    "slug": "2171-c",
     "value": "#489FDF",
     "cmyk": {
       "c": 67,
@@ -2225,7 +2225,7 @@
   },
   {
     "title": "2172 C",
-    "slug": "pantone-2172-c",
+    "slug": "2172-c",
     "value": "#147BD1",
     "cmyk": {
       "c": 81,
@@ -2238,7 +2238,7 @@
   },
   {
     "title": "2173 C",
-    "slug": "pantone-2173-c",
+    "slug": "2173-c",
     "value": "#0084D5",
     "cmyk": {
       "c": 82,
@@ -2251,7 +2251,7 @@
   },
   {
     "title": "2174 C",
-    "slug": "pantone-2174-c",
+    "slug": "2174-c",
     "value": "#0076CE",
     "cmyk": {
       "c": 90,
@@ -2264,7 +2264,7 @@
   },
   {
     "title": "2175 C",
-    "slug": "pantone-2175-c",
+    "slug": "2175-c",
     "value": "#006AC6",
     "cmyk": {
       "c": 97,
@@ -2277,7 +2277,7 @@
   },
   {
     "title": "2176 C",
-    "slug": "pantone-2176-c",
+    "slug": "2176-c",
     "value": "#A6B8C1",
     "cmyk": {
       "c": 34,
@@ -2290,7 +2290,7 @@
   },
   {
     "title": "2177 C",
-    "slug": "pantone-2177-c",
+    "slug": "2177-c",
     "value": "#7FA0AC",
     "cmyk": {
       "c": 50,
@@ -2303,7 +2303,7 @@
   },
   {
     "title": "2178 C",
-    "slug": "pantone-2178-c",
+    "slug": "2178-c",
     "value": "#6B8F9C",
     "cmyk": {
       "c": 58,
@@ -2316,7 +2316,7 @@
   },
   {
     "title": "2179 C",
-    "slug": "pantone-2179-c",
+    "slug": "2179-c",
     "value": "#527A8A",
     "cmyk": {
       "c": 67,
@@ -2329,7 +2329,7 @@
   },
   {
     "title": "2180 C",
-    "slug": "pantone-2180-c",
+    "slug": "2180-c",
     "value": "#3F6C7D",
     "cmyk": {
       "c": 74,
@@ -2342,7 +2342,7 @@
   },
   {
     "title": "2181 C",
-    "slug": "pantone-2181-c",
+    "slug": "2181-c",
     "value": "#2B5B6C",
     "cmyk": {
       "c": 81,
@@ -2355,7 +2355,7 @@
   },
   {
     "title": "2182 C",
-    "slug": "pantone-2182-c",
+    "slug": "2182-c",
     "value": "#174A5B",
     "cmyk": {
       "c": 90,
@@ -2368,7 +2368,7 @@
   },
   {
     "title": "2183 C",
-    "slug": "pantone-2183-c",
+    "slug": "2183-c",
     "value": "#0092BD",
     "cmyk": {
       "c": 80,
@@ -2381,7 +2381,7 @@
   },
   {
     "title": "2184 C",
-    "slug": "pantone-2184-c",
+    "slug": "2184-c",
     "value": "#0084D4",
     "cmyk": {
       "c": 87,
@@ -2394,7 +2394,7 @@
   },
   {
     "title": "2185 C",
-    "slug": "pantone-2185-c",
+    "slug": "2185-c",
     "value": "#0076A5",
     "cmyk": {
       "c": 98,
@@ -2407,7 +2407,7 @@
   },
   {
     "title": "2186 C",
-    "slug": "pantone-2186-c",
+    "slug": "2186-c",
     "value": "#004986",
     "cmyk": {
       "c": 100,
@@ -2420,7 +2420,7 @@
   },
   {
     "title": "2187 C",
-    "slug": "pantone-2187-c",
+    "slug": "2187-c",
     "value": "#004677",
     "cmyk": {
       "c": 100,
@@ -2433,7 +2433,7 @@
   },
   {
     "title": "2188 C",
-    "slug": "pantone-2188-c",
+    "slug": "2188-c",
     "value": "#00426A",
     "cmyk": {
       "c": 100,
@@ -2446,7 +2446,7 @@
   },
   {
     "title": "2189 C",
-    "slug": "pantone-2189-c",
+    "slug": "2189-c",
     "value": "#003349",
     "cmyk": {
       "c": 100,
@@ -2459,7 +2459,7 @@
   },
   {
     "title": "2190 C",
-    "slug": "pantone-2190-c",
+    "slug": "2190-c",
     "value": "#56B7E6",
     "cmyk": {
       "c": 61,
@@ -2472,7 +2472,7 @@
   },
   {
     "title": "2191 C",
-    "slug": "pantone-2191-c",
+    "slug": "2191-c",
     "value": "#00A3E1",
     "cmyk": {
       "c": 75,
@@ -2485,7 +2485,7 @@
   },
   {
     "title": "2192 C",
-    "slug": "pantone-2192-c",
+    "slug": "2192-c",
     "value": "#0091DA",
     "cmyk": {
       "c": 91,
@@ -2498,7 +2498,7 @@
   },
   {
     "title": "2193 C",
-    "slug": "pantone-2193-c",
+    "slug": "2193-c",
     "value": "#0090DA",
     "cmyk": {
       "c": 86,
@@ -2511,7 +2511,7 @@
   },
   {
     "title": "2194 C",
-    "slug": "pantone-2194-c",
+    "slug": "2194-c",
     "value": "#0086D6",
     "cmyk": {
       "c": 95,
@@ -2524,7 +2524,7 @@
   },
   {
     "title": "2195 C",
-    "slug": "pantone-2195-c",
+    "slug": "2195-c",
     "value": "#0077CF",
     "cmyk": {
       "c": 94,
@@ -2537,7 +2537,7 @@
   },
   {
     "title": "2196 C",
-    "slug": "pantone-2196-c",
+    "slug": "2196-c",
     "value": "#0069B1",
     "cmyk": {
       "c": 100,
@@ -2550,7 +2550,7 @@
   },
   {
     "title": "2197 C",
-    "slug": "pantone-2197-c",
+    "slug": "2197-c",
     "value": "#74D2E7",
     "cmyk": {
       "c": 47,
@@ -2563,7 +2563,7 @@
   },
   {
     "title": "2198 C",
-    "slug": "pantone-2198-c",
+    "slug": "2198-c",
     "value": "#4AC9E3",
     "cmyk": {
       "c": 58,
@@ -2576,7 +2576,7 @@
   },
   {
     "title": "2199 C",
-    "slug": "pantone-2199-c",
+    "slug": "2199-c",
     "value": "#00BBDC",
     "cmyk": {
       "c": 73,
@@ -2589,7 +2589,7 @@
   },
   {
     "title": "2200 C",
-    "slug": "pantone-2200-c",
+    "slug": "2200-c",
     "value": "#05A9C7",
     "cmyk": {
       "c": 74,
@@ -2602,7 +2602,7 @@
   },
   {
     "title": "2201 C",
-    "slug": "pantone-2201-c",
+    "slug": "2201-c",
     "value": "#00AED6",
     "cmyk": {
       "c": 85,
@@ -2615,7 +2615,7 @@
   },
   {
     "title": "2202 C",
-    "slug": "pantone-2202-c",
+    "slug": "2202-c",
     "value": "#00A5DF",
     "cmyk": {
       "c": 91,
@@ -2628,7 +2628,7 @@
   },
   {
     "title": "2203 C",
-    "slug": "pantone-2203-c",
+    "slug": "2203-c",
     "value": "#0087AE",
     "cmyk": {
       "c": 97,
@@ -2641,7 +2641,7 @@
   },
   {
     "title": "2204 C",
-    "slug": "pantone-2204-c",
+    "slug": "2204-c",
     "value": "#AFCDD7",
     "cmyk": {
       "c": 30,
@@ -2654,7 +2654,7 @@
   },
   {
     "title": "2205 C",
-    "slug": "pantone-2205-c",
+    "slug": "2205-c",
     "value": "#89B2C4",
     "cmyk": {
       "c": 47,
@@ -2667,7 +2667,7 @@
   },
   {
     "title": "2206 C",
-    "slug": "pantone-2206-c",
+    "slug": "2206-c",
     "value": "#779FB5",
     "cmyk": {
       "c": 53,
@@ -2680,7 +2680,7 @@
   },
   {
     "title": "2207 C",
-    "slug": "pantone-2207-c",
+    "slug": "2207-c",
     "value": "#659AB1",
     "cmyk": {
       "c": 60,
@@ -2693,7 +2693,7 @@
   },
   {
     "title": "2208 C",
-    "slug": "pantone-2208-c",
+    "slug": "2208-c",
     "value": "#5489A3",
     "cmyk": {
       "c": 67,
@@ -2706,7 +2706,7 @@
   },
   {
     "title": "2209 C",
-    "slug": "pantone-2209-c",
+    "slug": "2209-c",
     "value": "#4A86A0",
     "cmyk": {
       "c": 70,
@@ -2719,7 +2719,7 @@
   },
   {
     "title": "2210 C",
-    "slug": "pantone-2210-c",
+    "slug": "2210-c",
     "value": "#074F71",
     "cmyk": {
       "c": 93,
@@ -2732,7 +2732,7 @@
   },
   {
     "title": "2211 C",
-    "slug": "pantone-2211-c",
+    "slug": "2211-c",
     "value": "#6F9BA4",
     "cmyk": {
       "c": 56,
@@ -2745,7 +2745,7 @@
   },
   {
     "title": "2212 C",
-    "slug": "pantone-2212-c",
+    "slug": "2212-c",
     "value": "#508590",
     "cmyk": {
       "c": 67,
@@ -2758,7 +2758,7 @@
   },
   {
     "title": "2213 C",
-    "slug": "pantone-2213-c",
+    "slug": "2213-c",
     "value": "#337179",
     "cmyk": {
       "c": 77,
@@ -2771,7 +2771,7 @@
   },
   {
     "title": "2214 C",
-    "slug": "pantone-2214-c",
+    "slug": "2214-c",
     "value": "#2F6F7A",
     "cmyk": {
       "c": 78,
@@ -2784,7 +2784,7 @@
   },
   {
     "title": "2215 C",
-    "slug": "pantone-2215-c",
+    "slug": "2215-c",
     "value": "#2E5665",
     "cmyk": {
       "c": 81,
@@ -2797,7 +2797,7 @@
   },
   {
     "title": "2216 C",
-    "slug": "pantone-2216-c",
+    "slug": "2216-c",
     "value": "#2D4D58",
     "cmyk": {
       "c": 81,
@@ -2810,7 +2810,7 @@
   },
   {
     "title": "2217 C",
-    "slug": "pantone-2217-c",
+    "slug": "2217-c",
     "value": "#003A40",
     "cmyk": {
       "c": 96,
@@ -2823,7 +2823,7 @@
   },
   {
     "title": "2218 C",
-    "slug": "pantone-2218-c",
+    "slug": "2218-c",
     "value": "#72B0BD",
     "cmyk": {
       "c": 55,
@@ -2836,7 +2836,7 @@
   },
   {
     "title": "2219 C",
-    "slug": "pantone-2219-c",
+    "slug": "2219-c",
     "value": "#5DA3B2",
     "cmyk": {
       "c": 63,
@@ -2849,7 +2849,7 @@
   },
   {
     "title": "2220 C",
-    "slug": "pantone-2220-c",
+    "slug": "2220-c",
     "value": "#4797A8",
     "cmyk": {
       "c": 70,
@@ -2862,7 +2862,7 @@
   },
   {
     "title": "2221 C",
-    "slug": "pantone-2221-c",
+    "slug": "2221-c",
     "value": "#2D8C9E",
     "cmyk": {
       "c": 76,
@@ -2875,7 +2875,7 @@
   },
   {
     "title": "2222 C",
-    "slug": "pantone-2222-c",
+    "slug": "2222-c",
     "value": "#1D8296",
     "cmyk": {
       "c": 80,
@@ -2888,7 +2888,7 @@
   },
   {
     "title": "2223 C",
-    "slug": "pantone-2223-c",
+    "slug": "2223-c",
     "value": "#00788D",
     "cmyk": {
       "c": 84,
@@ -2901,7 +2901,7 @@
   },
   {
     "title": "2224 C",
-    "slug": "pantone-2224-c",
+    "slug": "2224-c",
     "value": "#006980",
     "cmyk": {
       "c": 91,
@@ -2914,7 +2914,7 @@
   },
   {
     "title": "2225 C",
-    "slug": "pantone-2225-c",
+    "slug": "2225-c",
     "value": "#78D5E1",
     "cmyk": {
       "c": 45,
@@ -2927,7 +2927,7 @@
   },
   {
     "title": "2226 C",
-    "slug": "pantone-2226-c",
+    "slug": "2226-c",
     "value": "#3CCBDA",
     "cmyk": {
       "c": 59,
@@ -2940,7 +2940,7 @@
   },
   {
     "title": "2227 C",
-    "slug": "pantone-2227-c",
+    "slug": "2227-c",
     "value": "#59BEC9",
     "cmyk": {
       "c": 60,
@@ -2953,7 +2953,7 @@
   },
   {
     "title": "2228 C",
-    "slug": "pantone-2228-c",
+    "slug": "2228-c",
     "value": "#00A5BD",
     "cmyk": {
       "c": 100,
@@ -2966,7 +2966,7 @@
   },
   {
     "title": "2229 C",
-    "slug": "pantone-2229-c",
+    "slug": "2229-c",
     "value": "#009CB6",
     "cmyk": {
       "c": 100,
@@ -2979,7 +2979,7 @@
   },
   {
     "title": "2230 C",
-    "slug": "pantone-2230-c",
+    "slug": "2230-c",
     "value": "#008CA0",
     "cmyk": {
       "c": 94,
@@ -2992,7 +2992,7 @@
   },
   {
     "title": "2231 C",
-    "slug": "pantone-2231-c",
+    "slug": "2231-c",
     "value": "#007C91",
     "cmyk": {
       "c": 100,
@@ -3005,7 +3005,7 @@
   },
   {
     "title": "2232 C",
-    "slug": "pantone-2232-c",
+    "slug": "2232-c",
     "value": "#71B0B4",
     "cmyk": {
       "c": 56,
@@ -3018,7 +3018,7 @@
   },
   {
     "title": "2233 C",
-    "slug": "pantone-2233-c",
+    "slug": "2233-c",
     "value": "#58A7AF",
     "cmyk": {
       "c": 64,
@@ -3031,7 +3031,7 @@
   },
   {
     "title": "2234 C",
-    "slug": "pantone-2234-c",
+    "slug": "2234-c",
     "value": "#4F9FA6",
     "cmyk": {
       "c": 67,
@@ -3044,7 +3044,7 @@
   },
   {
     "title": "2235 C",
-    "slug": "pantone-2235-c",
+    "slug": "2235-c",
     "value": "#28939C",
     "cmyk": {
       "c": 76,
@@ -3057,7 +3057,7 @@
   },
   {
     "title": "2236 C",
-    "slug": "pantone-2236-c",
+    "slug": "2236-c",
     "value": "#2C9199",
     "cmyk": {
       "c": 76,
@@ -3070,7 +3070,7 @@
   },
   {
     "title": "2237 C",
-    "slug": "pantone-2237-c",
+    "slug": "2237-c",
     "value": "#05868E",
     "cmyk": {
       "c": 81,
@@ -3083,7 +3083,7 @@
   },
   {
     "title": "2238 C",
-    "slug": "pantone-2238-c",
+    "slug": "2238-c",
     "value": "#006975",
     "cmyk": {
       "c": 98,
@@ -3096,7 +3096,7 @@
   },
   {
     "title": "2361 C",
-    "slug": "pantone-2361-c",
+    "slug": "2361-c",
     "value": "#70708D",
     "cmyk": {
       "c": 57,
@@ -3109,7 +3109,7 @@
   },
   {
     "title": "2366 C",
-    "slug": "pantone-2366-c",
+    "slug": "2366-c",
     "value": "#6A6DCD",
     "cmyk": {
       "c": 67,
@@ -3122,7 +3122,7 @@
   },
   {
     "title": "2367 C",
-    "slug": "pantone-2367-c",
+    "slug": "2367-c",
     "value": "#4F4CB1",
     "cmyk": {
       "c": 84,
@@ -3135,7 +3135,7 @@
   },
   {
     "title": "2368 C",
-    "slug": "pantone-2368-c",
+    "slug": "2368-c",
     "value": "#4D49BE",
     "cmyk": {
       "c": 88,
@@ -3148,7 +3148,7 @@
   },
   {
     "title": "2369 C",
-    "slug": "pantone-2369-c",
+    "slug": "2369-c",
     "value": "#3B3FB6",
     "cmyk": {
       "c": 94,
@@ -3161,7 +3161,7 @@
   },
   {
     "title": "2370 C",
-    "slug": "pantone-2370-c",
+    "slug": "2370-c",
     "value": "#2F2A95",
     "cmyk": {
       "c": 99,
@@ -3174,7 +3174,7 @@
   },
   {
     "title": "2372 C",
-    "slug": "pantone-2372-c",
+    "slug": "2372-c",
     "value": "#281E78",
     "cmyk": {
       "c": 99,
@@ -3187,7 +3187,7 @@
   },
   {
     "title": "2373 C",
-    "slug": "pantone-2373-c",
+    "slug": "2373-c",
     "value": "#73829F",
     "cmyk": {
       "c": 56,
@@ -3200,7 +3200,7 @@
   },
   {
     "title": "2374 C",
-    "slug": "pantone-2374-c",
+    "slug": "2374-c",
     "value": "#4D5F80",
     "cmyk": {
       "c": 73,
@@ -3213,7 +3213,7 @@
   },
   {
     "title": "2376 C",
-    "slug": "pantone-2376-c",
+    "slug": "2376-c",
     "value": "#4E5B73",
     "cmyk": {
       "c": 70,
@@ -3226,7 +3226,7 @@
   },
   {
     "title": "2377 C",
-    "slug": "pantone-2377-c",
+    "slug": "2377-c",
     "value": "#315470",
     "cmyk": {
       "c": 82,
@@ -3239,7 +3239,7 @@
   },
   {
     "title": "2378 C",
-    "slug": "pantone-2378-c",
+    "slug": "2378-c",
     "value": "#384967",
     "cmyk": {
       "c": 81,
@@ -3252,7 +3252,7 @@
   },
   {
     "title": "2379 C",
-    "slug": "pantone-2379-c",
+    "slug": "2379-c",
     "value": "#3B4559",
     "cmyk": {
       "c": 78,
@@ -3265,7 +3265,7 @@
   },
   {
     "title": "2380 C",
-    "slug": "pantone-2380-c",
+    "slug": "2380-c",
     "value": "#28334A",
     "cmyk": {
       "c": 90,
@@ -3278,7 +3278,7 @@
   },
   {
     "title": "2381 C",
-    "slug": "pantone-2381-c",
+    "slug": "2381-c",
     "value": "#5E93DB",
     "cmyk": {
       "c": 90,
@@ -3291,7 +3291,7 @@
   },
   {
     "title": "2382 C",
-    "slug": "pantone-2382-c",
+    "slug": "2382-c",
     "value": "#008AD8",
     "cmyk": {
       "c": 90,
@@ -3304,7 +3304,7 @@
   },
   {
     "title": "2383 C",
-    "slug": "pantone-2383-c",
+    "slug": "2383-c",
     "value": "#2774AE",
     "cmyk": {
       "c": 90,
@@ -3317,98 +3317,98 @@
   },
   {
     "title": "2384 C",
-    "slug": "pantone-2384-c",
+    "slug": "2384-c",
     "value": "#0061A0",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2384-C"
   },
   {
     "title": "2386 C",
-    "slug": "pantone-2386-c",
+    "slug": "2386-c",
     "value": "#2D68C4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2386-C"
   },
   {
     "title": "2387 C",
-    "slug": "pantone-2387-c",
+    "slug": "2387-c",
     "value": "#0762C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2387-C"
   },
   {
     "title": "2388 C",
-    "slug": "pantone-2388-c",
+    "slug": "2388-c",
     "value": "#0050B5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2388-C"
   },
   {
     "title": "2389 C",
-    "slug": "pantone-2389-c",
+    "slug": "2389-c",
     "value": "#4C9FC8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2389-C"
   },
   {
     "title": "2390 C",
-    "slug": "pantone-2390-c",
+    "slug": "2390-c",
     "value": "#077CAB",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2390-C"
   },
   {
     "title": "2391 C",
-    "slug": "pantone-2391-c",
+    "slug": "2391-c",
     "value": "#0081A6",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2391-C"
   },
   {
     "title": "2392 C",
-    "slug": "pantone-2392-c",
+    "slug": "2392-c",
     "value": "#166886",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2392-C"
   },
   {
     "title": "2393 C",
-    "slug": "pantone-2393-c",
+    "slug": "2393-c",
     "value": "#0092CB",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2393-C"
   },
   {
     "title": "2394 C",
-    "slug": "pantone-2394-c",
+    "slug": "2394-c",
     "value": "#008BCE",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2394-C"
   },
   {
     "title": "2396 C",
-    "slug": "pantone-2396-c",
+    "slug": "2396-c",
     "value": "#0099B2",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2396-C"
   },
   {
     "title": "2397 C",
-    "slug": "pantone-2397-c",
+    "slug": "2397-c",
     "value": "#00B7BD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2397-C"
   },
   {
     "title": "2454 C",
-    "slug": "pantone-2454-c",
+    "slug": "2454-c",
     "value": "#287DA1",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/2454-C"
   },
   {
     "title": "2705 C",
-    "slug": "pantone-2705-c",
+    "slug": "2705-c",
     "value": "#A7A4E0",
     "cmyk": {
       "c": 36,
@@ -3421,7 +3421,7 @@
   },
   {
     "title": "2706 C",
-    "slug": "pantone-2706-c",
+    "slug": "2706-c",
     "value": "#CBD3EA",
     "cmyk": {
       "c": 18,
@@ -3434,7 +3434,7 @@
   },
   {
     "title": "2707 C",
-    "slug": "pantone-2707-c",
+    "slug": "2707-c",
     "value": "#C3D7EE",
     "cmyk": {
       "c": 21,
@@ -3447,7 +3447,7 @@
   },
   {
     "title": "2708 C",
-    "slug": "pantone-2708-c",
+    "slug": "2708-c",
     "value": "#B8CCEA",
     "cmyk": {
       "c": 25,
@@ -3460,7 +3460,7 @@
   },
   {
     "title": "2716 C",
-    "slug": "pantone-2716-c",
+    "slug": "2716-c",
     "value": "#9FAEE5",
     "cmyk": {
       "c": 38,
@@ -3473,7 +3473,7 @@
   },
   {
     "title": "2717 C",
-    "slug": "pantone-2717-c",
+    "slug": "2717-c",
     "value": "#A7C6ED",
     "cmyk": {
       "c": 32,
@@ -3486,7 +3486,7 @@
   },
   {
     "title": "2718 C",
-    "slug": "pantone-2718-c",
+    "slug": "2718-c",
     "value": "#5C88DA",
     "cmyk": {
       "c": 65,
@@ -3499,7 +3499,7 @@
   },
   {
     "title": "2726 C",
-    "slug": "pantone-2726-c",
+    "slug": "2726-c",
     "value": "#485CC7",
     "cmyk": {
       "c": 83,
@@ -3512,7 +3512,7 @@
   },
   {
     "title": "2727 C",
-    "slug": "pantone-2727-c",
+    "slug": "2727-c",
     "value": "#307FE2",
     "cmyk": {
       "c": 75,
@@ -3525,7 +3525,7 @@
   },
   {
     "title": "2728 C",
-    "slug": "pantone-2728-c",
+    "slug": "2728-c",
     "value": "#0047BB",
     "cmyk": {
       "c": 99,
@@ -3538,7 +3538,7 @@
   },
   {
     "title": "2736 C",
-    "slug": "pantone-2736-c",
+    "slug": "2736-c",
     "value": "#1E22AA",
     "cmyk": {
       "c": 100,
@@ -3551,7 +3551,7 @@
   },
   {
     "title": "2738 C",
-    "slug": "pantone-2738-c",
+    "slug": "2738-c",
     "value": "#06038D",
     "cmyk": {
       "c": 100,
@@ -3564,7 +3564,7 @@
   },
   {
     "title": "2746 C",
-    "slug": "pantone-2746-c",
+    "slug": "2746-c",
     "value": "#171C8F",
     "cmyk": {
       "c": 100,
@@ -3577,7 +3577,7 @@
   },
   {
     "title": "2747 C",
-    "slug": "pantone-2747-c",
+    "slug": "2747-c",
     "value": "#001A72",
     "cmyk": {
       "c": 100,
@@ -3590,7 +3590,7 @@
   },
   {
     "title": "2748 C",
-    "slug": "pantone-2748-c",
+    "slug": "2748-c",
     "value": "#001871",
     "cmyk": {
       "c": 100,
@@ -3603,7 +3603,7 @@
   },
   {
     "title": "2756 C",
-    "slug": "pantone-2756-c",
+    "slug": "2756-c",
     "value": "#151F6D",
     "cmyk": {
       "c": 100,
@@ -3616,7 +3616,7 @@
   },
   {
     "title": "2757 C",
-    "slug": "pantone-2757-c",
+    "slug": "2757-c",
     "value": "#001E60",
     "cmyk": {
       "c": 100,
@@ -3629,7 +3629,7 @@
   },
   {
     "title": "2758 C",
-    "slug": "pantone-2758-c",
+    "slug": "2758-c",
     "value": "#001E62",
     "cmyk": {
       "c": 100,
@@ -3642,7 +3642,7 @@
   },
   {
     "title": "2766 C",
-    "slug": "pantone-2766-c",
+    "slug": "2766-c",
     "value": "#141B4D",
     "cmyk": {
       "c": 100,
@@ -3655,7 +3655,7 @@
   },
   {
     "title": "2767 C",
-    "slug": "pantone-2767-c",
+    "slug": "2767-c",
     "value": "#13294B",
     "cmyk": {
       "c": 100,
@@ -3668,7 +3668,7 @@
   },
   {
     "title": "2768 C",
-    "slug": "pantone-2768-c",
+    "slug": "2768-c",
     "value": "#071D49",
     "cmyk": {
       "c": 100,
@@ -3681,7 +3681,7 @@
   },
   {
     "title": "2905 C",
-    "slug": "pantone-2905-c",
+    "slug": "2905-c",
     "value": "#8DC8E8",
     "cmyk": {
       "c": 43,
@@ -3694,7 +3694,7 @@
   },
   {
     "title": "2915 C",
-    "slug": "pantone-2915-c",
+    "slug": "2915-c",
     "value": "#62B5E5",
     "cmyk": {
       "c": 58,
@@ -3707,7 +3707,7 @@
   },
   {
     "title": "2925 C",
-    "slug": "pantone-2925-c",
+    "slug": "2925-c",
     "value": "#009CDE",
     "cmyk": {
       "c": 75,
@@ -3720,7 +3720,7 @@
   },
   {
     "title": "2935 C",
-    "slug": "pantone-2935-c",
+    "slug": "2935-c",
     "value": "#0057B7",
     "cmyk": {
       "c": 100,
@@ -3733,7 +3733,7 @@
   },
   {
     "title": "2945 C",
-    "slug": "pantone-2945-c",
+    "slug": "2945-c",
     "value": "#004C97",
     "cmyk": {
       "c": 100,
@@ -3746,7 +3746,7 @@
   },
   {
     "title": "2955 C",
-    "slug": "pantone-2955-c",
+    "slug": "2955-c",
     "value": "#003865",
     "cmyk": {
       "c": 100,
@@ -3759,7 +3759,7 @@
   },
   {
     "title": "2965 C",
-    "slug": "pantone-2965-c",
+    "slug": "2965-c",
     "value": "#00263E",
     "cmyk": {
       "c": 100,
@@ -3772,7 +3772,7 @@
   },
   {
     "title": "2975 C",
-    "slug": "pantone-2975-c",
+    "slug": "2975-c",
     "value": "#99D6EA",
     "cmyk": {
       "c": 37,
@@ -3785,7 +3785,7 @@
   },
   {
     "title": "2985 C",
-    "slug": "pantone-2985-c",
+    "slug": "2985-c",
     "value": "#5BC2E7",
     "cmyk": {
       "c": 58,
@@ -3798,7 +3798,7 @@
   },
   {
     "title": "2995 C",
-    "slug": "pantone-2995-c",
+    "slug": "2995-c",
     "value": "#00A9E0",
     "cmyk": {
       "c": 79,
@@ -3811,28 +3811,28 @@
   },
   {
     "title": "3005 C",
-    "slug": "pantone-3005-c",
+    "slug": "3005-c",
     "value": "#0077C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3005-C"
   },
   {
     "title": "3015 C",
-    "slug": "pantone-3015-c",
+    "slug": "3015-c",
     "value": "#00629B",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3015-C"
   },
   {
     "title": "3025 C",
-    "slug": "pantone-3025-c",
+    "slug": "3025-c",
     "value": "#004F71",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3025-C"
   },
   {
     "title": "3035 C",
-    "slug": "pantone-3035-c",
+    "slug": "3035-c",
     "value": "#003E51",
     "cmyk": {
       "c": 100,
@@ -3845,56 +3845,56 @@
   },
   {
     "title": "3105 C",
-    "slug": "pantone-3105-c",
+    "slug": "3105-c",
     "value": "#67D2DF",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3105-C"
   },
   {
     "title": "3115 C",
-    "slug": "pantone-3115-c",
+    "slug": "3115-c",
     "value": "#00C1D4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3115-C"
   },
   {
     "title": "3125 C",
-    "slug": "pantone-3125-c",
+    "slug": "3125-c",
     "value": "#00AEC7",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3125-C"
   },
   {
     "title": "3135 C",
-    "slug": "pantone-3135-c",
+    "slug": "3135-c",
     "value": "#008EAA",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3135-C"
   },
   {
     "title": "3145 C",
-    "slug": "pantone-3145-c",
+    "slug": "3145-c",
     "value": "#00778B",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3145-C"
   },
   {
     "title": "3155 C",
-    "slug": "pantone-3155-c",
+    "slug": "3155-c",
     "value": "#006271",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3155-C"
   },
   {
     "title": "3165 C",
-    "slug": "pantone-3165-c",
+    "slug": "3165-c",
     "value": "#004F59",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3165-C"
   },
   {
     "title": "3506 C",
-    "slug": "pantone-3506-c",
+    "slug": "3506-c",
     "value": "#1961AE",
     "cmyk": {
       "c": 92,
@@ -3907,56 +3907,56 @@
   },
   {
     "title": "3526 C",
-    "slug": "pantone-3526-c",
+    "slug": "3526-c",
     "value": "#7A939C",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3526-C"
   },
   {
     "title": "3538 C",
-    "slug": "pantone-3538-c",
+    "slug": "3538-c",
     "value": "#0094D5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3538-C"
   },
   {
     "title": "3541 C",
-    "slug": "pantone-3541-c",
+    "slug": "3541-c",
     "value": "#00939D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3541-C"
   },
   {
     "title": "3545 C",
-    "slug": "pantone-3545-c",
+    "slug": "3545-c",
     "value": "#00BCE1",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3545-C"
   },
   {
     "title": "3551 C",
-    "slug": "pantone-3551-c",
+    "slug": "3551-c",
     "value": "#00A6C8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3551-C"
   },
   {
     "title": "3553 C",
-    "slug": "pantone-3553-c",
+    "slug": "3553-c",
     "value": "#006EB3",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3553-C"
   },
   {
     "title": "3557 C",
-    "slug": "pantone-3557-c",
+    "slug": "3557-c",
     "value": "#007C80",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3557-C"
   },
   {
     "title": "3558 C",
-    "slug": "pantone-3558-c",
+    "slug": "3558-c",
     "value": "#919CD4",
     "cmyk": {
       "c": 44,
@@ -3969,14 +3969,14 @@
   },
   {
     "title": "3577 C",
-    "slug": "pantone-3577-c",
+    "slug": "3577-c",
     "value": "#8ABADD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/3577-C"
   },
   {
     "title": "3581 C",
-    "slug": "pantone-3581-c",
+    "slug": "3581-c",
     "value": "#22326E",
     "cmyk": {
       "c": 100,
@@ -3989,7 +3989,7 @@
   },
   {
     "title": "3584 C",
-    "slug": "pantone-3584-c",
+    "slug": "3584-c",
     "value": "#2E3E80",
     "cmyk": {
       "c": 99,
@@ -4002,7 +4002,7 @@
   },
   {
     "title": "3590 C",
-    "slug": "pantone-3590-c",
+    "slug": "3590-c",
     "value": "#3C57A1",
     "cmyk": {
       "c": 85,
@@ -4015,7 +4015,7 @@
   },
   {
     "title": "3591 C",
-    "slug": "pantone-3591-c",
+    "slug": "3591-c",
     "value": "#03257E",
     "cmyk": {
       "c": 100,
@@ -4028,7 +4028,7 @@
   },
   {
     "title": "3597 C",
-    "slug": "pantone-3597-c",
+    "slug": "3597-c",
     "value": "#1C3775",
     "cmyk": {
       "c": 100,
@@ -4041,7 +4041,7 @@
   },
   {
     "title": "4123 C",
-    "slug": "pantone-4123-c",
+    "slug": "4123-c",
     "value": "#A5A7BC",
     "cmyk": {
       "c": 34,
@@ -4054,7 +4054,7 @@
   },
   {
     "title": "4124 C",
-    "slug": "pantone-4124-c",
+    "slug": "4124-c",
     "value": "#8F91B0",
     "cmyk": {
       "c": 45,
@@ -4067,7 +4067,7 @@
   },
   {
     "title": "4125 C",
-    "slug": "pantone-4125-c",
+    "slug": "4125-c",
     "value": "#5F5E77",
     "cmyk": {
       "c": 63,
@@ -4080,7 +4080,7 @@
   },
   {
     "title": "4127 C",
-    "slug": "pantone-4127-c",
+    "slug": "4127-c",
     "value": "#808194",
     "cmyk": {
       "c": 49,
@@ -4093,7 +4093,7 @@
   },
   {
     "title": "4128 C",
-    "slug": "pantone-4128-c",
+    "slug": "4128-c",
     "value": "#6E7185",
     "cmyk": {
       "c": 56,
@@ -4106,7 +4106,7 @@
   },
   {
     "title": "4129 C",
-    "slug": "pantone-4129-c",
+    "slug": "4129-c",
     "value": "#676F7F",
     "cmyk": {
       "c": 58,
@@ -4119,7 +4119,7 @@
   },
   {
     "title": "4130 C",
-    "slug": "pantone-4130-c",
+    "slug": "4130-c",
     "value": "#515A6C",
     "cmyk": {
       "c": 68,
@@ -4132,7 +4132,7 @@
   },
   {
     "title": "4131 C",
-    "slug": "pantone-4131-c",
+    "slug": "4131-c",
     "value": "#484B5D",
     "cmyk": {
       "c": 71,
@@ -4145,7 +4145,7 @@
   },
   {
     "title": "4132 C",
-    "slug": "pantone-4132-c",
+    "slug": "4132-c",
     "value": "#3B3A4A",
     "cmyk": {
       "c": 74,
@@ -4158,7 +4158,7 @@
   },
   {
     "title": "4133 C",
-    "slug": "pantone-4133-c",
+    "slug": "4133-c",
     "value": "#3B3B46",
     "cmyk": {
       "c": 73,
@@ -4171,7 +4171,7 @@
   },
   {
     "title": "4134 C",
-    "slug": "pantone-4134-c",
+    "slug": "4134-c",
     "value": "#A0A2B0",
     "cmyk": {
       "c": 35,
@@ -4184,7 +4184,7 @@
   },
   {
     "title": "4135 C",
-    "slug": "pantone-4135-c",
+    "slug": "4135-c",
     "value": "#7B859B",
     "cmyk": {
       "c": 52,
@@ -4197,7 +4197,7 @@
   },
   {
     "title": "4136 C",
-    "slug": "pantone-4136-c",
+    "slug": "4136-c",
     "value": "#606E81",
     "cmyk": {
       "c": 62,
@@ -4210,7 +4210,7 @@
   },
   {
     "title": "4137 C",
-    "slug": "pantone-4137-c",
+    "slug": "4137-c",
     "value": "#475D76",
     "cmyk": {
       "c": 74,
@@ -4223,7 +4223,7 @@
   },
   {
     "title": "4138 C",
-    "slug": "pantone-4138-c",
+    "slug": "4138-c",
     "value": "#4C5F71",
     "cmyk": {
       "c": 70,
@@ -4236,7 +4236,7 @@
   },
   {
     "title": "4139 C",
-    "slug": "pantone-4139-c",
+    "slug": "4139-c",
     "value": "#4F5A6B",
     "cmyk": {
       "c": 70,
@@ -4249,7 +4249,7 @@
   },
   {
     "title": "4140 C",
-    "slug": "pantone-4140-c",
+    "slug": "4140-c",
     "value": "#393D47",
     "cmyk": {
       "c": 75,
@@ -4262,7 +4262,7 @@
   },
   {
     "title": "4141 C",
-    "slug": "pantone-4141-c",
+    "slug": "4141-c",
     "value": "#4964A2",
     "cmyk": {
       "c": 78,
@@ -4275,7 +4275,7 @@
   },
   {
     "title": "4142 C",
-    "slug": "pantone-4142-c",
+    "slug": "4142-c",
     "value": "#3D4E80",
     "cmyk": {
       "c": 84,
@@ -4288,7 +4288,7 @@
   },
   {
     "title": "4143 C",
-    "slug": "pantone-4143-c",
+    "slug": "4143-c",
     "value": "#435570",
     "cmyk": {
       "c": 76,
@@ -4301,7 +4301,7 @@
   },
   {
     "title": "4144 C",
-    "slug": "pantone-4144-c",
+    "slug": "4144-c",
     "value": "#3A3A59",
     "cmyk": {
       "c": 79,
@@ -4314,7 +4314,7 @@
   },
   {
     "title": "4145 C",
-    "slug": "pantone-4145-c",
+    "slug": "4145-c",
     "value": "#2E334E",
     "cmyk": {
       "c": 87,
@@ -4327,7 +4327,7 @@
   },
   {
     "title": "4146 C",
-    "slug": "pantone-4146-c",
+    "slug": "4146-c",
     "value": "#1B1D36",
     "cmyk": {
       "c": 100,
@@ -4340,7 +4340,7 @@
   },
   {
     "title": "4147 C",
-    "slug": "pantone-4147-c",
+    "slug": "4147-c",
     "value": "#26213F",
     "cmyk": {
       "c": 95,
@@ -4353,7 +4353,7 @@
   },
   {
     "title": "4148 C",
-    "slug": "pantone-4148-c",
+    "slug": "4148-c",
     "value": "#6197B0",
     "cmyk": {
       "c": 62,
@@ -4366,7 +4366,7 @@
   },
   {
     "title": "4149 C",
-    "slug": "pantone-4149-c",
+    "slug": "4149-c",
     "value": "#8AAAC5",
     "cmyk": {
       "c": 46,
@@ -4379,7 +4379,7 @@
   },
   {
     "title": "4150 C",
-    "slug": "pantone-4150-c",
+    "slug": "4150-c",
     "value": "#517DB9",
     "cmyk": {
       "c": 70,
@@ -4392,35 +4392,35 @@
   },
   {
     "title": "4151 C",
-    "slug": "pantone-4151-c",
+    "slug": "4151-c",
     "value": "#0067AC",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4151-C"
   },
   {
     "title": "4152 C",
-    "slug": "pantone-4152-c",
+    "slug": "4152-c",
     "value": "#135193",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4152-C"
   },
   {
     "title": "4153 C",
-    "slug": "pantone-4153-c",
+    "slug": "4153-c",
     "value": "#1A4E8A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4153-C"
   },
   {
     "title": "4154 C",
-    "slug": "pantone-4154-c",
+    "slug": "4154-c",
     "value": "#0E4174",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4154-C"
   },
   {
     "title": "4155 C",
-    "slug": "pantone-4155-c",
+    "slug": "4155-c",
     "value": "#B9C9CC",
     "cmyk": {
       "c": 25,
@@ -4433,7 +4433,7 @@
   },
   {
     "title": "4156 C",
-    "slug": "pantone-4156-c",
+    "slug": "4156-c",
     "value": "#97BFCB",
     "cmyk": {
       "c": 40,
@@ -4446,7 +4446,7 @@
   },
   {
     "title": "4157 C",
-    "slug": "pantone-4157-c",
+    "slug": "4157-c",
     "value": "#65AEC1",
     "cmyk": {
       "c": 60,
@@ -4459,7 +4459,7 @@
   },
   {
     "title": "4158 C",
-    "slug": "pantone-4158-c",
+    "slug": "4158-c",
     "value": "#387F97",
     "cmyk": {
       "c": 75,
@@ -4472,7 +4472,7 @@
   },
   {
     "title": "4159 C",
-    "slug": "pantone-4159-c",
+    "slug": "4159-c",
     "value": "#005683",
     "cmyk": {
       "c": 100,
@@ -4485,7 +4485,7 @@
   },
   {
     "title": "4160 C",
-    "slug": "pantone-4160-c",
+    "slug": "4160-c",
     "value": "#004860",
     "cmyk": {
       "c": 97,
@@ -4498,70 +4498,70 @@
   },
   {
     "title": "4161 C",
-    "slug": "pantone-4161-c",
+    "slug": "4161-c",
     "value": "#304C5A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4161-C"
   },
   {
     "title": "4168 C",
-    "slug": "pantone-4168-c",
+    "slug": "4168-c",
     "value": "#244545",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4168-C"
   },
   {
     "title": "4175 C",
-    "slug": "pantone-4175-c",
+    "slug": "4175-c",
     "value": "#93BBC2",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4175-C"
   },
   {
     "title": "4189 C",
-    "slug": "pantone-4189-c",
+    "slug": "4189-c",
     "value": "#1C4A50",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4189-C"
   },
   {
     "title": "4195 C",
-    "slug": "pantone-4195-c",
+    "slug": "4195-c",
     "value": "#646566",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4195-C"
   },
   {
     "title": "4196 C",
-    "slug": "pantone-4196-c",
+    "slug": "4196-c",
     "value": "#47565A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4196-C"
   },
   {
     "title": "4274 C",
-    "slug": "pantone-4274-c",
+    "slug": "4274-c",
     "value": "#B0B7B9",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4274-C"
   },
   {
     "title": "4278 C",
-    "slug": "pantone-4278-c",
+    "slug": "4278-c",
     "value": "#7E7E82",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4278-C"
   },
   {
     "title": "4280 C",
-    "slug": "pantone-4280-c",
+    "slug": "4280-c",
     "value": "#252A36",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/4280-C"
   },
   {
     "title": "5395 C",
-    "slug": "pantone-5395-c",
+    "slug": "5395-c",
     "value": "#091F2C",
     "cmyk": {
       "c": 100,
@@ -4574,7 +4574,7 @@
   },
   {
     "title": "5405 C",
-    "slug": "pantone-5405-c",
+    "slug": "5405-c",
     "value": "#4F758B",
     "cmyk": {
       "c": 69,
@@ -4587,7 +4587,7 @@
   },
   {
     "title": "5415 C",
-    "slug": "pantone-5415-c",
+    "slug": "5415-c",
     "value": "#5B7F95",
     "cmyk": {
       "c": 65,
@@ -4600,7 +4600,7 @@
   },
   {
     "title": "5425 C",
-    "slug": "pantone-5425-c",
+    "slug": "5425-c",
     "value": "#7A99AC",
     "cmyk": {
       "c": 52,
@@ -4613,7 +4613,7 @@
   },
   {
     "title": "5435 C",
-    "slug": "pantone-5435-c",
+    "slug": "5435-c",
     "value": "#A6BBC8",
     "cmyk": {
       "c": 34,
@@ -4626,7 +4626,7 @@
   },
   {
     "title": "5445 C",
-    "slug": "pantone-5445-c",
+    "slug": "5445-c",
     "value": "#B7C9D3",
     "cmyk": {
       "c": 26,
@@ -4639,7 +4639,7 @@
   },
   {
     "title": "5455 C",
-    "slug": "pantone-5455-c",
+    "slug": "5455-c",
     "value": "#BFCED6",
     "cmyk": {
       "c": 23,
@@ -4652,56 +4652,56 @@
   },
   {
     "title": "5463 C",
-    "slug": "pantone-5463-c",
+    "slug": "5463-c",
     "value": "#07272D",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5463-C"
   },
   {
     "title": "5473 C",
-    "slug": "pantone-5473-c",
+    "slug": "5473-c",
     "value": "#115E67",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5473-C"
   },
   {
     "title": "5483 C",
-    "slug": "pantone-5483-c",
+    "slug": "5483-c",
     "value": "#4F868E",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5483-C"
   },
   {
     "title": "5493 C",
-    "slug": "pantone-5493-c",
+    "slug": "5493-c",
     "value": "#7FA9AE",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5493-C"
   },
   {
     "title": "5503 C",
-    "slug": "pantone-5503-c",
+    "slug": "5503-c",
     "value": "#94B7BB",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5503-C"
   },
   {
     "title": "5513 C",
-    "slug": "pantone-5513-c",
+    "slug": "5513-c",
     "value": "#ABC7C9",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5513-C"
   },
   {
     "title": "5523 C",
-    "slug": "pantone-5523-c",
+    "slug": "5523-c",
     "value": "#B6CFD0",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/5523-C"
   },
   {
     "title": "7444 C",
-    "slug": "pantone-7444-c",
+    "slug": "7444-c",
     "value": "#B6B8DC",
     "cmyk": {
       "c": 27,
@@ -4714,7 +4714,7 @@
   },
   {
     "title": "7446 C",
-    "slug": "pantone-7446-c",
+    "slug": "7446-c",
     "value": "#8986CA",
     "cmyk": {
       "c": 50,
@@ -4727,7 +4727,7 @@
   },
   {
     "title": "7450 C",
-    "slug": "pantone-7450-c",
+    "slug": "7450-c",
     "value": "#BDC5DB",
     "cmyk": {
       "c": 24,
@@ -4740,7 +4740,7 @@
   },
   {
     "title": "7451 C",
-    "slug": "pantone-7451-c",
+    "slug": "7451-c",
     "value": "#89ABE3",
     "cmyk": {
       "c": 45,
@@ -4753,7 +4753,7 @@
   },
   {
     "title": "7452 C",
-    "slug": "pantone-7452-c",
+    "slug": "7452-c",
     "value": "#8194DD",
     "cmyk": {
       "c": 52,
@@ -4766,7 +4766,7 @@
   },
   {
     "title": "7453 C",
-    "slug": "pantone-7453-c",
+    "slug": "7453-c",
     "value": "#7CA6DE",
     "cmyk": {
       "c": 50,
@@ -4779,7 +4779,7 @@
   },
   {
     "title": "7454 C",
-    "slug": "pantone-7454-c",
+    "slug": "7454-c",
     "value": "#5F8FB4",
     "cmyk": {
       "c": 63,
@@ -4792,7 +4792,7 @@
   },
   {
     "title": "7455 C",
-    "slug": "pantone-7455-c",
+    "slug": "7455-c",
     "value": "#3A5DAE",
     "cmyk": {
       "c": 86,
@@ -4805,7 +4805,7 @@
   },
   {
     "title": "7456 C",
-    "slug": "pantone-7456-c",
+    "slug": "7456-c",
     "value": "#606EB2",
     "cmyk": {
       "c": 69,
@@ -4818,119 +4818,119 @@
   },
   {
     "title": "7457 C",
-    "slug": "pantone-7457-c",
+    "slug": "7457-c",
     "value": "#BBDDE6",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7457-C"
   },
   {
     "title": "7458 C",
-    "slug": "pantone-7458-c",
+    "slug": "7458-c",
     "value": "#71B2C9",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7458-C"
   },
   {
     "title": "7459 C",
-    "slug": "pantone-7459-c",
+    "slug": "7459-c",
     "value": "#4298B5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7459-C"
   },
   {
     "title": "7460 C",
-    "slug": "pantone-7460-c",
+    "slug": "7460-c",
     "value": "#0086BF",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7460-C"
   },
   {
     "title": "7461 C",
-    "slug": "pantone-7461-c",
+    "slug": "7461-c",
     "value": "#007DBA",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7461-C"
   },
   {
     "title": "7462 C",
-    "slug": "pantone-7462-c",
+    "slug": "7462-c",
     "value": "#00558C",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7462-C"
   },
   {
     "title": "7463 C",
-    "slug": "pantone-7463-c",
+    "slug": "7463-c",
     "value": "#002B49",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7463-C"
   },
   {
     "title": "7466 C",
-    "slug": "pantone-7466-c",
+    "slug": "7466-c",
     "value": "#00B0B9",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7466-C"
   },
   {
     "title": "7467 C",
-    "slug": "pantone-7467-c",
+    "slug": "7467-c",
     "value": "#00A3AD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7467-C"
   },
   {
     "title": "7468 C",
-    "slug": "pantone-7468-c",
+    "slug": "7468-c",
     "value": "#007398",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7468-C"
   },
   {
     "title": "7469 C",
-    "slug": "pantone-7469-c",
+    "slug": "7469-c",
     "value": "#005F86",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7469-C"
   },
   {
     "title": "7470 C",
-    "slug": "pantone-7470-c",
+    "slug": "7470-c",
     "value": "#005A6F",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7470-C"
   },
   {
     "title": "7474 C",
-    "slug": "pantone-7474-c",
+    "slug": "7474-c",
     "value": "#007681",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7474-C"
   },
   {
     "title": "7475 C",
-    "slug": "pantone-7475-c",
+    "slug": "7475-c",
     "value": "#477A7B",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7475-C"
   },
   {
     "title": "7476 C",
-    "slug": "pantone-7476-c",
+    "slug": "7476-c",
     "value": "#0D5257",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7476-C"
   },
   {
     "title": "7477 C",
-    "slug": "pantone-7477-c",
+    "slug": "7477-c",
     "value": "#244C5A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7477-C"
   },
   {
     "title": "7540 C",
-    "slug": "pantone-7540-c",
+    "slug": "7540-c",
     "value": "#4B4F54",
     "cmyk": {
       "c": 67,
@@ -4943,7 +4943,7 @@
   },
   {
     "title": "7541 C",
-    "slug": "pantone-7541-c",
+    "slug": "7541-c",
     "value": "#D9E1E2",
     "cmyk": {
       "c": 10,
@@ -4956,7 +4956,7 @@
   },
   {
     "title": "7542 C",
-    "slug": "pantone-7542-c",
+    "slug": "7542-c",
     "value": "#A4BCC2",
     "cmyk": {
       "c": 35,
@@ -4969,7 +4969,7 @@
   },
   {
     "title": "7543 C",
-    "slug": "pantone-7543-c",
+    "slug": "7543-c",
     "value": "#98A4AE",
     "cmyk": {
       "c": 40,
@@ -4982,7 +4982,7 @@
   },
   {
     "title": "7544 C",
-    "slug": "pantone-7544-c",
+    "slug": "7544-c",
     "value": "#768692",
     "cmyk": {
       "c": 53,
@@ -4995,7 +4995,7 @@
   },
   {
     "title": "7545 C",
-    "slug": "pantone-7545-c",
+    "slug": "7545-c",
     "value": "#425563",
     "cmyk": {
       "c": 74,
@@ -5008,7 +5008,7 @@
   },
   {
     "title": "7546 C",
-    "slug": "pantone-7546-c",
+    "slug": "7546-c",
     "value": "#253746",
     "cmyk": {
       "c": 88,
@@ -5021,7 +5021,7 @@
   },
   {
     "title": "7547 C",
-    "slug": "pantone-7547-c",
+    "slug": "7547-c",
     "value": "#131E29",
     "cmyk": {
       "c": 100,
@@ -5034,7 +5034,7 @@
   },
   {
     "title": "7667 C",
-    "slug": "pantone-7667-c",
+    "slug": "7667-c",
     "value": "#6E7CA0",
     "cmyk": {
       "c": 58,
@@ -5047,7 +5047,7 @@
   },
   {
     "title": "7668 C",
-    "slug": "pantone-7668-c",
+    "slug": "7668-c",
     "value": "#676E9F",
     "cmyk": {
       "c": 64,
@@ -5060,7 +5060,7 @@
   },
   {
     "title": "7670 C",
-    "slug": "pantone-7670-c",
+    "slug": "7670-c",
     "value": "#565294",
     "cmyk": {
       "c": 76,
@@ -5073,7 +5073,7 @@
   },
   {
     "title": "7673 C",
-    "slug": "pantone-7673-c",
+    "slug": "7673-c",
     "value": "#535486",
     "cmyk": {
       "c": 73,
@@ -5086,7 +5086,7 @@
   },
   {
     "title": "7674 C",
-    "slug": "pantone-7674-c",
+    "slug": "7674-c",
     "value": "#878CB4",
     "cmyk": {
       "c": 48,
@@ -5099,7 +5099,7 @@
   },
   {
     "title": "7675 C",
-    "slug": "pantone-7675-c",
+    "slug": "7675-c",
     "value": "#7C7FAB",
     "cmyk": {
       "c": 54,
@@ -5112,7 +5112,7 @@
   },
   {
     "title": "7681 C",
-    "slug": "pantone-7681-c",
+    "slug": "7681-c",
     "value": "#94A9CB",
     "cmyk": {
       "c": 42,
@@ -5125,7 +5125,7 @@
   },
   {
     "title": "7682 C",
-    "slug": "pantone-7682-c",
+    "slug": "7682-c",
     "value": "#6787B7",
     "cmyk": {
       "c": 62,
@@ -5138,7 +5138,7 @@
   },
   {
     "title": "7683 C",
-    "slug": "pantone-7683-c",
+    "slug": "7683-c",
     "value": "#426DA9",
     "cmyk": {
       "c": 79,
@@ -5151,7 +5151,7 @@
   },
   {
     "title": "7684 C",
-    "slug": "pantone-7684-c",
+    "slug": "7684-c",
     "value": "#385E9D",
     "cmyk": {
       "c": 85,
@@ -5164,7 +5164,7 @@
   },
   {
     "title": "7685 C",
-    "slug": "pantone-7685-c",
+    "slug": "7685-c",
     "value": "#2C5697",
     "cmyk": {
       "c": 90,
@@ -5177,7 +5177,7 @@
   },
   {
     "title": "7686 C",
-    "slug": "pantone-7686-c",
+    "slug": "7686-c",
     "value": "#1D4F91",
     "cmyk": {
       "c": 97,
@@ -5190,7 +5190,7 @@
   },
   {
     "title": "7687 C",
-    "slug": "pantone-7687-c",
+    "slug": "7687-c",
     "value": "#1D4289",
     "cmyk": {
       "c": 100,
@@ -5203,63 +5203,63 @@
   },
   {
     "title": "7688 C",
-    "slug": "pantone-7688-c",
+    "slug": "7688-c",
     "value": "#4698CA",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7688-C"
   },
   {
     "title": "7689 C",
-    "slug": "pantone-7689-c",
+    "slug": "7689-c",
     "value": "#298FC2",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7689-C"
   },
   {
     "title": "7690 C",
-    "slug": "pantone-7690-c",
+    "slug": "7690-c",
     "value": "#0076A8",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7690-C"
   },
   {
     "title": "7691 C",
-    "slug": "pantone-7691-c",
+    "slug": "7691-c",
     "value": "#006298",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7691-C"
   },
   {
     "title": "7692 C",
-    "slug": "pantone-7692-c",
+    "slug": "7692-c",
     "value": "#005687",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7692-C"
   },
   {
     "title": "7693 C",
-    "slug": "pantone-7693-c",
+    "slug": "7693-c",
     "value": "#004976",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7693-C"
   },
   {
     "title": "7694 C",
-    "slug": "pantone-7694-c",
+    "slug": "7694-c",
     "value": "#01426A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7694-C"
   },
   {
     "title": "7695 C",
-    "slug": "pantone-7695-c",
+    "slug": "7695-c",
     "value": "#7BA7BC",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7695-C"
   },
   {
     "title": "7696 C",
-    "slug": "pantone-7696-c",
+    "slug": "7696-c",
     "value": "#6399AE",
     "cmyk": {
       "c": 61,
@@ -5272,7 +5272,7 @@
   },
   {
     "title": "7697 C",
-    "slug": "pantone-7697-c",
+    "slug": "7697-c",
     "value": "#4E87A0",
     "cmyk": {
       "c": 69,
@@ -5285,7 +5285,7 @@
   },
   {
     "title": "7698 C",
-    "slug": "pantone-7698-c",
+    "slug": "7698-c",
     "value": "#41748D",
     "cmyk": {
       "c": 74,
@@ -5298,7 +5298,7 @@
   },
   {
     "title": "7699 C",
-    "slug": "pantone-7699-c",
+    "slug": "7699-c",
     "value": "#34657F",
     "cmyk": {
       "c": 79,
@@ -5311,7 +5311,7 @@
   },
   {
     "title": "7700 C",
-    "slug": "pantone-7700-c",
+    "slug": "7700-c",
     "value": "#165C7D",
     "cmyk": {
       "c": 88,
@@ -5324,7 +5324,7 @@
   },
   {
     "title": "7701 C",
-    "slug": "pantone-7701-c",
+    "slug": "7701-c",
     "value": "#005776",
     "cmyk": {
       "c": 96,
@@ -5337,63 +5337,63 @@
   },
   {
     "title": "7702 C",
-    "slug": "pantone-7702-c",
+    "slug": "7702-c",
     "value": "#48A9C5",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7702-C"
   },
   {
     "title": "7703 C",
-    "slug": "pantone-7703-c",
+    "slug": "7703-c",
     "value": "#009CBD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7703-C"
   },
   {
     "title": "7704 C",
-    "slug": "pantone-7704-c",
+    "slug": "7704-c",
     "value": "#0085AD",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7704-C"
   },
   {
     "title": "7705 C",
-    "slug": "pantone-7705-c",
+    "slug": "7705-c",
     "value": "#007096",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7705-C"
   },
   {
     "title": "7706 C",
-    "slug": "pantone-7706-c",
+    "slug": "7706-c",
     "value": "#006A8E",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7706-C"
   },
   {
     "title": "7707 C",
-    "slug": "pantone-7707-c",
+    "slug": "7707-c",
     "value": "#00617F",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7707-C"
   },
   {
     "title": "7708 C",
-    "slug": "pantone-7708-c",
+    "slug": "7708-c",
     "value": "#005670",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7708-C"
   },
   {
     "title": "7709 C",
-    "slug": "pantone-7709-c",
+    "slug": "7709-c",
     "value": "#63B1BC",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7709-C"
   },
   {
     "title": "7710 C",
-    "slug": "pantone-7710-c",
+    "slug": "7710-c",
     "value": "#00A7B5",
     "cmyk": {
       "c": 77,
@@ -5406,49 +5406,49 @@
   },
   {
     "title": "7711 C",
-    "slug": "pantone-7711-c",
+    "slug": "7711-c",
     "value": "#0097A9",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7711-C"
   },
   {
     "title": "7712 C",
-    "slug": "pantone-7712-c",
+    "slug": "7712-c",
     "value": "#00859B",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7712-C"
   },
   {
     "title": "7713 C",
-    "slug": "pantone-7713-c",
+    "slug": "7713-c",
     "value": "#007D8A",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7713-C"
   },
   {
     "title": "7714 C",
-    "slug": "pantone-7714-c",
+    "slug": "7714-c",
     "value": "#007680",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7714-C"
   },
   {
     "title": "7715 C",
-    "slug": "pantone-7715-c",
+    "slug": "7715-c",
     "value": "#006269",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7715-C"
   },
   {
     "title": "7722 C",
-    "slug": "pantone-7722-c",
+    "slug": "7722-c",
     "value": "#005151",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/7722-C"
   },
   {
     "title": "Blue 072 C",
-    "slug": "pantone-blue-072-c",
+    "slug": "blue-072-c",
     "value": "#10069F",
     "cmyk": {
       "c": 100,
@@ -5461,7 +5461,7 @@
   },
   {
     "title": "Dark Blue C",
-    "slug": "pantone-dark-blue-c",
+    "slug": "dark-blue-c",
     "value": "#00249C",
     "cmyk": {
       "c": 100,
@@ -5474,14 +5474,14 @@
   },
   {
     "title": "Process Blue C",
-    "slug": "pantone-process-blue-c",
+    "slug": "process-blue-c",
     "value": "#0085CA",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/Process-Blue C"
   },
   {
     "title": "Reflex Blue C",
-    "slug": "pantone-reflex-blue-c",
+    "slug": "reflex-blue-c",
     "value": "#001489",
     "cmyk": {
       "c": 100,

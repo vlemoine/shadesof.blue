@@ -1,12 +1,15 @@
 <template>
   <NuxtLink
-    :to="blue.slug"
-    class="relative"
-    :class="{ 'hover:z-20 focus:z-20': !showLabels }"
+    :to="hex"
+    class="relative hover:z-20 focus:z-20"
+    :class="{
+      'focus-within:shadow-focus focus:outline-none': showLabels,
+    }"
   >
     <div
       class="swatch p-2 relative"
-      :style="`background-color: ${blue.value};color: ${color}`"
+      :class="text"
+      :style="`background-color: ${blue.value};`"
     >
       <div class="markers absolute top-1 right-1 opacity-50 flex flex-col">
         <i v-if="blue.gray" class="fas fa-adjust mb-1"></i>
@@ -32,7 +35,6 @@
 
 <script>
 import Color from "color";
-
 export default {
   props: {
     blue: {
@@ -46,8 +48,13 @@ export default {
   },
   computed: {
     color() {
-      const c = Color(this.blue.value);
-      return c.isLight() ? "#111" : "#fff";
+      return Color(this.blue.value);
+    },
+    text() {
+      return this.color.isLight() ? "text-black" : "text-white";
+    },
+    hex() {
+      return this.color.hex().replace("#", "");
     },
   },
 };

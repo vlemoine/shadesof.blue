@@ -16,6 +16,7 @@
     "@nuxt/content": "^1.15.0",
     "@nuxtjs/pwa": "^3.3.5",
     "color": "^3.2.1",
+    "color-string": "^1.9.1",
     "core-js": "^3.19.1",
     "nuxt": "^2.15.8"
   },

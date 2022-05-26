@@ -250,5 +250,56 @@
     "value": "#0062B9",
     "source": "color-name",
     "url": "https://www.color-name.com/celtic-blue.color"
+  },
+  {
+    "title": "Absolute Zero",
+    "slug": "absolute-zero",
+    "value": "#0048BA",
+    "source": "Color Hex",
+    "url": "https://www.color-hex.com/color/0048ba"
+  },
+  {
+    "title": "Blue Green",
+    "slug": "blue-green",
+    "value": "#0d98ba",
+    "source": "Color Hex",
+    "url": "https://www.color-hex.com/color/0d98ba"
+  },
+  {
+    "title": "Brandeis Blue",
+    "slug": "brandeis-blue",
+    "value": "#0070ff",
+    "source": "Color Hex",
+    "url": "https://www.color-hex.com/color/0070ff"
+  },
+  {
+    "title": "Saint Patrick Blue",
+    "slug": "saint-patrick-blue",
+    "value": "#23297a",
+    "source": "???"
+  },
+  {
+    "title": "Celestial Blue",
+    "slug": "celestial-blue",
+    "value": "#4997d0",
+    "source": "???"
+  },
+  {
+    "title": "Verdigris",
+    "slug": "verdigris",
+    "value": "#43b3ae",
+    "source": "???"
+  },
+  {
+    "title": "Port Gore",
+    "slug": "port-gore",
+    "value":"#251f4f",
+    "source": "Resense 2001"
+  },
+  {
+    "title": "Lapis Lazuli",
+    "slug": "lapis-lazuli",
+    "value": "#26619c",
+    "source": "???"
   }
 ]

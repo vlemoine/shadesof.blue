@@ -693,12 +693,13 @@
     "slug": "classic-blue",
     "value": "#0F4C81",
     "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/19-4052-TCX"
+    "url": "https://www.pantone.com/color-finder/19-4052-TCX",
+    "description": "Color of the Year 2020"
   },
   {
     "title": "Little Boy Blue",
     "alias": "16-4132 TCX",
-    "slug": "little-boy blue",
+    "slug": "little-boy-blue",
     "value": "#6EA1D4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/16-4132-TCX"
@@ -1109,7 +1110,8 @@
     "slug": "serenity",
     "value": "#93A9D1",
     "source": "Pantone",
-    "url": "https://www.pantone.com/color-finder/15-3919-TCX"
+    "url": "https://www.pantone.com/color-finder/15-3919-TCX",
+    "description": "Color of the Year 2016"
   },
   {
     "title": "Vista Blue",
@@ -4310,5 +4312,28 @@
     "value": "#D0D9D4",
     "source": "Pantone",
     "url": "https://www.pantone.com/color-finder/12-5403-TCX"
+  },
+  {
+    "title": "Veri Peri",
+    "alias": "17-3938 TCX",
+    "slug": "veri-peri",
+    "value": "#6667AB",
+    "source": "Pantone",
+    "description": "Color of the Year 2022"
+  },
+  {
+    "title": "Turquoise",
+    "alias": "15-5519 TCX",
+    "slug": "turquoise",
+    "value": "#45B5AA",
+    "source": "Pantone",
+    "description": "Color of the Year 2010"
+  },
+  {
+    "title": "Brilliant White",
+    "aliss": "11-4001 TCX",
+    "slug": "brilliant-white",
+    "value": "#EEF1FE",
+    "source": "Pantone"
   }
 ]

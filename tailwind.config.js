@@ -1,5 +1,5 @@
 module.exports = {
-  purge: [
+  content: [
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
@@ -9,11 +9,18 @@ module.exports = {
   darkMode: "class", // or 'media' or 'class'
   variants: {
     extend: {
-      backgroundColor: ["checked"],
-      borderColor: ["checked"],
-      borderWidth: ["checked"],
+      backgroundColor: ["checked", "focus-within"],
+      borderColor: ["checked", "focus-within"],
+      borderWidth: ["checked", "focus-within"],
+      boxShadow: ["focus-within"],
       opacity: ["disabled"],
-      zIndex: ["hover", "focus"]
+      outline: ["focus"],
+      zIndex: ["hover", "focus"],
+    },
+  },
+  theme: {
+    boxShadow: {
+      focus: " 0 0 0 0.25rem var(--focus-ring)",
     },
   },
   plugins: [],

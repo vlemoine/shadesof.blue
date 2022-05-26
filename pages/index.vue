@@ -1,23 +1,23 @@
 <template>
   <div class="px-8">
-    <header
-      class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8"
+    <div
+      class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8 gap-4"
     >
-      <label for="name"
-        >Filter
+      <label for="name" class="flex items-center gap-3"
+        ><i class="fa-duotone fa-filters"></i> Filter
         <input
           id="name"
           v-model="filters.name"
           name="name"
           type="search"
-          class="text-black"
+          class="text-black px-4 py-1 rounded-full focus-within:shadow-focus focus:outline-none dark:bg-gray-800 dark:text-white border border-gray-900 dark:border-gray-600"
       /></label>
       <button
-        class="appearance-none mx-4 border"
+        class="pl-3 pr-3"
+        :class="[classes.pill, filters.open ? classes.pillSelected : 'bg-white dark:bg-black']"
         @click="filters.open = !filters.open"
       >
         Options
-        <i class="fas fa-filter"></i>
       </button>
       <p class="col-span-3 ml-auto total">
         Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
@@ -30,6 +30,7 @@
           <template v-for="(f, i) in filters.families.options">
             <label
               :key="i"
+              class="color-checkbox"
               :class="[
                 classes.pill,
                 filters.families.selected.includes(f)
@@ -43,7 +44,7 @@
                 v-model="filters.families.selected"
                 type="checkbox"
                 :value="f"
-                class="appearance-none rounded-full w-6 h-6 mr-2 filter"
+                class="appearance-none rounded-full w-6 h-6 mr-2 filter focus:outline-none"
                 :class="`filter--${f}`"
               />
               {{ f }}
@@ -100,7 +101,7 @@
           </template>
         </div>
       </Filters>
-    </header>
+    </div>
     <section
       class="swatches grid"
       :class="{
@@ -160,6 +161,8 @@ export default {
     const tcx = await $content("pantone-tcx").fetch();
     const ntc = await $content("ntc").fetch();
     const crayola = await $content("crayola").fetch();
+    const wn = await $content("wn").fetch();
+    const xkcd = await $content("xkcd").fetch();
     const swBlue = await $content("sw/blue").fetch();
     const swPurple = await $content("sw/purple").fetch();
     const swPastel = await $content("sw/pastel").fetch();
@@ -181,6 +184,8 @@ export default {
       ...tcx,
       ...ntc,
       ...crayola,
+      ...wn,
+      ...xkcd,
       ...sw,
     ];
     return {
@@ -220,7 +225,7 @@ export default {
         "HTML/Web/X11",
       ],
       classes: {
-        pill: "px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-300 dark:border-gray-700",
+        pill: "px-2 py-1 flex items-center cursor-pointer rounded-full border border-gray-900 dark:border-gray-600 focus-within:shadow-focus focus:outline-none",
         pillSelected: "bg-gray-300 dark:bg-gray-700 font-bold",
       },
     };
@@ -272,10 +277,14 @@ export default {
 
 <style>
 :root {
+  --focus-ring: hsl(210 100% 50% / 0.33);
   --swatch-width: 5rem;
   --swatch-aspect: 1 / 1;
   --swatch-aspect-pc: calc(var(--swatch-aspect) * 100%);
   --swatch-zoom: calc(var(--swatch-width) * 1.8);
+}
+.dark {
+  --focus-ring: hsl(210 100% 50% / 0.67);
 }
 .swatches {
   grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
@@ -305,20 +314,46 @@ export default {
 }
 .filter--Cyan {
   background-color: hsl(180, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(170, 100%, 50%), hsl(180, 100%, 50%), hsl(195, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(170, 100%, 50%),
+    hsl(180, 100%, 50%),
+    hsl(195, 100%, 50%)
+  );
 }
 .filter--Azure {
   background-color: hsl(210, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(196, 100%, 50%), hsl(210, 100%, 50%), hsl(225, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(196, 100%, 50%),
+    hsl(210, 100%, 50%),
+    hsl(225, 100%, 50%)
+  );
 }
 .filter--Blue {
   background-color: hsl(240, 100%, 50%);
-  background-image: linear-gradient(to right, hsl(226, 100%, 50%), hsl(240, 100%, 50%), hsl(250, 100%, 50%));
+  background-image: linear-gradient(
+    to right,
+    hsl(226, 100%, 50%),
+    hsl(240, 100%, 50%),
+    hsl(250, 100%, 50%)
+  );
 }
 .filter--oob {
-  background-image: linear-gradient(to right, hsl(165, 100%, 75%), hsl(255, 100%, 75%))
+  background-image: linear-gradient(
+    to right,
+    hsl(165, 100%, 75%),
+    hsl(255, 100%, 75%)
+  );
 }
 .dark .filter--oob {
-  background-image: linear-gradient(to right, hsl(165, 100%, 50%), hsl(255, 100%, 50%))
+  background-image: linear-gradient(
+    to right,
+    hsl(165, 100%, 50%),
+    hsl(255, 100%, 50%)
+  );
+}
+.square {
+  aspect-ratio: 1 / 1;
 }
 </style>
