@@ -1,30 +1,85 @@
 <template>
-  <section class="px-9">
-    <template v-if="color">
-      <template v-if="!Array.isArray(color)">
-        <pre>{{ color.slug }}</pre>
-      </template>
-      <template v-else>
-        <p>
-          There are {{ color.length }} colors with the name <strong>{{query
-          }}</strong>.
-        </p>
-      </template>
-      <pre>{{ color }}</pre>
+  <section>
+    <h1 v-if="!about" class="hidden">{{ query }}</h1>
+    <template v-if="!about && blues.length > 0">
+      <div class="h-full flex flex-col">
+        <div v-if="disam" class="h-12 flex items-center justify-center">
+          <p class="px-4 md:text-xl text-center">
+            There are {{ blues.length }} colors with the {{ disamValue }}
+            <strong class="whitespace-nowrap">{{ query }}</strong
+            >.
+          </p>
+        </div>
+        <div
+          class="h-full"
+          :class="{
+            flex: blues.length < 4,
+            'grid grid-cols-2': blues.length > 3,
+          }"
+        >
+          <Fill
+            v-for="(blue, i) in blues"
+            :key="i"
+            :blue="blue"
+            :disam="disam"
+            :slug="slug"
+            :class="{
+              'col-span-2': blues.length % 2 === 1 && i == blues.length - 1,
+            }"
+            ><NuxtLink
+              v-if="!disam"
+              class="query text-5xl font-bold underline focus-within:shadow-focus focus:outline-none"
+              :to="link"
+              >{{ query }}</NuxtLink
+            ></Fill
+          >
+        </div>
+      </div>
+    </template>
+    <template v-else-if="isBlue">
+      <Fill :blue="mysteryBlue"><p>Unknown shade of blue!</p></Fill>
     </template>
     <p v-else-if="!about">That's not a shade of blue!</p>
-    <nuxt-content :document="about" />
+    <template v-else-if="about">
+      <h1 class="max-w-xl mx-auto text-3xl font-bold mb-4">
+        {{ about.title }}
+      </h1>
+      <nuxt-content
+        class="max-w-xl mx-auto flex flex-col gap-4 pb-8"
+        :document="about"
+      />
+    </template>
   </section>
 </template>
 
 <script>
+import Color from "color";
+import colorString from "color-string";
+
+const toHex = (blue) => Color(blue).hex();
+const name = (slug, blues) => {
+  const name = [];
+  blues.forEach((b) => {
+    // cyan debacle
+    if (slug === "cyan" && b.alias === "cyan") {
+      name.push("cyan");
+    } else {
+      name.push(b.slug);
+    }
+  });
+  return [...new Set(name)];
+};
 export default {
   async asyncData({ $content, params }) {
+    const slug = params.slug.toLowerCase();
     let about;
-    let color;
+    let blues;
     let query;
-    if (params.slug === "about") {
+    let isBlue = false;
+    let mysteryBlue = {};
+    if (slug === "about") {
       about = await $content("about").fetch();
+      query = "About";
     } else {
       const x11 = await $content("x11").fetch();
       const other = await $content("colors").fetch();
@@ -32,6 +87,8 @@ export default {
       const tcx = await $content("pantone-tcx").fetch();
       const ntc = await $content("ntc").fetch();
       const crayola = await $content("crayola").fetch();
+      const wn = await $content("wn").fetch();
+      const xkcd = await $content("xkcd").fetch();
       const swBlue = await $content("sw/blue").fetch();
       const swPurple = await $content("sw/purple").fetch();
       const swPastel = await $content("sw/pastel").fetch();
@@ -46,36 +103,86 @@ export default {
         ...swTimeless,
         ...swNeutral,
       ];
-      let lib = [
+      const lib = [
         ...x11,
         ...other,
         ...pantone,
         ...tcx,
         ...ntc,
         ...crayola,
+        ...wn,
+        ...xkcd,
         ...sw,
       ];
-      lib = lib.filter((e) => (e.slug === params.slug || e.alias === params.slug));
-      color = lib.length === 1 ? lib[0] : lib;
-      query = color?.title?.search('/') === -1 ? color.title : lib[lib.length - 1].title
+      blues = lib.filter(
+        (e) =>
+          e.slug === slug ||
+          e.alias?.toLowerCase() === slug ||
+          toHex(e.value).replace("#", "").toLowerCase() === slug
+      );
+      // What is the query?
+      const q = name(slug, blues).length === 1;
+      query =
+        blues.length > 0
+          ? q
+            ? blues[blues.length - 1]?.title
+            : `#${slug.toUpperCase()}`
+          : "???";
+      // Handle unidentified blue hex colors
+      const hex = slug.length === 6 ? colorString.get("#" + slug) : null;
+      if (hex) {
+        const m = Math.round(
+          Color(colorString.to.hex(hex.value)).hsl().object().h
+        );
+        isBlue = m > 169 && m < 251;
+        if (isBlue) {
+          mysteryBlue = {
+            value: colorString.to.hex(hex.value),
+            source: null,
+          };
+        }
+      }
     }
     return {
       about,
-      color,
-      query
+      blues,
+      query,
+      slug,
+      isBlue,
+      mysteryBlue,
     };
   },
   head() {
-      return {
-        title: this.about ? 'About shadesof.blue' : `${this.query} - shadesof.blue`,
-      }
+    return {
+      title: this.about
+        ? "About shadesof.blue"
+        : `${this.query} 🔹 shadesof.blue`,
+    };
+  },
+  computed: {
+    disam() {
+      return this.blues.length > 1;
+    },
+    disamValue() {
+      return name(this.slug, this.blues).length === 1 ? "name" : "value";
+    },
+    text() {
+      return `text-${Color(this.blues.value).isLight() ? "black" : "white"}`;
+    },
+    link() {
+      return this.query.toLowerCase().replaceAll(" ", "-").replaceAll("/", "-");
+    },
+  },
+  methods: {
+    toHex(blue) {
+      return toHex(blue);
+    },
   },
 };
 </script>
 
 <style scoped>
-pre {
-  color: #fff;
-  background-color: #333;
+section {
+  height: calc(100vh - 5rem);
 }
 </style>

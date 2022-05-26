@@ -1,6 +1,7 @@
 <template>
   <div
     id="Filters"
+    data-component="Filters"
     class="px-4 w-full bg-opacity-90 transition-all bg-white dark:bg-black"
     :class="{
       'h-0 overflow-hidden': !open,

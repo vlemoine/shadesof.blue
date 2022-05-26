@@ -19,10 +19,10 @@ describe("Swatch", () => {
     expect(blue).toBe("blue");
   });
   it("returns a light text color", () => {
-    expect(wrapper.vm.color).toBe("#fff");
+    expect(wrapper.vm.text).toBe("text-white");
   });
   it("returns a dark text color", () => {
     wrapper.setData({ blue: { value: "cyan" } });
-    expect(wrapper.vm.color).toBe("#111");
+    expect(wrapper.vm.text).toBe("text-black");
   });
 });
