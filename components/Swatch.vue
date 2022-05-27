@@ -68,18 +68,7 @@ export default {
 .swatch .labels {
   height: 0;
 }
-@supports not (aspect-ratio: 1 / 1) {
-  .swatch::before {
-    float: left;
-    padding-top: var(--swatch-aspect-pc);
-    content: "";
-  }
-  .swatch::after {
-    display: block;
-    content: "";
-    clear: both;
-  }
-}
+
 a:hover .swatch .labels,
 a:focus .swatch .labels {
   opacity: 1;

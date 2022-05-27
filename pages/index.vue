@@ -1,7 +1,7 @@
 <template>
-  <div class="px-8">
+  <div class="px-4 md:px-8">
     <div
-      class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8 gap-4"
+      class="swatches__header | py-4 [ sticky top-0 z-10 ] [ flex flex-wrap gap-4 ] [ -mx-4 px-4 ] [ md:-mx-8 md:px-8 ]"
     >
       <label for="name" class="flex items-center gap-3"
         ><i class="fa-duotone fa-filters"></i> Filter
@@ -14,7 +14,10 @@
       /></label>
       <button
         class="pl-3 pr-3"
-        :class="[classes.pill, filters.open ? classes.pillSelected : 'bg-white dark:bg-black']"
+        :class="[
+          classes.pill,
+          filters.open ? classes.pillSelected : 'bg-white dark:bg-black',
+        ]"
         @click="filters.open = !filters.open"
       >
         Options
@@ -280,8 +283,13 @@ export default {
   --focus-ring: hsl(210 100% 50% / 0.33);
   --swatch-width: 5rem;
   --swatch-aspect: 1 / 1;
-  --swatch-aspect-pc: calc(var(--swatch-aspect) * 100%);
-  --swatch-zoom: calc(var(--swatch-width) * 1.8);
+  --swatch-multiply: 1.5;
+  --swatch-zoom: calc(var(--swatch-width) * var(--swatch-multiply));
+}
+@media (min-width: 768px) {
+  :root {
+    --swatch-multiply: 1.8;
+  }
 }
 .dark {
   --focus-ring: hsl(210 100% 50% / 0.67);
@@ -297,11 +305,11 @@ export default {
 .swatches--labeled {
   --swatch-width: 10rem;
   --swatch-aspect: 2 / 1.5;
-  --swatch-aspect-pc: calc(1.5 / 2 * 100%);
 }
+
 .swatches:not(.swatches--labeled) a:hover .swatch,
 .swatches:not(.swatches--labeled) a:focus .swatch {
-  --transform: -20%;
+  --transform: -1rem;
 
   position: absolute;
   width: var(--swatch-zoom);
@@ -312,6 +320,13 @@ export default {
   transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
 }
+@media (min-width: 768px) {
+  .swatches:not(.swatches--labeled) a:hover .swatch,
+  .swatches:not(.swatches--labeled) a:focus .swatch {
+    --transform: -20%;
+  }
+}
+
 .filter--Cyan {
   background-color: hsl(180, 100%, 50%);
   background-image: linear-gradient(
