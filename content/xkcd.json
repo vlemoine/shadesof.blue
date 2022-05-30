@@ -455,13 +455,6 @@
     "url": "https://xkcd.com/color/rgb/"
   },
   {
-    "title": "dark navy blue",
-    "value": "#00022e",
-    "slug": "dark-navy-blue",
-    "source": "XKCD",
-    "url": "https://xkcd.com/color/rgb/"
-  },
-  {
     "title": "greeny blue",
     "value": "#42b395",
     "slug": "greeny-blue",
