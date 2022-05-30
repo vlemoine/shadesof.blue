@@ -13,7 +13,7 @@
         <div
           class="h-full"
           :class="{
-            flex: blues.length < 4,
+            'flex flex-col md:flex-row': blues.length < 4,
             'grid grid-cols-2': blues.length > 3,
           }"
         >
