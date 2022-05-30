@@ -1,32 +1,51 @@
 <template>
-  <div class="px-8">
+  <div class="px-4 lg:px-8">
     <div
-      class="swatches__header sticky top-0 z-10 flex flex-wrap -mx-8 py-4 px-8 gap-4"
+      class="
+        swatches__header | py-4
+        [ sticky top-0 z-10 ]
+        [ flex flex-wrap gap-4 justify-center ]
+        [ -mx-4 px-4 ]
+        [ lg:-mx-8 lg:px-8 ]
+      "
     >
-      <label for="name" class="flex items-center gap-3"
+      <div class="flex gap-3 [ w-full | lg:w-auto ]">
+      <label for="name" class="flex items-center gap-3 [ w-full | lg:w-auto ]"
         ><i class="fa-duotone fa-filters"></i> Filter
         <input
           id="name"
           v-model="filters.name"
           name="name"
           type="search"
-          class="text-black px-4 py-1 rounded-full focus-within:shadow-focus focus:outline-none dark:bg-gray-800 dark:text-white border border-gray-900 dark:border-gray-600"
+          class="
+            rounded-full dark:bg-gray-800  
+            [ text-black dark:text-white ]
+            [ w-full lg:w-auto ]
+            [ px-4 py-1 ]
+            [ focus-within:shadow-focus focus:outline-none ]
+            [ border border-gray-900 dark:border-gray-600 ]
+          "
       /></label>
       <button
         class="pl-3 pr-3"
-        :class="[classes.pill, filters.open ? classes.pillSelected : 'bg-white dark:bg-black']"
+        :class="[
+          classes.pill,
+          filters.open ? classes.pillSelected : 'bg-white dark:bg-black',
+        ]"
         @click="filters.open = !filters.open"
       >
         Options
       </button>
-      <p class="col-span-3 ml-auto total">
+      </div>
+      <p class="total | lg:ml-auto text-center">
         Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
         documented!
       </p>
       <Filters :open="filters.open">
-        <div class="flex items-center py-1 gap-3">
-          <strong>Color family</strong>
-          <div class="mx-2"></div>
+        <div class=" py-1 flex items-center gap-3">
+          <strong class="whitespace-nowrap">Color family</strong>
+          <div class="flex gap-2 items-center">
+          <div class="flex flex-wrap gap-3">
           <template v-for="(f, i) in filters.families.options">
             <label
               :key="i"
@@ -50,10 +69,12 @@
               {{ f }}
             </label>
           </template>
+          </div>
           <div
-            class="border-r h-6 border-opacity-80 dark:border-opacity-20"
+            class="hidden md:block border-r h-6 border-opacity-80 dark:border-opacity-20"
           ></div>
-          <button
+          <div class="flex flex-wrap gap-3">
+            <button
             :class="[
               classes.pill,
               filters.gray !== 0 ? classes.pillSelected : '',
@@ -83,6 +104,8 @@
             ></span>
             Out of bounds
           </label>
+          </div>
+          </div>
         </div>
         <div class="flex items-center py-2 flex-wrap">
           <strong>View options</strong>
@@ -280,8 +303,18 @@ export default {
   --focus-ring: hsl(210 100% 50% / 0.33);
   --swatch-width: 5rem;
   --swatch-aspect: 1 / 1;
-  --swatch-aspect-pc: calc(var(--swatch-aspect) * 100%);
-  --swatch-zoom: calc(var(--swatch-width) * 1.8);
+  --swatch-multiply: 1.5;
+  --swatch-zoom: calc(var(--swatch-width) * var(--swatch-multiply));
+}
+@media (min-width: 768px) {
+  :root {
+    /* --swatch-multiply: 1.8; */
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --swatch-multiply: 1.8;
+  }
 }
 .dark {
   --focus-ring: hsl(210 100% 50% / 0.67);
@@ -297,11 +330,11 @@ export default {
 .swatches--labeled {
   --swatch-width: 10rem;
   --swatch-aspect: 2 / 1.5;
-  --swatch-aspect-pc: calc(1.5 / 2 * 100%);
 }
+
 .swatches:not(.swatches--labeled) a:hover .swatch,
 .swatches:not(.swatches--labeled) a:focus .swatch {
-  --transform: -20%;
+  --transform: -10%;
 
   position: absolute;
   width: var(--swatch-zoom);
@@ -312,6 +345,13 @@ export default {
   transform: translate(var(--transform), var(--transform));
   box-shadow: 0 0 2rem -0.1rem #0008;
 }
+@media (min-width: 1024px) {
+  .swatches:not(.swatches--labeled) a:hover .swatch,
+  .swatches:not(.swatches--labeled) a:focus .swatch {
+    --transform: -20%;
+  }
+}
+
 .filter--Cyan {
   background-color: hsl(180, 100%, 50%);
   background-image: linear-gradient(
