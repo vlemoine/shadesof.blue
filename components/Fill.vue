@@ -56,6 +56,8 @@
 
 <script>
 import Color from "color";
+import isGray from '../scripts/gray.js';
+
 export default {
   props: {
     blue: {
@@ -86,7 +88,7 @@ export default {
       return this.blue.source === "X11";
     },
     hue() {
-      return Math.round(this.b.hsl().object().h);
+      return Math.round(this.hsv.h);
     },
     link() {
       return this.hex.replace("#", "/");
@@ -99,16 +101,19 @@ export default {
         : "blue";
     },
     brightness() {
-      const l = Math.round(this.b.hsl().object().l);
-      return l < 40 ? "dark " : l > 66 ? "light " : "";
+      const v = Math.round(this.hsv.v);
+      return v < 40 ? "dark " : v > 66 ? "light " : "";
     },
     gray() {
-      const hsl = this.b.hsl().object();
-      return hsl.s <= 22 ||
-        hsl.l <= 10 ||
-        (hsl.l > 10 && hsl.l <= 15 && hsl.s <= 50)
+      return isGray(this.hex)
         ? "gray "
         : "";
+    },
+    hwb() {
+      return this.b.hwb().object();
+    },
+    hsv() {
+      return this.b.hsv().object();
     },
     beyond() {
       return this.hue < 170 || this.hue > 250 ? "beyond " : "";

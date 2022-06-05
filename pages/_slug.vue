@@ -2,7 +2,7 @@
   <section>
     <h1 v-if="!about" class="hidden">{{ query }}</h1>
     <template v-if="!about && blues.length > 0">
-      <div class="h-full flex flex-col">
+      <div class="swatch-fill h-full flex flex-col">
         <div v-if="disam" class="h-12 flex items-center justify-center">
           <p class="px-4 md:text-xl text-center">
             There are {{ blues.length }} colors with the {{ disamValue }}
@@ -41,11 +41,8 @@
     </template>
     <p v-else-if="!about">That's not a shade of blue!</p>
     <template v-else-if="about">
-      <h1 class="max-w-xl mx-auto text-3xl font-bold mb-4">
-        {{ about.title }}
-      </h1>
       <nuxt-content
-        class="max-w-xl mx-auto flex flex-col gap-4 pb-8"
+        class="mx-auto mt-8 pb-8 prose dark:prose-invert"
         :document="about"
       />
     </template>
@@ -182,7 +179,8 @@ export default {
 </script>
 
 <style scoped>
-section {
+.swatch-fill {
   height: calc(100vh - 5rem);
 }
+
 </style>
