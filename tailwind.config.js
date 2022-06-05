@@ -23,5 +23,5 @@ module.exports = {
       focus: " 0 0 0 0.25rem var(--focus-ring)",
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
