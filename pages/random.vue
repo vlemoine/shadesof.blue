@@ -30,20 +30,20 @@ export default {
       ...swNeutral,
     ];
     const lib = [
-        ...x11,
-        ...other,
-        ...pantone,
-        ...tcx,
-        ...ntc,
-        ...crayola,
-        ...wn,
-        ...xkcd,
-        ...sw,
-      ];
+      ...x11,
+      ...other,
+      ...pantone,
+      ...tcx,
+      ...ntc,
+      ...crayola,
+      ...wn,
+      ...xkcd,
+      ...sw,
+    ];
     return { lib };
   },
   mounted() {
-    this.$router.push({
+    this.$router.replace({
       path: `/${randomArr(this.lib).slug}`,
     });
   },
