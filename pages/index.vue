@@ -304,7 +304,7 @@ export default {
 
 <style>
 :root {
-  --focus-ring: hsl(210 100% 50% / 0.33);
+  --focus-ring: hsl(210deg 100% 50% / 0.33);
   --swatch-width: 5rem;
   --swatch-aspect: 1 / 1;
   --swatch-multiply: 1.5;
@@ -316,7 +316,7 @@ export default {
   }
 }
 .dark {
-  --focus-ring: hsl(210 100% 50% / 0.67);
+  --focus-ring: hsl(210deg 100% 50% / 0.67);
 }
 .swatches {
   grid-template-columns: repeat(auto-fill, minmax(var(--swatch-width), 1fr));
@@ -352,44 +352,44 @@ export default {
 }
 
 .filter--Cyan {
-  background-color: hsl(180, 100%, 50%);
+  background-color: hsl(180deg 100% 50%);
   background-image: linear-gradient(
     to right,
-    hsl(170, 100%, 50%),
-    hsl(180, 100%, 50%),
-    hsl(195, 100%, 50%)
+    hsl(170deg 100% 50%),
+    hsl(180deg 100% 50%),
+    hsl(195deg 100% 50%)
   );
 }
 .filter--Azure {
-  background-color: hsl(210, 100%, 50%);
+  background-color: hsl(210deg 100% 50%);
   background-image: linear-gradient(
     to right,
-    hsl(196, 100%, 50%),
-    hsl(210, 100%, 50%),
-    hsl(225, 100%, 50%)
+    hsl(196deg 100% 50%),
+    hsl(210deg 100% 50%),
+    hsl(225deg 100% 50%)
   );
 }
 .filter--Blue {
-  background-color: hsl(240, 100%, 50%);
+  background-color: hsl(240deg 100% 50%);
   background-image: linear-gradient(
     to right,
-    hsl(226, 100%, 50%),
-    hsl(240, 100%, 50%),
-    hsl(250, 100%, 50%)
+    hsl(226deg 100% 50%),
+    hsl(240deg 100% 50%),
+    hsl(250deg 100% 50%)
   );
 }
 .filter--oob {
   background-image: linear-gradient(
     to right,
-    hsl(165, 100%, 75%),
-    hsl(255, 100%, 75%)
+    hsl(165deg 100% 75%),
+    hsl(255deg 100% 75%)
   );
 }
 .dark .filter--oob {
   background-image: linear-gradient(
     to right,
-    hsl(165, 100%, 50%),
-    hsl(255, 100%, 50%)
+    hsl(165deg 100% 50%),
+    hsl(255deg 100% 50%)
   );
 }
 .square {
