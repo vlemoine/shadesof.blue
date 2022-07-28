@@ -119,7 +119,7 @@
       }"
     >
       <template v-for="(blue, i) in c">
-        <LazySwatch
+        <Swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
           :class="{
@@ -134,7 +134,7 @@
           <!-- w+b {{ Math.round(blue.hwb.b + blue.hwb.w) }} -->
           <!-- {{blue.dupe}} -->
           <!-- <span v-if="blue.del">del</span> -->
-        </LazySwatch>
+        </Swatch>
       </template>
     </section>
   </div>
