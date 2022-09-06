@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 lg:px-8">
+  <div class="px-4 lg:px-8 pb-4 lg:pb-8">
     <div
       class="swatches__header | py-4 [ sticky top-0 z-10 ] [ flex flex-wrap gap-4 justify-center ] [ -mx-4 px-4 ] [ lg:-mx-8 lg:px-8 ]"
     >
