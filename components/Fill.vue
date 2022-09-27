@@ -111,10 +111,6 @@ export default {
         ? "azure"
         : "blue";
     },
-    brightness() {
-      const v = Math.round(this.hsv.v);
-      return v < 40 ? "dark " : v > 66 ? "light " : "";
-    },
     gray() {
       return isGray(this.hex) ? "gray " : "";
     },
@@ -123,6 +119,11 @@ export default {
     },
     hsv() {
       return this.b.hsv().object();
+    },
+    brightness() {
+      const w = this.hwb.w;
+      const b = this.hwb.b;
+      return w > 50 ? "light " : b > 50 ? "dark " : ""
     },
     beyond() {
       return this.hue < 170 || this.hue > 250 ? "beyond " : "";
@@ -138,7 +139,7 @@ export default {
       return cls;
     },
     focusColor() {
-      return this.b.negate()
+      return this.b.negate();
     },
   },
   mounted() {
