@@ -1,5 +1,6 @@
 <template>
   <div
+    :id="id"
     data-component="Fill"
     class="flex flex-col w-full h-full p-8 md:p-12"
     :class="text"
@@ -15,7 +16,9 @@
             :to="link"
             :title="`Permalink to ${blue.title} ${hex}`"
           >
-            <span class="hidden">{{blue.title}}</span><i class="fa-solid fa-link"></i></NuxtLink>
+            <span class="hidden">{{ blue.title }}</span
+            ><i class="fa-solid fa-link"></i
+          ></NuxtLink>
           <button
             :class="button"
             :title="`Copy ${blue.title} value ${hex}`"
@@ -44,7 +47,11 @@
       <span v-if="blue.source" class="text-sm"
         ><template v-if="!html"
           >from
-          <a v-if="url" :href="blue.url" target="_blank" class="focus-within:shadow-focus focus:outline-none"
+          <a
+            v-if="url"
+            :href="blue.url"
+            target="_blank"
+            class="focus-within:shadow-focus focus:outline-none"
             ><span class="underline">{{ blue.source }}</span
             ><i class="ml-1 fa fa-arrow-up-right-from-square"></i></a
           ><template v-else>{{ blue.source }}</template></template
@@ -56,7 +63,7 @@
 
 <script>
 import Color from "color";
-import isGray from '../scripts/gray.js';
+import isGray from "../scripts/gray.js";
 
 export default {
   props: {
@@ -77,9 +84,13 @@ export default {
     b() {
       return Color(this.blue.value);
     },
+    id() {
+      return (
+        this.blue.title.toLowerCase() + "_" + this.b.hex().replace("#", "")
+      );
+    },
     text() {
-      const c = Color(this.blue.value);
-      return `text-${c.isLight() ? "black" : "white"}`;
+      return `text-${this.b.isLight() ? "black" : "white"}`;
     },
     hex() {
       return this.b.hex();
@@ -105,9 +116,7 @@ export default {
       return v < 40 ? "dark " : v > 66 ? "light " : "";
     },
     gray() {
-      return isGray(this.hex)
-        ? "gray "
-        : "";
+      return isGray(this.hex) ? "gray " : "";
     },
     hwb() {
       return this.b.hwb().object();
@@ -122,11 +131,20 @@ export default {
       return this.blue.source !== "Pantone" && this.blue.url;
     },
     button() {
-      const c = Color(this.blue.value).isLight();
-      let cls = "square grid place-content-center text-base p-2 rounded-full h-9 focus-within:shadow-focus focus:outline-none ";
+      const c = this.b.isLight();
+      let cls =
+        "square grid place-content-center text-base p-2 rounded-full h-9 focus-within:shadow-focus focus:outline-none ";
       cls += c ? "bg-gray-900 text-white" : "bg-gray-100 text-black";
       return cls;
     },
+    focusColor() {
+      return this.b.negate()
+    },
+  },
+  mounted() {
+    document
+      .getElementById(this.id)
+      .style.setProperty("--focus-ring", this.focusColor);
   },
   methods: {
     copy() {
