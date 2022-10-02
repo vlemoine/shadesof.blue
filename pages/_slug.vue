@@ -167,7 +167,12 @@ export default {
       return `text-${Color(this.blues.value).isLight() ? "black" : "white"}`;
     },
     link() {
-      return this.query.toLowerCase().replaceAll(" ", "-").replaceAll("/", "-");
+      return this.query
+        .toLowerCase()
+        .replaceAll(" ", "-")
+        .replaceAll("/", "-")
+        .normalize("NFD")
+        .replace(/\p{Diacritic}/gu, "");
     },
   },
   methods: {
@@ -182,5 +187,4 @@ export default {
 .swatch-fill {
   height: calc(100vh - 5rem);
 }
-
 </style>
