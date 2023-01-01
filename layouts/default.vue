@@ -1,7 +1,8 @@
 <template>
   <main class="main h-full">
     <Header />
-    <Nuxt />
+    <!-- <Nuxt /> -->
+    <slot />
   </main>
 </template>
 
