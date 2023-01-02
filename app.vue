@@ -1,9 +1,10 @@
 <template>
-  <div>
+  <main class="main h-full">
+    <Header />
     <NuxtLayout>
       <NuxtPage/>
     </NuxtLayout>
-  </div>
+  </main>
 </template>
 
 <script>
