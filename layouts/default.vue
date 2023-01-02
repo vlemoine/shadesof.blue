@@ -1,9 +1,5 @@
 <template>
-  <main class="main h-full">
-    <Header />
-    <!-- <Nuxt /> -->
     <slot />
-  </main>
 </template>
 
 <style lang="scss">
