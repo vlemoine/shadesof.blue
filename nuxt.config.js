@@ -52,7 +52,6 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
     "@nuxtjs/color-mode",
-    "@nuxtjs/tailwindcss",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -61,6 +60,7 @@ export default {
     "@nuxtjs/pwa",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    "@nuxtjs/tailwindcss",
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
