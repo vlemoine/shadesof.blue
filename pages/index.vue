@@ -25,7 +25,7 @@
         </button>
       </div>
       <p class="total | lg:ml-auto text-center">
-        Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
+        Displaying <strong>{{ count }}</strong> / {{ Blues.length }} blues
         documented!
       </p>
       <Filters :open="filters.open">
@@ -118,7 +118,7 @@
         'swatches--labeled': filters.check.showLabels.value,
       }"
     >
-      <template v-for="(blue, i) in c">
+      <template v-for="(blue, i) in Blues">
         <Swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
@@ -262,7 +262,7 @@ export default {
     };
   },
   computed: {
-    c() {
+    Blues() {
       let sort = [...this.blues];
       sort.forEach((s) => {
         const b = Color(s.value);
@@ -285,8 +285,8 @@ export default {
     },
     count() {
       const filters = this.filters;
-      const c = [...this.c].filter((blue) => filterLogic(blue, filters));
-      return this.c.length - c.length;
+      const Blues = [...this.Blues].filter((blue) => filterLogic(blue, filters));
+      return this.Blues.length - Blues.length;
     },
   },
   methods: {
