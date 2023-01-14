@@ -278,9 +278,11 @@ export default {
         s.family =
           hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
       });
-      sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
-      sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
-      sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
+      // sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
+      // sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
+      // sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
+      sort = sort.sort((a, b) => Math.round(a.hwb.w) - Math.round(b.hsv.w));
+      sort = sort.sort((a, b) => Math.round(a.hwb.b) - Math.round(b.hsv.b));
       return sort;
     },
     count() {
