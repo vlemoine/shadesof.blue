@@ -13,16 +13,9 @@
             type="search"
             class="rounded-full dark:bg-gray-800 [ text-black dark:text-white ] [ w-full lg:w-auto ] [ px-4 py-1 ] [ focus-within:shadow-focus focus:outline-none ] [ border border-gray-900 dark:border-gray-600 ]"
         /></label>
-        <button
-          class="pl-3 pr-3"
-          :class="[
-            classes.pill,
-            filters.open ? classes.pillSelected : 'bg-white dark:bg-black',
-          ]"
-          @click="filters.open = !filters.open"
-        >
+        <Button :active="filters.open" @click="filters.open = !filters.open">
           Options
-        </button>
+        </Button>
       </div>
       <p class="total | lg:ml-auto text-center">
         Displaying <strong>{{ count }}</strong> / {{ Blues.length }} blues
@@ -61,19 +54,13 @@
               class="hidden md:block border-r h-6 border-opacity-80 dark:border-opacity-20"
             ></div>
             <div class="flex flex-wrap gap-3">
-              <button
-                :class="[
-                  classes.pill,
-                  filters.gray !== 0 ? classes.pillSelected : '',
-                ]"
-                @click="toggleGray()"
-              >
+              <Button :active="filters.gray !== 0" @click="toggleGray()">
                 <span
                   class="rounded-full w-6 h-6 mr-2 bg-gray-300 dark:bg-gray-500 inline-flex items-center justify-center"
                   ><i class="fas fa-adjust"></i
                 ></span>
                 {{ filters.gray === 2 ? "Only grays" : "Grays" }}
-              </button>
+              </Button>
               <label
                 for="oob"
                 class="px-4 flex items-center"
@@ -110,11 +97,24 @@
             </label>
           </template>
         </div>
-        <div class="flex items-center py-2 flex-wrap">
-          <strong>Sorting</strong>
+        <div class="flex items-center py-2 flex-wrap gap-2">
+          <strong>Sort</strong>
           <div class="mx-2"></div>
           <template v-for="(op, i) in sort.options">
-            <button :key="i" @click="setSort(op)">{{ op }}</button>
+            <Button :key="i" :active="op === sort.method" @click="setSort(op)"
+              >{{ op
+              }}<span
+                class="ml-2"
+                :class="{ hidden: op === 'Default' || op !== sort.method }"
+              >
+                <span :class="{ hidden: !sort.desc }"
+                  ><i class="fa-duotone fa-arrow-down-9-1"></i
+                ></span>
+                <span :class="{ hidden: sort.desc }"
+                  ><i class="fa-duotone fa-arrow-up-1-9"></i
+                ></span>
+              </span>
+            </Button>
           </template>
         </div>
       </Filters>
@@ -215,11 +215,11 @@ const addProps = (arr) => {
 
 const sortBlues = (swatches, method = "off", desc = false) => {
   // all this function does is update the order prop for the swatches array.
-  // method values: "off" (default), "hue", "luminosity"
+  // method values: "Default (off)", "Hue", "Luminosity"
   // if desc is false, results will return in ascending order.
   let _s = [...swatches];
   switch (method) {
-    case "hue":
+    case "Hue":
       _s = _s.sort((a, b) => b.hsv.v - a.hsv.v);
       _s = _s.sort((a, b) => a.hsv.s - b.hsv.s);
       if (desc) {
@@ -228,7 +228,7 @@ const sortBlues = (swatches, method = "off", desc = false) => {
         _s = _s.sort((a, b) => a.hsv.h - b.hsv.h);
       }
       break;
-    case "luminosity":
+    case "Luminosity":
       _s = _s.sort((a, b) => b.lum - a.lum);
       if (desc) _s.reverse();
       break;
@@ -296,7 +296,7 @@ export default {
           selected: [],
         },
         gray: 0, // 0 hide 1 show 2 only
-        oob: true,
+        oob: false,
         libraries: {
           crayola: true,
           ntc: true,
@@ -309,8 +309,8 @@ export default {
         name: "",
       },
       sort: {
-        options: ["off", "hue", "luminosity"],
-        method: "off",
+        options: ["Default", "Hue", "Luminosity"],
+        method: "Default",
         desc: false,
       },
       libraries: [
