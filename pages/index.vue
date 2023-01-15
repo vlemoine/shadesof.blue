@@ -127,7 +127,7 @@
           }"
           :show-labels="filters.check.showLabels.value"
         >
-        <!-- {{blue.hsv}} -->
+          <!-- {{blue.hsv}} -->
           <!-- s {{ Math.round(blue.hsv.s) }}<br /> -->
           <!-- w {{ Math.round(blue.hwb.w) }}<br />
           b {{ Math.round(blue.hwb.b) }}<br /> -->
@@ -184,6 +184,52 @@ const filterLogic = (blue, filters) => {
   );
 };
 
+const addProps = (arr) => {
+  // Transform objects - Add color properties
+  arr.forEach((s) => {
+    const b = Color(s.value);
+    s.alias = s.alias || "";
+    s.hex = b.hex();
+    s.hsv = b.hsv().object();
+    s.hwb = b.hwb().object(); // debug
+    s.gray = isGray(s.value);
+    s.lum = b.luminosity();
+    const hue = s.hsv.h;
+    s.oob = hue < 170 || hue > 250;
+    s.del = hue < 160 || hue > 260;
+    s.nameDupe = arr.filter((e) => e.slug === s.slug).length > 1;
+    s.family = hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
+    s.rgb = b.rgb().object();
+  });
+  return arr;
+};
+
+const sortBlues = (sort, method = "off", desc = false) => {
+  // method values: "off" (default), "hue", "luminosity"
+  // if desc is false, results will return in ascending order.
+  switch (method) {
+    case "hue":
+      sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
+      sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
+      if (desc) {
+        sort = sort.sort((a, b) => Math.round(b.hsv.h) - Math.round(a.hsv.h));
+      } else {
+        sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
+      }
+      return sort;
+    case "luminosity":
+      sort = sort.sort((a, b) => b.lum - a.lum);
+      if (desc) sort.reverse()
+      return sort;
+    default:
+      // sort = sort.sort((a, b) => Math.round(a.hwb.w) - Math.round(b.hwb.w));
+      // sort = sort.sort((a, b) => Math.round(a.rgb.r) - Math.round(b.rgb.r));
+      // sort = sort.sort((a, b) => Math.round(a.rgb.g) - Math.round(b.rgb.g));
+      // sort = sort.sort((a, b) => Math.round(b.rgb.b) - Math.round(a.rgb.b));
+      return sort;
+  }
+};
+
 export default {
   async asyncData({ $content }) {
     const x11 = await $content("x11").fetch();
@@ -234,7 +280,7 @@ export default {
           selected: [],
         },
         gray: 0, // 0 hide 1 show 2 only
-        oob: false,
+        oob: true,
         libraries: {
           crayola: true,
           ntc: true,
@@ -245,6 +291,11 @@ export default {
           x11: true,
         },
         name: "",
+      },
+      sort: {
+        methods: ['off', 'hue', 'luminosity'],
+        method: "off",
+        desc: false,
       },
       libraries: [
         "Crayola",
@@ -263,31 +314,14 @@ export default {
   },
   computed: {
     Blues() {
-      let sort = [...this.blues];
-      sort.forEach((s) => {
-        const b = Color(s.value);
-        s.alias = s.alias || "";
-        s.hex = b.hex();
-        s.hsv = b.hsv().object();
-        s.hwb = b.hwb().object(); // debug
-        s.gray = isGray(s.value);
-        const hue = s.hsv.h;
-        s.oob = hue < 170 || hue > 250;
-        s.del = hue < 160 || hue > 260;
-        s.nameDupe = sort.filter((e) => e.slug === s.slug).length > 1;
-        s.family =
-          hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
-      });
-      // sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
-      // sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
-      // sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
-      sort = sort.sort((a, b) => Math.round(a.hwb.w) - Math.round(b.hsv.w));
-      sort = sort.sort((a, b) => Math.round(a.hwb.b) - Math.round(b.hsv.b));
-      return sort;
+      const sort = addProps([...this.blues]);
+      return sortBlues(sort, this.sort.method, this.sort.desc);
     },
     count() {
       const filters = this.filters;
-      const Blues = [...this.Blues].filter((blue) => filterLogic(blue, filters));
+      const Blues = [...this.Blues].filter((blue) =>
+        filterLogic(blue, filters)
+      );
       return this.Blues.length - Blues.length;
     },
   },
