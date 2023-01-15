@@ -110,6 +110,13 @@
             </label>
           </template>
         </div>
+        <div class="flex items-center py-2 flex-wrap">
+          <strong>Sorting</strong>
+          <div class="mx-2"></div>
+          <template v-for="(op, i) in sort.options">
+            <button :key="i" @click="setSort(op)">{{ op }}</button>
+          </template>
+        </div>
       </Filters>
     </div>
     <section
@@ -118,7 +125,7 @@
         'swatches--labeled': filters.check.showLabels.value,
       }"
     >
-      <template v-for="(blue, i) in Blues">
+      <template v-for="(blue, i) in sortedBlues(Blues)">
         <Swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
@@ -126,6 +133,7 @@
             hidden: filter(blue),
           }"
           :show-labels="filters.check.showLabels.value"
+          :style="`order:${blue.order}`"
         >
           <!-- {{blue.hsv}} -->
           <!-- s {{ Math.round(blue.hsv.s) }}<br /> -->
@@ -190,8 +198,8 @@ const addProps = (arr) => {
     const b = Color(s.value);
     s.alias = s.alias || "";
     s.hex = b.hex();
-    s.hsv = b.hsv().object();
-    s.hwb = b.hwb().object(); // debug
+    s.hsv = b.hsv().round().object();
+    s.hwb = b.hwb().round().object(); // debug
     s.gray = isGray(s.value);
     s.lum = b.luminosity();
     const hue = s.hsv.h;
@@ -199,35 +207,43 @@ const addProps = (arr) => {
     s.del = hue < 160 || hue > 260;
     s.nameDupe = arr.filter((e) => e.slug === s.slug).length > 1;
     s.family = hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
-    s.rgb = b.rgb().object();
+    s.rgb = b.rgb().round().object();
+    s.order = null;
   });
   return arr;
 };
 
-const sortBlues = (sort, method = "off", desc = false) => {
+const sortBlues = (swatches, method = "off", desc = false) => {
+  // all this function does is update the order prop for the swatches array.
   // method values: "off" (default), "hue", "luminosity"
   // if desc is false, results will return in ascending order.
+  let _s = [...swatches];
   switch (method) {
     case "hue":
-      sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
-      sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
+      _s = _s.sort((a, b) => b.hsv.v - a.hsv.v);
+      _s = _s.sort((a, b) => a.hsv.s - b.hsv.s);
       if (desc) {
-        sort = sort.sort((a, b) => Math.round(b.hsv.h) - Math.round(a.hsv.h));
+        _s = _s.sort((a, b) => b.hsv.h - a.hsv.h);
       } else {
-        sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
+        _s = _s.sort((a, b) => a.hsv.h - b.hsv.h);
       }
-      return sort;
+      break;
     case "luminosity":
-      sort = sort.sort((a, b) => b.lum - a.lum);
-      if (desc) sort.reverse()
-      return sort;
+      _s = _s.sort((a, b) => b.lum - a.lum);
+      if (desc) _s.reverse();
+      break;
     default:
       // sort = sort.sort((a, b) => Math.round(a.hwb.w) - Math.round(b.hwb.w));
       // sort = sort.sort((a, b) => Math.round(a.rgb.r) - Math.round(b.rgb.r));
       // sort = sort.sort((a, b) => Math.round(a.rgb.g) - Math.round(b.rgb.g));
       // sort = sort.sort((a, b) => Math.round(b.rgb.b) - Math.round(a.rgb.b));
-      return sort;
+      break;
   }
+  // map index of _s to order prop of swatches
+  swatches.forEach((swatch) => {
+    swatch.order = _s.findIndex((i) => i.hex === swatch.hex);
+  });
+  return swatches;
 };
 
 export default {
@@ -293,7 +309,7 @@ export default {
         name: "",
       },
       sort: {
-        methods: ['off', 'hue', 'luminosity'],
+        options: ["off", "hue", "luminosity"],
         method: "off",
         desc: false,
       },
@@ -314,8 +330,7 @@ export default {
   },
   computed: {
     Blues() {
-      const sort = addProps([...this.blues]);
-      return sortBlues(sort, this.sort.method, this.sort.desc);
+      return addProps([...this.blues]);
     },
     count() {
       const filters = this.filters;
@@ -326,9 +341,23 @@ export default {
     },
   },
   methods: {
+    sortedBlues(blues) {
+      return sortBlues(blues, this.sort.method, this.sort.desc);
+    },
     filter(blue) {
       const filters = this.filters;
       return filterLogic(blue, filters);
+    },
+    setSort(method) {
+      // is it the same method? just toggle
+      if (method === this.sort.method) {
+        this.sort.desc = !this.sort.desc;
+      }
+      // if a new method, set and asc
+      else {
+        this.sort.method = method;
+        this.sort.desc = false;
+      }
     },
     toggleGray() {
       const filters = this.filters;
