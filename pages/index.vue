@@ -13,19 +13,12 @@
             type="search"
             class="rounded-full dark:bg-gray-800 [ text-black dark:text-white ] [ w-full lg:w-auto ] [ px-4 py-1 ] [ focus-within:shadow-focus focus:outline-none ] [ border border-gray-900 dark:border-gray-600 ]"
         /></label>
-        <button
-          class="pl-3 pr-3"
-          :class="[
-            classes.pill,
-            filters.open ? classes.pillSelected : 'bg-white dark:bg-black',
-          ]"
-          @click="filters.open = !filters.open"
-        >
+        <Button :active="filters.open" @click="filters.open = !filters.open">
           Options
-        </button>
+        </Button>
       </div>
       <p class="total | lg:ml-auto text-center">
-        Displaying <strong>{{ count }}</strong> / {{ c.length }} blues
+        Displaying <strong>{{ count }}</strong> / {{ Blues.length }} blues
         documented!
       </p>
       <Filters :open="filters.open">
@@ -61,19 +54,13 @@
               class="hidden md:block border-r h-6 border-opacity-80 dark:border-opacity-20"
             ></div>
             <div class="flex flex-wrap gap-3">
-              <button
-                :class="[
-                  classes.pill,
-                  filters.gray !== 0 ? classes.pillSelected : '',
-                ]"
-                @click="toggleGray()"
-              >
+              <Button :active="filters.gray !== 0" @click="toggleGray()">
                 <span
                   class="rounded-full w-6 h-6 mr-2 bg-gray-300 dark:bg-gray-500 inline-flex items-center justify-center"
                   ><i class="fas fa-adjust"></i
                 ></span>
                 {{ filters.gray === 2 ? "Only grays" : "Grays" }}
-              </button>
+              </Button>
               <label
                 for="oob"
                 class="px-4 flex items-center"
@@ -110,6 +97,26 @@
             </label>
           </template>
         </div>
+        <div class="flex items-center py-2 flex-wrap gap-2">
+          <strong>Sort</strong>
+          <div class="mx-2"></div>
+          <template v-for="(op, i) in sort.options">
+            <Button :key="i" :active="op === sort.method" @click="setSort(op)"
+              >{{ op
+              }}<span
+                class="ml-2"
+                :class="{ hidden: op === 'Default' || op !== sort.method }"
+              >
+                <span :class="{ hidden: !sort.desc }"
+                  ><i class="fa-duotone fa-arrow-down-9-1"></i
+                ></span>
+                <span :class="{ hidden: sort.desc }"
+                  ><i class="fa-duotone fa-arrow-up-1-9"></i
+                ></span>
+              </span>
+            </Button>
+          </template>
+        </div>
       </Filters>
     </div>
     <section
@@ -118,7 +125,7 @@
         'swatches--labeled': filters.check.showLabels.value,
       }"
     >
-      <template v-for="(blue, i) in c">
+      <template v-for="(blue, i) in sortedBlues(Blues)">
         <Swatch
           :key="`${blue.slug}${blue.source}${i}`"
           :blue="blue"
@@ -126,8 +133,9 @@
             hidden: filter(blue),
           }"
           :show-labels="filters.check.showLabels.value"
+          :style="`order:${blue.order}`"
         >
-        <!-- {{blue.hsv}} -->
+          <!-- {{blue.hsv}} -->
           <!-- s {{ Math.round(blue.hsv.s) }}<br /> -->
           <!-- w {{ Math.round(blue.hwb.w) }}<br />
           b {{ Math.round(blue.hwb.b) }}<br /> -->
@@ -182,6 +190,60 @@ const filterLogic = (blue, filters) => {
     (!blue.gray && filters.gray === 2) ||
     (blue.oob && !filters.oob)
   );
+};
+
+const addProps = (arr) => {
+  // Transform objects - Add color properties
+  arr.forEach((s) => {
+    const b = Color(s.value);
+    s.alias = s.alias || "";
+    s.hex = b.hex();
+    s.hsv = b.hsv().round().object();
+    s.hwb = b.hwb().round().object(); // debug
+    s.gray = isGray(s.value);
+    s.lum = b.luminosity();
+    const hue = s.hsv.h;
+    s.oob = hue < 170 || hue > 250;
+    s.del = hue < 160 || hue > 260;
+    s.nameDupe = arr.filter((e) => e.slug === s.slug).length > 1;
+    s.family = hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
+    s.rgb = b.rgb().round().object();
+    s.order = null;
+  });
+  return arr;
+};
+
+const sortBlues = (swatches, method = "off", desc = false) => {
+  // all this function does is update the order prop for the swatches array.
+  // method values: "Default (off)", "Hue", "Luminosity"
+  // if desc is false, results will return in ascending order.
+  let _s = [...swatches];
+  switch (method) {
+    case "Hue":
+      _s = _s.sort((a, b) => b.hsv.v - a.hsv.v);
+      _s = _s.sort((a, b) => a.hsv.s - b.hsv.s);
+      if (desc) {
+        _s = _s.sort((a, b) => b.hsv.h - a.hsv.h);
+      } else {
+        _s = _s.sort((a, b) => a.hsv.h - b.hsv.h);
+      }
+      break;
+    case "Luminosity":
+      _s = _s.sort((a, b) => b.lum - a.lum);
+      if (desc) _s.reverse();
+      break;
+    default:
+      // sort = sort.sort((a, b) => Math.round(a.hwb.w) - Math.round(b.hwb.w));
+      // sort = sort.sort((a, b) => Math.round(a.rgb.r) - Math.round(b.rgb.r));
+      // sort = sort.sort((a, b) => Math.round(a.rgb.g) - Math.round(b.rgb.g));
+      // sort = sort.sort((a, b) => Math.round(b.rgb.b) - Math.round(a.rgb.b));
+      break;
+  }
+  // map index of _s to order prop of swatches
+  swatches.forEach((swatch) => {
+    swatch.order = _s.findIndex((i) => i.hex === swatch.hex);
+  });
+  return swatches;
 };
 
 export default {
@@ -246,6 +308,11 @@ export default {
         },
         name: "",
       },
+      sort: {
+        options: ["Default", "Hue", "Luminosity"],
+        method: "Default",
+        desc: false,
+      },
       libraries: [
         "Crayola",
         "Name that Color",
@@ -262,37 +329,35 @@ export default {
     };
   },
   computed: {
-    c() {
-      let sort = [...this.blues];
-      sort.forEach((s) => {
-        const b = Color(s.value);
-        s.alias = s.alias || "";
-        s.hex = b.hex();
-        s.hsv = b.hsv().object();
-        s.hwb = b.hwb().object(); // debug
-        s.gray = isGray(s.value);
-        const hue = s.hsv.h;
-        s.oob = hue < 170 || hue > 250;
-        s.del = hue < 160 || hue > 260;
-        s.nameDupe = sort.filter((e) => e.slug === s.slug).length > 1;
-        s.family =
-          hue <= 195 ? "Cyan" : hue > 195 && hue <= 225 ? "Azure" : "Blue";
-      });
-      sort = sort.sort((a, b) => Math.round(b.hsv.v) - Math.round(a.hsv.v));
-      sort = sort.sort((a, b) => Math.round(a.hsv.s) - Math.round(b.hsv.s));
-      sort = sort.sort((a, b) => Math.round(a.hsv.h) - Math.round(b.hsv.h));
-      return sort;
+    Blues() {
+      return addProps([...this.blues]);
     },
     count() {
       const filters = this.filters;
-      const c = [...this.c].filter((blue) => filterLogic(blue, filters));
-      return this.c.length - c.length;
+      const Blues = [...this.Blues].filter((blue) =>
+        filterLogic(blue, filters)
+      );
+      return this.Blues.length - Blues.length;
     },
   },
   methods: {
+    sortedBlues(blues) {
+      return sortBlues(blues, this.sort.method, this.sort.desc);
+    },
     filter(blue) {
       const filters = this.filters;
       return filterLogic(blue, filters);
+    },
+    setSort(method) {
+      // is it the same method? just toggle
+      if (method === this.sort.method) {
+        this.sort.desc = !this.sort.desc;
+      }
+      // if a new method, set and asc
+      else {
+        this.sort.method = method;
+        this.sort.desc = false;
+      }
     },
     toggleGray() {
       const filters = this.filters;
