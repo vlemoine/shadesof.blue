@@ -1260,7 +1260,7 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@jest/types@^29.3.1", "@jest/types@^29.4.1":
+"@jest/types@^29.4.1":
   version "29.4.1"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-29.4.1.tgz#f9f83d0916f50696661da72766132729dcb82ecb"
   integrity sha512-zbrAXDUOnpJ+FMST2rV7QZOgec8rskg2zv8g2ajeqitp4tvZiyqTCYXANrKsM+ryj5o+LI+ZN2EgU9drrkiwSA==
@@ -1885,15 +1885,16 @@
     consola "^2.15.3"
     stylelint-webpack-plugin "^2.3.1"
 
-"@nuxtjs/tailwindcss@^6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.3.0.tgz#66e9c3b43d01308f35cba892a5195090f2234866"
-  integrity sha512-P8u3VrgyCUHUniq5yQfstRceq1E3HmLqS5oNdwFHscCVPepilimv3333gdgFhDaL0Nv1xzq4Rg2KRsQFRqnBhQ==
+"@nuxtjs/tailwindcss@^6.3.1":
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.3.1.tgz#2bc8b94389ef8e717b6091f372625d147b4c443e"
+  integrity sha512-UH8GwAGPty+OFiaIQeNIWdSOOqS7pThqN11RmRjigi5xBOVg2LpO0HtrOhcKn7v9+IwuXPWK67m067lNB4HITQ==
   dependencies:
     "@nuxt/kit" "^3.1.1"
     "@nuxt/postcss8" "^1.1.3"
     autoprefixer "^10.4.13"
     chalk "^5.2.0"
+    chokidar "^3.5.3"
     clear-module "^4.1.2"
     consola "^2.15.3"
     defu "^6.1.2"
@@ -7627,7 +7628,7 @@ jest-snapshot@^29.4.1:
     pretty-format "^29.4.1"
     semver "^7.3.5"
 
-jest-util@^29.3.1, jest-util@^29.4.1:
+jest-util@^29.4.1:
   version "29.4.1"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-29.4.1.tgz#2eeed98ff4563b441b5a656ed1a786e3abc3e4c4"
   integrity sha512-bQy9FPGxVutgpN4VRc0hk6w7Hx/m6L53QxpDreTZgJd9gfx/AV2MjyPde9tGyZRINAUrSv57p2inGBu2dRLmkQ==
