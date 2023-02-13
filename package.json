@@ -32,7 +32,7 @@
     "@tailwindcss/typography": "^0.5.4",
     "@testing-library/vue": "^5.8.2",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^29.4.1",
+    "babel-jest": "^29.4.2",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-nuxt": "^4.0.0",
