@@ -21,7 +21,7 @@
     "nuxt": "^2.15.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.5",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/preset-env": "^7.20.2",
     "@nuxtjs/color-mode": "^2.1.1",
